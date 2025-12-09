@@ -1,0 +1,27 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Output files (regenerated from source)
+/output/
+
+# Debug files
+*.log
+debug_*.py
+*_exploration.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# The original CSV is too large for GitHub (189 MB)
+Suchliste.csv
+explore_output.txt
+

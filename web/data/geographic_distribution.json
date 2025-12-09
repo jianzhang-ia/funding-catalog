@@ -1,0 +1,284 @@
+{
+  "states": [
+    {
+      "name": "Nordrhein-Westfalen",
+      "total_funding": 57741412562.0,
+      "avg_funding": 992478.6015916396,
+      "project_count": 58179
+    },
+    {
+      "name": "Bayern",
+      "total_funding": 37280752863.0,
+      "avg_funding": 606763.3355522281,
+      "project_count": 61442
+    },
+    {
+      "name": "Baden-Württemberg",
+      "total_funding": 27072976946.0,
+      "avg_funding": 556656.254672561,
+      "project_count": 48635
+    },
+    {
+      "name": "Berlin",
+      "total_funding": 13484227690.0,
+      "avg_funding": 683368.5227042368,
+      "project_count": 19732
+    },
+    {
+      "name": "Hessen",
+      "total_funding": 11894369488.0,
+      "avg_funding": 555915.5677696766,
+      "project_count": 21396
+    },
+    {
+      "name": "Niedersachsen",
+      "total_funding": 11585658640.0,
+      "avg_funding": 454197.06131409755,
+      "project_count": 25508
+    },
+    {
+      "name": "Sachsen",
+      "total_funding": 10625703087.0,
+      "avg_funding": 592952.1811941965,
+      "project_count": 17920
+    },
+    {
+      "name": "Rheinland-Pfalz",
+      "total_funding": 6679488518.0,
+      "avg_funding": 585714.5315678709,
+      "project_count": 11404
+    },
+    {
+      "name": "Hamburg",
+      "total_funding": 5591485553.0,
+      "avg_funding": 636336.1275748265,
+      "project_count": 8787
+    },
+    {
+      "name": "Brandenburg",
+      "total_funding": 4657058844.0,
+      "avg_funding": 658986.676666195,
+      "project_count": 7067
+    },
+    {
+      "name": "Mecklenburg-Vorpommern",
+      "total_funding": 3919335118.0,
+      "avg_funding": 709381.9218099548,
+      "project_count": 5525
+    },
+    {
+      "name": "Schleswig-Holstein",
+      "total_funding": 3891837747.0,
+      "avg_funding": 447903.9874554034,
+      "project_count": 8689
+    },
+    {
+      "name": "Thüringen",
+      "total_funding": 3807283179.0,
+      "avg_funding": 472309.0409378489,
+      "project_count": 8061
+    },
+    {
+      "name": "Bremen",
+      "total_funding": 3367046166.0,
+      "avg_funding": 682002.4642495443,
+      "project_count": 4937
+    },
+    {
+      "name": "Sachsen-Anhalt",
+      "total_funding": 2657130913.0,
+      "avg_funding": 434882.30981996725,
+      "project_count": 6110
+    },
+    {
+      "name": "Saarland",
+      "total_funding": 1435258732.0,
+      "avg_funding": 447399.8541147132,
+      "project_count": 3208
+    }
+  ],
+  "top_cities": [
+    {
+      "city": "Bonn",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 24656689863.0,
+      "project_count": 5479
+    },
+    {
+      "city": "München",
+      "state": "Bayern",
+      "total_funding": 23884966830.0,
+      "project_count": 28517
+    },
+    {
+      "city": "Berlin",
+      "state": "Berlin",
+      "total_funding": 13483982946.0,
+      "project_count": 19730
+    },
+    {
+      "city": "Hamburg",
+      "state": "Hamburg",
+      "total_funding": 5591475728.0,
+      "project_count": 8786
+    },
+    {
+      "city": "Stuttgart",
+      "state": "Baden-Württemberg",
+      "total_funding": 5119104515.0,
+      "project_count": 7562
+    },
+    {
+      "city": "Köln",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 4823963747.0,
+      "project_count": 6097
+    },
+    {
+      "city": "Düsseldorf",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 4573672755.0,
+      "project_count": 4195
+    },
+    {
+      "city": "Dresden",
+      "state": "Sachsen",
+      "total_funding": 4148796422.0,
+      "project_count": 6509
+    },
+    {
+      "city": "Essen",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 3998837000.0,
+      "project_count": 3106
+    },
+    {
+      "city": "Darmstadt",
+      "state": "Hessen",
+      "total_funding": 3804641802.0,
+      "project_count": 3208
+    },
+    {
+      "city": "Hannover",
+      "state": "Niedersachsen",
+      "total_funding": 3451783889.0,
+      "project_count": 6026
+    },
+    {
+      "city": "Aachen",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 3390911528.0,
+      "project_count": 6729
+    },
+    {
+      "city": "Mainz",
+      "state": "Rheinland-Pfalz",
+      "total_funding": 2944418039.0,
+      "project_count": 2648
+    },
+    {
+      "city": "Frankfurt am Main",
+      "state": "Hessen",
+      "total_funding": 2721983376.0,
+      "project_count": 5498
+    },
+    {
+      "city": "Jülich",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 2253307884.0,
+      "project_count": 1356
+    },
+    {
+      "city": "Karlsruhe",
+      "state": "Baden-Württemberg",
+      "total_funding": 2024370096.0,
+      "project_count": 4527
+    },
+    {
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "total_funding": 2009825566.0,
+      "project_count": 3411
+    },
+    {
+      "city": "Heidelberg",
+      "state": "Baden-Württemberg",
+      "total_funding": 1996477222.0,
+      "project_count": 3186
+    },
+    {
+      "city": "Bremen",
+      "state": "Bremen",
+      "total_funding": 1812859250.0,
+      "project_count": 4151
+    },
+    {
+      "city": "Potsdam",
+      "state": "Brandenburg",
+      "total_funding": 1802984359.0,
+      "project_count": 2299
+    },
+    {
+      "city": "Braunschweig",
+      "state": "Niedersachsen",
+      "total_funding": 1703960394.0,
+      "project_count": 3155
+    },
+    {
+      "city": "Kiel",
+      "state": "Schleswig-Holstein",
+      "total_funding": 1685253030.0,
+      "project_count": 3095
+    },
+    {
+      "city": "Freiburg im Breisgau",
+      "state": "Baden-Württemberg",
+      "total_funding": 1602454750.0,
+      "project_count": 2833
+    },
+    {
+      "city": "Eggenstein-Leopoldshafen",
+      "state": "Baden-Württemberg",
+      "total_funding": 1573922222.0,
+      "project_count": 1003
+    },
+    {
+      "city": "Bremerhaven",
+      "state": "Bremen",
+      "total_funding": 1554183646.0,
+      "project_count": 785
+    },
+    {
+      "city": "Jena",
+      "state": "Thüringen",
+      "total_funding": 1545504518.0,
+      "project_count": 2926
+    },
+    {
+      "city": "Kaiserslautern",
+      "state": "Rheinland-Pfalz",
+      "total_funding": 1326568165.0,
+      "project_count": 1954
+    },
+    {
+      "city": "Dortmund",
+      "state": "Nordrhein-Westfalen",
+      "total_funding": 1312348999.0,
+      "project_count": 3017
+    },
+    {
+      "city": "Erlangen",
+      "state": "Bayern",
+      "total_funding": 1309850713.0,
+      "project_count": 2488
+    },
+    {
+      "city": "Gerlingen",
+      "state": "Baden-Württemberg",
+      "total_funding": 1258028219.0,
+      "project_count": 874
+    }
+  ],
+  "total_domestic_funding": 205715684300.0,
+  "total_domestic_projects": 316693
+}

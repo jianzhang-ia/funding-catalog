@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Interactive dashboard visualizing German Federal Funding Catalog data with over 317,000 research and development projects.">
+    <title>German Federal Funding Catalog | Interactive Analysis Dashboard</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="background-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                        <path d="M2 17l10 5 10-5" />
+                        <path d="M2 12l10 5 10-5" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>Förderkatalog</h1>
+                    <p>German Federal Funding Catalog</p>
+                </div>
+            </div>
+            <div class="header-meta">
+                <span class="update-badge" id="lastUpdate">Loading...</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Overview Cards -->
+        <section class="overview-section">
+            <div class="overview-grid">
+                <div class="overview-card card-primary">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <text x="12" y="16" text-anchor="middle" font-size="12" fill="currentColor"
+                                stroke="none">€</text>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-label">Total Funding</span>
+                        <span class="card-value" id="totalFunding">-</span>
+                    </div>
+                </div>
+
+                <div class="overview-card card-secondary">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-label">Total Projects</span>
+                        <span class="card-value" id="totalProjects">-</span>
+                    </div>
+                </div>
+
+                <div class="overview-card card-accent">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-label">Unique Recipients</span>
+                        <span class="card-value" id="uniqueRecipients">-</span>
+                    </div>
+                </div>
+
+                <div class="overview-card card-highlight">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-label">Avg. Project Funding</span>
+                        <span class="card-value" id="avgFunding">-</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Grid -->
+        <section class="charts-section">
+            <!-- Temporal Trends (Full Width at Top) -->
+            <div class="chart-card chart-full">
+                <div class="chart-header">
+                    <h2>Funding Trends Over Time</h2>
+                    <p>Yearly funding totals and project counts</p>
+                    <div class="chart-controls">
+                        <button class="chart-btn active" data-range="all">All Time</button>
+                        <button class="chart-btn" data-range="recent">Last 20 Years</button>
+                        <button class="chart-btn" data-range="decade">Last 10 Years</button>
+                    </div>
+                </div>
+                <div class="chart-container chart-tall">
+                    <canvas id="temporalChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Monthly Distribution (Seasonal Patterns) -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Monthly Distribution</h2>
+                    <p>When do projects start? Seasonal patterns in project approvals (95% of projects with valid dates)
+                    </p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="monthlyChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Ministry Share Evolution -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Ministry Share by Decade</h2>
+                    <p>How the funding landscape has shifted over time</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="decadeMinistryChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Ministry Funding Chart -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Funding by Ministry (Ressort)</h2>
+                    <p>Total funding distribution across federal ministries</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="ministryChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Geographic Distribution (by State) -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Funding by State (Bundesland)</h2>
+                    <p>Project funding by German federal state</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="geoChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Top Cities (near Geographic for logical grouping) -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Funding by City</h2>
+                    <p>Top 15 cities with highest funding received</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="cityChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Top Recipients (Zuwendungsempfänger) -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Top Funding Recipients (Zuwendungsempfänger)</h2>
+                    <p>Organizations receiving the most direct project funding</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="recipientChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Funding Types (Förderart) -->
+            <div class="chart-card chart-medium">
+                <div class="chart-header">
+                    <h2>Funding Type (Förderart)</h2>
+                    <p>Direct project funding vs. R&D contracts</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="fundingTypeChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Project Duration (Laufzeit) -->
+            <div class="chart-card chart-medium">
+                <div class="chart-header">
+                    <h2>Project Duration (Laufzeit)</h2>
+                    <p>Distribution of project lengths from start to end date</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="durationChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Leistungsplansystematik -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Funding Areas (Leistungsplansystematik)</h2>
+                    <p>Categorization system for federal funding areas and objectives</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="topicChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Joint Projects (Verbundprojekt) -->
+            <div class="chart-card chart-medium">
+                <div class="chart-header">
+                    <h2>Joint Projects (Verbundprojekt)</h2>
+                    <p>Consortium projects with multiple partners vs. individual projects</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="jointChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Project Sponsors (Projektträger) -->
+            <div class="chart-card chart-large">
+                <div class="chart-header">
+                    <h2>Project Sponsors (Projektträger)</h2>
+                    <p>Organizations managing project administration on behalf of ministries</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="projekttraegerChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Funding Profile (Förderprofil) -->
+            <div class="chart-card chart-medium">
+                <div class="chart-header">
+                    <h2>Funding Profile (Förderprofil)</h2>
+                    <p>Strategic funding categories and innovation profiles</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="foerderprofilChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Keywords from Thema -->
+            <div class="chart-card chart-medium">
+                <div class="chart-header">
+                    <h2>Project Title Keywords (Thema)</h2>
+                    <p>Most common terms extracted from project titles</p>
+                </div>
+                <div class="keywords-container" id="keywordsCloud">
+                    <!-- Keywords will be inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Tables Section -->
+        <section class="tables-section">
+            <div class="table-card">
+                <div class="table-header">
+                    <h2>Top 20 Funding Recipients</h2>
+                    <div class="table-controls">
+                        <button class="table-btn active" data-sort="funding">Rank by Funding</button>
+                        <button class="table-btn" data-sort="count">Rank by Project Count</button>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table id="recipientTable">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Organization</th>
+                                <th>Total Funding</th>
+                                <th>Projects</th>
+                                <th>Avg. Funding</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Data source: <a href="https://foerderportal.bund.de/foekat/jsp/StartAction.do" target="_blank">German
+                    Federal Funding Catalog (Förderkatalog)</a></p>
+            <p class="footer-meta">
+                <span>317,014 projects · €206.4B total funding · 54,705 recipients</span>
+                <span> · All figures cross-validated</span>
+            </p>
+            <p class="footer-meta">Last updated: <span id="footerUpdate">-</span></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

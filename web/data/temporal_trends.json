@@ -1,0 +1,1892 @@
+{
+  "yearly_totals": [
+    {
+      "year": 1980,
+      "total_funding": 1196567894.0,
+      "avg_funding": 556802.1842717543,
+      "project_count": 2149
+    },
+    {
+      "year": 1981,
+      "total_funding": 971746789.0,
+      "avg_funding": 704164.3398550724,
+      "project_count": 1380
+    },
+    {
+      "year": 1982,
+      "total_funding": 1902824962.0,
+      "avg_funding": 468907.0877279448,
+      "project_count": 4058
+    },
+    {
+      "year": 1983,
+      "total_funding": 1470017876.0,
+      "avg_funding": 524444.4794862648,
+      "project_count": 2803
+    },
+    {
+      "year": 1984,
+      "total_funding": 1457264162.0,
+      "avg_funding": 422517.87822557264,
+      "project_count": 3449
+    },
+    {
+      "year": 1985,
+      "total_funding": 2098478884.0,
+      "avg_funding": 720136.8853809197,
+      "project_count": 2914
+    },
+    {
+      "year": 1986,
+      "total_funding": 1506860668.0,
+      "avg_funding": 439830.9013426737,
+      "project_count": 3426
+    },
+    {
+      "year": 1987,
+      "total_funding": 1368163791.0,
+      "avg_funding": 409262.27669757704,
+      "project_count": 3343
+    },
+    {
+      "year": 1988,
+      "total_funding": 1429891697.0,
+      "avg_funding": 493576.69899896445,
+      "project_count": 2897
+    },
+    {
+      "year": 1989,
+      "total_funding": 1558003937.0,
+      "avg_funding": 611701.5850019631,
+      "project_count": 2547
+    },
+    {
+      "year": 1990,
+      "total_funding": 1553879617.0,
+      "avg_funding": 430915.0352190793,
+      "project_count": 3606
+    },
+    {
+      "year": 1991,
+      "total_funding": 1806592367.0,
+      "avg_funding": 549617.3918466687,
+      "project_count": 3287
+    },
+    {
+      "year": 1992,
+      "total_funding": 1420435553.0,
+      "avg_funding": 434383.96116207953,
+      "project_count": 3270
+    },
+    {
+      "year": 1993,
+      "total_funding": 1406807918.0,
+      "avg_funding": 521426.21126760566,
+      "project_count": 2698
+    },
+    {
+      "year": 1994,
+      "total_funding": 1491821062.0,
+      "avg_funding": 463586.4083281541,
+      "project_count": 3218
+    },
+    {
+      "year": 1995,
+      "total_funding": 1942901700.0,
+      "avg_funding": 611167.5684177415,
+      "project_count": 3179
+    },
+    {
+      "year": 1996,
+      "total_funding": 1852922111.0,
+      "avg_funding": 601012.6860201103,
+      "project_count": 3083
+    },
+    {
+      "year": 1997,
+      "total_funding": 1244289583.0,
+      "avg_funding": 442492.7393314367,
+      "project_count": 2812
+    },
+    {
+      "year": 1998,
+      "total_funding": 1396898639.0,
+      "avg_funding": 508147.922517279,
+      "project_count": 2749
+    },
+    {
+      "year": 1999,
+      "total_funding": 2026409443.0,
+      "avg_funding": 638038.237720403,
+      "project_count": 3176
+    },
+    {
+      "year": 2000,
+      "total_funding": 1906596616.0,
+      "avg_funding": 521926.2567752532,
+      "project_count": 3653
+    },
+    {
+      "year": 2001,
+      "total_funding": 2817993568.0,
+      "avg_funding": 507289.5711971197,
+      "project_count": 5555
+    },
+    {
+      "year": 2002,
+      "total_funding": 1652702780.0,
+      "avg_funding": 469784.7583854463,
+      "project_count": 3518
+    },
+    {
+      "year": 2003,
+      "total_funding": 1305072007.0,
+      "avg_funding": 482466.546025878,
+      "project_count": 2705
+    },
+    {
+      "year": 2004,
+      "total_funding": 1799132692.0,
+      "avg_funding": 499620.2976950847,
+      "project_count": 3601
+    },
+    {
+      "year": 2005,
+      "total_funding": 5890823816.0,
+      "avg_funding": 1408950.9246591725,
+      "project_count": 4181
+    },
+    {
+      "year": 2006,
+      "total_funding": 2268440899.0,
+      "avg_funding": 516258.7389622212,
+      "project_count": 4394
+    },
+    {
+      "year": 2007,
+      "total_funding": 4988736872.0,
+      "avg_funding": 1018317.3855888956,
+      "project_count": 4899
+    },
+    {
+      "year": 2008,
+      "total_funding": 3598840197.0,
+      "avg_funding": 563993.1354019747,
+      "project_count": 6381
+    },
+    {
+      "year": 2009,
+      "total_funding": 4015368899.0,
+      "avg_funding": 487716.3730110531,
+      "project_count": 8233
+    },
+    {
+      "year": 2010,
+      "total_funding": 3185204649.0,
+      "avg_funding": 471323.56451612903,
+      "project_count": 6758
+    },
+    {
+      "year": 2011,
+      "total_funding": 6649759116.0,
+      "avg_funding": 895590.4533333334,
+      "project_count": 7425
+    },
+    {
+      "year": 2012,
+      "total_funding": 4579770140.0,
+      "avg_funding": 473949.09862361586,
+      "project_count": 9663
+    },
+    {
+      "year": 2013,
+      "total_funding": 3289128085.0,
+      "avg_funding": 394995.5668307914,
+      "project_count": 8327
+    },
+    {
+      "year": 2014,
+      "total_funding": 2985749782.0,
+      "avg_funding": 414227.21725860157,
+      "project_count": 7208
+    },
+    {
+      "year": 2015,
+      "total_funding": 4006898871.0,
+      "avg_funding": 444223.82161862525,
+      "project_count": 9020
+    },
+    {
+      "year": 2016,
+      "total_funding": 9612340970.0,
+      "avg_funding": 758489.7790578395,
+      "project_count": 12673
+    },
+    {
+      "year": 2017,
+      "total_funding": 9178933866.0,
+      "avg_funding": 633991.8404475757,
+      "project_count": 14478
+    },
+    {
+      "year": 2018,
+      "total_funding": 5509511394.0,
+      "avg_funding": 437505.86786309857,
+      "project_count": 12593
+    },
+    {
+      "year": 2019,
+      "total_funding": 8943794724.0,
+      "avg_funding": 597487.7896987107,
+      "project_count": 14969
+    },
+    {
+      "year": 2020,
+      "total_funding": 9168248457.0,
+      "avg_funding": 540580.6873231132,
+      "project_count": 16960
+    },
+    {
+      "year": 2021,
+      "total_funding": 17726427955.0,
+      "avg_funding": 912510.4475960054,
+      "project_count": 19426
+    },
+    {
+      "year": 2022,
+      "total_funding": 13334859696.0,
+      "avg_funding": 787832.9018078696,
+      "project_count": 16926
+    },
+    {
+      "year": 2023,
+      "total_funding": 13059893725.0,
+      "avg_funding": 821170.3800930583,
+      "project_count": 15904
+    },
+    {
+      "year": 2024,
+      "total_funding": 10348480907.0,
+      "avg_funding": 783441.6615186615,
+      "project_count": 13209
+    },
+    {
+      "year": 2025,
+      "total_funding": 5464546754.0,
+      "avg_funding": 574731.4633992427,
+      "project_count": 9508
+    },
+    {
+      "year": 2026,
+      "total_funding": 161752318.0,
+      "avg_funding": 555849.8900343643,
+      "project_count": 291
+    },
+    {
+      "year": 2027,
+      "total_funding": 207170.0,
+      "avg_funding": 41434.0,
+      "project_count": 5
+    },
+    {
+      "year": 2028,
+      "total_funding": 0.0,
+      "avg_funding": 0.0,
+      "project_count": 3
+    },
+    {
+      "year": 2029,
+      "total_funding": 0.0,
+      "avg_funding": 0.0,
+      "project_count": 3
+    },
+    {
+      "year": 2030,
+      "total_funding": 0.0,
+      "avg_funding": 0.0,
+      "project_count": 3
+    }
+  ],
+  "ministry_yearly": {
+    "BMFTR": [
+      {
+        "year": 1980,
+        "funding": 728311716.0
+      },
+      {
+        "year": 1981,
+        "funding": 532678543.0
+      },
+      {
+        "year": 1982,
+        "funding": 1180247571.0
+      },
+      {
+        "year": 1983,
+        "funding": 958037893.0
+      },
+      {
+        "year": 1984,
+        "funding": 1019557704.0
+      },
+      {
+        "year": 1985,
+        "funding": 1565407936.0
+      },
+      {
+        "year": 1986,
+        "funding": 1047833882.0
+      },
+      {
+        "year": 1987,
+        "funding": 955397144.0
+      },
+      {
+        "year": 1988,
+        "funding": 1090345848.0
+      },
+      {
+        "year": 1989,
+        "funding": 1087011381.0
+      },
+      {
+        "year": 1990,
+        "funding": 1241241802.0
+      },
+      {
+        "year": 1991,
+        "funding": 1482119787.0
+      },
+      {
+        "year": 1992,
+        "funding": 1194534403.0
+      },
+      {
+        "year": 1993,
+        "funding": 1201055646.0
+      },
+      {
+        "year": 1994,
+        "funding": 1259881366.0
+      },
+      {
+        "year": 1995,
+        "funding": 1615837990.0
+      },
+      {
+        "year": 1996,
+        "funding": 1558470567.0
+      },
+      {
+        "year": 1997,
+        "funding": 1013548598.0
+      },
+      {
+        "year": 1998,
+        "funding": 1144309965.0
+      },
+      {
+        "year": 1999,
+        "funding": 1694356921.0
+      },
+      {
+        "year": 2000,
+        "funding": 1549617991.0
+      },
+      {
+        "year": 2001,
+        "funding": 2460433680.0
+      },
+      {
+        "year": 2002,
+        "funding": 1444000552.0
+      },
+      {
+        "year": 2003,
+        "funding": 998148351.0
+      },
+      {
+        "year": 2004,
+        "funding": 1487243648.0
+      },
+      {
+        "year": 2005,
+        "funding": 5459988590.0
+      },
+      {
+        "year": 2006,
+        "funding": 1816294927.0
+      },
+      {
+        "year": 2007,
+        "funding": 4431147009.0
+      },
+      {
+        "year": 2008,
+        "funding": 2786322815.0
+      },
+      {
+        "year": 2009,
+        "funding": 3080785583.0
+      },
+      {
+        "year": 2010,
+        "funding": 2464007587.0
+      },
+      {
+        "year": 2011,
+        "funding": 5812004061.0
+      },
+      {
+        "year": 2012,
+        "funding": 3327225397.0
+      },
+      {
+        "year": 2013,
+        "funding": 2283138815.0
+      },
+      {
+        "year": 2014,
+        "funding": 2245255270.0
+      },
+      {
+        "year": 2015,
+        "funding": 2747610733.0
+      },
+      {
+        "year": 2016,
+        "funding": 5840499193.0
+      },
+      {
+        "year": 2017,
+        "funding": 4643862509.0
+      },
+      {
+        "year": 2018,
+        "funding": 3410842854.0
+      },
+      {
+        "year": 2019,
+        "funding": 5102109363.0
+      },
+      {
+        "year": 2020,
+        "funding": 4576594738.0
+      },
+      {
+        "year": 2021,
+        "funding": 13418058837.0
+      },
+      {
+        "year": 2022,
+        "funding": 4789601703.0
+      },
+      {
+        "year": 2023,
+        "funding": 4261875850.0
+      },
+      {
+        "year": 2024,
+        "funding": 5556007307.0
+      },
+      {
+        "year": 2025,
+        "funding": 3101658156.0
+      },
+      {
+        "year": 2026,
+        "funding": 117557299.0
+      },
+      {
+        "year": 2027,
+        "funding": 71269.0
+      },
+      {
+        "year": 2028,
+        "funding": 0.0
+      },
+      {
+        "year": 2029,
+        "funding": 0.0
+      },
+      {
+        "year": 2030,
+        "funding": 0.0
+      }
+    ],
+    "BMJV_BLE": [
+      {
+        "year": 1980,
+        "funding": 0.0
+      },
+      {
+        "year": 1981,
+        "funding": 0.0
+      },
+      {
+        "year": 1982,
+        "funding": 0.0
+      },
+      {
+        "year": 1983,
+        "funding": 0.0
+      },
+      {
+        "year": 1984,
+        "funding": 0.0
+      },
+      {
+        "year": 1985,
+        "funding": 0.0
+      },
+      {
+        "year": 1986,
+        "funding": 0.0
+      },
+      {
+        "year": 1987,
+        "funding": 0.0
+      },
+      {
+        "year": 1988,
+        "funding": 0.0
+      },
+      {
+        "year": 1989,
+        "funding": 0.0
+      },
+      {
+        "year": 1990,
+        "funding": 0.0
+      },
+      {
+        "year": 1991,
+        "funding": 0.0
+      },
+      {
+        "year": 1992,
+        "funding": 0.0
+      },
+      {
+        "year": 1993,
+        "funding": 0.0
+      },
+      {
+        "year": 1994,
+        "funding": 0.0
+      },
+      {
+        "year": 1995,
+        "funding": 0.0
+      },
+      {
+        "year": 1996,
+        "funding": 0.0
+      },
+      {
+        "year": 1997,
+        "funding": 0.0
+      },
+      {
+        "year": 1998,
+        "funding": 0.0
+      },
+      {
+        "year": 1999,
+        "funding": 0.0
+      },
+      {
+        "year": 2000,
+        "funding": 0.0
+      },
+      {
+        "year": 2001,
+        "funding": 0.0
+      },
+      {
+        "year": 2002,
+        "funding": 0.0
+      },
+      {
+        "year": 2003,
+        "funding": 0.0
+      },
+      {
+        "year": 2004,
+        "funding": 0.0
+      },
+      {
+        "year": 2005,
+        "funding": 0.0
+      },
+      {
+        "year": 2006,
+        "funding": 0.0
+      },
+      {
+        "year": 2007,
+        "funding": 0.0
+      },
+      {
+        "year": 2008,
+        "funding": 0.0
+      },
+      {
+        "year": 2009,
+        "funding": 0.0
+      },
+      {
+        "year": 2010,
+        "funding": 0.0
+      },
+      {
+        "year": 2011,
+        "funding": 0.0
+      },
+      {
+        "year": 2012,
+        "funding": 972050.0
+      },
+      {
+        "year": 2013,
+        "funding": 803642.0
+      },
+      {
+        "year": 2014,
+        "funding": 0.0
+      },
+      {
+        "year": 2015,
+        "funding": 0.0
+      },
+      {
+        "year": 2016,
+        "funding": 0.0
+      },
+      {
+        "year": 2017,
+        "funding": 0.0
+      },
+      {
+        "year": 2018,
+        "funding": 0.0
+      },
+      {
+        "year": 2019,
+        "funding": 0.0
+      },
+      {
+        "year": 2020,
+        "funding": 0.0
+      },
+      {
+        "year": 2021,
+        "funding": 0.0
+      },
+      {
+        "year": 2022,
+        "funding": 0.0
+      },
+      {
+        "year": 2023,
+        "funding": 0.0
+      },
+      {
+        "year": 2024,
+        "funding": 0.0
+      },
+      {
+        "year": 2025,
+        "funding": 0.0
+      },
+      {
+        "year": 2026,
+        "funding": 0.0
+      },
+      {
+        "year": 2027,
+        "funding": 0.0
+      },
+      {
+        "year": 2028,
+        "funding": 0.0
+      },
+      {
+        "year": 2029,
+        "funding": 0.0
+      },
+      {
+        "year": 2030,
+        "funding": 0.0
+      }
+    ],
+    "BMLEH": [
+      {
+        "year": 1980,
+        "funding": 0.0
+      },
+      {
+        "year": 1981,
+        "funding": 0.0
+      },
+      {
+        "year": 1982,
+        "funding": 0.0
+      },
+      {
+        "year": 1983,
+        "funding": 0.0
+      },
+      {
+        "year": 1984,
+        "funding": 0.0
+      },
+      {
+        "year": 1985,
+        "funding": 0.0
+      },
+      {
+        "year": 1986,
+        "funding": 0.0
+      },
+      {
+        "year": 1987,
+        "funding": 0.0
+      },
+      {
+        "year": 1988,
+        "funding": 0.0
+      },
+      {
+        "year": 1989,
+        "funding": 0.0
+      },
+      {
+        "year": 1990,
+        "funding": 0.0
+      },
+      {
+        "year": 1991,
+        "funding": 0.0
+      },
+      {
+        "year": 1992,
+        "funding": 456050.0
+      },
+      {
+        "year": 1993,
+        "funding": 683523.0
+      },
+      {
+        "year": 1994,
+        "funding": 3507427.0
+      },
+      {
+        "year": 1995,
+        "funding": 2334685.0
+      },
+      {
+        "year": 1996,
+        "funding": 3280163.0
+      },
+      {
+        "year": 1997,
+        "funding": 15228233.0
+      },
+      {
+        "year": 1998,
+        "funding": 17392386.0
+      },
+      {
+        "year": 1999,
+        "funding": 10706467.0
+      },
+      {
+        "year": 2000,
+        "funding": 18556300.0
+      },
+      {
+        "year": 2001,
+        "funding": 15110374.0
+      },
+      {
+        "year": 2002,
+        "funding": 15354663.0
+      },
+      {
+        "year": 2003,
+        "funding": 12463674.0
+      },
+      {
+        "year": 2004,
+        "funding": 30927378.0
+      },
+      {
+        "year": 2005,
+        "funding": 40201901.0
+      },
+      {
+        "year": 2006,
+        "funding": 45015130.0
+      },
+      {
+        "year": 2007,
+        "funding": 67870947.0
+      },
+      {
+        "year": 2008,
+        "funding": 94404912.0
+      },
+      {
+        "year": 2009,
+        "funding": 74279737.0
+      },
+      {
+        "year": 2010,
+        "funding": 62474036.0
+      },
+      {
+        "year": 2011,
+        "funding": 80221714.0
+      },
+      {
+        "year": 2012,
+        "funding": 118931721.0
+      },
+      {
+        "year": 2013,
+        "funding": 80738955.0
+      },
+      {
+        "year": 2014,
+        "funding": 84000583.0
+      },
+      {
+        "year": 2015,
+        "funding": 100684809.0
+      },
+      {
+        "year": 2016,
+        "funding": 157123857.0
+      },
+      {
+        "year": 2017,
+        "funding": 125102252.0
+      },
+      {
+        "year": 2018,
+        "funding": 122855411.0
+      },
+      {
+        "year": 2019,
+        "funding": 183403350.0
+      },
+      {
+        "year": 2020,
+        "funding": 102379896.0
+      },
+      {
+        "year": 2021,
+        "funding": 62482826.0
+      },
+      {
+        "year": 2022,
+        "funding": 36741432.0
+      },
+      {
+        "year": 2023,
+        "funding": 84423907.0
+      },
+      {
+        "year": 2024,
+        "funding": 61381021.0
+      },
+      {
+        "year": 2025,
+        "funding": 34774829.0
+      },
+      {
+        "year": 2026,
+        "funding": 603147.0
+      },
+      {
+        "year": 2027,
+        "funding": 135901.0
+      },
+      {
+        "year": 2028,
+        "funding": 0.0
+      },
+      {
+        "year": 2029,
+        "funding": 0.0
+      },
+      {
+        "year": 2030,
+        "funding": 0.0
+      }
+    ],
+    "BMUKN": [
+      {
+        "year": 1980,
+        "funding": 12621123.0
+      },
+      {
+        "year": 1981,
+        "funding": 25574130.0
+      },
+      {
+        "year": 1982,
+        "funding": 1043208.0
+      },
+      {
+        "year": 1983,
+        "funding": 7776275.0
+      },
+      {
+        "year": 1984,
+        "funding": 0.0
+      },
+      {
+        "year": 1985,
+        "funding": 0.0
+      },
+      {
+        "year": 1986,
+        "funding": 0.0
+      },
+      {
+        "year": 1987,
+        "funding": 0.0
+      },
+      {
+        "year": 1988,
+        "funding": 0.0
+      },
+      {
+        "year": 1989,
+        "funding": 0.0
+      },
+      {
+        "year": 1990,
+        "funding": 18761242.0
+      },
+      {
+        "year": 1991,
+        "funding": 0.0
+      },
+      {
+        "year": 1992,
+        "funding": 0.0
+      },
+      {
+        "year": 1993,
+        "funding": 0.0
+      },
+      {
+        "year": 1994,
+        "funding": 0.0
+      },
+      {
+        "year": 1995,
+        "funding": 8392227.0
+      },
+      {
+        "year": 1996,
+        "funding": 0.0
+      },
+      {
+        "year": 1997,
+        "funding": 1635753.0
+      },
+      {
+        "year": 1998,
+        "funding": 2059663.0
+      },
+      {
+        "year": 1999,
+        "funding": 2112412.0
+      },
+      {
+        "year": 2000,
+        "funding": 0.0
+      },
+      {
+        "year": 2001,
+        "funding": 0.0
+      },
+      {
+        "year": 2002,
+        "funding": 1451716.0
+      },
+      {
+        "year": 2003,
+        "funding": 1233846.0
+      },
+      {
+        "year": 2004,
+        "funding": 0.0
+      },
+      {
+        "year": 2005,
+        "funding": 1478908.0
+      },
+      {
+        "year": 2006,
+        "funding": 0.0
+      },
+      {
+        "year": 2007,
+        "funding": 0.0
+      },
+      {
+        "year": 2008,
+        "funding": 5130331.0
+      },
+      {
+        "year": 2009,
+        "funding": 37933426.0
+      },
+      {
+        "year": 2010,
+        "funding": 44897158.0
+      },
+      {
+        "year": 2011,
+        "funding": 1667874.0
+      },
+      {
+        "year": 2012,
+        "funding": 9156026.0
+      },
+      {
+        "year": 2013,
+        "funding": 11382237.0
+      },
+      {
+        "year": 2014,
+        "funding": 5905723.0
+      },
+      {
+        "year": 2015,
+        "funding": 303096.0
+      },
+      {
+        "year": 2016,
+        "funding": 937358.0
+      },
+      {
+        "year": 2017,
+        "funding": 19465534.0
+      },
+      {
+        "year": 2018,
+        "funding": 0.0
+      },
+      {
+        "year": 2019,
+        "funding": 6116587.0
+      },
+      {
+        "year": 2020,
+        "funding": 0.0
+      },
+      {
+        "year": 2021,
+        "funding": 36951.0
+      },
+      {
+        "year": 2022,
+        "funding": 0.0
+      },
+      {
+        "year": 2023,
+        "funding": 16999.0
+      },
+      {
+        "year": 2024,
+        "funding": 0.0
+      },
+      {
+        "year": 2025,
+        "funding": 0.0
+      },
+      {
+        "year": 2026,
+        "funding": 0.0
+      },
+      {
+        "year": 2027,
+        "funding": 0.0
+      },
+      {
+        "year": 2028,
+        "funding": 0.0
+      },
+      {
+        "year": 2029,
+        "funding": 0.0
+      },
+      {
+        "year": 2030,
+        "funding": 0.0
+      }
+    ],
+    "BMV": [
+      {
+        "year": 1980,
+        "funding": 0.0
+      },
+      {
+        "year": 1981,
+        "funding": 0.0
+      },
+      {
+        "year": 1982,
+        "funding": 0.0
+      },
+      {
+        "year": 1983,
+        "funding": 0.0
+      },
+      {
+        "year": 1984,
+        "funding": 0.0
+      },
+      {
+        "year": 1985,
+        "funding": 0.0
+      },
+      {
+        "year": 1986,
+        "funding": 0.0
+      },
+      {
+        "year": 1987,
+        "funding": 0.0
+      },
+      {
+        "year": 1988,
+        "funding": 0.0
+      },
+      {
+        "year": 1989,
+        "funding": 0.0
+      },
+      {
+        "year": 1990,
+        "funding": 0.0
+      },
+      {
+        "year": 1991,
+        "funding": 0.0
+      },
+      {
+        "year": 1992,
+        "funding": 0.0
+      },
+      {
+        "year": 1993,
+        "funding": 0.0
+      },
+      {
+        "year": 1994,
+        "funding": 0.0
+      },
+      {
+        "year": 1995,
+        "funding": 0.0
+      },
+      {
+        "year": 1996,
+        "funding": 0.0
+      },
+      {
+        "year": 1997,
+        "funding": 0.0
+      },
+      {
+        "year": 1998,
+        "funding": 0.0
+      },
+      {
+        "year": 1999,
+        "funding": 0.0
+      },
+      {
+        "year": 2000,
+        "funding": 0.0
+      },
+      {
+        "year": 2001,
+        "funding": 0.0
+      },
+      {
+        "year": 2002,
+        "funding": 0.0
+      },
+      {
+        "year": 2003,
+        "funding": 0.0
+      },
+      {
+        "year": 2004,
+        "funding": 0.0
+      },
+      {
+        "year": 2005,
+        "funding": 220033.0
+      },
+      {
+        "year": 2006,
+        "funding": 1042392.0
+      },
+      {
+        "year": 2007,
+        "funding": 9511627.0
+      },
+      {
+        "year": 2008,
+        "funding": 95612018.0
+      },
+      {
+        "year": 2009,
+        "funding": 176261899.0
+      },
+      {
+        "year": 2010,
+        "funding": 164081826.0
+      },
+      {
+        "year": 2011,
+        "funding": 69577069.0
+      },
+      {
+        "year": 2012,
+        "funding": 134114543.0
+      },
+      {
+        "year": 2013,
+        "funding": 107111916.0
+      },
+      {
+        "year": 2014,
+        "funding": 22247152.0
+      },
+      {
+        "year": 2015,
+        "funding": 334990248.0
+      },
+      {
+        "year": 2016,
+        "funding": 2325651316.0
+      },
+      {
+        "year": 2017,
+        "funding": 3187157832.0
+      },
+      {
+        "year": 2018,
+        "funding": 909393155.0
+      },
+      {
+        "year": 2019,
+        "funding": 2219072906.0
+      },
+      {
+        "year": 2020,
+        "funding": 2535555989.0
+      },
+      {
+        "year": 2021,
+        "funding": 1543537093.0
+      },
+      {
+        "year": 2022,
+        "funding": 3731499624.0
+      },
+      {
+        "year": 2023,
+        "funding": 4810644640.0
+      },
+      {
+        "year": 2024,
+        "funding": 2929133169.0
+      },
+      {
+        "year": 2025,
+        "funding": 1077229993.0
+      },
+      {
+        "year": 2026,
+        "funding": 327542.0
+      },
+      {
+        "year": 2027,
+        "funding": 0.0
+      },
+      {
+        "year": 2028,
+        "funding": 0.0
+      },
+      {
+        "year": 2029,
+        "funding": 0.0
+      },
+      {
+        "year": 2030,
+        "funding": 0.0
+      }
+    ],
+    "BMWE": [
+      {
+        "year": 1980,
+        "funding": 455635055.0
+      },
+      {
+        "year": 1981,
+        "funding": 413494116.0
+      },
+      {
+        "year": 1982,
+        "funding": 721534183.0
+      },
+      {
+        "year": 1983,
+        "funding": 504203708.0
+      },
+      {
+        "year": 1984,
+        "funding": 437706458.0
+      },
+      {
+        "year": 1985,
+        "funding": 533070948.0
+      },
+      {
+        "year": 1986,
+        "funding": 459026786.0
+      },
+      {
+        "year": 1987,
+        "funding": 412766647.0
+      },
+      {
+        "year": 1988,
+        "funding": 339545849.0
+      },
+      {
+        "year": 1989,
+        "funding": 470992556.0
+      },
+      {
+        "year": 1990,
+        "funding": 293876573.0
+      },
+      {
+        "year": 1991,
+        "funding": 324472580.0
+      },
+      {
+        "year": 1992,
+        "funding": 225445100.0
+      },
+      {
+        "year": 1993,
+        "funding": 205068749.0
+      },
+      {
+        "year": 1994,
+        "funding": 228432269.0
+      },
+      {
+        "year": 1995,
+        "funding": 316336798.0
+      },
+      {
+        "year": 1996,
+        "funding": 291171381.0
+      },
+      {
+        "year": 1997,
+        "funding": 213876999.0
+      },
+      {
+        "year": 1998,
+        "funding": 233136625.0
+      },
+      {
+        "year": 1999,
+        "funding": 319233643.0
+      },
+      {
+        "year": 2000,
+        "funding": 338422325.0
+      },
+      {
+        "year": 2001,
+        "funding": 342449514.0
+      },
+      {
+        "year": 2002,
+        "funding": 191895849.0
+      },
+      {
+        "year": 2003,
+        "funding": 293226136.0
+      },
+      {
+        "year": 2004,
+        "funding": 280961666.0
+      },
+      {
+        "year": 2005,
+        "funding": 388934384.0
+      },
+      {
+        "year": 2006,
+        "funding": 406088450.0
+      },
+      {
+        "year": 2007,
+        "funding": 480207289.0
+      },
+      {
+        "year": 2008,
+        "funding": 617370121.0
+      },
+      {
+        "year": 2009,
+        "funding": 646108254.0
+      },
+      {
+        "year": 2010,
+        "funding": 449744042.0
+      },
+      {
+        "year": 2011,
+        "funding": 686288398.0
+      },
+      {
+        "year": 2012,
+        "funding": 989370403.0
+      },
+      {
+        "year": 2013,
+        "funding": 805952520.0
+      },
+      {
+        "year": 2014,
+        "funding": 628341054.0
+      },
+      {
+        "year": 2015,
+        "funding": 823309985.0
+      },
+      {
+        "year": 2016,
+        "funding": 1288129246.0
+      },
+      {
+        "year": 2017,
+        "funding": 1203345739.0
+      },
+      {
+        "year": 2018,
+        "funding": 1066419974.0
+      },
+      {
+        "year": 2019,
+        "funding": 1433092518.0
+      },
+      {
+        "year": 2020,
+        "funding": 1953717834.0
+      },
+      {
+        "year": 2021,
+        "funding": 2702312248.0
+      },
+      {
+        "year": 2022,
+        "funding": 4777016937.0
+      },
+      {
+        "year": 2023,
+        "funding": 3902932329.0
+      },
+      {
+        "year": 2024,
+        "funding": 1801959410.0
+      },
+      {
+        "year": 2025,
+        "funding": 1250883776.0
+      },
+      {
+        "year": 2026,
+        "funding": 43264330.0
+      },
+      {
+        "year": 2027,
+        "funding": 0.0
+      },
+      {
+        "year": 2028,
+        "funding": 0.0
+      },
+      {
+        "year": 2029,
+        "funding": 0.0
+      },
+      {
+        "year": 2030,
+        "funding": 0.0
+      }
+    ]
+  },
+  "monthly_distribution": [
+    {
+      "month": 1,
+      "month_name": "Jan",
+      "total_funding": 49575287719.0,
+      "project_count": 46359
+    },
+    {
+      "month": 2,
+      "month_name": "Feb",
+      "total_funding": 7312276894.0,
+      "project_count": 14185
+    },
+    {
+      "month": 3,
+      "month_name": "Mar",
+      "total_funding": 9268863969.0,
+      "project_count": 20043
+    },
+    {
+      "month": 4,
+      "month_name": "Apr",
+      "total_funding": 13677066931.0,
+      "project_count": 26719
+    },
+    {
+      "month": 5,
+      "month_name": "May",
+      "total_funding": 9774613514.0,
+      "project_count": 19741
+    },
+    {
+      "month": 6,
+      "month_name": "Jun",
+      "total_funding": 9981123010.0,
+      "project_count": 19614
+    },
+    {
+      "month": 7,
+      "month_name": "Jul",
+      "total_funding": 20686518982.0,
+      "project_count": 32092
+    },
+    {
+      "month": 8,
+      "month_name": "Aug",
+      "total_funding": 13006655310.0,
+      "project_count": 22255
+    },
+    {
+      "month": 9,
+      "month_name": "Sep",
+      "total_funding": 12406847180.0,
+      "project_count": 29692
+    },
+    {
+      "month": 10,
+      "month_name": "Oct",
+      "total_funding": 16813207056.0,
+      "project_count": 34723
+    },
+    {
+      "month": 11,
+      "month_name": "Nov",
+      "total_funding": 12582687632.0,
+      "project_count": 21646
+    },
+    {
+      "month": 12,
+      "month_name": "Dec",
+      "total_funding": 13466847381.0,
+      "project_count": 15447
+    }
+  ],
+  "decade_ministry_share": {
+    "1990": [
+      {
+        "ministry": "BMFTR",
+        "funding": 13405357045.0,
+        "share_pct": 83.04151600228971
+      },
+      {
+        "ministry": "BMWE",
+        "funding": 2651050717.0,
+        "share_pct": 16.422335473768584
+      },
+      {
+        "ministry": "BMLEH",
+        "funding": 53588934.0,
+        "share_pct": 0.3319647738861585
+      },
+      {
+        "ministry": "BMUKN",
+        "funding": 32961297.0,
+        "share_pct": 0.20418375005555278
+      }
+    ],
+    "2000": [
+      {
+        "ministry": "BMFTR",
+        "funding": 25513983146.0,
+        "share_pct": 84.3612921210254
+      },
+      {
+        "ministry": "BMWE",
+        "funding": 3985663988.0,
+        "share_pct": 13.178489695782098
+      },
+      {
+        "ministry": "BMLEH",
+        "funding": 414185016.0,
+        "share_pct": 1.3694915030311738
+      },
+      {
+        "ministry": "BMV",
+        "funding": 282647969.0,
+        "share_pct": 0.9345678306588442
+      },
+      {
+        "ministry": "BMUKN",
+        "funding": 47228227.0,
+        "share_pct": 0.15615884950248288
+      }
+    ],
+    "2010": [
+      {
+        "ministry": "BMFTR",
+        "funding": 37876555782.0,
+        "share_pct": 65.37080116723435
+      },
+      {
+        "ministry": "BMV",
+        "funding": 9473397963.0,
+        "share_pct": 16.350050891154595
+      },
+      {
+        "ministry": "BMWE",
+        "funding": 9373993879.0,
+        "share_pct": 16.17849029182832
+      },
+      {
+        "ministry": "BMLEH",
+        "funding": 1115536688.0,
+        "share_pct": 1.9252945660032383
+      },
+      {
+        "ministry": "BMUKN",
+        "funding": 99831593.0,
+        "share_pct": 0.1722984331989509
+      },
+      {
+        "ministry": "BMJV_BLE",
+        "funding": 1775692.0,
+        "share_pct": 0.0030646505805422895
+      }
+    ],
+    "2020": [
+      {
+        "ministry": "BMFTR",
+        "funding": 35821425159.0,
+        "share_pct": 51.71692294516684
+      },
+      {
+        "ministry": "BMV",
+        "funding": 16627928050.0,
+        "share_pct": 24.006450605541314
+      },
+      {
+        "ministry": "BMWE",
+        "funding": 16432086864.0,
+        "share_pct": 23.723706312680388
+      },
+      {
+        "ministry": "BMLEH",
+        "funding": 382922959.0,
+        "share_pct": 0.5528422466899731
+      },
+      {
+        "ministry": "BMUKN",
+        "funding": 53950.0,
+        "share_pct": 7.788992147875898e-05
+      }
+    ]
+  },
+  "year_over_year_growth": [
+    {
+      "year": 2010,
+      "funding": 3185204649.0,
+      "growth_pct": null
+    },
+    {
+      "year": 2011,
+      "funding": 6649759116.0,
+      "growth_pct": 108.77023139118242
+    },
+    {
+      "year": 2012,
+      "funding": 4579770140.0,
+      "growth_pct": -31.128781357198264
+    },
+    {
+      "year": 2013,
+      "funding": 3289128085.0,
+      "growth_pct": -28.1813718930444
+    },
+    {
+      "year": 2014,
+      "funding": 2985749782.0,
+      "growth_pct": -9.223669469837628
+    },
+    {
+      "year": 2015,
+      "funding": 4006898871.0,
+      "growth_pct": 34.200759057444685
+    },
+    {
+      "year": 2016,
+      "funding": 9612340970.0,
+      "growth_pct": 139.89477347605362
+    },
+    {
+      "year": 2017,
+      "funding": 9178933866.0,
+      "growth_pct": -4.508861112528762
+    },
+    {
+      "year": 2018,
+      "funding": 5509511394.0,
+      "growth_pct": -39.97656509534329
+    },
+    {
+      "year": 2019,
+      "funding": 8943794724.0,
+      "growth_pct": 62.33371862593883
+    },
+    {
+      "year": 2020,
+      "funding": 9168248457.0,
+      "growth_pct": 2.509602913824658
+    },
+    {
+      "year": 2021,
+      "funding": 17726427955.0,
+      "growth_pct": 93.34585049847543
+    },
+    {
+      "year": 2022,
+      "funding": 13334859696.0,
+      "growth_pct": -24.7741297352651
+    },
+    {
+      "year": 2023,
+      "funding": 13059893725.0,
+      "growth_pct": -2.06200872951427
+    },
+    {
+      "year": 2024,
+      "funding": 10348480907.0,
+      "growth_pct": -20.76136969483647
+    },
+    {
+      "year": 2025,
+      "funding": 5464546754.0,
+      "growth_pct": -47.194696466960394
+    },
+    {
+      "year": 2026,
+      "funding": 161752318.0,
+      "growth_pct": -97.03996826668929
+    },
+    {
+      "year": 2027,
+      "funding": 207170.0,
+      "growth_pct": -99.8719214645196
+    },
+    {
+      "year": 2028,
+      "funding": 0.0,
+      "growth_pct": -100.0
+    },
+    {
+      "year": 2029,
+      "funding": 0.0,
+      "growth_pct": null
+    },
+    {
+      "year": 2030,
+      "funding": 0.0,
+      "growth_pct": null
+    }
+  ],
+  "years": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "classifications": [
+    {
+      "code": "ZMAN",
+      "description": "LP für alle Mandanten",
+      "total_funding": 18363200086.0,
+      "project_count": 11446
+    },
+    {
+      "code": "TB6020",
+      "description": "Zukunftsvertrag Studium und Lehre stärken",
+      "total_funding": 7139490222.0,
+      "project_count": 15
+    },
+    {
+      "code": "YC3000",
+      "description": "Zuschüsse an Studentenförderungswerke",
+      "total_funding": 6596184295.0,
+      "project_count": 57
+    },
+    {
+      "code": "TB0700",
+      "description": "Förderung von Spitzenuniversitäten",
+      "total_funding": 5995064381.0,
+      "project_count": 16
+    },
+    {
+      "code": "YC7000",
+      "description": "Förderung des Studenten- und Wissenschaftleraustausches sowie der internationalen Kooperation von Wissenschaftlern",
+      "total_funding": 5220004318.0,
+      "project_count": 608
+    },
+    {
+      "code": "TB6010",
+      "description": "Hochschulpakt 2020",
+      "total_funding": 4343411650.0,
+      "project_count": 2
+    },
+    {
+      "code": "YB3000",
+      "description": "Überbetriebliche berufliche Ausbildungsstätten",
+      "total_funding": 3127758160.0,
+      "project_count": 5661
+    },
+    {
+      "code": "GC4011",
+      "description": "Mikroelektronik und Kommunikationstechnologien (IPCEI-Projekte, Schwerpunkt Forschung und Entwicklung (RDI))",
+      "total_funding": 2988120311.0,
+      "project_count": 26
+    },
+    {
+      "code": "RB3010",
+      "description": "Innovationsförderung in den neuen Ländern",
+      "total_funding": 2423115769.0,
+      "project_count": 5718
+    },
+    {
+      "code": "HA4011",
+      "description": "Alternative Antriebstechnologien",
+      "total_funding": 2262897667.0,
+      "project_count": 2275
+    },
+    {
+      "code": "U06021",
+      "description": "Beschleunigeranlage FAIR",
+      "total_funding": 1826468193.0,
+      "project_count": 3
+    },
+    {
+      "code": "EC1210",
+      "description": "Brutreaktoren (SBR) - SNR 300 - Errichtung (einschl. Plutonium)",
+      "total_funding": 1764399258.0,
+      "project_count": 1
+    },
+    {
+      "code": "GC2010",
+      "description": "Bauelemente und Strukturen für den Sub-100 nm Bereich",
+      "total_funding": 1698765722.0,
+      "project_count": 1263
+    },
+    {
+      "code": "TB7000",
+      "description": "Qualitätspakt Lehre",
+      "total_funding": 1674527051.0,
+      "project_count": 468
+    },
+    {
+      "code": "EB6010",
+      "description": "Grundlagenforschung Energie",
+      "total_funding": 1635727535.0,
+      "project_count": 1413
+    },
+    {
+      "code": "PA1010",
+      "description": "Forschung zum kulturellen und historischen Erbe - Projektförderung",
+      "total_funding": 1596109967.0,
+      "project_count": 958
+    },
+    {
+      "code": "RB9510",
+      "description": "Digitaler Wandel",
+      "total_funding": 1586053836.0,
+      "project_count": 3319
+    },
+    {
+      "code": "EA6010",
+      "description": "Grundlagenforschung Energie",
+      "total_funding": 1463692952.0,
+      "project_count": 1201
+    },
+    {
+      "code": "KB2220",
+      "description": "Li-Ionen-Batterien",
+      "total_funding": 1428061169.0,
+      "project_count": 1563
+    },
+    {
+      "code": "HA5010",
+      "description": "Sicherheit im Straßenverkehr",
+      "total_funding": 1400865949.0,
+      "project_count": 6263
+    },
+    {
+      "code": "GA1010",
+      "description": "Förderung im Bereich Cloud und Edge Infrastruktur und Services im Rahmen des IPCEI-CIS",
+      "total_funding": 1396417983.0,
+      "project_count": 3283
+    },
+    {
+      "code": "AA0510",
+      "description": "Medizintechnik",
+      "total_funding": 1323310465.0,
+      "project_count": 3352
+    },
+    {
+      "code": "FB6030",
+      "description": "Große, mittelgroße Forschungsschiffe, Schiffspool",
+      "total_funding": 1323264572.0,
+      "project_count": 6
+    },
+    {
+      "code": "OB5100",
+      "description": "Bildungsforschung",
+      "total_funding": 1317856264.0,
+      "project_count": 1587
+    },
+    {
+      "code": "AA0160",
+      "description": "Sonstige krankheitsbezogene und -übergreifende Maßnahmen",
+      "total_funding": 1260139343.0,
+      "project_count": 658
+    },
+    {
+      "code": "YB2000",
+      "description": "Begabtenförderung in der beruflichen Bildung",
+      "total_funding": 1253772940.0,
+      "project_count": 407
+    },
+    {
+      "code": "QD1010",
+      "description": "Förderung der industriellen Gemeinschaftsforschung (IGF)",
+      "total_funding": 1198636501.0,
+      "project_count": 3076
+    },
+    {
+      "code": "HA1030",
+      "description": "Innovative Verkehrsinfrastrukturen und Betriebsweisen",
+      "total_funding": 1139015141.0,
+      "project_count": 1374
+    },
+    {
+      "code": "RB9210",
+      "description": "Forschung an Fachhochschulen",
+      "total_funding": 1107065131.0,
+      "project_count": 3497
+    },
+    {
+      "code": "RE8050",
+      "description": "Wissenschaftliche Zusammenarbeit mit anderen Staaten (soweit nicht in anderen Bereichen)",
+      "total_funding": 1093674738.0,
+      "project_count": 4260
+    },
+    {
+      "code": "AA0230",
+      "description": "Systembiologie",
+      "total_funding": 1063033992.0,
+      "project_count": 1935
+    },
+    {
+      "code": "AA0110",
+      "description": "Infektion",
+      "total_funding": 1051232080.0,
+      "project_count": 850
+    },
+    {
+      "code": "YB9000",
+      "description": "Übrige, nicht FuE-relevante Ausgaben der beruflichen Bildung",
+      "total_funding": 993691363.0,
+      "project_count": 4109
+    },
+    {
+      "code": "IA1040",
+      "description": "Umweltfreundliches und klimaneutrales Fliegen",
+      "total_funding": 945485847.0,
+      "project_count": 524
+    },
+    {
+      "code": "TB0810",
+      "description": "Förderung des wissenschaftlichen Nachwuchses",
+      "total_funding": 896068000.0,
+      "project_count": 76
+    },
+    {
+      "code": "OB7000",
+      "description": "Reform- und Umsetzungsstrategien des Lebenslangen Lernens in nationalen und internationalen Bezügen",
+      "total_funding": 888696010.0,
+      "project_count": 1893
+    },
+    {
+      "code": "U06099",
+      "description": "Sonstiges im Rahmen der Großgeräte der Grundlagenforschung",
+      "total_funding": 885242389.0,
+      "project_count": 68
+    },
+    {
+      "code": "KB9901",
+      "description": "Altvorhaben Materialforschung",
+      "total_funding": 860911197.0,
+      "project_count": 2676
+    },
+    {
+      "code": "IB1030",
+      "description": "Astronomie und Astrophysik",
+      "total_funding": 838941946.0,
+      "project_count": 815
+    },
+    {
+      "code": "HA4010",
+      "description": "Emissionsverringerung und Energiereinsparung  im Straßenverkehr",
+      "total_funding": 820388813.0,
+      "project_count": 1131
+    },
+    {
+      "code": "IB1020",
+      "description": "Erforschung des Sonnensystems",
+      "total_funding": 814071793.0,
+      "project_count": 860
+    },
+    {
+      "code": "AA0120",
+      "description": "Nervensystem und Psyche",
+      "total_funding": 770065024.0,
+      "project_count": 1172
+    },
+    {
+      "code": "GB5040",
+      "description": "Netzwerktechnologien",
+      "total_funding": 755720510.0,
+      "project_count": 737
+    },
+    {
+      "code": "RB3020",
+      "description": "Innovation und Strukturwandel",
+      "total_funding": 743385729.0,
+      "project_count": 2665
+    },
+    {
+      "code": "RB9000",
+      "description": "High-Tech-Strategie",
+      "total_funding": 740760284.0,
+      "project_count": 1783
+    },
+    {
+      "code": "ED1000",
+      "description": "Beseitigung kerntechnischer Anlagen",
+      "total_funding": 738222757.0,
+      "project_count": 342
+    },
+    {
+      "code": "GC2035",
+      "description": "Neuartige mikroelektronische Bauelemente und sensorbasierte Elektroniksysteme",
+      "total_funding": 730945517.0,
+      "project_count": 1340
+    },
+    {
+      "code": "GC4082",
+      "description": "Höchstleistungsrechnen",
+      "total_funding": 729839802.0,
+      "project_count": 227
+    },
+    {
+      "code": "GC1020",
+      "description": "Rechnergestützter Chipentwurf (EDA)",
+      "total_funding": 723801937.0,
+      "project_count": 880
+    },
+    {
+      "code": "GA9081",
+      "description": "DV-Systeme und -Technologien (abgeschl. DV-Progr.)",
+      "total_funding": 717957497.0,
+      "project_count": 386
+    }
+  ],
+  "keywords": [
+    {
+      "word": "Teilvorhaben",
+      "count": 19375
+    },
+    {
+      "word": "Verbundvorhaben",
+      "count": 12676
+    },
+    {
+      "word": "Eines",
+      "count": 6028
+    },
+    {
+      "word": "Optimierung",
+      "count": 2265
+    },
+    {
+      "word": "Unter",
+      "count": 2210
+    },
+    {
+      "word": "Untersuchung",
+      "count": 1634
+    },
+    {
+      "word": "Einsatz",
+      "count": 1590
+    },
+    {
+      "word": "Integration",
+      "count": 1344
+    },
+    {
+      "word": "Erprobung",
+      "count": 1328
+    },
+    {
+      "word": "Mittels",
+      "count": 1323
+    },
+    {
+      "word": "Untersuchungen",
+      "count": 1306
+    },
+    {
+      "word": "Herstellung",
+      "count": 1300
+    },
+    {
+      "word": "Analyse",
+      "count": 1283
+    },
+    {
+      "word": "Basis",
+      "count": 1217
+    },
+    {
+      "word": "Bewertung",
+      "count": 1156
+    },
+    {
+      "word": "Nutzung",
+      "count": 1065
+    },
+    {
+      "word": "Betrieb",
+      "count": 1010
+    },
+    {
+      "word": "Anwendung",
+      "count": 937
+    },
+    {
+      "word": "Methoden",
+      "count": 925
+    },
+    {
+      "word": "Eneff",
+      "count": 831
+    },
+    {
+      "word": "Aufbau",
+      "count": 821
+    },
+    {
+      "word": "Offshore",
+      "count": 817
+    },
+    {
+      "word": "Exist",
+      "count": 806
+    },
+    {
+      "word": "Wärme",
+      "count": 805
+    },
+    {
+      "word": "Forschungstransfer",
+      "count": 796
+    },
+    {
+      "word": "Simulation",
+      "count": 778
+    },
+    {
+      "word": "Innovative",
+      "count": 774
+    },
+    {
+      "word": "Anwendungen",
+      "count": 753
+    },
+    {
+      "word": "Validierung",
+      "count": 751
+    },
+    {
+      "word": "Modellierung",
+      "count": 747
+    },
+    {
+      "word": "Verfahren",
+      "count": 746
+    },
+    {
+      "word": "Weiterentwicklung",
+      "count": 739
+    },
+    {
+      "word": "Umsetzung",
+      "count": 736
+    },
+    {
+      "word": "Fertigung",
+      "count": 734
+    },
+    {
+      "word": "Smart",
+      "count": 728
+    },
+    {
+      "word": "Komponenten",
+      "count": 724
+    },
+    {
+      "word": "System",
+      "count": 717
+    },
+    {
+      "word": "Monitoring",
+      "count": 692
+    },
+    {
+      "word": "Windenergieanlagen",
+      "count": 683
+    },
+    {
+      "word": "Verbesserung",
+      "count": 680
+    },
+    {
+      "word": "Solarzellen",
+      "count": 676
+    },
+    {
+      "word": "Technologien",
+      "count": 671
+    },
+    {
+      "word": "Technologie",
+      "count": 667
+    },
+    {
+      "word": "Produktion",
+      "count": 662
+    },
+    {
+      "word": "Industrie",
+      "count": 642
+    },
+    {
+      "word": "Berücksichtigung",
+      "count": 631
+    },
+    {
+      "word": "Charakterisierung",
+      "count": 620
+    },
+    {
+      "word": "Energie",
+      "count": 608
+    },
+    {
+      "word": "Plattform",
+      "count": 601
+    },
+    {
+      "word": "Systeme",
+      "count": 595
+    },
+    {
+      "word": "Digitale",
+      "count": 578
+    },
+    {
+      "word": "Intelligente",
+      "count": 577
+    },
+    {
+      "word": "Daten",
+      "count": 555
+    },
+    {
+      "word": "Demonstration",
+      "count": 549
+    },
+    {
+      "word": "Systems",
+      "count": 544
+    },
+    {
+      "word": "Anlagen",
+      "count": 541
+    },
+    {
+      "word": "Auslegung",
+      "count": 539
+    },
+    {
+      "word": "Energieeffizienz",
+      "count": 516
+    },
+    {
+      "word": "Basierte",
+      "count": 512
+    },
+    {
+      "word": "Steigerung",
+      "count": 501
+    },
+    {
+      "word": "Energieeffiziente",
+      "count": 488
+    },
+    {
+      "word": "Beispiel",
+      "count": 487
+    },
+    {
+      "word": "Stadt",
+      "count": 482
+    },
+    {
+      "word": "Planung",
+      "count": 457
+    },
+    {
+      "word": "Effiziente",
+      "count": 456
+    },
+    {
+      "word": "Neuer",
+      "count": 444
+    },
+    {
+      "word": "Innovativer",
+      "count": 438
+    },
+    {
+      "word": "Bestimmung",
+      "count": 429
+    },
+    {
+      "word": "Rahmen",
+      "count": 423
+    },
+    {
+      "word": "Energy",
+      "count": 422
+    },
+    {
+      "word": "Design",
+      "count": 421
+    },
+    {
+      "word": "Beitrag",
+      "count": 418
+    },
+    {
+      "word": "Intelligenz",
+      "count": 416
+    },
+    {
+      "word": "Automatisierte",
+      "count": 415
+    },
+    {
+      "word": "Nachhaltige",
+      "count": 414
+    },
+    {
+      "word": "Wasserstoff",
+      "count": 414
+    },
+    {
+      "word": "Erforschung",
+      "count": 412
+    },
+    {
+      "word": "Optimierte",
+      "count": 407
+    },
+    {
+      "word": "Technische",
+      "count": 403
+    },
+    {
+      "word": "Management",
+      "count": 403
+    },
+    {
+      "word": "Experimentelle",
+      "count": 402
+    },
+    {
+      "word": "Bereich",
+      "count": 400
+    },
+    {
+      "word": "Integrierte",
+      "count": 395
+    },
+    {
+      "word": "Deutschland",
+      "count": 395
+    },
+    {
+      "word": "Sichere",
+      "count": 394
+    },
+    {
+      "word": "Erhöhung",
+      "count": 384
+    },
+    {
+      "word": "Deren",
+      "count": 378
+    },
+    {
+      "word": "Innovativen",
+      "count": 377
+    },
+    {
+      "word": "Implementierung",
+      "count": 376
+    },
+    {
+      "word": "Silizium",
+      "count": 376
+    },
+    {
+      "word": "Prozesse",
+      "count": 373
+    },
+    {
+      "word": "Erstellung",
+      "count": 371
+    },
+    {
+      "word": "Energien",
+      "count": 371
+    },
+    {
+      "word": "Verfahrens",
+      "count": 368
+    },
+    {
+      "word": "Neuen",
+      "count": 362
+    },
+    {
+      "word": "Generation",
+      "count": 362
+    },
+    {
+      "word": "Digitaler",
+      "count": 361
+    },
+    {
+      "word": "Konzeption",
+      "count": 361
+    },
+    {
+      "word": "Mobile",
+      "count": 360
+    },
+    {
+      "word": "Mittelstand",
+      "count": 357
+    }
+  ]
+}
