@@ -1,0 +1,307 @@
+{
+  "summary": {
+    "joint_project_count": 154390,
+    "individual_project_count": 162850,
+    "joint_funding": 78374277570.0,
+    "individual_funding": 128260549638.0
+  },
+  "top_joint_projects": [
+    {
+      "name": "FAIR - Facility for Antiproton an Ion Research",
+      "total_funding": 2170092041.0,
+      "subproject_count": 4,
+      "states_involved": [
+        "Hessen"
+      ]
+    },
+    {
+      "name": "Snr 300",
+      "total_funding": 1764399258.0,
+      "subproject_count": 1,
+      "states_involved": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "Forschungsfabrik Mikroelektronik Deutschland",
+      "total_funding": 349806262.0,
+      "subproject_count": 3,
+      "states_involved": [
+        "Bayern",
+        "Berlin",
+        "Brandenburg"
+      ]
+    },
+    {
+      "name": "Versuchsanlage Magnetbahn im Emsland",
+      "total_funding": 335284333.0,
+      "subproject_count": 6,
+      "states_involved": [
+        "Bayern",
+        "Niedersachsen",
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "NAKO Gesundheitsstudie",
+      "total_funding": 212370384.0,
+      "subproject_count": 3,
+      "states_involved": [
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "Snr 300 Bzfe-Programm",
+      "total_funding": 185645444.0,
+      "subproject_count": 18,
+      "states_involved": [
+        "Nordrhein-Westfalen",
+        "Bayern"
+      ]
+    },
+    {
+      "name": "Europäische Chips Act Pilotlinie für heterogene Systemintegration an der Forschungsfabrik Mikroelektronik Deutschland",
+      "total_funding": 182899359.0,
+      "subproject_count": 3,
+      "states_involved": [
+        "Bayern",
+        "Brandenburg",
+        "Berlin"
+      ]
+    },
+    {
+      "name": "Sbr Weiterentwicklung",
+      "total_funding": 175533639.0,
+      "subproject_count": 11,
+      "states_involved": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "DErPatE",
+      "total_funding": 165276614.0,
+      "subproject_count": 10,
+      "states_involved": [
+        "Nordrhein-Westfalen",
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "Submikron-Speicher",
+      "total_funding": 162341432.0,
+      "subproject_count": 4,
+      "states_involved": [
+        "Bayern",
+        "Hamburg"
+      ]
+    },
+    {
+      "name": "PNP Pilot",
+      "total_funding": 151118356.0,
+      "subproject_count": 30,
+      "states_involved": [
+        "Nordrhein-Westfalen",
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "Forschungsfabrik Mikroelektronik Deutschland - Module Quanten- und neuromorphes Computing",
+      "total_funding": 133540776.0,
+      "subproject_count": 5,
+      "states_involved": [
+        "Bayern",
+        "Berlin",
+        "Brandenburg",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "DZ psychische Gesundheit",
+      "total_funding": 129545026.0,
+      "subproject_count": 66,
+      "states_involved": [
+        "Bayern",
+        "Berlin",
+        "Nordrhein-Westfalen",
+        "Brandenburg",
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "FAMELausitz",
+      "total_funding": 123671000.0,
+      "subproject_count": 2,
+      "states_involved": [
+        "Brandenburg"
+      ]
+    },
+    {
+      "name": "MKV Völklingen",
+      "total_funding": 108671263.0,
+      "subproject_count": 5,
+      "states_involved": [
+        "Saarland"
+      ]
+    },
+    {
+      "name": "H2Giga_TP_DERIEL",
+      "total_funding": 103906366.0,
+      "subproject_count": 9,
+      "states_involved": [
+        "Hessen",
+        "Nordrhein-Westfalen",
+        "Bayern",
+        "Niedersachsen"
+      ]
+    },
+    {
+      "name": "Urananreicherung-Gaszentrifuge",
+      "total_funding": 99698221.0,
+      "subproject_count": 2,
+      "states_involved": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "Catena-X Automotive Network (Catena-X)",
+      "total_funding": 97348999.0,
+      "subproject_count": 27,
+      "states_involved": [
+        "Saarland",
+        "Bayern",
+        "Baden-Württemberg",
+        "Hessen",
+        "Rheinland-Pfalz"
+      ]
+    },
+    {
+      "name": "Prozesse und Equipment für 300 mm Wafer",
+      "total_funding": 93576725.0,
+      "subproject_count": 20,
+      "states_involved": [
+        "Hessen",
+        "Sachsen",
+        "Schleswig-Holstein",
+        "Baden-Württemberg",
+        "Thüringen"
+      ]
+    },
+    {
+      "name": "FoFeBat3",
+      "total_funding": 90665908.0,
+      "subproject_count": 3,
+      "states_involved": [
+        "Bayern",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "NGFN-Kernbereich",
+      "total_funding": 87460421.0,
+      "subproject_count": 14,
+      "states_involved": [
+        "Berlin",
+        "Bayern",
+        "Niedersachsen",
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "Suprenum",
+      "total_funding": 84355482.0,
+      "subproject_count": 18,
+      "states_involved": [
+        "Nordrhein-Westfalen",
+        "Bayern",
+        "Hamburg",
+        "Hessen",
+        "Bremen"
+      ]
+    },
+    {
+      "name": "Programm THESEUS - Neue internetbasierte Wissensinfrastrukturen",
+      "total_funding": 82387492.0,
+      "subproject_count": 27,
+      "states_involved": [
+        "Bayern",
+        "Baden-Württemberg",
+        "Niedersachsen",
+        "Hessen",
+        "Berlin"
+      ]
+    },
+    {
+      "name": "Weizenbaum-Institut",
+      "total_funding": 80877833.0,
+      "subproject_count": 23,
+      "states_involved": [
+        "Bayern",
+        "Berlin",
+        "Brandenburg"
+      ]
+    },
+    {
+      "name": "NIP II - H2GO",
+      "total_funding": 79200388.0,
+      "subproject_count": 5,
+      "states_involved": [
+        "Bayern"
+      ]
+    },
+    {
+      "name": "Quantentechnologien für sichere Netzwerke und Kommunikation",
+      "total_funding": 77246923.0,
+      "subproject_count": 7,
+      "states_involved": [
+        "Bayern",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "Open 6G Hub",
+      "total_funding": 75326304.0,
+      "subproject_count": 15,
+      "states_involved": [
+        "Rheinland-Pfalz",
+        "Nordrhein-Westfalen",
+        "Thüringen",
+        "Bayern",
+        "Baden-Württemberg"
+      ]
+    },
+    {
+      "name": "Digitale Transformation und Souveränität künftiger Kommunikationsnetze",
+      "total_funding": 72617633.0,
+      "subproject_count": 3,
+      "states_involved": [
+        "Bayern",
+        "Sachsen",
+        "Niedersachsen"
+      ]
+    },
+    {
+      "name": "Aufbau eines Datenraums für die ausrüstende Industrie - die Ausrüster von Fabriken weltweit (Factory-X)",
+      "total_funding": 71958562.0,
+      "subproject_count": 47,
+      "states_involved": [
+        "Bayern",
+        "Rheinland-Pfalz",
+        "Baden-Württemberg",
+        "Hessen",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    {
+      "name": "6G Research and Innovation Cluster (6G-RIC) Offene und sichere 6G-Technologien: Weltmarktchance für Deutschland",
+      "total_funding": 71728969.0,
+      "subproject_count": 16,
+      "states_involved": [
+        "Schleswig-Holstein",
+        "Berlin",
+        "Nordrhein-Westfalen",
+        "Niedersachsen",
+        "Bayern"
+      ]
+    }
+  ]
+}

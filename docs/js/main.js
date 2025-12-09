@@ -1,0 +1,928 @@
+/**
+ * German Federal Funding Catalog Dashboard
+ * Main JavaScript for data loading and chart rendering
+ */
+
+// Chart.js default configuration
+Chart.defaults.font.family = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.color = '#64748B';
+Chart.defaults.plugins.tooltip.backgroundColor = 'rgba(15, 23, 42, 0.9)';
+Chart.defaults.plugins.tooltip.titleFont = { weight: '600' };
+Chart.defaults.plugins.tooltip.padding = 12;
+Chart.defaults.plugins.tooltip.cornerRadius = 8;
+Chart.defaults.plugins.legend.labels.usePointStyle = true;
+Chart.defaults.plugins.legend.labels.padding = 16;
+
+// Color palettes
+const CHART_COLORS = {
+    primary: ['#6366F1', '#8B5CF6', '#A855F7', '#D946EF', '#EC4899'],
+    secondary: ['#06B6D4', '#14B8A6', '#10B981', '#22C55E', '#84CC16'],
+    accent: ['#F59E0B', '#F97316', '#EF4444', '#EC4899', '#8B5CF6'],
+    gradient: [
+        '#6366F1', '#7C3AED', '#A855F7', '#D946EF', '#EC4899',
+        '#F43F5E', '#F97316', '#FBBF24', '#84CC16', '#22C55E',
+        '#14B8A6', '#06B6D4', '#3B82F6', '#6366F1'
+    ],
+    states: {
+        'Bayern': '#0088FE',
+        'Nordrhein-Westfalen': '#00C49F',
+        'Baden-Württemberg': '#FFBB28',
+        'Niedersachsen': '#FF8042',
+        'Hessen': '#8884D8',
+        'Berlin': '#82CA9D',
+        'Sachsen': '#A4DE6C',
+        'Rheinland-Pfalz': '#D0ED57',
+        'Hamburg': '#FFC658',
+        'Schleswig-Holstein': '#8DD1E1',
+        'Thüringen': '#A28BFE',
+        'Brandenburg': '#FF6B6B',
+        'Sachsen-Anhalt': '#4ECDC4',
+        'Mecklenburg-Vorpommern': '#45B7D1',
+        'Bremen': '#96CEB4',
+        'Saarland': '#DDA0DD'
+    }
+};
+
+// Utility functions
+function formatCurrency(value, compact = false) {
+    if (compact) {
+        if (value >= 1e12) return `€${(value / 1e12).toFixed(1)}T`;
+        if (value >= 1e9) return `€${(value / 1e9).toFixed(1)}B`;
+        if (value >= 1e6) return `€${(value / 1e6).toFixed(1)}M`;
+        if (value >= 1e3) return `€${(value / 1e3).toFixed(0)}K`;
+        return `€${value.toFixed(0)}`;
+    }
+    return new Intl.NumberFormat('de-DE', {
+        style: 'currency',
+        currency: 'EUR',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+    }).format(value);
+}
+
+function formatNumber(value, compact = false) {
+    if (compact && value >= 1000) {
+        return new Intl.NumberFormat('de-DE', {
+            notation: 'compact',
+            compactDisplay: 'short'
+        }).format(value);
+    }
+    return new Intl.NumberFormat('de-DE').format(value);
+}
+
+// Global data store
+let globalData = {};
+let charts = {};
+
+// Data loading
+async function loadData() {
+    const files = [
+        'summary_stats.json',
+        'ministry_funding.json',
+        'geographic_distribution.json',
+        'temporal_trends.json',
+        'top_recipients.json',
+        'topic_analysis.json',
+        'duration_analysis.json',
+        'funding_types.json',
+        'joint_projects.json',
+        'projekttraeger.json'
+    ];
+
+    try {
+        const promises = files.map(file =>
+            fetch(`data/${file}`).then(res => {
+                if (!res.ok) throw new Error(`Failed to load ${file}`);
+                return res.json();
+            })
+        );
+
+        const results = await Promise.all(promises);
+
+        globalData = {
+            summary: results[0],
+            ministry: results[1],
+            geographic: results[2],
+            temporal: results[3],
+            recipients: results[4],
+            topics: results[5],
+            duration: results[6],
+            fundingTypes: results[7],
+            jointProjects: results[8],
+            projekttraeger: results[9]
+        };
+
+        initializeDashboard();
+    } catch (error) {
+        console.error('Error loading data:', error);
+        document.querySelector('.main-content').innerHTML = `
+            <div class="chart-card chart-full" style="text-align: center; padding: 3rem;">
+                <h2 style="color: #EF4444;">Error Loading Data</h2>
+                <p style="margin-top: 1rem;">Please make sure the data files are in the <code>web/data/</code> folder.</p>
+                <p style="margin-top: 0.5rem; color: #64748B;">Run <code>python analyze_funding.py</code> first, then copy the output files.</p>
+            </div>
+        `;
+    }
+}
+
+// Initialize dashboard
+function initializeDashboard() {
+    updateOverviewCards();
+    updateLastUpdate();
+    createTemporalChart();
+    createMonthlyChart();
+    createDecadeMinistryChart();
+    createMinistryChart();
+    createGeoChart();
+    createCityChart();
+    createRecipientChart();
+    createFundingTypeChart();
+    createDurationChart();
+    createTopicChart();
+    createJointChart();
+    createProjekttraegerChart();
+    createFoerderprofilChart();
+    createKeywordsCloud();
+    populateRecipientsTable();
+    initializeEventListeners();
+}
+
+// Update overview cards
+function updateOverviewCards() {
+    const summary = globalData.summary;
+
+    document.getElementById('totalFunding').textContent = formatCurrency(summary.total_funding, true);
+    document.getElementById('totalProjects').textContent = formatNumber(summary.total_projects);
+    document.getElementById('uniqueRecipients').textContent = formatNumber(summary.unique_recipients);
+    document.getElementById('avgFunding').textContent = formatCurrency(summary.highlights.avg_project_funding, true);
+}
+
+// Update last update timestamp
+function updateLastUpdate() {
+    const date = new Date(globalData.summary.generated_at);
+    const formatted = date.toLocaleDateString('de-DE', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+    document.getElementById('lastUpdate').textContent = `Updated: ${formatted}`;
+    document.getElementById('footerUpdate').textContent = formatted;
+}
+
+// Ministry funding chart
+function createMinistryChart() {
+    const ctx = document.getElementById('ministryChart').getContext('2d');
+    const data = globalData.ministry.ministries;
+
+    charts.ministry = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.code),
+            datasets: [{
+                label: 'Total Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: CHART_COLORS.gradient.slice(0, data.length),
+                borderRadius: 8,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => data[items[0].dataIndex].name,
+                        label: (item) => [
+                            `Total: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`,
+                            `Avg: ${formatCurrency(data[item.dataIndex].avg_funding)}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                },
+                y: {
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Geographic distribution chart
+function createGeoChart() {
+    const ctx = document.getElementById('geoChart').getContext('2d');
+    const data = globalData.geographic.states.slice(0, 16);
+
+    charts.geo = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.name),
+            datasets: [{
+                label: 'Total Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: data.map(d => CHART_COLORS.states[d.name] || '#6366F1'),
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => [
+                            `Funding: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        maxRotation: 45,
+                        minRotation: 45,
+                        font: { size: 10 }
+                    },
+                    grid: { display: false }
+                },
+                y: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                }
+            }
+        }
+    });
+}
+
+// Temporal trends chart
+function createTemporalChart(range = 'all') {
+    const ctx = document.getElementById('temporalChart').getContext('2d');
+    let data = globalData.temporal.yearly_totals;
+
+    // Filter by range
+    const currentYear = new Date().getFullYear();
+    if (range === 'recent') {
+        data = data.filter(d => d.year >= currentYear - 20);
+    } else if (range === 'decade') {
+        data = data.filter(d => d.year >= currentYear - 10);
+    }
+
+    // Destroy existing chart if exists
+    if (charts.temporal) {
+        charts.temporal.destroy();
+    }
+
+    charts.temporal = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: data.map(d => d.year),
+            datasets: [
+                {
+                    label: 'Total Funding (€)',
+                    data: data.map(d => d.total_funding),
+                    borderColor: '#6366F1',
+                    backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                    fill: true,
+                    tension: 0.4,
+                    yAxisID: 'y',
+                    pointRadius: 2,
+                    pointHoverRadius: 6
+                },
+                {
+                    label: 'Project Count',
+                    data: data.map(d => d.project_count),
+                    borderColor: '#F59E0B',
+                    backgroundColor: 'transparent',
+                    borderDash: [5, 5],
+                    tension: 0.4,
+                    yAxisID: 'y1',
+                    pointRadius: 2,
+                    pointHoverRadius: 6
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: (item) => {
+                            if (item.datasetIndex === 0) {
+                                return `Funding: ${formatCurrency(item.raw)}`;
+                            }
+                            return `Projects: ${formatNumber(item.raw)}`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: '#E2E8F0' }
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: { display: true, text: 'Funding (€)' },
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                },
+                y1: {
+                    type: 'linear',
+                    position: 'right',
+                    title: { display: true, text: 'Projects' },
+                    ticks: {
+                        callback: (value) => formatNumber(value, true)
+                    },
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Monthly distribution chart (seasonal patterns)
+function createMonthlyChart() {
+    const ctx = document.getElementById('monthlyChart').getContext('2d');
+    const data = globalData.temporal.monthly_distribution || [];
+
+    if (data.length === 0) {
+        console.log('No monthly data available');
+        return;
+    }
+
+    charts.monthly = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.month_name),
+            datasets: [
+                {
+                    label: 'Projects',
+                    data: data.map(d => d.project_count),
+                    backgroundColor: '#6366F1',
+                    borderRadius: 4,
+                    yAxisID: 'y'
+                },
+                {
+                    label: 'Funding (€)',
+                    data: data.map(d => d.total_funding),
+                    backgroundColor: 'rgba(34, 197, 94, 0.7)',
+                    borderRadius: 4,
+                    yAxisID: 'y1'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'top' },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => {
+                            if (item.datasetIndex === 0) {
+                                return `Projects: ${formatNumber(item.raw)}`;
+                            }
+                            return `Funding: ${formatCurrency(item.raw)}`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: { grid: { display: false } },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: { display: true, text: 'Projects' },
+                    ticks: { callback: (value) => formatNumber(value, true) },
+                    grid: { color: '#E2E8F0' }
+                },
+                y1: {
+                    type: 'linear',
+                    position: 'right',
+                    title: { display: true, text: 'Funding' },
+                    ticks: { callback: (value) => formatCurrency(value, true) },
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Ministry share by decade chart (stacked bar showing evolution)
+function createDecadeMinistryChart() {
+    const ctx = document.getElementById('decadeMinistryChart').getContext('2d');
+    const decadeData = globalData.temporal.decade_ministry_share || {};
+
+    const decades = ['2000', '2010', '2020'];
+    const ministries = ['BMFTR', 'BMV', 'BMWE', 'BMLEH'];
+    const ministryColors = {
+        'BMFTR': '#6366F1',
+        'BMV': '#F59E0B',
+        'BMWE': '#10B981',
+        'BMLEH': '#EC4899',
+        'BMUKN': '#8B5CF6',
+        'BMJV_BLE': '#06B6D4'
+    };
+
+    // Build datasets for each ministry
+    const datasets = ministries.map(ministry => ({
+        label: ministry,
+        data: decades.map(decade => {
+            const decadeInfo = decadeData[decade] || [];
+            const ministryInfo = decadeInfo.find(m => m.ministry === ministry);
+            return ministryInfo ? ministryInfo.share_pct : 0;
+        }),
+        backgroundColor: ministryColors[ministry] || '#94A3B8',
+        borderRadius: 4
+    }));
+
+    charts.decadeMinistry = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: decades.map(d => d + 's'),
+            datasets: datasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'top' },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => `${item.dataset.label}: ${item.raw.toFixed(1)}%`
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    stacked: true,
+                    grid: { display: false }
+                },
+                y: {
+                    stacked: true,
+                    max: 100,
+                    title: { display: true, text: 'Share (%)' },
+                    ticks: { callback: (value) => value + '%' },
+                    grid: { color: '#E2E8F0' }
+                }
+            }
+        }
+    });
+}
+
+
+function createRecipientChart() {
+    const ctx = document.getElementById('recipientChart').getContext('2d');
+    const data = globalData.recipients.top_by_funding.slice(0, 10);
+
+    charts.recipient = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => truncateLabel(d.name, 30)),
+            datasets: [{
+                label: 'Total Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: CHART_COLORS.secondary,
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => data[items[0].dataIndex].name,
+                        label: (item) => [
+                            `Funding: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                },
+                y: {
+                    ticks: { font: { size: 10 } },
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Funding types chart
+function createFundingTypeChart() {
+    const ctx = document.getElementById('fundingTypeChart').getContext('2d');
+    const data = globalData.fundingTypes.funding_types.slice(0, 5);
+
+    charts.fundingType = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: data.map(d => truncateLabel(d.name, 25)),
+            datasets: [{
+                data: data.map(d => d.total_funding),
+                backgroundColor: CHART_COLORS.gradient.slice(0, data.length),
+                borderWidth: 0,
+                spacing: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '60%',
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: { font: { size: 10 } }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => `${formatCurrency(item.raw)} (${((item.raw / globalData.summary.total_funding) * 100).toFixed(1)}%)`
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Duration distribution chart
+function createDurationChart() {
+    const ctx = document.getElementById('durationChart').getContext('2d');
+    const data = globalData.duration.distribution;
+
+    charts.duration = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.range),
+            datasets: [{
+                label: 'Projects',
+                data: data.map(d => d.count),
+                backgroundColor: CHART_COLORS.accent,
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => `${formatNumber(item.raw)} projects`
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: { font: { size: 10 } },
+                    grid: { display: false }
+                },
+                y: {
+                    ticks: {
+                        callback: (value) => formatNumber(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                }
+            }
+        }
+    });
+}
+
+// Research topics chart
+function createTopicChart() {
+    const ctx = document.getElementById('topicChart').getContext('2d');
+    const data = globalData.topics.classifications.slice(0, 10);
+
+    charts.topic = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => truncateLabel(d.description || d.code, 40)),
+            datasets: [{
+                label: 'Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: CHART_COLORS.primary,
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => data[items[0].dataIndex].description || data[items[0].dataIndex].code,
+                        label: (item) => [
+                            `Code: ${data[item.dataIndex].code}`,
+                            `Funding: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                },
+                y: {
+                    ticks: { font: { size: 10 } },
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Joint projects chart
+function createJointChart() {
+    const ctx = document.getElementById('jointChart').getContext('2d');
+    const data = globalData.jointProjects.summary;
+
+    charts.joint = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Verbundprojekt (Joint)', 'Individual Projects'],
+            datasets: [{
+                data: [data.joint_funding, data.individual_funding],
+                backgroundColor: ['#6366F1', '#22C55E'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => {
+                            const count = item.dataIndex === 0 ? data.joint_project_count : data.individual_project_count;
+                            return [
+                                formatCurrency(item.raw),
+                                `${formatNumber(count)} projects`
+                            ];
+                        }
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Projektträger (Project Sponsors) chart
+function createProjekttraegerChart() {
+    const ctx = document.getElementById('projekttraegerChart').getContext('2d');
+    const data = globalData.projekttraeger.projekttraeger.slice(0, 12);
+
+    charts.projekttraeger = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.code),
+            datasets: [{
+                label: 'Total Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: CHART_COLORS.gradient.slice(0, data.length),
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => data[items[0].dataIndex].name,
+                        label: (item) => [
+                            `Funding: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`,
+                            `Ministries: ${data[item.dataIndex].ministries.join(', ')}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                },
+                y: {
+                    ticks: { font: { size: 10 } },
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Förderprofil (Funding Profile) chart
+function createFoerderprofilChart() {
+    const ctx = document.getElementById('foerderprofilChart').getContext('2d');
+    const data = globalData.fundingTypes.funding_profiles.slice(0, 6);
+
+    charts.foerderprofil = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: data.map(d => truncateLabel(d.name, 30)),
+            datasets: [{
+                data: data.map(d => d.total_funding),
+                backgroundColor: ['#6366F1', '#A855F7', '#EC4899', '#F59E0B', '#10B981', '#06B6D4'],
+                borderWidth: 0,
+                spacing: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '55%',
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        font: { size: 9 },
+                        padding: 10
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => [
+                            formatCurrency(item.raw),
+                            `${formatNumber(data[item.dataIndex].project_count)} projects`
+                        ]
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Top cities chart
+function createCityChart() {
+    const ctx = document.getElementById('cityChart').getContext('2d');
+    const data = globalData.geographic.top_cities.slice(0, 15);
+
+    charts.city = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.city),
+            datasets: [{
+                label: 'Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: data.map(d => CHART_COLORS.states[d.state] || '#6366F1'),
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => `${data[items[0].dataIndex].city}, ${data[items[0].dataIndex].state}`,
+                        label: (item) => [
+                            `Funding: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        maxRotation: 45,
+                        minRotation: 45,
+                        font: { size: 10 }
+                    },
+                    grid: { display: false }
+                },
+                y: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                }
+            }
+        }
+    });
+}
+
+// Keywords cloud
+function createKeywordsCloud() {
+    const container = document.getElementById('keywordsCloud');
+    const keywords = globalData.topics.keywords.slice(0, 50);
+    const maxCount = Math.max(...keywords.map(k => k.count));
+
+    container.innerHTML = keywords.map(keyword => {
+        const ratio = keyword.count / maxCount;
+        let sizeClass = 'keyword-small';
+        if (ratio > 0.7) sizeClass = 'keyword-xlarge';
+        else if (ratio > 0.4) sizeClass = 'keyword-large';
+        else if (ratio > 0.2) sizeClass = 'keyword-medium';
+
+        return `<span class="keyword-tag ${sizeClass}" title="${keyword.count} occurrences">${keyword.word}</span>`;
+    }).join('');
+}
+
+// Recipients table
+function populateRecipientsTable(sortBy = 'funding') {
+    const tbody = document.querySelector('#recipientTable tbody');
+
+    // Filter out data protection placeholder entries
+    const filterAnonymized = (arr) => arr.filter(r =>
+        !r.name.startsWith('Keine Anzeige') &&
+        !r.name.includes('datenschutzrechtl')
+    );
+
+    let data = sortBy === 'funding'
+        ? filterAnonymized(globalData.recipients.top_by_funding).slice(0, 20)
+        : filterAnonymized(globalData.recipients.top_by_count).slice(0, 20);
+
+    tbody.innerHTML = data.map((recipient, index) => `
+        <tr>
+            <td>${index + 1}</td>
+            <td title="${recipient.name}">${truncateLabel(recipient.name, 50)}</td>
+            <td>${formatCurrency(recipient.total_funding)}</td>
+            <td>${formatNumber(recipient.project_count)}</td>
+            <td>${formatCurrency(recipient.avg_funding || recipient.total_funding / recipient.project_count)}</td>
+        </tr>
+    `).join('');
+}
+
+
+// Event listeners
+function initializeEventListeners() {
+    // Temporal chart range buttons
+    document.querySelectorAll('.chart-controls .chart-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.chart-controls .chart-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            createTemporalChart(e.target.dataset.range);
+        });
+    });
+
+    // Table sort buttons
+    document.querySelectorAll('.table-controls .table-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.table-controls .table-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            populateRecipientsTable(e.target.dataset.sort);
+        });
+    });
+}
+
+// Helper function
+function truncateLabel(label, maxLength) {
+    if (!label) return '';
+    return label.length > maxLength ? label.substring(0, maxLength) + '...' : label;
+}
+
+// Initialize on DOM ready
+document.addEventListener('DOMContentLoaded', loadData);
