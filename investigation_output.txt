@@ -1,0 +1,46 @@
+======================================================================
+INVESTIGATION: Invalid Dates and Recipient Verification
+======================================================================
+
+[1] INVALID/OUT-OF-RANGE DATES
+--------------------------------------------------
+Projects with missing/invalid start dates: 0
+
+Examples of invalid dates:
+
+Projects with start year before 1990: 43,675
+  - Year: 1989, FKZ: N000100 /A, Funding: 43,460
+  - Year: 1987, FKZ: FK00100 /A, Funding: 76,439
+  - Year: 1989, FKZ: FK00400 /A, Funding: 2,827
+  - Year: 1989, FKZ: FK01200 /A, Funding: 391
+  - Year: 1989, FKZ: FK01300 /A, Funding: 670
+
+Projects with start year after 2030: 15
+  - Year: 2031, FKZ: HDB2031A, Funding: 0
+  - Year: 2032, FKZ: HDB2032A, Funding: 0
+  - Year: 2033, FKZ: HDB2033A, Funding: 0
+  - Year: 2034, FKZ: HDB2034A, Funding: 0
+  - Year: 2035, FKZ: HDB2035A, Funding: 82,760,000
+
+======================================================================
+[2] RECIPIENT VERIFICATION: Ministerium für Kultur und Wissenschaft
+----------------------------------------------------------------------
+Found 3 projects for this recipient
+
+All projects for this recipient:
+  - Start: 01.04.2023, Year: 2023, Funding: 0 EUR
+    FKZ: KIHSBENW
+    Thema: Einnahmen aus Zuweisungen des Landes Nordrhein-Westfalen gem. § 6 der Bund-Lände...
+
+  - Start: 01.01.2021, Year: 2021, Funding: 1,727,667,356 EUR
+    FKZ: ZSLNW
+    Thema: Verwaltungsvereinbarung zwischen Bund und Ländern gemäß Artikel 91b Absatz 1 des...
+
+  - Start: 01.11.2021, Year: 2021, Funding: 555,177 EUR
+    FKZ: NAKO21NRW
+    Thema: NAKO Gesundheitsstudie - Abrechnung 1. Förderphase...
+
+
+Grouped by year:
+  Year 2021: 2 project(s), 1,728,222,533 EUR
+  Year 2023: 1 project(s), 0 EUR

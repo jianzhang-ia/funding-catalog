@@ -443,8 +443,8 @@ def analyze_keyword_trends(df, word_counts):
     """Analysis: Temporal funding trends for each top keyword (for drill-down feature)."""
     log("Analyzing keyword temporal trends...")
     
-    # Filter to valid years only
-    df_valid = df[df['StartYear'].notna() & (df['StartYear'] >= 1990) & (df['StartYear'] <= 2030)].copy()
+    # Filter to valid years only (include all historical and future projects)
+    df_valid = df[df['StartYear'].notna()].copy()
     
     result = {
         'keywords': {}
@@ -493,8 +493,8 @@ def analyze_entity_trends(df):
     """Generate temporal funding trends for states, cities, and recipients (for drill-down feature)."""
     log("Analyzing entity temporal trends (states, cities, recipients)...")
     
-    # Filter to valid years only
-    df_valid = df[df['StartYear'].notna() & (df['StartYear'] >= 1990) & (df['StartYear'] <= 2030)].copy()
+    # Filter to valid years only (include all historical and future projects)
+    df_valid = df[df['StartYear'].notna()].copy()
     
     result = {
         'states': {},

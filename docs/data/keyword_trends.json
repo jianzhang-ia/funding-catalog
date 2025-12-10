@@ -1,9 +1,119 @@
 {
   "keywords": {
     "Teilvorhaben": {
-      "total_funding": 32185955469.0,
-      "total_projects": 66223,
+      "total_funding": 33303509643.0,
+      "total_projects": 67893,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 4977726.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 361995.0,
+          "projects": 1
+        },
+        {
+          "year": 1970,
+          "funding": 363529.0,
+          "projects": 1
+        },
+        {
+          "year": 1971,
+          "funding": 220929.0,
+          "projects": 1
+        },
+        {
+          "year": 1972,
+          "funding": 214743.0,
+          "projects": 1
+        },
+        {
+          "year": 1973,
+          "funding": 1518022.0,
+          "projects": 3
+        },
+        {
+          "year": 1974,
+          "funding": 616428.0,
+          "projects": 2
+        },
+        {
+          "year": 1975,
+          "funding": 272071.0,
+          "projects": 2
+        },
+        {
+          "year": 1976,
+          "funding": 2882859.0,
+          "projects": 7
+        },
+        {
+          "year": 1977,
+          "funding": 14120347.0,
+          "projects": 7
+        },
+        {
+          "year": 1978,
+          "funding": 1937542.0,
+          "projects": 7
+        },
+        {
+          "year": 1979,
+          "funding": 12878234.0,
+          "projects": 5
+        },
+        {
+          "year": 1980,
+          "funding": 318697.0,
+          "projects": 2
+        },
+        {
+          "year": 1981,
+          "funding": 900733.0,
+          "projects": 3
+        },
+        {
+          "year": 1982,
+          "funding": 1654781.0,
+          "projects": 10
+        },
+        {
+          "year": 1983,
+          "funding": 9196985.0,
+          "projects": 20
+        },
+        {
+          "year": 1984,
+          "funding": 65013913.0,
+          "projects": 67
+        },
+        {
+          "year": 1985,
+          "funding": 142707509.0,
+          "projects": 184
+        },
+        {
+          "year": 1986,
+          "funding": 212480673.0,
+          "projects": 271
+        },
+        {
+          "year": 1987,
+          "funding": 239931013.0,
+          "projects": 362
+        },
+        {
+          "year": 1988,
+          "funding": 211562756.0,
+          "projects": 340
+        },
+        {
+          "year": 1989,
+          "funding": 193422689.0,
+          "projects": 373
+        },
         {
           "year": 1990,
           "funding": 275331275.0,
@@ -192,9 +302,39 @@
       ]
     },
     "Verbundvorhaben": {
-      "total_funding": 12954637286.0,
-      "total_projects": 27234,
+      "total_funding": 12965407087.0,
+      "total_projects": 27258,
       "yearly": [
+        {
+          "year": 1980,
+          "funding": 190692.0,
+          "projects": 2
+        },
+        {
+          "year": 1984,
+          "funding": 99448.0,
+          "projects": 1
+        },
+        {
+          "year": 1985,
+          "funding": 182970.0,
+          "projects": 2
+        },
+        {
+          "year": 1987,
+          "funding": 2049493.0,
+          "projects": 2
+        },
+        {
+          "year": 1988,
+          "funding": 4044418.0,
+          "projects": 11
+        },
+        {
+          "year": 1989,
+          "funding": 4202780.0,
+          "projects": 6
+        },
         {
           "year": 1990,
           "funding": 25743095.0,
@@ -383,9 +523,119 @@
       ]
     },
     "Eines": {
-      "total_funding": 11447640811.0,
-      "total_projects": 22840,
+      "total_funding": 14214191105.0,
+      "total_projects": 26957,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 6869492.0,
+          "projects": 8
+        },
+        {
+          "year": 1969,
+          "funding": 16960311.0,
+          "projects": 19
+        },
+        {
+          "year": 1970,
+          "funding": 15874689.0,
+          "projects": 17
+        },
+        {
+          "year": 1971,
+          "funding": 8501900.0,
+          "projects": 28
+        },
+        {
+          "year": 1972,
+          "funding": 30685140.0,
+          "projects": 95
+        },
+        {
+          "year": 1973,
+          "funding": 93336226.0,
+          "projects": 90
+        },
+        {
+          "year": 1974,
+          "funding": 107024401.0,
+          "projects": 149
+        },
+        {
+          "year": 1975,
+          "funding": 90826984.0,
+          "projects": 192
+        },
+        {
+          "year": 1976,
+          "funding": 132746389.0,
+          "projects": 176
+        },
+        {
+          "year": 1977,
+          "funding": 239491998.0,
+          "projects": 240
+        },
+        {
+          "year": 1978,
+          "funding": 278036192.0,
+          "projects": 334
+        },
+        {
+          "year": 1979,
+          "funding": 212622612.0,
+          "projects": 310
+        },
+        {
+          "year": 1980,
+          "funding": 125902587.0,
+          "projects": 217
+        },
+        {
+          "year": 1981,
+          "funding": 79425958.0,
+          "projects": 138
+        },
+        {
+          "year": 1982,
+          "funding": 235142110.0,
+          "projects": 385
+        },
+        {
+          "year": 1983,
+          "funding": 123711645.0,
+          "projects": 199
+        },
+        {
+          "year": 1984,
+          "funding": 206383887.0,
+          "projects": 428
+        },
+        {
+          "year": 1985,
+          "funding": 175656058.0,
+          "projects": 221
+        },
+        {
+          "year": 1986,
+          "funding": 128424318.0,
+          "projects": 239
+        },
+        {
+          "year": 1987,
+          "funding": 165042247.0,
+          "projects": 241
+        },
+        {
+          "year": 1988,
+          "funding": 147028201.0,
+          "projects": 224
+        },
+        {
+          "year": 1989,
+          "funding": 146856949.0,
+          "projects": 167
+        },
         {
           "year": 1990,
           "funding": 165804026.0,
@@ -574,9 +824,119 @@
       ]
     },
     "Optimierung": {
-      "total_funding": 3365545310.0,
-      "total_projects": 8324,
+      "total_funding": 3789605250.0,
+      "total_projects": 8959,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 267593.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 512109.0,
+          "projects": 4
+        },
+        {
+          "year": 1970,
+          "funding": 354536.0,
+          "projects": 2
+        },
+        {
+          "year": 1971,
+          "funding": 2776076.0,
+          "projects": 4
+        },
+        {
+          "year": 1972,
+          "funding": 4294937.0,
+          "projects": 9
+        },
+        {
+          "year": 1973,
+          "funding": 4674955.0,
+          "projects": 6
+        },
+        {
+          "year": 1974,
+          "funding": 7089016.0,
+          "projects": 16
+        },
+        {
+          "year": 1975,
+          "funding": 3267606.0,
+          "projects": 16
+        },
+        {
+          "year": 1976,
+          "funding": 8321486.0,
+          "projects": 26
+        },
+        {
+          "year": 1977,
+          "funding": 10087123.0,
+          "projects": 31
+        },
+        {
+          "year": 1978,
+          "funding": 74986048.0,
+          "projects": 42
+        },
+        {
+          "year": 1979,
+          "funding": 27743574.0,
+          "projects": 52
+        },
+        {
+          "year": 1980,
+          "funding": 12107273.0,
+          "projects": 36
+        },
+        {
+          "year": 1981,
+          "funding": 28918425.0,
+          "projects": 20
+        },
+        {
+          "year": 1982,
+          "funding": 20999860.0,
+          "projects": 48
+        },
+        {
+          "year": 1983,
+          "funding": 22995937.0,
+          "projects": 37
+        },
+        {
+          "year": 1984,
+          "funding": 10107512.0,
+          "projects": 42
+        },
+        {
+          "year": 1985,
+          "funding": 23012561.0,
+          "projects": 40
+        },
+        {
+          "year": 1986,
+          "funding": 41909876.0,
+          "projects": 58
+        },
+        {
+          "year": 1987,
+          "funding": 28313825.0,
+          "projects": 46
+        },
+        {
+          "year": 1988,
+          "funding": 51054291.0,
+          "projects": 53
+        },
+        {
+          "year": 1989,
+          "funding": 40265321.0,
+          "projects": 46
+        },
         {
           "year": 1990,
           "funding": 30030555.0,
@@ -765,9 +1125,119 @@
       ]
     },
     "Unter": {
-      "total_funding": 9757702080.0,
-      "total_projects": 23978,
+      "total_funding": 12579252505.0,
+      "total_projects": 30671,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 5619682.0,
+          "projects": 17
+        },
+        {
+          "year": 1969,
+          "funding": 20401426.0,
+          "projects": 37
+        },
+        {
+          "year": 1970,
+          "funding": 22364740.0,
+          "projects": 53
+        },
+        {
+          "year": 1971,
+          "funding": 74421043.0,
+          "projects": 147
+        },
+        {
+          "year": 1972,
+          "funding": 62299626.0,
+          "projects": 217
+        },
+        {
+          "year": 1973,
+          "funding": 49193748.0,
+          "projects": 206
+        },
+        {
+          "year": 1974,
+          "funding": 94831370.0,
+          "projects": 318
+        },
+        {
+          "year": 1975,
+          "funding": 89605588.0,
+          "projects": 279
+        },
+        {
+          "year": 1976,
+          "funding": 121383562.0,
+          "projects": 279
+        },
+        {
+          "year": 1977,
+          "funding": 226867068.0,
+          "projects": 475
+        },
+        {
+          "year": 1978,
+          "funding": 150658574.0,
+          "projects": 401
+        },
+        {
+          "year": 1979,
+          "funding": 251561292.0,
+          "projects": 472
+        },
+        {
+          "year": 1980,
+          "funding": 158057680.0,
+          "projects": 447
+        },
+        {
+          "year": 1981,
+          "funding": 88278472.0,
+          "projects": 185
+        },
+        {
+          "year": 1982,
+          "funding": 148439742.0,
+          "projects": 362
+        },
+        {
+          "year": 1983,
+          "funding": 152021108.0,
+          "projects": 374
+        },
+        {
+          "year": 1984,
+          "funding": 190681250.0,
+          "projects": 433
+        },
+        {
+          "year": 1985,
+          "funding": 160879686.0,
+          "projects": 333
+        },
+        {
+          "year": 1986,
+          "funding": 199419210.0,
+          "projects": 416
+        },
+        {
+          "year": 1987,
+          "funding": 151048601.0,
+          "projects": 373
+        },
+        {
+          "year": 1988,
+          "funding": 179466258.0,
+          "projects": 413
+        },
+        {
+          "year": 1989,
+          "funding": 224050699.0,
+          "projects": 456
+        },
         {
           "year": 1990,
           "funding": 167618408.0,
@@ -956,9 +1426,119 @@
       ]
     },
     "Untersuchung": {
-      "total_funding": 3842959991.0,
-      "total_projects": 9200,
+      "total_funding": 5464003366.0,
+      "total_projects": 13286,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 3351056.0,
+          "projects": 14
+        },
+        {
+          "year": 1969,
+          "funding": 11270612.0,
+          "projects": 27
+        },
+        {
+          "year": 1970,
+          "funding": 9801981.0,
+          "projects": 40
+        },
+        {
+          "year": 1971,
+          "funding": 52875099.0,
+          "projects": 114
+        },
+        {
+          "year": 1972,
+          "funding": 38247146.0,
+          "projects": 133
+        },
+        {
+          "year": 1973,
+          "funding": 24243491.0,
+          "projects": 105
+        },
+        {
+          "year": 1974,
+          "funding": 59870433.0,
+          "projects": 224
+        },
+        {
+          "year": 1975,
+          "funding": 49876042.0,
+          "projects": 183
+        },
+        {
+          "year": 1976,
+          "funding": 45223847.0,
+          "projects": 164
+        },
+        {
+          "year": 1977,
+          "funding": 111770702.0,
+          "projects": 328
+        },
+        {
+          "year": 1978,
+          "funding": 97775746.0,
+          "projects": 242
+        },
+        {
+          "year": 1979,
+          "funding": 129026678.0,
+          "projects": 287
+        },
+        {
+          "year": 1980,
+          "funding": 104889031.0,
+          "projects": 330
+        },
+        {
+          "year": 1981,
+          "funding": 45207807.0,
+          "projects": 107
+        },
+        {
+          "year": 1982,
+          "funding": 67299788.0,
+          "projects": 192
+        },
+        {
+          "year": 1983,
+          "funding": 108577290.0,
+          "projects": 257
+        },
+        {
+          "year": 1984,
+          "funding": 63687706.0,
+          "projects": 137
+        },
+        {
+          "year": 1985,
+          "funding": 99956697.0,
+          "projects": 200
+        },
+        {
+          "year": 1986,
+          "funding": 135104352.0,
+          "projects": 259
+        },
+        {
+          "year": 1987,
+          "funding": 95636979.0,
+          "projects": 246
+        },
+        {
+          "year": 1988,
+          "funding": 112103584.0,
+          "projects": 184
+        },
+        {
+          "year": 1989,
+          "funding": 155247308.0,
+          "projects": 313
+        },
         {
           "year": 1990,
           "funding": 95451211.0,
@@ -1147,9 +1727,119 @@
       ]
     },
     "Einsatz": {
-      "total_funding": 2601356461.0,
-      "total_projects": 6552,
+      "total_funding": 3184363392.0,
+      "total_projects": 7733,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 260677.0,
+          "projects": 2
+        },
+        {
+          "year": 1969,
+          "funding": 4894167.0,
+          "projects": 7
+        },
+        {
+          "year": 1970,
+          "funding": 4272195.0,
+          "projects": 7
+        },
+        {
+          "year": 1971,
+          "funding": 3809301.0,
+          "projects": 8
+        },
+        {
+          "year": 1972,
+          "funding": 3019935.0,
+          "projects": 20
+        },
+        {
+          "year": 1973,
+          "funding": 4456127.0,
+          "projects": 14
+        },
+        {
+          "year": 1974,
+          "funding": 16185505.0,
+          "projects": 36
+        },
+        {
+          "year": 1975,
+          "funding": 18643580.0,
+          "projects": 48
+        },
+        {
+          "year": 1976,
+          "funding": 35494871.0,
+          "projects": 42
+        },
+        {
+          "year": 1977,
+          "funding": 30938811.0,
+          "projects": 65
+        },
+        {
+          "year": 1978,
+          "funding": 23537062.0,
+          "projects": 75
+        },
+        {
+          "year": 1979,
+          "funding": 67336971.0,
+          "projects": 111
+        },
+        {
+          "year": 1980,
+          "funding": 31003930.0,
+          "projects": 60
+        },
+        {
+          "year": 1981,
+          "funding": 18208477.0,
+          "projects": 33
+        },
+        {
+          "year": 1982,
+          "funding": 51426378.0,
+          "projects": 104
+        },
+        {
+          "year": 1983,
+          "funding": 23609850.0,
+          "projects": 48
+        },
+        {
+          "year": 1984,
+          "funding": 50967436.0,
+          "projects": 147
+        },
+        {
+          "year": 1985,
+          "funding": 27477782.0,
+          "projects": 68
+        },
+        {
+          "year": 1986,
+          "funding": 46768997.0,
+          "projects": 83
+        },
+        {
+          "year": 1987,
+          "funding": 26187729.0,
+          "projects": 59
+        },
+        {
+          "year": 1988,
+          "funding": 63606168.0,
+          "projects": 83
+        },
+        {
+          "year": 1989,
+          "funding": 30900982.0,
+          "projects": 61
+        },
         {
           "year": 1990,
           "funding": 35355758.0,
@@ -1338,9 +2028,109 @@
       ]
     },
     "Integration": {
-      "total_funding": 3855315690.0,
-      "total_projects": 7454,
+      "total_funding": 4009013541.0,
+      "total_projects": 7816,
       "yearly": [
+        {
+          "year": 1969,
+          "funding": 377894.0,
+          "projects": 1
+        },
+        {
+          "year": 1971,
+          "funding": 7491738.0,
+          "projects": 10
+        },
+        {
+          "year": 1972,
+          "funding": 3063001.0,
+          "projects": 23
+        },
+        {
+          "year": 1973,
+          "funding": 5499337.0,
+          "projects": 17
+        },
+        {
+          "year": 1974,
+          "funding": 6651455.0,
+          "projects": 10
+        },
+        {
+          "year": 1975,
+          "funding": 9473353.0,
+          "projects": 20
+        },
+        {
+          "year": 1976,
+          "funding": 2106941.0,
+          "projects": 17
+        },
+        {
+          "year": 1977,
+          "funding": 13154901.0,
+          "projects": 12
+        },
+        {
+          "year": 1978,
+          "funding": 7827561.0,
+          "projects": 20
+        },
+        {
+          "year": 1979,
+          "funding": 5217309.0,
+          "projects": 13
+        },
+        {
+          "year": 1980,
+          "funding": 10891533.0,
+          "projects": 16
+        },
+        {
+          "year": 1981,
+          "funding": 1616134.0,
+          "projects": 6
+        },
+        {
+          "year": 1982,
+          "funding": 5743386.0,
+          "projects": 19
+        },
+        {
+          "year": 1983,
+          "funding": 19266996.0,
+          "projects": 31
+        },
+        {
+          "year": 1984,
+          "funding": 6978496.0,
+          "projects": 36
+        },
+        {
+          "year": 1985,
+          "funding": 15249888.0,
+          "projects": 20
+        },
+        {
+          "year": 1986,
+          "funding": 4184610.0,
+          "projects": 18
+        },
+        {
+          "year": 1987,
+          "funding": 7528076.0,
+          "projects": 12
+        },
+        {
+          "year": 1988,
+          "funding": 13523780.0,
+          "projects": 42
+        },
+        {
+          "year": 1989,
+          "funding": 7851462.0,
+          "projects": 19
+        },
         {
           "year": 1990,
           "funding": 12722848.0,
@@ -1529,9 +2319,119 @@
       ]
     },
     "Erprobung": {
-      "total_funding": 2082294820.0,
-      "total_projects": 4211,
+      "total_funding": 3505394064.0,
+      "total_projects": 5929,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 1557485.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 2760140.0,
+          "projects": 6
+        },
+        {
+          "year": 1970,
+          "funding": 16548728.0,
+          "projects": 3
+        },
+        {
+          "year": 1971,
+          "funding": 4335655.0,
+          "projects": 15
+        },
+        {
+          "year": 1972,
+          "funding": 22801601.0,
+          "projects": 51
+        },
+        {
+          "year": 1973,
+          "funding": 15109875.0,
+          "projects": 45
+        },
+        {
+          "year": 1974,
+          "funding": 35446293.0,
+          "projects": 53
+        },
+        {
+          "year": 1975,
+          "funding": 94569859.0,
+          "projects": 87
+        },
+        {
+          "year": 1976,
+          "funding": 44551507.0,
+          "projects": 86
+        },
+        {
+          "year": 1977,
+          "funding": 152144363.0,
+          "projects": 104
+        },
+        {
+          "year": 1978,
+          "funding": 77997559.0,
+          "projects": 142
+        },
+        {
+          "year": 1979,
+          "funding": 211024653.0,
+          "projects": 162
+        },
+        {
+          "year": 1980,
+          "funding": 59384809.0,
+          "projects": 83
+        },
+        {
+          "year": 1981,
+          "funding": 59465934.0,
+          "projects": 64
+        },
+        {
+          "year": 1982,
+          "funding": 135279951.0,
+          "projects": 94
+        },
+        {
+          "year": 1983,
+          "funding": 87111199.0,
+          "projects": 94
+        },
+        {
+          "year": 1984,
+          "funding": 69932244.0,
+          "projects": 102
+        },
+        {
+          "year": 1985,
+          "funding": 45629043.0,
+          "projects": 99
+        },
+        {
+          "year": 1986,
+          "funding": 98107210.0,
+          "projects": 128
+        },
+        {
+          "year": 1987,
+          "funding": 57091487.0,
+          "projects": 111
+        },
+        {
+          "year": 1988,
+          "funding": 69825229.0,
+          "projects": 74
+        },
+        {
+          "year": 1989,
+          "funding": 62424420.0,
+          "projects": 114
+        },
         {
           "year": 1990,
           "funding": 45902318.0,
@@ -1720,9 +2620,114 @@
       ]
     },
     "Mittels": {
-      "total_funding": 2696050294.0,
-      "total_projects": 6410,
+      "total_funding": 2912139468.0,
+      "total_projects": 6861,
       "yearly": [
+        {
+          "year": 1969,
+          "funding": 554956.0,
+          "projects": 1
+        },
+        {
+          "year": 1970,
+          "funding": 8228659.0,
+          "projects": 3
+        },
+        {
+          "year": 1971,
+          "funding": 790265.0,
+          "projects": 3
+        },
+        {
+          "year": 1972,
+          "funding": 5897998.0,
+          "projects": 10
+        },
+        {
+          "year": 1973,
+          "funding": 3334052.0,
+          "projects": 11
+        },
+        {
+          "year": 1974,
+          "funding": 1559683.0,
+          "projects": 12
+        },
+        {
+          "year": 1975,
+          "funding": 4193890.0,
+          "projects": 14
+        },
+        {
+          "year": 1976,
+          "funding": 4734175.0,
+          "projects": 17
+        },
+        {
+          "year": 1977,
+          "funding": 21827688.0,
+          "projects": 32
+        },
+        {
+          "year": 1978,
+          "funding": 7776163.0,
+          "projects": 20
+        },
+        {
+          "year": 1979,
+          "funding": 19073447.0,
+          "projects": 27
+        },
+        {
+          "year": 1980,
+          "funding": 13384597.0,
+          "projects": 42
+        },
+        {
+          "year": 1981,
+          "funding": 6278097.0,
+          "projects": 9
+        },
+        {
+          "year": 1982,
+          "funding": 11071831.0,
+          "projects": 23
+        },
+        {
+          "year": 1983,
+          "funding": 9850159.0,
+          "projects": 24
+        },
+        {
+          "year": 1984,
+          "funding": 12631286.0,
+          "projects": 30
+        },
+        {
+          "year": 1985,
+          "funding": 15809274.0,
+          "projects": 30
+        },
+        {
+          "year": 1986,
+          "funding": 16321671.0,
+          "projects": 43
+        },
+        {
+          "year": 1987,
+          "funding": 17381227.0,
+          "projects": 25
+        },
+        {
+          "year": 1988,
+          "funding": 15561855.0,
+          "projects": 28
+        },
+        {
+          "year": 1989,
+          "funding": 19828201.0,
+          "projects": 47
+        },
         {
           "year": 1990,
           "funding": 10438135.0,
@@ -1911,9 +2916,119 @@
       ]
     },
     "Untersuchungen": {
-      "total_funding": 1916894202.0,
-      "total_projects": 4599,
+      "total_funding": 2724855184.0,
+      "total_projects": 6667,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 2516033.0,
+          "projects": 12
+        },
+        {
+          "year": 1969,
+          "funding": 9045734.0,
+          "projects": 18
+        },
+        {
+          "year": 1970,
+          "funding": 4743627.0,
+          "projects": 23
+        },
+        {
+          "year": 1971,
+          "funding": 34968917.0,
+          "projects": 80
+        },
+        {
+          "year": 1972,
+          "funding": 23737932.0,
+          "projects": 69
+        },
+        {
+          "year": 1973,
+          "funding": 11683051.0,
+          "projects": 57
+        },
+        {
+          "year": 1974,
+          "funding": 29048217.0,
+          "projects": 116
+        },
+        {
+          "year": 1975,
+          "funding": 30716943.0,
+          "projects": 97
+        },
+        {
+          "year": 1976,
+          "funding": 16699030.0,
+          "projects": 79
+        },
+        {
+          "year": 1977,
+          "funding": 36321716.0,
+          "projects": 126
+        },
+        {
+          "year": 1978,
+          "funding": 49009554.0,
+          "projects": 109
+        },
+        {
+          "year": 1979,
+          "funding": 52652603.0,
+          "projects": 133
+        },
+        {
+          "year": 1980,
+          "funding": 35832527.0,
+          "projects": 128
+        },
+        {
+          "year": 1981,
+          "funding": 23584774.0,
+          "projects": 60
+        },
+        {
+          "year": 1982,
+          "funding": 35059013.0,
+          "projects": 95
+        },
+        {
+          "year": 1983,
+          "funding": 53591899.0,
+          "projects": 127
+        },
+        {
+          "year": 1984,
+          "funding": 33075402.0,
+          "projects": 71
+        },
+        {
+          "year": 1985,
+          "funding": 45781010.0,
+          "projects": 107
+        },
+        {
+          "year": 1986,
+          "funding": 68661189.0,
+          "projects": 134
+        },
+        {
+          "year": 1987,
+          "funding": 49587492.0,
+          "projects": 132
+        },
+        {
+          "year": 1988,
+          "funding": 59144193.0,
+          "projects": 108
+        },
+        {
+          "year": 1989,
+          "funding": 102500126.0,
+          "projects": 187
+        },
         {
           "year": 1990,
           "funding": 72786152.0,
@@ -2097,9 +3212,119 @@
       ]
     },
     "Herstellung": {
-      "total_funding": 3245924521.0,
-      "total_projects": 6554,
+      "total_funding": 3998770666.0,
+      "total_projects": 7502,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 91617384.0,
+          "projects": 3
+        },
+        {
+          "year": 1969,
+          "funding": 4034176.0,
+          "projects": 9
+        },
+        {
+          "year": 1970,
+          "funding": 1207087.0,
+          "projects": 7
+        },
+        {
+          "year": 1971,
+          "funding": 2884870.0,
+          "projects": 10
+        },
+        {
+          "year": 1972,
+          "funding": 6823395.0,
+          "projects": 16
+        },
+        {
+          "year": 1973,
+          "funding": 9336640.0,
+          "projects": 8
+        },
+        {
+          "year": 1974,
+          "funding": 14169228.0,
+          "projects": 26
+        },
+        {
+          "year": 1975,
+          "funding": 69389229.0,
+          "projects": 46
+        },
+        {
+          "year": 1976,
+          "funding": 15260560.0,
+          "projects": 32
+        },
+        {
+          "year": 1977,
+          "funding": 42090272.0,
+          "projects": 49
+        },
+        {
+          "year": 1978,
+          "funding": 34349381.0,
+          "projects": 70
+        },
+        {
+          "year": 1979,
+          "funding": 45908431.0,
+          "projects": 67
+        },
+        {
+          "year": 1980,
+          "funding": 18140318.0,
+          "projects": 58
+        },
+        {
+          "year": 1981,
+          "funding": 22729718.0,
+          "projects": 41
+        },
+        {
+          "year": 1982,
+          "funding": 31253295.0,
+          "projects": 54
+        },
+        {
+          "year": 1983,
+          "funding": 37260981.0,
+          "projects": 48
+        },
+        {
+          "year": 1984,
+          "funding": 38968823.0,
+          "projects": 57
+        },
+        {
+          "year": 1985,
+          "funding": 25928729.0,
+          "projects": 57
+        },
+        {
+          "year": 1986,
+          "funding": 85833834.0,
+          "projects": 85
+        },
+        {
+          "year": 1987,
+          "funding": 36377996.0,
+          "projects": 63
+        },
+        {
+          "year": 1988,
+          "funding": 54352252.0,
+          "projects": 71
+        },
+        {
+          "year": 1989,
+          "funding": 64929546.0,
+          "projects": 71
+        },
         {
           "year": 1990,
           "funding": 26689966.0,
@@ -2288,9 +3513,119 @@
       ]
     },
     "Analyse": {
-      "total_funding": 4656715591.0,
-      "total_projects": 11305,
+      "total_funding": 4982629613.0,
+      "total_projects": 12218,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 464867.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 1111191.0,
+          "projects": 5
+        },
+        {
+          "year": 1970,
+          "funding": 4311554.0,
+          "projects": 10
+        },
+        {
+          "year": 1971,
+          "funding": 14236531.0,
+          "projects": 18
+        },
+        {
+          "year": 1972,
+          "funding": 6987806.0,
+          "projects": 25
+        },
+        {
+          "year": 1973,
+          "funding": 8254978.0,
+          "projects": 30
+        },
+        {
+          "year": 1974,
+          "funding": 11341079.0,
+          "projects": 41
+        },
+        {
+          "year": 1975,
+          "funding": 11882400.0,
+          "projects": 45
+        },
+        {
+          "year": 1976,
+          "funding": 7790383.0,
+          "projects": 38
+        },
+        {
+          "year": 1977,
+          "funding": 15691670.0,
+          "projects": 54
+        },
+        {
+          "year": 1978,
+          "funding": 15118464.0,
+          "projects": 50
+        },
+        {
+          "year": 1979,
+          "funding": 17230308.0,
+          "projects": 61
+        },
+        {
+          "year": 1980,
+          "funding": 20911096.0,
+          "projects": 62
+        },
+        {
+          "year": 1981,
+          "funding": 9914456.0,
+          "projects": 26
+        },
+        {
+          "year": 1982,
+          "funding": 11206333.0,
+          "projects": 66
+        },
+        {
+          "year": 1983,
+          "funding": 12680520.0,
+          "projects": 49
+        },
+        {
+          "year": 1984,
+          "funding": 14721587.0,
+          "projects": 46
+        },
+        {
+          "year": 1985,
+          "funding": 32177190.0,
+          "projects": 68
+        },
+        {
+          "year": 1986,
+          "funding": 24383603.0,
+          "projects": 33
+        },
+        {
+          "year": 1987,
+          "funding": 25957776.0,
+          "projects": 72
+        },
+        {
+          "year": 1988,
+          "funding": 26216700.0,
+          "projects": 44
+        },
+        {
+          "year": 1989,
+          "funding": 33323530.0,
+          "projects": 69
+        },
         {
           "year": 1990,
           "funding": 35571552.0,
@@ -2479,9 +3814,119 @@
       ]
     },
     "Basis": {
-      "total_funding": 3047968614.0,
-      "total_projects": 6405,
+      "total_funding": 3471323237.0,
+      "total_projects": 7016,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 4977726.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 2801881.0,
+          "projects": 3
+        },
+        {
+          "year": 1970,
+          "funding": 287134.0,
+          "projects": 1
+        },
+        {
+          "year": 1971,
+          "funding": 4160433.0,
+          "projects": 3
+        },
+        {
+          "year": 1972,
+          "funding": 7824264.0,
+          "projects": 9
+        },
+        {
+          "year": 1973,
+          "funding": 11641915.0,
+          "projects": 7
+        },
+        {
+          "year": 1974,
+          "funding": 15414041.0,
+          "projects": 19
+        },
+        {
+          "year": 1975,
+          "funding": 5382230.0,
+          "projects": 17
+        },
+        {
+          "year": 1976,
+          "funding": 9121123.0,
+          "projects": 13
+        },
+        {
+          "year": 1977,
+          "funding": 37907466.0,
+          "projects": 27
+        },
+        {
+          "year": 1978,
+          "funding": 30712647.0,
+          "projects": 44
+        },
+        {
+          "year": 1979,
+          "funding": 15091450.0,
+          "projects": 30
+        },
+        {
+          "year": 1980,
+          "funding": 13522457.0,
+          "projects": 32
+        },
+        {
+          "year": 1981,
+          "funding": 13404778.0,
+          "projects": 19
+        },
+        {
+          "year": 1982,
+          "funding": 20941527.0,
+          "projects": 72
+        },
+        {
+          "year": 1983,
+          "funding": 53377033.0,
+          "projects": 41
+        },
+        {
+          "year": 1984,
+          "funding": 14017350.0,
+          "projects": 33
+        },
+        {
+          "year": 1985,
+          "funding": 56647964.0,
+          "projects": 60
+        },
+        {
+          "year": 1986,
+          "funding": 18754274.0,
+          "projects": 44
+        },
+        {
+          "year": 1987,
+          "funding": 40067778.0,
+          "projects": 56
+        },
+        {
+          "year": 1988,
+          "funding": 19553287.0,
+          "projects": 38
+        },
+        {
+          "year": 1989,
+          "funding": 27745865.0,
+          "projects": 42
+        },
         {
           "year": 1990,
           "funding": 25011433.0,
@@ -2670,9 +4115,94 @@
       ]
     },
     "Bewertung": {
-      "total_funding": 1702588379.0,
-      "total_projects": 4398,
+      "total_funding": 1769306472.0,
+      "total_projects": 4597,
       "yearly": [
+        {
+          "year": 1973,
+          "funding": 283350.0,
+          "projects": 3
+        },
+        {
+          "year": 1974,
+          "funding": 189477.0,
+          "projects": 3
+        },
+        {
+          "year": 1975,
+          "funding": 291135.0,
+          "projects": 2
+        },
+        {
+          "year": 1976,
+          "funding": 3180490.0,
+          "projects": 8
+        },
+        {
+          "year": 1977,
+          "funding": 1645000.0,
+          "projects": 8
+        },
+        {
+          "year": 1978,
+          "funding": 2917779.0,
+          "projects": 7
+        },
+        {
+          "year": 1979,
+          "funding": 2302409.0,
+          "projects": 14
+        },
+        {
+          "year": 1980,
+          "funding": 14514826.0,
+          "projects": 9
+        },
+        {
+          "year": 1981,
+          "funding": 4014056.0,
+          "projects": 13
+        },
+        {
+          "year": 1982,
+          "funding": 3546294.0,
+          "projects": 16
+        },
+        {
+          "year": 1983,
+          "funding": 2538495.0,
+          "projects": 14
+        },
+        {
+          "year": 1984,
+          "funding": 6548500.0,
+          "projects": 22
+        },
+        {
+          "year": 1985,
+          "funding": 2933238.0,
+          "projects": 15
+        },
+        {
+          "year": 1986,
+          "funding": 4422622.0,
+          "projects": 14
+        },
+        {
+          "year": 1987,
+          "funding": 5283925.0,
+          "projects": 20
+        },
+        {
+          "year": 1988,
+          "funding": 2116760.0,
+          "projects": 10
+        },
+        {
+          "year": 1989,
+          "funding": 9989737.0,
+          "projects": 21
+        },
         {
           "year": 1990,
           "funding": 12923938.0,
@@ -2861,9 +4391,109 @@
       ]
     },
     "Nutzung": {
-      "total_funding": 2472946440.0,
-      "total_projects": 6448,
+      "total_funding": 2775894196.0,
+      "total_projects": 6885,
       "yearly": [
+        {
+          "year": 1970,
+          "funding": 1112889.0,
+          "projects": 3
+        },
+        {
+          "year": 1971,
+          "funding": 5710938.0,
+          "projects": 14
+        },
+        {
+          "year": 1972,
+          "funding": 1615570.0,
+          "projects": 2
+        },
+        {
+          "year": 1973,
+          "funding": 487516.0,
+          "projects": 2
+        },
+        {
+          "year": 1974,
+          "funding": 12697160.0,
+          "projects": 12
+        },
+        {
+          "year": 1975,
+          "funding": 3944412.0,
+          "projects": 7
+        },
+        {
+          "year": 1976,
+          "funding": 5157466.0,
+          "projects": 18
+        },
+        {
+          "year": 1977,
+          "funding": 42319038.0,
+          "projects": 29
+        },
+        {
+          "year": 1978,
+          "funding": 30849474.0,
+          "projects": 29
+        },
+        {
+          "year": 1979,
+          "funding": 45378974.0,
+          "projects": 39
+        },
+        {
+          "year": 1980,
+          "funding": 9102110.0,
+          "projects": 17
+        },
+        {
+          "year": 1981,
+          "funding": 16270009.0,
+          "projects": 16
+        },
+        {
+          "year": 1982,
+          "funding": 16910339.0,
+          "projects": 31
+        },
+        {
+          "year": 1983,
+          "funding": 21011911.0,
+          "projects": 35
+        },
+        {
+          "year": 1984,
+          "funding": 13948429.0,
+          "projects": 26
+        },
+        {
+          "year": 1985,
+          "funding": 9100326.0,
+          "projects": 23
+        },
+        {
+          "year": 1986,
+          "funding": 29066331.0,
+          "projects": 45
+        },
+        {
+          "year": 1987,
+          "funding": 13509322.0,
+          "projects": 42
+        },
+        {
+          "year": 1988,
+          "funding": 7164360.0,
+          "projects": 13
+        },
+        {
+          "year": 1989,
+          "funding": 17591182.0,
+          "projects": 34
+        },
         {
           "year": 1990,
           "funding": 23795925.0,
@@ -3057,9 +4687,119 @@
       ]
     },
     "Betrieb": {
-      "total_funding": 4887158839.0,
-      "total_projects": 8097,
+      "total_funding": 7416896359.0,
+      "total_projects": 10460,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 32087452.0,
+          "projects": 6
+        },
+        {
+          "year": 1969,
+          "funding": 4145817.0,
+          "projects": 11
+        },
+        {
+          "year": 1970,
+          "funding": 39006538.0,
+          "projects": 8
+        },
+        {
+          "year": 1971,
+          "funding": 4830778.0,
+          "projects": 12
+        },
+        {
+          "year": 1972,
+          "funding": 21480433.0,
+          "projects": 28
+        },
+        {
+          "year": 1973,
+          "funding": 58280366.0,
+          "projects": 23
+        },
+        {
+          "year": 1974,
+          "funding": 58996715.0,
+          "projects": 79
+        },
+        {
+          "year": 1975,
+          "funding": 64113480.0,
+          "projects": 100
+        },
+        {
+          "year": 1976,
+          "funding": 96646106.0,
+          "projects": 101
+        },
+        {
+          "year": 1977,
+          "funding": 169548993.0,
+          "projects": 125
+        },
+        {
+          "year": 1978,
+          "funding": 210620971.0,
+          "projects": 172
+        },
+        {
+          "year": 1979,
+          "funding": 312856040.0,
+          "projects": 219
+        },
+        {
+          "year": 1980,
+          "funding": 171927882.0,
+          "projects": 154
+        },
+        {
+          "year": 1981,
+          "funding": 114744135.0,
+          "projects": 115
+        },
+        {
+          "year": 1982,
+          "funding": 198133000.0,
+          "projects": 172
+        },
+        {
+          "year": 1983,
+          "funding": 148274282.0,
+          "projects": 147
+        },
+        {
+          "year": 1984,
+          "funding": 161928325.0,
+          "projects": 186
+        },
+        {
+          "year": 1985,
+          "funding": 278634051.0,
+          "projects": 126
+        },
+        {
+          "year": 1986,
+          "funding": 64949599.0,
+          "projects": 99
+        },
+        {
+          "year": 1987,
+          "funding": 98598507.0,
+          "projects": 123
+        },
+        {
+          "year": 1988,
+          "funding": 61662978.0,
+          "projects": 212
+        },
+        {
+          "year": 1989,
+          "funding": 75511072.0,
+          "projects": 140
+        },
         {
           "year": 1990,
           "funding": 64879936.0,
@@ -3264,13 +5004,148 @@
           "year": 2030,
           "funding": 0.0,
           "projects": 1
+        },
+        {
+          "year": 2031,
+          "funding": 0.0,
+          "projects": 1
+        },
+        {
+          "year": 2032,
+          "funding": 0.0,
+          "projects": 1
+        },
+        {
+          "year": 2033,
+          "funding": 0.0,
+          "projects": 1
+        },
+        {
+          "year": 2034,
+          "funding": 0.0,
+          "projects": 1
+        },
+        {
+          "year": 2035,
+          "funding": 82760000.0,
+          "projects": 1
         }
       ]
     },
     "Anwendung": {
-      "total_funding": 5229812749.0,
-      "total_projects": 9825,
+      "total_funding": 6058319505.0,
+      "total_projects": 11024,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 2282670.0,
+          "projects": 4
+        },
+        {
+          "year": 1969,
+          "funding": 1106187.0,
+          "projects": 6
+        },
+        {
+          "year": 1970,
+          "funding": 3163933.0,
+          "projects": 9
+        },
+        {
+          "year": 1971,
+          "funding": 6030828.0,
+          "projects": 13
+        },
+        {
+          "year": 1972,
+          "funding": 33331846.0,
+          "projects": 34
+        },
+        {
+          "year": 1973,
+          "funding": 4376115.0,
+          "projects": 16
+        },
+        {
+          "year": 1974,
+          "funding": 15316783.0,
+          "projects": 44
+        },
+        {
+          "year": 1975,
+          "funding": 21603717.0,
+          "projects": 47
+        },
+        {
+          "year": 1976,
+          "funding": 28650718.0,
+          "projects": 62
+        },
+        {
+          "year": 1977,
+          "funding": 60076568.0,
+          "projects": 74
+        },
+        {
+          "year": 1978,
+          "funding": 29786640.0,
+          "projects": 73
+        },
+        {
+          "year": 1979,
+          "funding": 80181278.0,
+          "projects": 90
+        },
+        {
+          "year": 1980,
+          "funding": 39842513.0,
+          "projects": 58
+        },
+        {
+          "year": 1981,
+          "funding": 43136129.0,
+          "projects": 27
+        },
+        {
+          "year": 1982,
+          "funding": 28485261.0,
+          "projects": 75
+        },
+        {
+          "year": 1983,
+          "funding": 46844420.0,
+          "projects": 62
+        },
+        {
+          "year": 1984,
+          "funding": 90347080.0,
+          "projects": 142
+        },
+        {
+          "year": 1985,
+          "funding": 118384253.0,
+          "projects": 82
+        },
+        {
+          "year": 1986,
+          "funding": 66712186.0,
+          "projects": 85
+        },
+        {
+          "year": 1987,
+          "funding": 26006146.0,
+          "projects": 55
+        },
+        {
+          "year": 1988,
+          "funding": 52979345.0,
+          "projects": 76
+        },
+        {
+          "year": 1989,
+          "funding": 29862140.0,
+          "projects": 65
+        },
         {
           "year": 1990,
           "funding": 74572615.0,
@@ -3459,9 +5334,119 @@
       ]
     },
     "Methoden": {
-      "total_funding": 2371833085.0,
-      "total_projects": 5262,
+      "total_funding": 2656903325.0,
+      "total_projects": 5801,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 4977726.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 1469883.0,
+          "projects": 10
+        },
+        {
+          "year": 1970,
+          "funding": 14262808.0,
+          "projects": 10
+        },
+        {
+          "year": 1971,
+          "funding": 2408635.0,
+          "projects": 6
+        },
+        {
+          "year": 1972,
+          "funding": 1082401.0,
+          "projects": 12
+        },
+        {
+          "year": 1973,
+          "funding": 1384579.0,
+          "projects": 7
+        },
+        {
+          "year": 1974,
+          "funding": 7229324.0,
+          "projects": 23
+        },
+        {
+          "year": 1975,
+          "funding": 9060361.0,
+          "projects": 28
+        },
+        {
+          "year": 1976,
+          "funding": 16007868.0,
+          "projects": 28
+        },
+        {
+          "year": 1977,
+          "funding": 10721755.0,
+          "projects": 33
+        },
+        {
+          "year": 1978,
+          "funding": 18615311.0,
+          "projects": 42
+        },
+        {
+          "year": 1979,
+          "funding": 16903353.0,
+          "projects": 45
+        },
+        {
+          "year": 1980,
+          "funding": 13456524.0,
+          "projects": 36
+        },
+        {
+          "year": 1981,
+          "funding": 6047470.0,
+          "projects": 20
+        },
+        {
+          "year": 1982,
+          "funding": 16314168.0,
+          "projects": 30
+        },
+        {
+          "year": 1983,
+          "funding": 10835095.0,
+          "projects": 26
+        },
+        {
+          "year": 1984,
+          "funding": 9366554.0,
+          "projects": 16
+        },
+        {
+          "year": 1985,
+          "funding": 25159423.0,
+          "projects": 40
+        },
+        {
+          "year": 1986,
+          "funding": 38781203.0,
+          "projects": 38
+        },
+        {
+          "year": 1987,
+          "funding": 20474209.0,
+          "projects": 27
+        },
+        {
+          "year": 1988,
+          "funding": 23457373.0,
+          "projects": 27
+        },
+        {
+          "year": 1989,
+          "funding": 17054217.0,
+          "projects": 34
+        },
         {
           "year": 1990,
           "funding": 27517156.0,
@@ -3650,9 +5635,19 @@
       ]
     },
     "Eneff": {
-      "total_funding": 1308081212.0,
-      "total_projects": 3101,
+      "total_funding": 1309380536.0,
+      "total_projects": 3104,
       "yearly": [
+        {
+          "year": 1977,
+          "funding": 142139.0,
+          "projects": 1
+        },
+        {
+          "year": 1989,
+          "funding": 1157185.0,
+          "projects": 2
+        },
         {
           "year": 1990,
           "funding": 569835.0,
@@ -3811,9 +5806,114 @@
       ]
     },
     "Aufbau": {
-      "total_funding": 4563741340.0,
-      "total_projects": 5577,
+      "total_funding": 5085349706.0,
+      "total_projects": 6257,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 951345.0,
+          "projects": 2
+        },
+        {
+          "year": 1970,
+          "funding": 813981.0,
+          "projects": 1
+        },
+        {
+          "year": 1971,
+          "funding": 2178255.0,
+          "projects": 4
+        },
+        {
+          "year": 1972,
+          "funding": 10591767.0,
+          "projects": 13
+        },
+        {
+          "year": 1973,
+          "funding": 56394862.0,
+          "projects": 25
+        },
+        {
+          "year": 1974,
+          "funding": 18264869.0,
+          "projects": 38
+        },
+        {
+          "year": 1975,
+          "funding": 19089338.0,
+          "projects": 36
+        },
+        {
+          "year": 1976,
+          "funding": 18424830.0,
+          "projects": 30
+        },
+        {
+          "year": 1977,
+          "funding": 34525655.0,
+          "projects": 51
+        },
+        {
+          "year": 1978,
+          "funding": 14166727.0,
+          "projects": 42
+        },
+        {
+          "year": 1979,
+          "funding": 37335708.0,
+          "projects": 41
+        },
+        {
+          "year": 1980,
+          "funding": 16123645.0,
+          "projects": 20
+        },
+        {
+          "year": 1981,
+          "funding": 9898017.0,
+          "projects": 17
+        },
+        {
+          "year": 1982,
+          "funding": 29340298.0,
+          "projects": 24
+        },
+        {
+          "year": 1983,
+          "funding": 23146998.0,
+          "projects": 26
+        },
+        {
+          "year": 1984,
+          "funding": 40600254.0,
+          "projects": 94
+        },
+        {
+          "year": 1985,
+          "funding": 55434885.0,
+          "projects": 39
+        },
+        {
+          "year": 1986,
+          "funding": 24294887.0,
+          "projects": 51
+        },
+        {
+          "year": 1987,
+          "funding": 58887194.0,
+          "projects": 45
+        },
+        {
+          "year": 1988,
+          "funding": 27828470.0,
+          "projects": 40
+        },
+        {
+          "year": 1989,
+          "funding": 23316381.0,
+          "projects": 41
+        },
         {
           "year": 1990,
           "funding": 53075431.0,
@@ -4002,9 +6102,79 @@
       ]
     },
     "Offshore": {
-      "total_funding": 532161767.0,
-      "total_projects": 782,
+      "total_funding": 566513336.0,
+      "total_projects": 873,
       "yearly": [
+        {
+          "year": 1975,
+          "funding": 52808.0,
+          "projects": 1
+        },
+        {
+          "year": 1976,
+          "funding": 905378.0,
+          "projects": 2
+        },
+        {
+          "year": 1977,
+          "funding": 1939599.0,
+          "projects": 7
+        },
+        {
+          "year": 1978,
+          "funding": 6257606.0,
+          "projects": 14
+        },
+        {
+          "year": 1979,
+          "funding": 4573506.0,
+          "projects": 2
+        },
+        {
+          "year": 1980,
+          "funding": 2589338.0,
+          "projects": 7
+        },
+        {
+          "year": 1981,
+          "funding": 3117524.0,
+          "projects": 8
+        },
+        {
+          "year": 1982,
+          "funding": 1835297.0,
+          "projects": 8
+        },
+        {
+          "year": 1983,
+          "funding": 1049612.0,
+          "projects": 4
+        },
+        {
+          "year": 1984,
+          "funding": 461922.0,
+          "projects": 3
+        },
+        {
+          "year": 1985,
+          "funding": 622680.0,
+          "projects": 5
+        },
+        {
+          "year": 1986,
+          "funding": 1345899.0,
+          "projects": 4
+        },
+        {
+          "year": 1987,
+          "funding": 4110905.0,
+          "projects": 10
+        },
+        {
+          "year": 1988,
+          "funding": 5489495.0,
+          "projects": 16
+        },
         {
           "year": 1990,
           "funding": 831538.0,
@@ -4153,9 +6323,54 @@
       ]
     },
     "Exist": {
-      "total_funding": 498614453.0,
-      "total_projects": 975,
+      "total_funding": 500496601.0,
+      "total_projects": 986,
       "yearly": [
+        {
+          "year": 1973,
+          "funding": 46331.0,
+          "projects": 1
+        },
+        {
+          "year": 1975,
+          "funding": 210.0,
+          "projects": 1
+        },
+        {
+          "year": 1976,
+          "funding": 74175.0,
+          "projects": 2
+        },
+        {
+          "year": 1979,
+          "funding": 969181.0,
+          "projects": 1
+        },
+        {
+          "year": 1980,
+          "funding": 129366.0,
+          "projects": 2
+        },
+        {
+          "year": 1982,
+          "funding": 55779.0,
+          "projects": 1
+        },
+        {
+          "year": 1983,
+          "funding": 70520.0,
+          "projects": 1
+        },
+        {
+          "year": 1984,
+          "funding": 332069.0,
+          "projects": 1
+        },
+        {
+          "year": 1985,
+          "funding": 204517.0,
+          "projects": 1
+        },
         {
           "year": 1990,
           "funding": 1105526.0,
@@ -4329,9 +6544,109 @@
       ]
     },
     "Wärme": {
-      "total_funding": 1718582989.0,
-      "total_projects": 4971,
+      "total_funding": 2298623665.0,
+      "total_projects": 5593,
       "yearly": [
+        {
+          "year": 1970,
+          "funding": 1317862.0,
+          "projects": 5
+        },
+        {
+          "year": 1971,
+          "funding": 3903457.0,
+          "projects": 3
+        },
+        {
+          "year": 1972,
+          "funding": 10992056.0,
+          "projects": 5
+        },
+        {
+          "year": 1973,
+          "funding": 3096432.0,
+          "projects": 7
+        },
+        {
+          "year": 1974,
+          "funding": 6262641.0,
+          "projects": 9
+        },
+        {
+          "year": 1975,
+          "funding": 83659641.0,
+          "projects": 28
+        },
+        {
+          "year": 1976,
+          "funding": 9446298.0,
+          "projects": 22
+        },
+        {
+          "year": 1977,
+          "funding": 44010193.0,
+          "projects": 41
+        },
+        {
+          "year": 1978,
+          "funding": 89503770.0,
+          "projects": 61
+        },
+        {
+          "year": 1979,
+          "funding": 56115291.0,
+          "projects": 71
+        },
+        {
+          "year": 1980,
+          "funding": 47213520.0,
+          "projects": 44
+        },
+        {
+          "year": 1981,
+          "funding": 20399258.0,
+          "projects": 13
+        },
+        {
+          "year": 1982,
+          "funding": 71267828.0,
+          "projects": 72
+        },
+        {
+          "year": 1983,
+          "funding": 32585545.0,
+          "projects": 48
+        },
+        {
+          "year": 1984,
+          "funding": 17881809.0,
+          "projects": 38
+        },
+        {
+          "year": 1985,
+          "funding": 11980564.0,
+          "projects": 31
+        },
+        {
+          "year": 1986,
+          "funding": 10387502.0,
+          "projects": 26
+        },
+        {
+          "year": 1987,
+          "funding": 9253240.0,
+          "projects": 23
+        },
+        {
+          "year": 1988,
+          "funding": 31664518.0,
+          "projects": 36
+        },
+        {
+          "year": 1989,
+          "funding": 19099251.0,
+          "projects": 39
+        },
         {
           "year": 1990,
           "funding": 12901428.0,
@@ -4611,9 +6926,114 @@
       ]
     },
     "Simulation": {
-      "total_funding": 1964057253.0,
-      "total_projects": 4727,
+      "total_funding": 2070559688.0,
+      "total_projects": 4917,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 459242.0,
+          "projects": 1
+        },
+        {
+          "year": 1970,
+          "funding": 1161040.0,
+          "projects": 2
+        },
+        {
+          "year": 1971,
+          "funding": 982159.0,
+          "projects": 4
+        },
+        {
+          "year": 1972,
+          "funding": 1187607.0,
+          "projects": 8
+        },
+        {
+          "year": 1973,
+          "funding": 471889.0,
+          "projects": 6
+        },
+        {
+          "year": 1974,
+          "funding": 1054800.0,
+          "projects": 9
+        },
+        {
+          "year": 1975,
+          "funding": 1719533.0,
+          "projects": 13
+        },
+        {
+          "year": 1976,
+          "funding": 26936007.0,
+          "projects": 7
+        },
+        {
+          "year": 1977,
+          "funding": 808136.0,
+          "projects": 7
+        },
+        {
+          "year": 1978,
+          "funding": 8109208.0,
+          "projects": 13
+        },
+        {
+          "year": 1979,
+          "funding": 1343670.0,
+          "projects": 10
+        },
+        {
+          "year": 1980,
+          "funding": 2452569.0,
+          "projects": 8
+        },
+        {
+          "year": 1981,
+          "funding": 3445259.0,
+          "projects": 5
+        },
+        {
+          "year": 1982,
+          "funding": 3751291.0,
+          "projects": 12
+        },
+        {
+          "year": 1983,
+          "funding": 4325416.0,
+          "projects": 8
+        },
+        {
+          "year": 1984,
+          "funding": 11578288.0,
+          "projects": 14
+        },
+        {
+          "year": 1985,
+          "funding": 11284750.0,
+          "projects": 12
+        },
+        {
+          "year": 1986,
+          "funding": 2417518.0,
+          "projects": 7
+        },
+        {
+          "year": 1987,
+          "funding": 4903684.0,
+          "projects": 9
+        },
+        {
+          "year": 1988,
+          "funding": 13208238.0,
+          "projects": 22
+        },
+        {
+          "year": 1989,
+          "funding": 4902131.0,
+          "projects": 13
+        },
         {
           "year": 1990,
           "funding": 16947299.0,
@@ -4802,9 +7222,49 @@
       ]
     },
     "Innovative": {
-      "total_funding": 4093909786.0,
-      "total_projects": 7355,
+      "total_funding": 4135018495.0,
+      "total_projects": 7383,
       "yearly": [
+        {
+          "year": 1973,
+          "funding": 516022.0,
+          "projects": 2
+        },
+        {
+          "year": 1979,
+          "funding": 261444.0,
+          "projects": 1
+        },
+        {
+          "year": 1984,
+          "funding": 195479.0,
+          "projects": 1
+        },
+        {
+          "year": 1985,
+          "funding": 4142801.0,
+          "projects": 2
+        },
+        {
+          "year": 1986,
+          "funding": 6466912.0,
+          "projects": 3
+        },
+        {
+          "year": 1987,
+          "funding": 16263146.0,
+          "projects": 11
+        },
+        {
+          "year": 1988,
+          "funding": 787609.0,
+          "projects": 4
+        },
+        {
+          "year": 1989,
+          "funding": 12475296.0,
+          "projects": 4
+        },
         {
           "year": 1990,
           "funding": 3135803.0,
@@ -4998,9 +7458,109 @@
       ]
     },
     "Anwendungen": {
-      "total_funding": 2747486286.0,
-      "total_projects": 4682,
+      "total_funding": 2958624865.0,
+      "total_projects": 4902,
       "yearly": [
+        {
+          "year": 1970,
+          "funding": 792298.0,
+          "projects": 2
+        },
+        {
+          "year": 1971,
+          "funding": 883269.0,
+          "projects": 3
+        },
+        {
+          "year": 1972,
+          "funding": 714108.0,
+          "projects": 2
+        },
+        {
+          "year": 1973,
+          "funding": 511548.0,
+          "projects": 1
+        },
+        {
+          "year": 1974,
+          "funding": 1322201.0,
+          "projects": 2
+        },
+        {
+          "year": 1975,
+          "funding": 1137209.0,
+          "projects": 7
+        },
+        {
+          "year": 1976,
+          "funding": 1805005.0,
+          "projects": 11
+        },
+        {
+          "year": 1977,
+          "funding": 4361376.0,
+          "projects": 6
+        },
+        {
+          "year": 1978,
+          "funding": 1484637.0,
+          "projects": 9
+        },
+        {
+          "year": 1979,
+          "funding": 8953215.0,
+          "projects": 13
+        },
+        {
+          "year": 1980,
+          "funding": 2420408.0,
+          "projects": 5
+        },
+        {
+          "year": 1981,
+          "funding": 523216.0,
+          "projects": 2
+        },
+        {
+          "year": 1982,
+          "funding": 1913095.0,
+          "projects": 9
+        },
+        {
+          "year": 1983,
+          "funding": 11289049.0,
+          "projects": 19
+        },
+        {
+          "year": 1984,
+          "funding": 42202810.0,
+          "projects": 22
+        },
+        {
+          "year": 1985,
+          "funding": 82941203.0,
+          "projects": 25
+        },
+        {
+          "year": 1986,
+          "funding": 18807388.0,
+          "projects": 19
+        },
+        {
+          "year": 1987,
+          "funding": 12310326.0,
+          "projects": 15
+        },
+        {
+          "year": 1988,
+          "funding": 6193749.0,
+          "projects": 22
+        },
+        {
+          "year": 1989,
+          "funding": 10572469.0,
+          "projects": 26
+        },
         {
           "year": 1990,
           "funding": 41006517.0,
@@ -5189,9 +7749,79 @@
       ]
     },
     "Validierung": {
-      "total_funding": 1511754122.0,
-      "total_projects": 3030,
+      "total_funding": 1523936073.0,
+      "total_projects": 3065,
       "yearly": [
+        {
+          "year": 1975,
+          "funding": 1010628.0,
+          "projects": 4
+        },
+        {
+          "year": 1977,
+          "funding": 233512.0,
+          "projects": 1
+        },
+        {
+          "year": 1978,
+          "funding": 188003.0,
+          "projects": 1
+        },
+        {
+          "year": 1979,
+          "funding": 1643260.0,
+          "projects": 5
+        },
+        {
+          "year": 1980,
+          "funding": 113214.0,
+          "projects": 2
+        },
+        {
+          "year": 1981,
+          "funding": 1077259.0,
+          "projects": 2
+        },
+        {
+          "year": 1982,
+          "funding": 676333.0,
+          "projects": 3
+        },
+        {
+          "year": 1983,
+          "funding": 568179.0,
+          "projects": 1
+        },
+        {
+          "year": 1984,
+          "funding": 1064401.0,
+          "projects": 3
+        },
+        {
+          "year": 1985,
+          "funding": 1114945.0,
+          "projects": 3
+        },
+        {
+          "year": 1986,
+          "funding": 2455917.0,
+          "projects": 3
+        },
+        {
+          "year": 1987,
+          "funding": 256400.0,
+          "projects": 1
+        },
+        {
+          "year": 1988,
+          "funding": 705962.0,
+          "projects": 3
+        },
+        {
+          "year": 1989,
+          "funding": 1073938.0,
+          "projects": 3
+        },
         {
           "year": 1990,
           "funding": 1075086.0,
@@ -5380,9 +8010,59 @@
       ]
     },
     "Modellierung": {
-      "total_funding": 1682308065.0,
-      "total_projects": 3671,
+      "total_funding": 1724364533.0,
+      "total_projects": 3716,
       "yearly": [
+        {
+          "year": 1976,
+          "funding": 300557.0,
+          "projects": 2
+        },
+        {
+          "year": 1977,
+          "funding": 35995.0,
+          "projects": 1
+        },
+        {
+          "year": 1981,
+          "funding": 2111952.0,
+          "projects": 4
+        },
+        {
+          "year": 1982,
+          "funding": 946966.0,
+          "projects": 3
+        },
+        {
+          "year": 1983,
+          "funding": 1320154.0,
+          "projects": 7
+        },
+        {
+          "year": 1984,
+          "funding": 24986303.0,
+          "projects": 7
+        },
+        {
+          "year": 1985,
+          "funding": 218023.0,
+          "projects": 1
+        },
+        {
+          "year": 1986,
+          "funding": 3136737.0,
+          "projects": 4
+        },
+        {
+          "year": 1987,
+          "funding": 685463.0,
+          "projects": 2
+        },
+        {
+          "year": 1989,
+          "funding": 8314318.0,
+          "projects": 14
+        },
         {
           "year": 1990,
           "funding": 15731311.0,
@@ -5571,9 +8251,119 @@
       ]
     },
     "Verfahren": {
-      "total_funding": 4305389238.0,
-      "total_projects": 10152,
+      "total_funding": 5920521343.0,
+      "total_projects": 12306,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 2853705.0,
+          "projects": 3
+        },
+        {
+          "year": 1969,
+          "funding": 9726606.0,
+          "projects": 9
+        },
+        {
+          "year": 1970,
+          "funding": 4326178.0,
+          "projects": 13
+        },
+        {
+          "year": 1971,
+          "funding": 12757254.0,
+          "projects": 24
+        },
+        {
+          "year": 1972,
+          "funding": 44753587.0,
+          "projects": 52
+        },
+        {
+          "year": 1973,
+          "funding": 21066164.0,
+          "projects": 39
+        },
+        {
+          "year": 1974,
+          "funding": 40833837.0,
+          "projects": 65
+        },
+        {
+          "year": 1975,
+          "funding": 42826202.0,
+          "projects": 87
+        },
+        {
+          "year": 1976,
+          "funding": 37955052.0,
+          "projects": 90
+        },
+        {
+          "year": 1977,
+          "funding": 102900217.0,
+          "projects": 121
+        },
+        {
+          "year": 1978,
+          "funding": 163391439.0,
+          "projects": 182
+        },
+        {
+          "year": 1979,
+          "funding": 125277798.0,
+          "projects": 163
+        },
+        {
+          "year": 1980,
+          "funding": 80276348.0,
+          "projects": 132
+        },
+        {
+          "year": 1981,
+          "funding": 56972133.0,
+          "projects": 75
+        },
+        {
+          "year": 1982,
+          "funding": 151312047.0,
+          "projects": 174
+        },
+        {
+          "year": 1983,
+          "funding": 84002019.0,
+          "projects": 113
+        },
+        {
+          "year": 1984,
+          "funding": 93527110.0,
+          "projects": 114
+        },
+        {
+          "year": 1985,
+          "funding": 114669433.0,
+          "projects": 136
+        },
+        {
+          "year": 1986,
+          "funding": 105742353.0,
+          "projects": 142
+        },
+        {
+          "year": 1987,
+          "funding": 94779739.0,
+          "projects": 125
+        },
+        {
+          "year": 1988,
+          "funding": 133085575.0,
+          "projects": 157
+        },
+        {
+          "year": 1989,
+          "funding": 92097309.0,
+          "projects": 138
+        },
         {
           "year": 1990,
           "funding": 82686235.0,
@@ -5762,9 +8552,114 @@
       ]
     },
     "Weiterentwicklung": {
-      "total_funding": 1012658516.0,
-      "total_projects": 1900,
+      "total_funding": 1535896653.0,
+      "total_projects": 2330,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 4312748.0,
+          "projects": 6
+        },
+        {
+          "year": 1970,
+          "funding": 4173254.0,
+          "projects": 5
+        },
+        {
+          "year": 1971,
+          "funding": 8378839.0,
+          "projects": 7
+        },
+        {
+          "year": 1972,
+          "funding": 7061964.0,
+          "projects": 10
+        },
+        {
+          "year": 1973,
+          "funding": 3420372.0,
+          "projects": 4
+        },
+        {
+          "year": 1974,
+          "funding": 37018603.0,
+          "projects": 11
+        },
+        {
+          "year": 1975,
+          "funding": 14331632.0,
+          "projects": 23
+        },
+        {
+          "year": 1976,
+          "funding": 23707764.0,
+          "projects": 27
+        },
+        {
+          "year": 1977,
+          "funding": 21256447.0,
+          "projects": 30
+        },
+        {
+          "year": 1978,
+          "funding": 24146701.0,
+          "projects": 33
+        },
+        {
+          "year": 1979,
+          "funding": 90489215.0,
+          "projects": 35
+        },
+        {
+          "year": 1980,
+          "funding": 43429576.0,
+          "projects": 34
+        },
+        {
+          "year": 1981,
+          "funding": 23811414.0,
+          "projects": 24
+        },
+        {
+          "year": 1982,
+          "funding": 27631888.0,
+          "projects": 35
+        },
+        {
+          "year": 1983,
+          "funding": 81118710.0,
+          "projects": 25
+        },
+        {
+          "year": 1984,
+          "funding": 17247276.0,
+          "projects": 17
+        },
+        {
+          "year": 1985,
+          "funding": 5416458.0,
+          "projects": 17
+        },
+        {
+          "year": 1986,
+          "funding": 23121589.0,
+          "projects": 33
+        },
+        {
+          "year": 1987,
+          "funding": 21153955.0,
+          "projects": 18
+        },
+        {
+          "year": 1988,
+          "funding": 18493570.0,
+          "projects": 19
+        },
+        {
+          "year": 1989,
+          "funding": 23516162.0,
+          "projects": 17
+        },
         {
           "year": 1990,
           "funding": 11196386.0,
@@ -5953,9 +8848,104 @@
       ]
     },
     "Umsetzung": {
-      "total_funding": 2197607269.0,
-      "total_projects": 5328,
+      "total_funding": 2289966261.0,
+      "total_projects": 5479,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 459242.0,
+          "projects": 1
+        },
+        {
+          "year": 1972,
+          "funding": 45200.0,
+          "projects": 1
+        },
+        {
+          "year": 1973,
+          "funding": 336583.0,
+          "projects": 1
+        },
+        {
+          "year": 1974,
+          "funding": 95100.0,
+          "projects": 1
+        },
+        {
+          "year": 1975,
+          "funding": 525307.0,
+          "projects": 3
+        },
+        {
+          "year": 1976,
+          "funding": 162668.0,
+          "projects": 3
+        },
+        {
+          "year": 1977,
+          "funding": 2720017.0,
+          "projects": 4
+        },
+        {
+          "year": 1978,
+          "funding": 5580516.0,
+          "projects": 9
+        },
+        {
+          "year": 1979,
+          "funding": 4427394.0,
+          "projects": 7
+        },
+        {
+          "year": 1980,
+          "funding": 798600.0,
+          "projects": 3
+        },
+        {
+          "year": 1981,
+          "funding": 2232561.0,
+          "projects": 5
+        },
+        {
+          "year": 1982,
+          "funding": 6811976.0,
+          "projects": 13
+        },
+        {
+          "year": 1983,
+          "funding": 6439696.0,
+          "projects": 10
+        },
+        {
+          "year": 1984,
+          "funding": 11565900.0,
+          "projects": 18
+        },
+        {
+          "year": 1985,
+          "funding": 11378257.0,
+          "projects": 11
+        },
+        {
+          "year": 1986,
+          "funding": 8402180.0,
+          "projects": 15
+        },
+        {
+          "year": 1987,
+          "funding": 26368578.0,
+          "projects": 31
+        },
+        {
+          "year": 1988,
+          "funding": 2207766.0,
+          "projects": 7
+        },
+        {
+          "year": 1989,
+          "funding": 1801451.0,
+          "projects": 8
+        },
         {
           "year": 1990,
           "funding": 17882805.0,
@@ -6144,9 +9134,119 @@
       ]
     },
     "Fertigung": {
-      "total_funding": 2975816230.0,
-      "total_projects": 5526,
+      "total_funding": 3421114885.0,
+      "total_projects": 6712,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 2721864.0,
+          "projects": 3
+        },
+        {
+          "year": 1969,
+          "funding": 2908822.0,
+          "projects": 2
+        },
+        {
+          "year": 1970,
+          "funding": 10456236.0,
+          "projects": 7
+        },
+        {
+          "year": 1971,
+          "funding": 15770543.0,
+          "projects": 10
+        },
+        {
+          "year": 1972,
+          "funding": 22565781.0,
+          "projects": 14
+        },
+        {
+          "year": 1973,
+          "funding": 3146981.0,
+          "projects": 13
+        },
+        {
+          "year": 1974,
+          "funding": 5830614.0,
+          "projects": 19
+        },
+        {
+          "year": 1975,
+          "funding": 20218778.0,
+          "projects": 45
+        },
+        {
+          "year": 1976,
+          "funding": 23654913.0,
+          "projects": 38
+        },
+        {
+          "year": 1977,
+          "funding": 13429245.0,
+          "projects": 41
+        },
+        {
+          "year": 1978,
+          "funding": 25610630.0,
+          "projects": 45
+        },
+        {
+          "year": 1979,
+          "funding": 33353897.0,
+          "projects": 69
+        },
+        {
+          "year": 1980,
+          "funding": 19937273.0,
+          "projects": 37
+        },
+        {
+          "year": 1981,
+          "funding": 11219196.0,
+          "projects": 20
+        },
+        {
+          "year": 1982,
+          "funding": 21621464.0,
+          "projects": 61
+        },
+        {
+          "year": 1983,
+          "funding": 19215004.0,
+          "projects": 31
+        },
+        {
+          "year": 1984,
+          "funding": 43864940.0,
+          "projects": 266
+        },
+        {
+          "year": 1985,
+          "funding": 17203798.0,
+          "projects": 36
+        },
+        {
+          "year": 1986,
+          "funding": 41493648.0,
+          "projects": 51
+        },
+        {
+          "year": 1987,
+          "funding": 37263905.0,
+          "projects": 58
+        },
+        {
+          "year": 1988,
+          "funding": 31531706.0,
+          "projects": 222
+        },
+        {
+          "year": 1989,
+          "funding": 22279417.0,
+          "projects": 98
+        },
         {
           "year": 1990,
           "funding": 24175779.0,
@@ -6335,9 +9435,14 @@
       ]
     },
     "Smart": {
-      "total_funding": 1632539478.0,
-      "total_projects": 3825,
+      "total_funding": 1633528718.0,
+      "total_projects": 3828,
       "yearly": [
+        {
+          "year": 1989,
+          "funding": 989240.0,
+          "projects": 3
+        },
         {
           "year": 1990,
           "funding": 736049.0,
@@ -6521,9 +9626,114 @@
       ]
     },
     "Komponenten": {
-      "total_funding": 2463200744.0,
-      "total_projects": 4290,
+      "total_funding": 2988003511.0,
+      "total_projects": 4777,
       "yearly": [
+        {
+          "year": 1969,
+          "funding": 535340.0,
+          "projects": 1
+        },
+        {
+          "year": 1970,
+          "funding": 400904.0,
+          "projects": 1
+        },
+        {
+          "year": 1971,
+          "funding": 4245297.0,
+          "projects": 4
+        },
+        {
+          "year": 1972,
+          "funding": 15842636.0,
+          "projects": 6
+        },
+        {
+          "year": 1973,
+          "funding": 5244448.0,
+          "projects": 7
+        },
+        {
+          "year": 1974,
+          "funding": 15576110.0,
+          "projects": 10
+        },
+        {
+          "year": 1975,
+          "funding": 31978590.0,
+          "projects": 21
+        },
+        {
+          "year": 1976,
+          "funding": 32119766.0,
+          "projects": 25
+        },
+        {
+          "year": 1977,
+          "funding": 52739001.0,
+          "projects": 30
+        },
+        {
+          "year": 1978,
+          "funding": 40628613.0,
+          "projects": 28
+        },
+        {
+          "year": 1979,
+          "funding": 13791477.0,
+          "projects": 15
+        },
+        {
+          "year": 1980,
+          "funding": 22688634.0,
+          "projects": 24
+        },
+        {
+          "year": 1981,
+          "funding": 12102608.0,
+          "projects": 10
+        },
+        {
+          "year": 1982,
+          "funding": 20376830.0,
+          "projects": 29
+        },
+        {
+          "year": 1983,
+          "funding": 33850750.0,
+          "projects": 22
+        },
+        {
+          "year": 1984,
+          "funding": 19189397.0,
+          "projects": 36
+        },
+        {
+          "year": 1985,
+          "funding": 66016734.0,
+          "projects": 46
+        },
+        {
+          "year": 1986,
+          "funding": 52234282.0,
+          "projects": 48
+        },
+        {
+          "year": 1987,
+          "funding": 27745930.0,
+          "projects": 23
+        },
+        {
+          "year": 1988,
+          "funding": 31305108.0,
+          "projects": 60
+        },
+        {
+          "year": 1989,
+          "funding": 26190312.0,
+          "projects": 41
+        },
         {
           "year": 1990,
           "funding": 25569806.0,
@@ -6712,9 +9922,119 @@
       ]
     },
     "System": {
-      "total_funding": 19288035473.0,
-      "total_projects": 36754,
+      "total_funding": 22333022007.0,
+      "total_projects": 42093,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 31670060.0,
+          "projects": 18
+        },
+        {
+          "year": 1969,
+          "funding": 31759572.0,
+          "projects": 37
+        },
+        {
+          "year": 1970,
+          "funding": 72408907.0,
+          "projects": 44
+        },
+        {
+          "year": 1971,
+          "funding": 48771359.0,
+          "projects": 69
+        },
+        {
+          "year": 1972,
+          "funding": 101518862.0,
+          "projects": 155
+        },
+        {
+          "year": 1973,
+          "funding": 107157641.0,
+          "projects": 92
+        },
+        {
+          "year": 1974,
+          "funding": 130059213.0,
+          "projects": 195
+        },
+        {
+          "year": 1975,
+          "funding": 169119365.0,
+          "projects": 262
+        },
+        {
+          "year": 1976,
+          "funding": 244240239.0,
+          "projects": 215
+        },
+        {
+          "year": 1977,
+          "funding": 194267651.0,
+          "projects": 290
+        },
+        {
+          "year": 1978,
+          "funding": 165364880.0,
+          "projects": 318
+        },
+        {
+          "year": 1979,
+          "funding": 228359025.0,
+          "projects": 323
+        },
+        {
+          "year": 1980,
+          "funding": 100352174.0,
+          "projects": 205
+        },
+        {
+          "year": 1981,
+          "funding": 84527184.0,
+          "projects": 138
+        },
+        {
+          "year": 1982,
+          "funding": 168899571.0,
+          "projects": 604
+        },
+        {
+          "year": 1983,
+          "funding": 151552687.0,
+          "projects": 279
+        },
+        {
+          "year": 1984,
+          "funding": 203060435.0,
+          "projects": 581
+        },
+        {
+          "year": 1985,
+          "funding": 169480836.0,
+          "projects": 284
+        },
+        {
+          "year": 1986,
+          "funding": 122750520.0,
+          "projects": 240
+        },
+        {
+          "year": 1987,
+          "funding": 139273125.0,
+          "projects": 234
+        },
+        {
+          "year": 1988,
+          "funding": 200965051.0,
+          "projects": 455
+        },
+        {
+          "year": 1989,
+          "funding": 179428177.0,
+          "projects": 301
+        },
         {
           "year": 1990,
           "funding": 188904498.0,
@@ -6903,9 +10223,39 @@
       ]
     },
     "Monitoring": {
-      "total_funding": 1144841872.0,
-      "total_projects": 2881,
+      "total_funding": 1157110884.0,
+      "total_projects": 2897,
       "yearly": [
+        {
+          "year": 1979,
+          "funding": 1272567.0,
+          "projects": 1
+        },
+        {
+          "year": 1982,
+          "funding": 41653.0,
+          "projects": 1
+        },
+        {
+          "year": 1983,
+          "funding": 1669939.0,
+          "projects": 3
+        },
+        {
+          "year": 1985,
+          "funding": 2030640.0,
+          "projects": 6
+        },
+        {
+          "year": 1988,
+          "funding": 6583408.0,
+          "projects": 4
+        },
+        {
+          "year": 1989,
+          "funding": 670805.0,
+          "projects": 1
+        },
         {
           "year": 1990,
           "funding": 1877377.0,
@@ -7094,9 +10444,54 @@
       ]
     },
     "Windenergieanlagen": {
-      "total_funding": 495272753.0,
-      "total_projects": 682,
+      "total_funding": 502345029.0,
+      "total_projects": 698,
       "yearly": [
+        {
+          "year": 1978,
+          "funding": 287233.0,
+          "projects": 1
+        },
+        {
+          "year": 1979,
+          "funding": 907155.0,
+          "projects": 2
+        },
+        {
+          "year": 1980,
+          "funding": 580316.0,
+          "projects": 1
+        },
+        {
+          "year": 1982,
+          "funding": 1113732.0,
+          "projects": 1
+        },
+        {
+          "year": 1983,
+          "funding": 2213344.0,
+          "projects": 4
+        },
+        {
+          "year": 1985,
+          "funding": 186622.0,
+          "projects": 1
+        },
+        {
+          "year": 1987,
+          "funding": 866923.0,
+          "projects": 3
+        },
+        {
+          "year": 1988,
+          "funding": 184781.0,
+          "projects": 2
+        },
+        {
+          "year": 1989,
+          "funding": 732170.0,
+          "projects": 1
+        },
         {
           "year": 1991,
           "funding": 609700.0,
@@ -7250,9 +10645,114 @@
       ]
     },
     "Verbesserung": {
-      "total_funding": 1568318724.0,
-      "total_projects": 3713,
+      "total_funding": 1920901669.0,
+      "total_projects": 4455,
       "yearly": [
+        {
+          "year": 1969,
+          "funding": 14700.0,
+          "projects": 1
+        },
+        {
+          "year": 1970,
+          "funding": 1013103.0,
+          "projects": 4
+        },
+        {
+          "year": 1971,
+          "funding": 1167525.0,
+          "projects": 3
+        },
+        {
+          "year": 1972,
+          "funding": 1595535.0,
+          "projects": 10
+        },
+        {
+          "year": 1973,
+          "funding": 1420020.0,
+          "projects": 8
+        },
+        {
+          "year": 1974,
+          "funding": 14771613.0,
+          "projects": 22
+        },
+        {
+          "year": 1975,
+          "funding": 4174440.0,
+          "projects": 16
+        },
+        {
+          "year": 1976,
+          "funding": 7198498.0,
+          "projects": 23
+        },
+        {
+          "year": 1977,
+          "funding": 19968179.0,
+          "projects": 33
+        },
+        {
+          "year": 1978,
+          "funding": 28543351.0,
+          "projects": 58
+        },
+        {
+          "year": 1979,
+          "funding": 64831905.0,
+          "projects": 84
+        },
+        {
+          "year": 1980,
+          "funding": 27254270.0,
+          "projects": 57
+        },
+        {
+          "year": 1981,
+          "funding": 20843908.0,
+          "projects": 21
+        },
+        {
+          "year": 1982,
+          "funding": 20155808.0,
+          "projects": 64
+        },
+        {
+          "year": 1983,
+          "funding": 22374001.0,
+          "projects": 49
+        },
+        {
+          "year": 1984,
+          "funding": 19378990.0,
+          "projects": 50
+        },
+        {
+          "year": 1985,
+          "funding": 21539768.0,
+          "projects": 41
+        },
+        {
+          "year": 1986,
+          "funding": 20950212.0,
+          "projects": 52
+        },
+        {
+          "year": 1987,
+          "funding": 21671963.0,
+          "projects": 64
+        },
+        {
+          "year": 1988,
+          "funding": 17317010.0,
+          "projects": 44
+        },
+        {
+          "year": 1989,
+          "funding": 16398146.0,
+          "projects": 38
+        },
         {
           "year": 1990,
           "funding": 7851586.0,
@@ -7441,9 +10941,89 @@
       ]
     },
     "Solarzellen": {
-      "total_funding": 980879898.0,
-      "total_projects": 1289,
+      "total_funding": 1164567863.0,
+      "total_projects": 1368,
       "yearly": [
+        {
+          "year": 1972,
+          "funding": 132936.0,
+          "projects": 1
+        },
+        {
+          "year": 1975,
+          "funding": 685130.0,
+          "projects": 1
+        },
+        {
+          "year": 1976,
+          "funding": 639115.0,
+          "projects": 1
+        },
+        {
+          "year": 1977,
+          "funding": 20286295.0,
+          "projects": 7
+        },
+        {
+          "year": 1978,
+          "funding": 1666121.0,
+          "projects": 6
+        },
+        {
+          "year": 1979,
+          "funding": 4621057.0,
+          "projects": 6
+        },
+        {
+          "year": 1980,
+          "funding": 100459.0,
+          "projects": 1
+        },
+        {
+          "year": 1981,
+          "funding": 3391488.0,
+          "projects": 5
+        },
+        {
+          "year": 1982,
+          "funding": 24591708.0,
+          "projects": 5
+        },
+        {
+          "year": 1983,
+          "funding": 21085310.0,
+          "projects": 7
+        },
+        {
+          "year": 1984,
+          "funding": 3331556.0,
+          "projects": 4
+        },
+        {
+          "year": 1985,
+          "funding": 26323034.0,
+          "projects": 8
+        },
+        {
+          "year": 1986,
+          "funding": 16996471.0,
+          "projects": 6
+        },
+        {
+          "year": 1987,
+          "funding": 12884337.0,
+          "projects": 6
+        },
+        {
+          "year": 1988,
+          "funding": 32553240.0,
+          "projects": 9
+        },
+        {
+          "year": 1989,
+          "funding": 14399708.0,
+          "projects": 6
+        },
         {
           "year": 1990,
           "funding": 36224043.0,
@@ -7627,9 +11207,109 @@
       ]
     },
     "Technologien": {
-      "total_funding": 4313803610.0,
-      "total_projects": 6141,
+      "total_funding": 4640899724.0,
+      "total_projects": 6501,
       "yearly": [
+        {
+          "year": 1969,
+          "funding": 2142830.0,
+          "projects": 2
+        },
+        {
+          "year": 1971,
+          "funding": 1251339.0,
+          "projects": 3
+        },
+        {
+          "year": 1972,
+          "funding": 17554446.0,
+          "projects": 4
+        },
+        {
+          "year": 1973,
+          "funding": 6377436.0,
+          "projects": 5
+        },
+        {
+          "year": 1974,
+          "funding": 5164581.0,
+          "projects": 3
+        },
+        {
+          "year": 1975,
+          "funding": 4966088.0,
+          "projects": 6
+        },
+        {
+          "year": 1976,
+          "funding": 4044931.0,
+          "projects": 9
+        },
+        {
+          "year": 1977,
+          "funding": 24246558.0,
+          "projects": 15
+        },
+        {
+          "year": 1978,
+          "funding": 14179471.0,
+          "projects": 12
+        },
+        {
+          "year": 1979,
+          "funding": 13126440.0,
+          "projects": 15
+        },
+        {
+          "year": 1980,
+          "funding": 9058339.0,
+          "projects": 10
+        },
+        {
+          "year": 1981,
+          "funding": 15805710.0,
+          "projects": 11
+        },
+        {
+          "year": 1982,
+          "funding": 25301031.0,
+          "projects": 14
+        },
+        {
+          "year": 1983,
+          "funding": 7184803.0,
+          "projects": 16
+        },
+        {
+          "year": 1984,
+          "funding": 6965091.0,
+          "projects": 21
+        },
+        {
+          "year": 1985,
+          "funding": 26047823.0,
+          "projects": 46
+        },
+        {
+          "year": 1986,
+          "funding": 47815966.0,
+          "projects": 43
+        },
+        {
+          "year": 1987,
+          "funding": 43077985.0,
+          "projects": 74
+        },
+        {
+          "year": 1988,
+          "funding": 25589272.0,
+          "projects": 26
+        },
+        {
+          "year": 1989,
+          "funding": 27195974.0,
+          "projects": 25
+        },
         {
           "year": 1990,
           "funding": 16391527.0,
@@ -7813,9 +11493,119 @@
       ]
     },
     "Technologie": {
-      "total_funding": 9987745037.0,
-      "total_projects": 14670,
+      "total_funding": 11145555439.0,
+      "total_projects": 15752,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 29218807.0,
+          "projects": 10
+        },
+        {
+          "year": 1969,
+          "funding": 4713196.0,
+          "projects": 5
+        },
+        {
+          "year": 1970,
+          "funding": 9527950.0,
+          "projects": 9
+        },
+        {
+          "year": 1971,
+          "funding": 13902263.0,
+          "projects": 20
+        },
+        {
+          "year": 1972,
+          "funding": 22812345.0,
+          "projects": 17
+        },
+        {
+          "year": 1973,
+          "funding": 21969192.0,
+          "projects": 20
+        },
+        {
+          "year": 1974,
+          "funding": 15155283.0,
+          "projects": 27
+        },
+        {
+          "year": 1975,
+          "funding": 32956718.0,
+          "projects": 39
+        },
+        {
+          "year": 1976,
+          "funding": 19344749.0,
+          "projects": 32
+        },
+        {
+          "year": 1977,
+          "funding": 33341647.0,
+          "projects": 31
+        },
+        {
+          "year": 1978,
+          "funding": 51873490.0,
+          "projects": 52
+        },
+        {
+          "year": 1979,
+          "funding": 38103506.0,
+          "projects": 50
+        },
+        {
+          "year": 1980,
+          "funding": 45863690.0,
+          "projects": 49
+        },
+        {
+          "year": 1981,
+          "funding": 67723479.0,
+          "projects": 29
+        },
+        {
+          "year": 1982,
+          "funding": 99929803.0,
+          "projects": 53
+        },
+        {
+          "year": 1983,
+          "funding": 53665178.0,
+          "projects": 50
+        },
+        {
+          "year": 1984,
+          "funding": 71240752.0,
+          "projects": 63
+        },
+        {
+          "year": 1985,
+          "funding": 75939257.0,
+          "projects": 102
+        },
+        {
+          "year": 1986,
+          "funding": 179269224.0,
+          "projects": 124
+        },
+        {
+          "year": 1987,
+          "funding": 133930617.0,
+          "projects": 152
+        },
+        {
+          "year": 1988,
+          "funding": 56442330.0,
+          "projects": 79
+        },
+        {
+          "year": 1989,
+          "funding": 80886926.0,
+          "projects": 69
+        },
         {
           "year": 1990,
           "funding": 151434587.0,
@@ -8004,9 +11794,114 @@
       ]
     },
     "Produktion": {
-      "total_funding": 4272502235.0,
-      "total_projects": 8430,
+      "total_funding": 4490462010.0,
+      "total_projects": 8958,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 8935554.0,
+          "projects": 3
+        },
+        {
+          "year": 1970,
+          "funding": 108414.0,
+          "projects": 1
+        },
+        {
+          "year": 1971,
+          "funding": 469190.0,
+          "projects": 2
+        },
+        {
+          "year": 1972,
+          "funding": 1560882.0,
+          "projects": 6
+        },
+        {
+          "year": 1973,
+          "funding": 4738855.0,
+          "projects": 12
+        },
+        {
+          "year": 1974,
+          "funding": 6087107.0,
+          "projects": 11
+        },
+        {
+          "year": 1975,
+          "funding": 3077394.0,
+          "projects": 13
+        },
+        {
+          "year": 1976,
+          "funding": 10229139.0,
+          "projects": 13
+        },
+        {
+          "year": 1977,
+          "funding": 10754493.0,
+          "projects": 22
+        },
+        {
+          "year": 1978,
+          "funding": 15002207.0,
+          "projects": 23
+        },
+        {
+          "year": 1979,
+          "funding": 8399676.0,
+          "projects": 20
+        },
+        {
+          "year": 1980,
+          "funding": 12566081.0,
+          "projects": 25
+        },
+        {
+          "year": 1981,
+          "funding": 11045202.0,
+          "projects": 12
+        },
+        {
+          "year": 1982,
+          "funding": 12614436.0,
+          "projects": 33
+        },
+        {
+          "year": 1983,
+          "funding": 6722855.0,
+          "projects": 22
+        },
+        {
+          "year": 1984,
+          "funding": 16592410.0,
+          "projects": 75
+        },
+        {
+          "year": 1985,
+          "funding": 24905506.0,
+          "projects": 49
+        },
+        {
+          "year": 1986,
+          "funding": 11031393.0,
+          "projects": 34
+        },
+        {
+          "year": 1987,
+          "funding": 9529822.0,
+          "projects": 25
+        },
+        {
+          "year": 1988,
+          "funding": 14284414.0,
+          "projects": 82
+        },
+        {
+          "year": 1989,
+          "funding": 29304745.0,
+          "projects": 45
+        },
         {
           "year": 1990,
           "funding": 18936458.0,
@@ -8195,9 +12090,119 @@
       ]
     },
     "Industrie": {
-      "total_funding": 3573496992.0,
-      "total_projects": 8084,
+      "total_funding": 3976743497.0,
+      "total_projects": 8945,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 13980432.0,
+          "projects": 7
+        },
+        {
+          "year": 1969,
+          "funding": 3962447.0,
+          "projects": 13
+        },
+        {
+          "year": 1970,
+          "funding": 866001.0,
+          "projects": 2
+        },
+        {
+          "year": 1971,
+          "funding": 2234356.0,
+          "projects": 5
+        },
+        {
+          "year": 1972,
+          "funding": 2490293.0,
+          "projects": 11
+        },
+        {
+          "year": 1973,
+          "funding": 2394503.0,
+          "projects": 12
+        },
+        {
+          "year": 1974,
+          "funding": 6433129.0,
+          "projects": 15
+        },
+        {
+          "year": 1975,
+          "funding": 7832173.0,
+          "projects": 35
+        },
+        {
+          "year": 1976,
+          "funding": 11720082.0,
+          "projects": 28
+        },
+        {
+          "year": 1977,
+          "funding": 51477310.0,
+          "projects": 36
+        },
+        {
+          "year": 1978,
+          "funding": 21423736.0,
+          "projects": 52
+        },
+        {
+          "year": 1979,
+          "funding": 27577072.0,
+          "projects": 54
+        },
+        {
+          "year": 1980,
+          "funding": 15385120.0,
+          "projects": 35
+        },
+        {
+          "year": 1981,
+          "funding": 11869731.0,
+          "projects": 23
+        },
+        {
+          "year": 1982,
+          "funding": 22703936.0,
+          "projects": 79
+        },
+        {
+          "year": 1983,
+          "funding": 21829261.0,
+          "projects": 54
+        },
+        {
+          "year": 1984,
+          "funding": 29302976.0,
+          "projects": 86
+        },
+        {
+          "year": 1985,
+          "funding": 35308543.0,
+          "projects": 80
+        },
+        {
+          "year": 1986,
+          "funding": 27725586.0,
+          "projects": 55
+        },
+        {
+          "year": 1987,
+          "funding": 32548303.0,
+          "projects": 55
+        },
+        {
+          "year": 1988,
+          "funding": 32487094.0,
+          "projects": 76
+        },
+        {
+          "year": 1989,
+          "funding": 21694421.0,
+          "projects": 48
+        },
         {
           "year": 1990,
           "funding": 35493965.0,
@@ -8386,9 +12391,114 @@
       ]
     },
     "Berücksichtigung": {
-      "total_funding": 615554861.0,
-      "total_projects": 1739,
+      "total_funding": 794923515.0,
+      "total_projects": 2147,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 1446511.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 835557.0,
+          "projects": 4
+        },
+        {
+          "year": 1970,
+          "funding": 412743.0,
+          "projects": 2
+        },
+        {
+          "year": 1972,
+          "funding": 529317.0,
+          "projects": 4
+        },
+        {
+          "year": 1973,
+          "funding": 8493952.0,
+          "projects": 10
+        },
+        {
+          "year": 1974,
+          "funding": 3378760.0,
+          "projects": 15
+        },
+        {
+          "year": 1975,
+          "funding": 7523605.0,
+          "projects": 18
+        },
+        {
+          "year": 1976,
+          "funding": 10040061.0,
+          "projects": 29
+        },
+        {
+          "year": 1977,
+          "funding": 15585517.0,
+          "projects": 26
+        },
+        {
+          "year": 1978,
+          "funding": 11165691.0,
+          "projects": 31
+        },
+        {
+          "year": 1979,
+          "funding": 48884876.0,
+          "projects": 41
+        },
+        {
+          "year": 1980,
+          "funding": 5822179.0,
+          "projects": 17
+        },
+        {
+          "year": 1981,
+          "funding": 5405755.0,
+          "projects": 16
+        },
+        {
+          "year": 1982,
+          "funding": 5116876.0,
+          "projects": 24
+        },
+        {
+          "year": 1983,
+          "funding": 7679651.0,
+          "projects": 26
+        },
+        {
+          "year": 1984,
+          "funding": 11354377.0,
+          "projects": 35
+        },
+        {
+          "year": 1985,
+          "funding": 8158198.0,
+          "projects": 25
+        },
+        {
+          "year": 1986,
+          "funding": 4374731.0,
+          "projects": 13
+        },
+        {
+          "year": 1987,
+          "funding": 7030309.0,
+          "projects": 23
+        },
+        {
+          "year": 1988,
+          "funding": 8383925.0,
+          "projects": 25
+        },
+        {
+          "year": 1989,
+          "funding": 7746063.0,
+          "projects": 23
+        },
         {
           "year": 1990,
           "funding": 10631814.0,
@@ -8572,9 +12682,94 @@
       ]
     },
     "Charakterisierung": {
-      "total_funding": 1642294613.0,
-      "total_projects": 3632,
+      "total_funding": 1737203705.0,
+      "total_projects": 3839,
       "yearly": [
+        {
+          "year": 1971,
+          "funding": 462719.0,
+          "projects": 1
+        },
+        {
+          "year": 1973,
+          "funding": 305055.0,
+          "projects": 1
+        },
+        {
+          "year": 1975,
+          "funding": 383284.0,
+          "projects": 2
+        },
+        {
+          "year": 1976,
+          "funding": 1251832.0,
+          "projects": 6
+        },
+        {
+          "year": 1977,
+          "funding": 706557.0,
+          "projects": 4
+        },
+        {
+          "year": 1978,
+          "funding": 757004.0,
+          "projects": 7
+        },
+        {
+          "year": 1979,
+          "funding": 2651163.0,
+          "projects": 9
+        },
+        {
+          "year": 1980,
+          "funding": 2554677.0,
+          "projects": 11
+        },
+        {
+          "year": 1981,
+          "funding": 543912.0,
+          "projects": 2
+        },
+        {
+          "year": 1982,
+          "funding": 6805003.0,
+          "projects": 12
+        },
+        {
+          "year": 1983,
+          "funding": 6812458.0,
+          "projects": 17
+        },
+        {
+          "year": 1984,
+          "funding": 5281920.0,
+          "projects": 7
+        },
+        {
+          "year": 1985,
+          "funding": 6278574.0,
+          "projects": 11
+        },
+        {
+          "year": 1986,
+          "funding": 17251712.0,
+          "projects": 26
+        },
+        {
+          "year": 1987,
+          "funding": 10155913.0,
+          "projects": 22
+        },
+        {
+          "year": 1988,
+          "funding": 19825328.0,
+          "projects": 36
+        },
+        {
+          "year": 1989,
+          "funding": 12881981.0,
+          "projects": 33
+        },
         {
           "year": 1990,
           "funding": 26263907.0,
@@ -8763,9 +12958,119 @@
       ]
     },
     "Energie": {
-      "total_funding": 8391175319.0,
-      "total_projects": 15732,
+      "total_funding": 9243439948.0,
+      "total_projects": 16806,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 13479.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 569509.0,
+          "projects": 4
+        },
+        {
+          "year": 1970,
+          "funding": 1699640.0,
+          "projects": 5
+        },
+        {
+          "year": 1971,
+          "funding": 6607091.0,
+          "projects": 9
+        },
+        {
+          "year": 1972,
+          "funding": 10556357.0,
+          "projects": 14
+        },
+        {
+          "year": 1973,
+          "funding": 3833651.0,
+          "projects": 15
+        },
+        {
+          "year": 1974,
+          "funding": 21735037.0,
+          "projects": 43
+        },
+        {
+          "year": 1975,
+          "funding": 11007285.0,
+          "projects": 27
+        },
+        {
+          "year": 1976,
+          "funding": 11245739.0,
+          "projects": 37
+        },
+        {
+          "year": 1977,
+          "funding": 63811344.0,
+          "projects": 90
+        },
+        {
+          "year": 1978,
+          "funding": 53566447.0,
+          "projects": 76
+        },
+        {
+          "year": 1979,
+          "funding": 164683234.0,
+          "projects": 116
+        },
+        {
+          "year": 1980,
+          "funding": 53983894.0,
+          "projects": 95
+        },
+        {
+          "year": 1981,
+          "funding": 92470503.0,
+          "projects": 54
+        },
+        {
+          "year": 1982,
+          "funding": 86589488.0,
+          "projects": 112
+        },
+        {
+          "year": 1983,
+          "funding": 43754658.0,
+          "projects": 85
+        },
+        {
+          "year": 1984,
+          "funding": 61416505.0,
+          "projects": 53
+        },
+        {
+          "year": 1985,
+          "funding": 16334788.0,
+          "projects": 30
+        },
+        {
+          "year": 1986,
+          "funding": 35166389.0,
+          "projects": 55
+        },
+        {
+          "year": 1987,
+          "funding": 35659911.0,
+          "projects": 31
+        },
+        {
+          "year": 1988,
+          "funding": 18159034.0,
+          "projects": 50
+        },
+        {
+          "year": 1989,
+          "funding": 59400646.0,
+          "projects": 72
+        },
         {
           "year": 1990,
           "funding": 20072928.0,
@@ -8954,9 +13259,74 @@
       ]
     },
     "Plattform": {
-      "total_funding": 3729448868.0,
-      "total_projects": 6354,
+      "total_funding": 3749849878.0,
+      "total_projects": 6411,
       "yearly": [
+        {
+          "year": 1975,
+          "funding": 89636.0,
+          "projects": 4
+        },
+        {
+          "year": 1976,
+          "funding": 65325.0,
+          "projects": 2
+        },
+        {
+          "year": 1977,
+          "funding": 4672689.0,
+          "projects": 15
+        },
+        {
+          "year": 1978,
+          "funding": 5272584.0,
+          "projects": 9
+        },
+        {
+          "year": 1979,
+          "funding": 1415110.0,
+          "projects": 6
+        },
+        {
+          "year": 1980,
+          "funding": 574263.0,
+          "projects": 2
+        },
+        {
+          "year": 1981,
+          "funding": 1252867.0,
+          "projects": 5
+        },
+        {
+          "year": 1982,
+          "funding": 352954.0,
+          "projects": 2
+        },
+        {
+          "year": 1983,
+          "funding": 152958.0,
+          "projects": 1
+        },
+        {
+          "year": 1985,
+          "funding": 3969719.0,
+          "projects": 5
+        },
+        {
+          "year": 1986,
+          "funding": 771280.0,
+          "projects": 2
+        },
+        {
+          "year": 1987,
+          "funding": 1773328.0,
+          "projects": 3
+        },
+        {
+          "year": 1988,
+          "funding": 38297.0,
+          "projects": 1
+        },
         {
           "year": 1992,
           "funding": 1046506.0,
@@ -9135,9 +13505,119 @@
       ]
     },
     "Systeme": {
-      "total_funding": 8816427337.0,
-      "total_projects": 15767,
+      "total_funding": 9814640951.0,
+      "total_projects": 17583,
       "yearly": [
+        {
+          "year": 1968,
+          "funding": 3720476.0,
+          "projects": 3
+        },
+        {
+          "year": 1969,
+          "funding": 19603224.0,
+          "projects": 11
+        },
+        {
+          "year": 1970,
+          "funding": 17977963.0,
+          "projects": 9
+        },
+        {
+          "year": 1971,
+          "funding": 15685433.0,
+          "projects": 23
+        },
+        {
+          "year": 1972,
+          "funding": 20721923.0,
+          "projects": 44
+        },
+        {
+          "year": 1973,
+          "funding": 14907466.0,
+          "projects": 19
+        },
+        {
+          "year": 1974,
+          "funding": 47656414.0,
+          "projects": 62
+        },
+        {
+          "year": 1975,
+          "funding": 45199876.0,
+          "projects": 80
+        },
+        {
+          "year": 1976,
+          "funding": 60948435.0,
+          "projects": 75
+        },
+        {
+          "year": 1977,
+          "funding": 47564596.0,
+          "projects": 100
+        },
+        {
+          "year": 1978,
+          "funding": 42440147.0,
+          "projects": 95
+        },
+        {
+          "year": 1979,
+          "funding": 75688488.0,
+          "projects": 112
+        },
+        {
+          "year": 1980,
+          "funding": 23870676.0,
+          "projects": 64
+        },
+        {
+          "year": 1981,
+          "funding": 28469009.0,
+          "projects": 43
+        },
+        {
+          "year": 1982,
+          "funding": 49062091.0,
+          "projects": 112
+        },
+        {
+          "year": 1983,
+          "funding": 30701431.0,
+          "projects": 77
+        },
+        {
+          "year": 1984,
+          "funding": 76102370.0,
+          "projects": 119
+        },
+        {
+          "year": 1985,
+          "funding": 84093900.0,
+          "projects": 136
+        },
+        {
+          "year": 1986,
+          "funding": 56211718.0,
+          "projects": 97
+        },
+        {
+          "year": 1987,
+          "funding": 65077300.0,
+          "projects": 94
+        },
+        {
+          "year": 1988,
+          "funding": 71635122.0,
+          "projects": 256
+        },
+        {
+          "year": 1989,
+          "funding": 100875556.0,
+          "projects": 185
+        },
         {
           "year": 1990,
           "funding": 92468975.0,
