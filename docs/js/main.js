@@ -161,16 +161,17 @@ function updateOverviewCards() {
 // Update last update timestamp
 function updateLastUpdate() {
     const date = new Date(globalData.summary.generated_at);
-    const formatted = date.toLocaleDateString('de-DE', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    });
+    // Format: "10. December 2025 at 11:44"
+    const day = date.getDate();
+    const month = date.toLocaleDateString('en-US', { month: 'long' });
+    const year = date.getFullYear();
+    const hours = date.getHours().toString().padStart(2, '0');
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+    const formatted = `${day}. ${month} ${year} at ${hours}:${minutes}`;
     document.getElementById('lastUpdate').textContent = `Updated: ${formatted}`;
     document.getElementById('footerUpdate').textContent = formatted;
 }
+
 
 // Ministry funding chart
 function createMinistryChart() {
