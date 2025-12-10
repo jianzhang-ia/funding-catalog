@@ -81,13 +81,7 @@ Funding/
 
 Some recipient names in the dataset are anonymized as **"Keine Anzeige aufgrund datenschutzrechtlicher Bestimmungen"** (No display due to data protection regulations). This is due to German GDPR/DSGVO requirements.
 
-**Important**: Only the recipient **name** is hidden – all other data (funding amount, location, ministry, project topic, etc.) remains fully available. These entries:
-
-- Are **included** in the "Rank by Funding" table (since funding data is available)
-- Are **excluded** from the "Rank by Project Count" view (to avoid showing meaningless placeholder names)
-- Are included in all aggregate statistics (total funding, project counts, geographic analysis, etc.)
-- Represent a small percentage of overall projects
-
+**Important**: These entries represent **multiple protected recipients grouped together** – not a single entity. Only the recipient **name** is hidden; all other data (funding amount, location, ministry, project topic, etc.) remains fully available. These entries are included in all statistics and rankings.
 
 ### CSV Encoding
 

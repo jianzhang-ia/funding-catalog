@@ -875,21 +875,11 @@ function createKeywordsCloud() {
 function populateRecipientsTable(sortBy = 'funding') {
     const tbody = document.querySelector('#recipientTable tbody');
 
-    // Filter out data protection placeholder entries (only the name is hidden, 
-    // funding/location/ministry are still available)
-    const filterAnonymized = (arr) => arr.filter(r =>
-        !r.name.startsWith('Keine Anzeige') &&
-        !r.name.includes('datenschutzrechtl')
-    );
-
-    let data;
-    if (sortBy === 'funding') {
-        // For funding ranking: include all entries (funding data is available)
-        data = globalData.recipients.top_by_funding.slice(0, 20);
-    } else {
-        // For project count: filter out anonymized entries (name would be meaningless placeholder)
-        data = filterAnonymized(globalData.recipients.top_by_count).slice(0, 20);
-    }
+    // Note: "Keine Anzeige" entries represent multiple protected entities aggregated together
+    // All data (funding, location, ministry) is available - only the recipient name is hidden
+    let data = sortBy === 'funding'
+        ? globalData.recipients.top_by_funding.slice(0, 20)
+        : globalData.recipients.top_by_count.slice(0, 20);
 
     tbody.innerHTML = data.map((recipient, index) => `
         <tr>
@@ -901,6 +891,7 @@ function populateRecipientsTable(sortBy = 'funding') {
         </tr>
     `).join('');
 }
+
 
 
 
