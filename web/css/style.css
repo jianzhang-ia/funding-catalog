@@ -762,3 +762,108 @@ td:nth-child(5) {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--gray-400);
 }
+
+/* Keyword Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-lg);
+}
+
+.modal-content {
+    background: var(--card-bg);
+    backdrop-filter: blur(20px);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow: auto;
+    position: relative;
+    box-shadow: var(--shadow-xl);
+}
+
+.modal-close {
+    position: absolute;
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: var(--gray-100);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close:hover {
+    background: var(--gray-200);
+    color: var(--text-primary);
+}
+
+.modal-header {
+    margin-bottom: var(--spacing-sm);
+    padding-right: 50px;
+}
+
+.modal-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.modal-header p {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.modal-stats {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.modal-stats span {
+    font-weight: 600;
+    color: var(--primary-600);
+}
+
+.modal-chart-container {
+    height: 400px;
+    position: relative;
+}
+
+/* Make keyword tags clickable */
+.keyword-tag {
+    cursor: pointer;
+}
+
+.keyword-tag:hover {
+    transform: scale(1.15);
+    box-shadow: var(--shadow-md);
+}
+
+/* Make table rows clickable */
+.clickable-row {
+    cursor: pointer;
+    transition: background var(--transition-fast);
+}
+
+.clickable-row:hover td {
+    background: var(--primary-50) !important;
+}

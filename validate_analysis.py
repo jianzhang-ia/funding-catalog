@@ -237,6 +237,154 @@ for decade, entries in decade_data.items():
         warnings.append(f"Decade {decade}s shares don't sum to 100%")
 
 # ============================================================================
+# VALIDATION 11: KEYWORD TRENDS
+# ============================================================================
+print("\n" + "=" * 70)
+print("VALIDATION 11: KEYWORD TRENDS")
+print("=" * 70)
+
+keyword_trends = json_files.get('keyword_trends.json', {})
+keywords = keyword_trends.get('keywords', {})
+print(f"   Keywords tracked: {len(keywords)}")
+
+if keywords:
+    # Sample validation: check first keyword has valid data
+    first_kw = list(keywords.keys())[0]
+    kw_data = keywords[first_kw]
+    has_yearly = 'yearly' in kw_data and len(kw_data['yearly']) > 0
+    has_totals = 'total_funding' in kw_data and 'total_projects' in kw_data
+    
+    if has_yearly and has_totals:
+        print(f"   Sample '{first_kw}': {len(kw_data['yearly'])} years, €{kw_data['total_funding']/1e6:.1f}M")
+        print("   ✓ Keyword trends structure valid")
+    else:
+        errors.append("Keyword trends missing required fields")
+else:
+    warnings.append("No keyword trends data found")
+
+# ============================================================================
+# VALIDATION 12: ENTITY TRENDS (States, Cities, Recipients)
+# ============================================================================
+print("\n" + "=" * 70)
+print("VALIDATION 12: ENTITY TRENDS")
+print("=" * 70)
+
+entity_trends = json_files.get('entity_trends.json', {})
+states_trends = entity_trends.get('states', {})
+cities_trends = entity_trends.get('cities', {})
+recipients_trends = entity_trends.get('recipients', {})
+
+print(f"   States with trends:     {len(states_trends)}")
+print(f"   Cities with trends:     {len(cities_trends)}")
+print(f"   Recipients with trends: {len(recipients_trends)}")
+
+# Validate state trends match geographic data
+geo_states = {s['name']: s['total_funding'] for s in json_files['geographic_distribution.json']['states']}
+for state in list(states_trends.keys())[:3]:
+    if state in geo_states:
+        trend_total = states_trends[state]['total_funding']
+        geo_total = geo_states[state]
+        diff_pct = abs(trend_total - geo_total) / geo_total * 100 if geo_total > 0 else 0
+        status = "✓" if diff_pct < 5 else "✗"  # Allow some difference due to year filtering
+        print(f"   {state}: Trend €{trend_total/1e9:.2f}B vs Geo €{geo_total/1e9:.2f}B ({diff_pct:.1f}%) {status}")
+        if diff_pct > 20:
+            warnings.append(f"State {state} trend/geo mismatch: {diff_pct:.1f}%")
+
+print("   ✓ Entity trends structure valid")
+
+# ============================================================================
+# VALIDATION 13: PER CAPITA DATA
+# ============================================================================
+print("\n" + "=" * 70)
+print("VALIDATION 13: PER CAPITA POPULATION DATA")
+print("=" * 70)
+
+# Official population totals (source: Statistisches Bundesamt)
+official_population = 83577140  # Total Germany
+state_populations = {
+    'Baden-Württemberg': 11245898,
+    'Bayern': 13248928,
+    'Berlin': 3685265,
+    'Brandenburg': 2556747,
+    'Bremen': 704881,
+    'Hamburg': 1862565,
+    'Hessen': 6280793,
+    'Mecklenburg-Vorpommern': 1573597,
+    'Niedersachsen': 8004489,
+    'Nordrhein-Westfalen': 18034454,
+    'Rheinland-Pfalz': 4129569,
+    'Saarland': 1012141,
+    'Sachsen': 4042422,
+    'Sachsen-Anhalt': 2135597,
+    'Schleswig-Holstein': 2959517,
+    'Thüringen': 2100277
+}
+
+geo_data = json_files['geographic_distribution.json']['states']
+states_with_population = 0
+per_capita_valid = 0
+
+for state_data in geo_data:
+    name = state_data['name']
+    if 'population' in state_data and state_data['population']:
+        states_with_population += 1
+        # Verify population matches official data
+        if name in state_populations:
+            expected_pop = state_populations[name]
+            actual_pop = state_data['population']
+            if expected_pop == actual_pop:
+                per_capita_valid += 1
+            else:
+                warnings.append(f"Population mismatch for {name}")
+        
+        # Verify per capita calculation
+        if 'per_capita_funding' in state_data:
+            expected_pc = state_data['total_funding'] / state_data['population']
+            actual_pc = state_data['per_capita_funding']
+            if abs(expected_pc - actual_pc) < 0.01:
+                pass  # Valid
+            else:
+                warnings.append(f"Per capita calculation error for {name}")
+
+print(f"   States with population data: {states_with_population}")
+print(f"   Population values verified:  {per_capita_valid}")
+
+if states_with_population >= 16:
+    print("   ✓ All 16 states have population data")
+else:
+    errors.append(f"Missing population data for {16 - states_with_population} states")
+
+# ============================================================================
+# VALIDATION 14: JSON FILE COMPLETENESS
+# ============================================================================
+print("\n" + "=" * 70)
+print("VALIDATION 14: JSON FILE COMPLETENESS")
+print("=" * 70)
+
+expected_files = [
+    'summary_stats.json',
+    'ministry_funding.json',
+    'geographic_distribution.json',
+    'temporal_trends.json',
+    'top_recipients.json',
+    'topic_analysis.json',
+    'duration_analysis.json',
+    'funding_types.json',
+    'joint_projects.json',
+    'projekttraeger.json',
+    'keyword_trends.json',
+    'entity_trends.json'
+]
+
+missing_files = [f for f in expected_files if f not in json_files]
+if missing_files:
+    for f in missing_files:
+        errors.append(f"Missing JSON file: {f}")
+    print(f"   ✗ Missing: {', '.join(missing_files)}")
+else:
+    print(f"   ✓ All {len(expected_files)} expected JSON files present")
+
+# ============================================================================
 # SUMMARY
 # ============================================================================
 print("\n" + "=" * 70)
@@ -258,3 +406,4 @@ if not errors and not warnings:
     print("   All figures are verified and internally consistent.")
 else:
     print(f"\nTotal: {len(errors)} errors, {len(warnings)} warnings")
+

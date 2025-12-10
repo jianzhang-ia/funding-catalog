@@ -113,8 +113,6 @@
                     </div>
                 </div>
             </div>
-            <p class="overview-footnote">* Minimum count – "Keine Anzeige" entries represent multiple protected
-                recipients grouped together.</p>
         </section>
 
         <!-- Charts Grid -->
@@ -174,6 +172,10 @@
                 <div class="chart-header">
                     <h2>Funding by State (Bundesland)</h2>
                     <p>Project funding by German federal state</p>
+                    <div class="chart-controls">
+                        <button class="chart-btn active" data-geo-mode="total">Total Funding</button>
+                        <button class="chart-btn" data-geo-mode="percapita">Per Capita</button>
+                    </div>
                 </div>
                 <div class="chart-container">
                     <canvas id="geoChart"></canvas>
@@ -322,9 +324,30 @@
                 <span>317,014 projects · €206.4B total funding · 54,704+ recipients</span>
                 <span> · All figures cross-validated</span>
             </p>
+            <p class="footer-note">* Minimum count – "Keine Anzeige" entries represent multiple protected recipients
+                grouped together.</p>
+            <p class="footer-note">** Population data: Statistisches Bundesamt (31.12.2024, based on 2022 Census)</p>
             <p class="footer-meta">Last updated: <span id="footerUpdate">-</span></p>
         </div>
     </footer>
+
+    <!-- Drill-Down Detail Modal -->
+    <div id="drilldownModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-header">
+                <h2 id="modalTitle">Title</h2>
+                <p id="modalSubtitle">Funding trends over time</p>
+            </div>
+            <div class="modal-stats">
+                <span id="modalTotalProjects">-</span> projects ·
+                <span id="modalTotalFunding">-</span> total funding
+            </div>
+            <div class="modal-chart-container">
+                <canvas id="drilldownChart"></canvas>
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="js/main.js"></script>

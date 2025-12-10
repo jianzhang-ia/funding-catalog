@@ -166,8 +166,29 @@ def analyze_ministry_funding(df):
     return result
 
 def analyze_geographic_distribution(df):
-    """Analysis 2: Geographic Distribution by Bundesland."""
+    """Analysis 2: Geographic Distribution by Bundesland with per capita data."""
     log("Analyzing geographic distribution...")
+    
+    # German state population data (as of 31.12.2024, Statistisches Bundesamt)
+    # Source: Results based on the 2022 Census
+    state_population = {
+        'Baden-Württemberg': 11245898,
+        'Bayern': 13248928,
+        'Berlin': 3685265,
+        'Brandenburg': 2556747,
+        'Bremen': 704881,
+        'Hamburg': 1862565,
+        'Hessen': 6280793,
+        'Mecklenburg-Vorpommern': 1573597,
+        'Niedersachsen': 8004489,
+        'Nordrhein-Westfalen': 18034454,
+        'Rheinland-Pfalz': 4129569,
+        'Saarland': 1012141,
+        'Sachsen': 4042422,
+        'Sachsen-Anhalt': 2135597,
+        'Schleswig-Holstein': 2959517,
+        'Thüringen': 2100277
+    }
     
     # Filter to Germany only
     df_de = df[df['Staat'] == 'Deutschland'].copy()
@@ -196,11 +217,16 @@ def analyze_geographic_distribution(df):
     
     for _, row in state_stats.iterrows():
         if row['state'] and row['state'] != 'nan':
+            population = state_population.get(row['state'], None)
+            per_capita = float(row['total_funding']) / population if population else None
+            
             result['states'].append({
                 'name': row['state'],
                 'total_funding': float(row['total_funding']),
                 'avg_funding': float(row['avg_funding']),
-                'project_count': int(row['project_count'])
+                'project_count': int(row['project_count']),
+                'population': population,
+                'per_capita_funding': per_capita
             })
     
     for _, row in city_stats.iterrows():
@@ -213,6 +239,7 @@ def analyze_geographic_distribution(df):
     
     save_json(result, 'geographic_distribution.json')
     return result
+
 
 def analyze_temporal_trends(df):
     """Analysis 3: Funding trends over time with extended temporal patterns."""
@@ -410,6 +437,139 @@ def analyze_topics(df):
         })
     
     save_json(result, 'topic_analysis.json')
+    return result, word_counts  # Return word_counts for keyword trends analysis
+
+def analyze_keyword_trends(df, word_counts):
+    """Analysis: Temporal funding trends for each top keyword (for drill-down feature)."""
+    log("Analyzing keyword temporal trends...")
+    
+    # Filter to valid years only
+    df_valid = df[df['StartYear'].notna() & (df['StartYear'] >= 1990) & (df['StartYear'] <= 2030)].copy()
+    
+    result = {
+        'keywords': {}
+    }
+    
+    # Take top 50 keywords
+    top_keywords = [word for word, count in word_counts[:50]]
+    
+    for keyword in top_keywords:
+        # Case-insensitive search in Thema (project title)
+        mask = df_valid['Thema'].str.contains(keyword, case=False, na=False)
+        keyword_projects = df_valid[mask]
+        
+        if len(keyword_projects) == 0:
+            continue
+        
+        # Aggregate by year
+        yearly = keyword_projects.groupby('StartYear').agg({
+            'Fördersumme': ['sum', 'count']
+        }).reset_index()
+        yearly.columns = ['year', 'funding', 'projects']
+        yearly = yearly.sort_values('year')
+        
+        # Calculate totals
+        total_funding = float(keyword_projects['Fördersumme'].sum())
+        total_projects = len(keyword_projects)
+        
+        result['keywords'][keyword.capitalize()] = {
+            'total_funding': total_funding,
+            'total_projects': total_projects,
+            'yearly': []
+        }
+        
+        for _, row in yearly.iterrows():
+            result['keywords'][keyword.capitalize()]['yearly'].append({
+                'year': int(row['year']),
+                'funding': float(row['funding']),
+                'projects': int(row['projects'])
+            })
+    
+    log(f"Generated trends for {len(result['keywords'])} keywords")
+    save_json(result, 'keyword_trends.json')
+    return result
+
+def analyze_entity_trends(df):
+    """Generate temporal funding trends for states, cities, and recipients (for drill-down feature)."""
+    log("Analyzing entity temporal trends (states, cities, recipients)...")
+    
+    # Filter to valid years only
+    df_valid = df[df['StartYear'].notna() & (df['StartYear'] >= 1990) & (df['StartYear'] <= 2030)].copy()
+    
+    result = {
+        'states': {},
+        'cities': {},
+        'recipients': {}
+    }
+    
+    # State trends (all states)
+    log("  - Processing state trends...")
+    states = df_valid.groupby('Bundesland').agg({'Fördersumme': 'sum'}).nlargest(20, 'Fördersumme').index.tolist()
+    
+    for state in states:
+        if not state or state == 'nan':
+            continue
+        state_projects = df_valid[df_valid['Bundesland'] == state]
+        yearly = state_projects.groupby('StartYear').agg({
+            'Fördersumme': ['sum', 'count']
+        }).reset_index()
+        yearly.columns = ['year', 'funding', 'projects']
+        yearly = yearly.sort_values('year')
+        
+        result['states'][state] = {
+            'total_funding': float(state_projects['Fördersumme'].sum()),
+            'total_projects': len(state_projects),
+            'yearly': [{'year': int(r['year']), 'funding': float(r['funding']), 'projects': int(r['projects'])} for _, r in yearly.iterrows()]
+        }
+    
+    # City trends (top 30 cities)
+    log("  - Processing city trends...")
+    city_totals = df_valid.groupby('Ort').agg({'Fördersumme': 'sum'}).nlargest(30, 'Fördersumme')
+    cities = city_totals.index.tolist()
+    
+    for city in cities:
+        if not city or city == 'nan':
+            continue
+        city_projects = df_valid[df_valid['Ort'] == city]
+        yearly = city_projects.groupby('StartYear').agg({
+            'Fördersumme': ['sum', 'count']
+        }).reset_index()
+        yearly.columns = ['year', 'funding', 'projects']
+        yearly = yearly.sort_values('year')
+        
+        # Get state for this city
+        state = city_projects['Bundesland'].mode().iloc[0] if len(city_projects['Bundesland'].mode()) > 0 else ''
+        
+        result['cities'][city] = {
+            'state': state,
+            'total_funding': float(city_projects['Fördersumme'].sum()),
+            'total_projects': len(city_projects),
+            'yearly': [{'year': int(r['year']), 'funding': float(r['funding']), 'projects': int(r['projects'])} for _, r in yearly.iterrows()]
+        }
+    
+    # Recipient trends (top 50 recipients by funding)
+    log("  - Processing recipient trends...")
+    recipient_totals = df_valid.groupby('Zuwendungsempfänger').agg({'Fördersumme': 'sum'}).nlargest(50, 'Fördersumme')
+    recipients = recipient_totals.index.tolist()
+    
+    for recipient in recipients:
+        if not recipient or recipient == 'nan':
+            continue
+        recipient_projects = df_valid[df_valid['Zuwendungsempfänger'] == recipient]
+        yearly = recipient_projects.groupby('StartYear').agg({
+            'Fördersumme': ['sum', 'count']
+        }).reset_index()
+        yearly.columns = ['year', 'funding', 'projects']
+        yearly = yearly.sort_values('year')
+        
+        result['recipients'][recipient] = {
+            'total_funding': float(recipient_projects['Fördersumme'].sum()),
+            'total_projects': len(recipient_projects),
+            'yearly': [{'year': int(r['year']), 'funding': float(r['funding']), 'projects': int(r['projects'])} for _, r in yearly.iterrows()]
+        }
+    
+    log(f"Generated trends for {len(result['states'])} states, {len(result['cities'])} cities, {len(result['recipients'])} recipients")
+    save_json(result, 'entity_trends.json')
     return result
 
 def analyze_duration(df):
@@ -659,7 +819,9 @@ def main():
     geo_data = analyze_geographic_distribution(df)
     temporal_data = analyze_temporal_trends(df)
     recipient_data = analyze_top_recipients(df)
-    analyze_topics(df)
+    topic_data, word_counts = analyze_topics(df)
+    analyze_keyword_trends(df, word_counts)  # Generate keyword drill-down data
+    analyze_entity_trends(df)  # Generate state/city/recipient drill-down data
     analyze_duration(df)
     analyze_funding_types(df)
     analyze_projekttraeger(df)

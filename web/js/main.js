@@ -87,7 +87,9 @@ async function loadData() {
         'duration_analysis.json',
         'funding_types.json',
         'joint_projects.json',
-        'projekttraeger.json'
+        'projekttraeger.json',
+        'keyword_trends.json',
+        'entity_trends.json'
     ];
 
     try {
@@ -110,7 +112,9 @@ async function loadData() {
             duration: results[6],
             fundingTypes: results[7],
             jointProjects: results[8],
-            projekttraeger: results[9]
+            projekttraeger: results[9],
+            keywordTrends: results[10],
+            entityTrends: results[11]
         };
 
         initializeDashboard();
@@ -223,18 +227,37 @@ function createMinistryChart() {
     });
 }
 
-// Geographic distribution chart
-function createGeoChart() {
+// Geographic distribution chart - clickable bars for drill-down, supports per capita toggle
+function createGeoChart(mode = 'total') {
     const ctx = document.getElementById('geoChart').getContext('2d');
-    const data = globalData.geographic.states.slice(0, 16);
+    const rawData = globalData.geographic.states.slice(0, 16);
+
+    // Sort by appropriate metric
+    let data;
+    if (mode === 'percapita') {
+        data = [...rawData].filter(d => d.per_capita_funding).sort((a, b) => b.per_capita_funding - a.per_capita_funding);
+    } else {
+        data = rawData;
+    }
+
+    // Destroy existing chart if exists
+    if (charts.geo) {
+        charts.geo.destroy();
+    }
+
+    const chartData = mode === 'percapita'
+        ? data.map(d => d.per_capita_funding)
+        : data.map(d => d.total_funding);
+
+    const chartLabel = mode === 'percapita' ? 'Per Capita Funding (€)' : 'Total Funding';
 
     charts.geo = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: data.map(d => d.name),
             datasets: [{
-                label: 'Total Funding',
-                data: data.map(d => d.total_funding),
+                label: chartLabel,
+                data: chartData,
                 backgroundColor: data.map(d => CHART_COLORS.states[d.name] || '#6366F1'),
                 borderRadius: 6,
                 borderSkipped: false
@@ -247,10 +270,30 @@ function createGeoChart() {
                 legend: { display: false },
                 tooltip: {
                     callbacks: {
-                        label: (item) => [
-                            `Funding: ${formatCurrency(item.raw)}`,
-                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
-                        ]
+                        label: (item) => {
+                            const stateData = data[item.dataIndex];
+                            if (mode === 'percapita') {
+                                return [
+                                    `Per Capita: ${formatCurrency(stateData.per_capita_funding)}`,
+                                    `Total: ${formatCurrency(stateData.total_funding)}`,
+                                    `Population: ${formatNumber(stateData.population)}`
+                                ];
+                            }
+                            return [
+                                `Funding: ${formatCurrency(item.raw)}`,
+                                `Projects: ${formatNumber(stateData.project_count)}`,
+                                `Click to see trends`
+                            ];
+                        }
+                    }
+                }
+            },
+            onClick: (event, elements) => {
+                // Only enable click in total mode (trends are for total funding)
+                if (mode === 'total' && elements.length > 0) {
+                    const stateName = data[elements[0].index].name;
+                    if (globalData.entityTrends?.states?.[stateName]) {
+                        showStateTrends(stateName);
                     }
                 }
             },
@@ -273,6 +316,7 @@ function createGeoChart() {
         }
     });
 }
+
 
 // Temporal trends chart
 function createTemporalChart(range = 'all') {
@@ -804,7 +848,7 @@ function createFoerderprofilChart() {
     });
 }
 
-// Top cities chart
+// Top cities chart - clickable bars for drill-down
 function createCityChart() {
     const ctx = document.getElementById('cityChart').getContext('2d');
     const data = globalData.geographic.top_cities.slice(0, 15);
@@ -831,8 +875,17 @@ function createCityChart() {
                         title: (items) => `${data[items[0].dataIndex].city}, ${data[items[0].dataIndex].state}`,
                         label: (item) => [
                             `Funding: ${formatCurrency(item.raw)}`,
-                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`,
+                            `Click to see trends`
                         ]
+                    }
+                }
+            },
+            onClick: (event, elements) => {
+                if (elements.length > 0) {
+                    const cityName = data[elements[0].index].city;
+                    if (globalData.entityTrends?.cities?.[cityName]) {
+                        showCityTrends(cityName);
                     }
                 }
             },
@@ -856,7 +909,7 @@ function createCityChart() {
     });
 }
 
-// Keywords cloud
+// Keywords cloud - clickable for drill-down
 function createKeywordsCloud() {
     const container = document.getElementById('keywordsCloud');
     const keywords = globalData.topics.keywords.slice(0, 50);
@@ -869,11 +922,168 @@ function createKeywordsCloud() {
         else if (ratio > 0.4) sizeClass = 'keyword-large';
         else if (ratio > 0.2) sizeClass = 'keyword-medium';
 
-        return `<span class="keyword-tag ${sizeClass}" title="${keyword.count} occurrences">${keyword.word}</span>`;
+        // Check if we have trend data for this keyword
+        const hasTrends = globalData.keywordTrends?.keywords?.[keyword.word];
+        const clickAttr = hasTrends ? `onclick="showKeywordTrends('${keyword.word}')"` : '';
+        const cursorStyle = hasTrends ? '' : 'style="cursor: default;"';
+        const titleText = hasTrends
+            ? `${keyword.count} occurrences - Click to see trends`
+            : `${keyword.count} occurrences`;
+
+        return `<span class="keyword-tag ${sizeClass}" ${clickAttr} ${cursorStyle} title="${titleText}">${keyword.word}</span>`;
     }).join('');
 }
 
-// Recipients table
+// =====================================================
+// DRILL-DOWN MODAL - Generic for all entity types
+// =====================================================
+let drilldownChart = null;
+
+function showDrilldown(type, name) {
+    let data, title, subtitle;
+
+    switch (type) {
+        case 'keyword':
+            data = globalData.keywordTrends?.keywords?.[name];
+            title = `"${name}"`;
+            subtitle = 'Keyword funding trends over time';
+            break;
+        case 'state':
+            data = globalData.entityTrends?.states?.[name];
+            title = name;
+            subtitle = 'State funding trends over time';
+            break;
+        case 'city':
+            data = globalData.entityTrends?.cities?.[name];
+            title = name + (data?.state ? ` (${data.state})` : '');
+            subtitle = 'City funding trends over time';
+            break;
+        case 'recipient':
+            data = globalData.entityTrends?.recipients?.[name];
+            title = name.length > 50 ? name.substring(0, 47) + '...' : name;
+            subtitle = 'Recipient funding trends over time';
+            break;
+        default:
+            console.error('Unknown drilldown type:', type);
+            return;
+    }
+
+    if (!data) {
+        console.error(`No trend data for ${type}:`, name);
+        return;
+    }
+
+    // Update modal content
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalSubtitle').textContent = subtitle;
+    document.getElementById('modalTotalProjects').textContent = formatNumber(data.total_projects);
+    document.getElementById('modalTotalFunding').textContent = formatCurrency(data.total_funding, true);
+
+    // Show modal
+    document.getElementById('drilldownModal').style.display = 'flex';
+
+    // Destroy previous chart if exists
+    if (drilldownChart) {
+        drilldownChart.destroy();
+    }
+
+    // Create chart
+    const ctx = document.getElementById('drilldownChart').getContext('2d');
+    drilldownChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.yearly.map(d => d.year),
+            datasets: [
+                {
+                    label: 'Funding (€)',
+                    data: data.yearly.map(d => d.funding),
+                    backgroundColor: 'rgba(99, 102, 241, 0.7)',
+                    borderColor: '#6366F1',
+                    borderWidth: 1,
+                    yAxisID: 'y'
+                },
+                {
+                    label: 'Projects',
+                    data: data.yearly.map(d => d.projects),
+                    type: 'line',
+                    borderColor: '#F59E0B',
+                    backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                    fill: true,
+                    tension: 0.3,
+                    yAxisID: 'y1'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false
+            },
+            plugins: {
+                legend: { position: 'top' },
+                tooltip: {
+                    callbacks: {
+                        label: (ctx) => {
+                            if (ctx.dataset.label === 'Funding (€)') {
+                                return `Funding: ${formatCurrency(ctx.raw)}`;
+                            }
+                            return `Projects: ${formatNumber(ctx.raw)}`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: { grid: { display: false } },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: { display: true, text: 'Funding (€)' },
+                    ticks: { callback: (value) => formatCurrency(value, true) }
+                },
+                y1: {
+                    type: 'linear',
+                    position: 'right',
+                    title: { display: true, text: 'Projects' },
+                    grid: { drawOnChartArea: false }
+                }
+            }
+        }
+    });
+}
+
+// Wrapper functions for each type
+function showKeywordTrends(keyword) { showDrilldown('keyword', keyword); }
+function showStateTrends(state) { showDrilldown('state', state); }
+function showCityTrends(city) { showDrilldown('city', city); }
+function showRecipientTrends(recipient) { showDrilldown('recipient', recipient); }
+
+function closeModal() {
+    document.getElementById('drilldownModal').style.display = 'none';
+    if (drilldownChart) {
+        drilldownChart.destroy();
+        drilldownChart = null;
+    }
+}
+
+// Close modal on overlay click
+document.addEventListener('click', (e) => {
+    if (e.target.id === 'drilldownModal') {
+        closeModal();
+    }
+});
+
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeModal();
+    }
+});
+
+
+
+// Recipients table - clickable rows for drill-down
 function populateRecipientsTable(sortBy = 'funding') {
     const tbody = document.querySelector('#recipientTable tbody');
 
@@ -883,16 +1093,24 @@ function populateRecipientsTable(sortBy = 'funding') {
         ? globalData.recipients.top_by_funding.slice(0, 20)
         : globalData.recipients.top_by_count.slice(0, 20);
 
-    tbody.innerHTML = data.map((recipient, index) => `
-        <tr>
+    tbody.innerHTML = data.map((recipient, index) => {
+        // Check if we have trend data for this recipient
+        const hasTrends = globalData.entityTrends?.recipients?.[recipient.name];
+        const clickAttr = hasTrends ? `onclick="showRecipientTrends('${recipient.name.replace(/'/g, "\\'")}')"` : '';
+        const rowClass = hasTrends ? 'class="clickable-row"' : '';
+        const titleAttr = hasTrends ? 'Click to see funding trends' : recipient.name;
+
+        return `
+        <tr ${rowClass} ${clickAttr} title="${titleAttr}">
             <td>${index + 1}</td>
-            <td title="${recipient.name}">${truncateLabel(recipient.name, 50)}</td>
+            <td>${truncateLabel(recipient.name, 50)}</td>
             <td>${formatCurrency(recipient.total_funding)}</td>
             <td>${formatNumber(recipient.project_count)}</td>
             <td>${formatCurrency(recipient.avg_funding || recipient.total_funding / recipient.project_count)}</td>
-        </tr>
-    `).join('');
+        </tr>`;
+    }).join('');
 }
+
 
 
 
@@ -900,11 +1118,20 @@ function populateRecipientsTable(sortBy = 'funding') {
 // Event listeners
 function initializeEventListeners() {
     // Temporal chart range buttons
-    document.querySelectorAll('.chart-controls .chart-btn').forEach(btn => {
+    document.querySelectorAll('[data-range]').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            document.querySelectorAll('.chart-controls .chart-btn').forEach(b => b.classList.remove('active'));
+            e.target.closest('.chart-controls').querySelectorAll('.chart-btn').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             createTemporalChart(e.target.dataset.range);
+        });
+    });
+
+    // Geo chart mode toggle (total/per capita)
+    document.querySelectorAll('[data-geo-mode]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.target.closest('.chart-controls').querySelectorAll('.chart-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            createGeoChart(e.target.dataset.geoMode);
         });
     });
 

@@ -4,97 +4,129 @@
       "name": "Nordrhein-Westfalen",
       "total_funding": 57741412562.0,
       "avg_funding": 992478.6015916396,
-      "project_count": 58179
+      "project_count": 58179,
+      "population": 18034454,
+      "per_capita_funding": 3201.727790705502
     },
     {
       "name": "Bayern",
       "total_funding": 37280752863.0,
       "avg_funding": 606763.3355522281,
-      "project_count": 61442
+      "project_count": 61442,
+      "population": 13248928,
+      "per_capita_funding": 2813.8693834701194
     },
     {
       "name": "Baden-Württemberg",
       "total_funding": 27072976946.0,
       "avg_funding": 556656.254672561,
-      "project_count": 48635
+      "project_count": 48635,
+      "population": 11245898,
+      "per_capita_funding": 2407.3646182812613
     },
     {
       "name": "Berlin",
       "total_funding": 13484227690.0,
       "avg_funding": 683368.5227042368,
-      "project_count": 19732
+      "project_count": 19732,
+      "population": 3685265,
+      "per_capita_funding": 3658.957412831913
     },
     {
       "name": "Hessen",
       "total_funding": 11894369488.0,
       "avg_funding": 555915.5677696766,
-      "project_count": 21396
+      "project_count": 21396,
+      "population": 6280793,
+      "per_capita_funding": 1893.768746717174
     },
     {
       "name": "Niedersachsen",
       "total_funding": 11585658640.0,
       "avg_funding": 454197.06131409755,
-      "project_count": 25508
+      "project_count": 25508,
+      "population": 8004489,
+      "per_capita_funding": 1447.3951603906257
     },
     {
       "name": "Sachsen",
       "total_funding": 10625703087.0,
       "avg_funding": 592952.1811941965,
-      "project_count": 17920
+      "project_count": 17920,
+      "population": 4042422,
+      "per_capita_funding": 2628.548698527764
     },
     {
       "name": "Rheinland-Pfalz",
       "total_funding": 6679488518.0,
       "avg_funding": 585714.5315678709,
-      "project_count": 11404
+      "project_count": 11404,
+      "population": 4129569,
+      "per_capita_funding": 1617.4783659021075
     },
     {
       "name": "Hamburg",
       "total_funding": 5591485553.0,
       "avg_funding": 636336.1275748265,
-      "project_count": 8787
+      "project_count": 8787,
+      "population": 1862565,
+      "per_capita_funding": 3002.0351252171067
     },
     {
       "name": "Brandenburg",
       "total_funding": 4657058844.0,
       "avg_funding": 658986.676666195,
-      "project_count": 7067
+      "project_count": 7067,
+      "population": 2556747,
+      "per_capita_funding": 1821.47816893889
     },
     {
       "name": "Mecklenburg-Vorpommern",
       "total_funding": 3919335118.0,
       "avg_funding": 709381.9218099548,
-      "project_count": 5525
+      "project_count": 5525,
+      "population": 1573597,
+      "per_capita_funding": 2490.685428353003
     },
     {
       "name": "Schleswig-Holstein",
       "total_funding": 3891837747.0,
       "avg_funding": 447903.9874554034,
-      "project_count": 8689
+      "project_count": 8689,
+      "population": 2959517,
+      "per_capita_funding": 1315.0246296946427
     },
     {
       "name": "Thüringen",
       "total_funding": 3807283179.0,
       "avg_funding": 472309.0409378489,
-      "project_count": 8061
+      "project_count": 8061,
+      "population": 2100277,
+      "per_capita_funding": 1812.7528792630687
     },
     {
       "name": "Bremen",
       "total_funding": 3367046166.0,
       "avg_funding": 682002.4642495443,
-      "project_count": 4937
+      "project_count": 4937,
+      "population": 704881,
+      "per_capita_funding": 4776.758298209202
     },
     {
       "name": "Sachsen-Anhalt",
       "total_funding": 2657130913.0,
       "avg_funding": 434882.30981996725,
-      "project_count": 6110
+      "project_count": 6110,
+      "population": 2135597,
+      "per_capita_funding": 1244.2098921285242
     },
     {
       "name": "Saarland",
       "total_funding": 1435258732.0,
       "avg_funding": 447399.8541147132,
-      "project_count": 3208
+      "project_count": 3208,
+      "population": 1012141,
+      "per_capita_funding": 1418.042280670381
     }
   ],
   "top_cities": [
