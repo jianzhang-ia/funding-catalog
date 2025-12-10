@@ -154,7 +154,8 @@ function updateOverviewCards() {
 
     document.getElementById('totalFunding').textContent = formatCurrency(summary.total_funding, true);
     document.getElementById('totalProjects').textContent = formatNumber(summary.total_projects);
-    document.getElementById('uniqueRecipients').textContent = formatNumber(summary.unique_recipients);
+    // Show as minimum since "Keine Anzeige" entries represent multiple hidden recipients
+    document.getElementById('uniqueRecipients').textContent = formatNumber(summary.unique_recipients - 1) + '+';
     document.getElementById('avgFunding').textContent = formatCurrency(summary.highlights.avg_project_funding, true);
 }
 

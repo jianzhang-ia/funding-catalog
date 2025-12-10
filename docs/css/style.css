@@ -288,6 +288,14 @@ body {
     margin-bottom: var(--spacing-2xl);
 }
 
+.overview-footnote {
+    margin-top: var(--spacing-md);
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    text-align: center;
+}
+
 .overview-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
