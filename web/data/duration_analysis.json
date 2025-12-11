@@ -2,7 +2,7 @@
   "by_ministry": [
     {
       "ministry": "BMFTR",
-      "mean_months": 33.413263699385894,
+      "mean_months": 33.414481503383726,
       "median_months": 35.972404730617605,
       "project_count": 198031
     },
@@ -14,7 +14,7 @@
     },
     {
       "ministry": "BMLEH",
-      "mean_months": 38.049176883901985,
+      "mean_months": 38.053078073636755,
       "median_months": 37.97634691195795,
       "project_count": 8463
     },
@@ -26,13 +26,13 @@
     },
     {
       "ministry": "BMV",
-      "mean_months": 31.56626009887611,
-      "median_months": 24.57293035479632,
+      "mean_months": 31.577460776751977,
+      "median_months": 24.638633377135346,
       "project_count": 26438
     },
     {
       "ministry": "BMWE",
-      "mean_months": 29.784212280166773,
+      "mean_months": 29.785174742810675,
       "median_months": 29.993429697766096,
       "project_count": 84069
     }
@@ -40,35 +40,35 @@
   "distribution": [
     {
       "range": "<6 months",
-      "count": 11347
+      "count": 11351
     },
     {
       "range": "6-12 months",
-      "count": 40938
+      "count": 40931
     },
     {
       "range": "1-2 years",
-      "count": 55648
+      "count": 55647
     },
     {
       "range": "2-3 years",
-      "count": 93204
+      "count": 93159
     },
     {
       "range": "3-5 years",
-      "count": 103957
+      "count": 104000
     },
     {
       "range": "5-10 years",
-      "count": 11731
+      "count": 11736
     },
     {
       "range": ">10 years",
-      "count": 371
+      "count": 372
     }
   ],
   "overall_stats": {
-    "mean_months": 32.41770118332717,
+    "mean_months": 32.41975422153042,
     "median_months": 35.939553219448094,
     "total_analyzed": 317196
   }

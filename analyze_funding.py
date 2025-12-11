@@ -245,8 +245,8 @@ def analyze_temporal_trends(df):
     """Analysis 3: Funding trends over time with extended temporal patterns."""
     log("Analyzing temporal trends...")
     
-    # Filter valid years
-    df_valid = df[df['StartYear'].notna() & (df['StartYear'] >= 1980) & (df['StartYear'] <= 2030)].copy()
+    # Include all projects with valid start years (no date filtering)
+    df_valid = df[df['StartYear'].notna()].copy()
     
     # Extract month for seasonal analysis
     df_valid['StartMonth'] = df_valid['StartDate'].apply(lambda x: x.month if x else None)
@@ -330,8 +330,9 @@ def analyze_temporal_trends(df):
             'project_count': int(row['project_count'])
         })
     
-    # Ministry share by decade
-    for decade in [1990, 2000, 2010, 2020]:
+    # Ministry share by decade (dynamic - include all decades in data)
+    all_decades = sorted(df_valid['Decade'].dropna().unique().tolist())
+    for decade in all_decades:
         decade_data = decade_ministry[decade_ministry['Decade'] == decade]
         total = decade_totals.get(decade, 1)
         result['decade_ministry_share'][str(decade)] = []

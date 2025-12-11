@@ -1,9 +1,9 @@
 {
   "summary": {
-    "joint_project_count": 154390,
-    "individual_project_count": 162850,
-    "joint_funding": 78374277570.0,
-    "individual_funding": 128260549638.0
+    "joint_project_count": 154391,
+    "individual_project_count": 162849,
+    "joint_funding": 78360436115.0,
+    "individual_funding": 128212763439.0
   },
   "top_joint_projects": [
     {
@@ -232,7 +232,7 @@
     },
     {
       "name": "Weizenbaum-Institut",
-      "total_funding": 80877833.0,
+      "total_funding": 80646599.0,
       "subproject_count": 23,
       "states_involved": [
         "Bayern",

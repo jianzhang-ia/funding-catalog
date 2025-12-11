@@ -1,0 +1,36 @@
+[14:23:17] ============================================================
+Traceback (most recent call last):
+[14:23:17] German Federal Funding Catalog Analysis Pipeline
+[14:23:17] ============================================================
+[14:23:17] Output directory ready: output
+[14:23:17] Loading CSV file...
+[14:23:23] Loaded 317,240 rows
+[14:23:23] Cleaning values...
+[14:23:31] Parsing funding amounts...
+[14:23:32] Parsing dates...
+[14:24:05] Data cleaning complete. 317,240 projects ready for analysis.
+[14:24:05] 
+============================================================
+[14:24:05] Running analyses...
+[14:24:05] ============================================================
+
+[14:24:05] Analyzing funding by ministry...
+[14:24:05] Saved: ministry_funding.json
+[14:24:05] Analyzing geographic distribution...
+[14:24:06] Saved: geographic_distribution.json
+[14:24:06] Analyzing temporal trends...
+[14:24:08] Saved: temporal_trends.json
+[14:24:08] Analyzing top recipients...
+  File "F:\VS Code\Funding\analyze_funding.py", line 853, in <module>
+    main()
+  File "F:\VS Code\Funding\analyze_funding.py", line 833, in main
+    recipient_data = analyze_top_recipients(df)
+  File "F:\VS Code\Funding\analyze_funding.py", line 365, in analyze_top_recipients
+    recipient_stats = df.groupby('Zuwendungsempfänger').agg({
+  File "D:\Program Files\Python\Python310\lib\site-packages\pandas\core\frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "D:\Program Files\Python\Python310\lib\site-packages\pandas\core\groupby\groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "D:\Program Files\Python\Python310\lib\site-packages\pandas\core\groupby\grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Zuwendungsempfänger'

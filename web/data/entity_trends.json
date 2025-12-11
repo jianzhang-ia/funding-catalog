@@ -1,8 +1,8 @@
 {
   "states": {
     "Nordrhein-Westfalen": {
-      "total_funding": 57741412562.0,
-      "total_projects": 58179,
+      "total_funding": 57758083240.0,
+      "total_projects": 58168,
       "yearly": [
         {
           "year": 1968,
@@ -81,13 +81,13 @@
         },
         {
           "year": 1983,
-          "funding": 467174496.0,
-          "projects": 731
+          "funding": 467166980.0,
+          "projects": 730
         },
         {
           "year": 1984,
-          "funding": 422835243.0,
-          "projects": 904
+          "funding": 422809478.0,
+          "projects": 903
         },
         {
           "year": 1985,
@@ -136,8 +136,8 @@
         },
         {
           "year": 1994,
-          "funding": 279254339.0,
-          "projects": 599
+          "funding": 278942763.0,
+          "projects": 598
         },
         {
           "year": 1995,
@@ -171,8 +171,8 @@
         },
         {
           "year": 2001,
-          "funding": 656059287.0,
-          "projects": 1040
+          "funding": 655583796.0,
+          "projects": 1039
         },
         {
           "year": 2002,
@@ -191,8 +191,8 @@
         },
         {
           "year": 2005,
-          "funding": 4255895088.0,
-          "projects": 764
+          "funding": 4255584331.0,
+          "projects": 763
         },
         {
           "year": 2006,
@@ -211,8 +211,8 @@
         },
         {
           "year": 2009,
-          "funding": 748067387.0,
-          "projects": 1506
+          "funding": 747999295.0,
+          "projects": 1505
         },
         {
           "year": 2010,
@@ -226,8 +226,8 @@
         },
         {
           "year": 2012,
-          "funding": 1262713369.0,
-          "projects": 1701
+          "funding": 1242942109.0,
+          "projects": 1700
         },
         {
           "year": 2013,
@@ -236,8 +236,8 @@
         },
         {
           "year": 2014,
-          "funding": 791940799.0,
-          "projects": 1376
+          "funding": 791642429.0,
+          "projects": 1375
         },
         {
           "year": 2015,
@@ -251,8 +251,8 @@
         },
         {
           "year": 2017,
-          "funding": 1573683208.0,
-          "projects": 2304
+          "funding": 1550515940.0,
+          "projects": 2303
         },
         {
           "year": 2018,
@@ -261,32 +261,32 @@
         },
         {
           "year": 2019,
-          "funding": 2581044916.0,
+          "funding": 2580680553.0,
           "projects": 2696
         },
         {
           "year": 2020,
-          "funding": 1684372733.0,
+          "funding": 1684006537.0,
           "projects": 2954
         },
         {
           "year": 2021,
-          "funding": 3863397298.0,
+          "funding": 3862662438.0,
           "projects": 3297
         },
         {
           "year": 2022,
-          "funding": 2069135572.0,
-          "projects": 3012
+          "funding": 2068328951.0,
+          "projects": 3011
         },
         {
           "year": 2023,
-          "funding": 2405667371.0,
-          "projects": 2540
+          "funding": 2390495556.0,
+          "projects": 2539
         },
         {
           "year": 2024,
-          "funding": 2700086481.0,
+          "funding": 2778637109.0,
           "projects": 2103
         },
         {
@@ -302,8 +302,8 @@
       ]
     },
     "Bayern": {
-      "total_funding": 37280752863.0,
-      "total_projects": 61442,
+      "total_funding": 37287899532.0,
+      "total_projects": 61443,
       "yearly": [
         {
           "year": 1968,
@@ -552,64 +552,64 @@
         },
         {
           "year": 2017,
-          "funding": 1543721905.0,
+          "funding": 1543647064.0,
           "projects": 3106
         },
         {
           "year": 2018,
-          "funding": 920042310.0,
+          "funding": 920020495.0,
           "projects": 2334
         },
         {
           "year": 2019,
-          "funding": 1576053409.0,
+          "funding": 1576387412.0,
           "projects": 2844
         },
         {
           "year": 2020,
-          "funding": 1558591066.0,
+          "funding": 1558611882.0,
           "projects": 3299
         },
         {
           "year": 2021,
-          "funding": 3564948503.0,
+          "funding": 3564786332.0,
           "projects": 4564
         },
         {
           "year": 2022,
-          "funding": 2608547603.0,
+          "funding": 2607289807.0,
           "projects": 3937
         },
         {
           "year": 2023,
-          "funding": 2770414460.0,
+          "funding": 2770206259.0,
           "projects": 3794
         },
         {
           "year": 2024,
-          "funding": 1903267201.0,
-          "projects": 3031
+          "funding": 1907008827.0,
+          "projects": 3032
         },
         {
           "year": 2025,
-          "funding": 1019728494.0,
+          "funding": 1019726014.0,
           "projects": 2079
         },
         {
           "year": 2026,
-          "funding": 31337527.0,
-          "projects": 48
+          "funding": 31178500.0,
+          "projects": 47
         },
         {
           "year": 2027,
-          "funding": 135901.0,
-          "projects": 1
+          "funding": 5072456.0,
+          "projects": 2
         }
       ]
     },
     "Baden-Württemberg": {
-      "total_funding": 27072976946.0,
-      "total_projects": 48635,
+      "total_funding": 27076787023.0,
+      "total_projects": 48634,
       "yearly": [
         {
           "year": 1968,
@@ -858,47 +858,47 @@
         },
         {
           "year": 2017,
-          "funding": 799688500.0,
+          "funding": 801938127.0,
           "projects": 2259
         },
         {
           "year": 2018,
-          "funding": 826508157.0,
+          "funding": 826756391.0,
           "projects": 2114
         },
         {
           "year": 2019,
-          "funding": 1099968738.0,
+          "funding": 1101623155.0,
           "projects": 2435
         },
         {
           "year": 2020,
-          "funding": 1831784634.0,
+          "funding": 1831705766.0,
           "projects": 2702
         },
         {
           "year": 2021,
-          "funding": 2579674177.0,
+          "funding": 2579372238.0,
           "projects": 3026
         },
         {
           "year": 2022,
-          "funding": 3269500598.0,
-          "projects": 2546
+          "funding": 3269470613.0,
+          "projects": 2545
         },
         {
           "year": 2023,
-          "funding": 1953749832.0,
+          "funding": 1953824568.0,
           "projects": 2261
         },
         {
           "year": 2024,
-          "funding": 971029392.0,
+          "funding": 971028081.0,
           "projects": 1726
         },
         {
           "year": 2025,
-          "funding": 534748844.0,
+          "funding": 534744010.0,
           "projects": 1310
         },
         {
@@ -954,8 +954,8 @@
       ]
     },
     "Berlin": {
-      "total_funding": 13484227690.0,
-      "total_projects": 19732,
+      "total_funding": 13532589311.0,
+      "total_projects": 19744,
       "yearly": [
         {
           "year": 1969,
@@ -1029,13 +1029,13 @@
         },
         {
           "year": 1983,
-          "funding": 49603777.0,
-          "projects": 149
+          "funding": 49611293.0,
+          "projects": 150
         },
         {
           "year": 1984,
-          "funding": 82925393.0,
-          "projects": 133
+          "funding": 82951158.0,
+          "projects": 134
         },
         {
           "year": 1985,
@@ -1084,8 +1084,8 @@
         },
         {
           "year": 1994,
-          "funding": 97171185.0,
-          "projects": 230
+          "funding": 97482761.0,
+          "projects": 231
         },
         {
           "year": 1995,
@@ -1119,8 +1119,8 @@
         },
         {
           "year": 2001,
-          "funding": 222704037.0,
-          "projects": 385
+          "funding": 223179528.0,
+          "projects": 386
         },
         {
           "year": 2002,
@@ -1139,8 +1139,8 @@
         },
         {
           "year": 2005,
-          "funding": 92693595.0,
-          "projects": 290
+          "funding": 93004352.0,
+          "projects": 291
         },
         {
           "year": 2006,
@@ -1159,8 +1159,8 @@
         },
         {
           "year": 2009,
-          "funding": 312098643.0,
-          "projects": 540
+          "funding": 312166735.0,
+          "projects": 541
         },
         {
           "year": 2010,
@@ -1174,8 +1174,8 @@
         },
         {
           "year": 2012,
-          "funding": 244030778.0,
-          "projects": 588
+          "funding": 263802038.0,
+          "projects": 589
         },
         {
           "year": 2013,
@@ -1184,8 +1184,8 @@
         },
         {
           "year": 2014,
-          "funding": 299498776.0,
-          "projects": 450
+          "funding": 299797146.0,
+          "projects": 451
         },
         {
           "year": 2015,
@@ -1199,8 +1199,8 @@
         },
         {
           "year": 2017,
-          "funding": 1009013098.0,
-          "projects": 843
+          "funding": 1032180366.0,
+          "projects": 844
         },
         {
           "year": 2018,
@@ -1209,7 +1209,7 @@
         },
         {
           "year": 2019,
-          "funding": 447209362.0,
+          "funding": 447119240.0,
           "projects": 910
         },
         {
@@ -1219,28 +1219,28 @@
         },
         {
           "year": 2021,
-          "funding": 1164415806.0,
+          "funding": 1164346736.0,
           "projects": 1053
         },
         {
           "year": 2022,
-          "funding": 866638185.0,
-          "projects": 899
+          "funding": 866718294.0,
+          "projects": 900
         },
         {
           "year": 2023,
-          "funding": 504595292.0,
-          "projects": 835
+          "funding": 504798364.0,
+          "projects": 836
         },
         {
           "year": 2024,
-          "funding": 434886810.0,
+          "funding": 434911966.0,
           "projects": 732
         },
         {
           "year": 2025,
-          "funding": 456267201.0,
-          "projects": 548
+          "funding": 460043582.0,
+          "projects": 549
         },
         {
           "year": 2026,
@@ -1250,8 +1250,8 @@
       ]
     },
     "Hessen": {
-      "total_funding": 11894369488.0,
-      "total_projects": 21396,
+      "total_funding": 11892108532.0,
+      "total_projects": 21397,
       "yearly": [
         {
           "year": 1968,
@@ -1515,27 +1515,27 @@
         },
         {
           "year": 2020,
-          "funding": 415595298.0,
+          "funding": 415346982.0,
           "projects": 1178
         },
         {
           "year": 2021,
-          "funding": 1267507688.0,
+          "funding": 1267340626.0,
           "projects": 1321
         },
         {
           "year": 2022,
-          "funding": 481773757.0,
-          "projects": 1048
+          "funding": 481452715.0,
+          "projects": 1049
         },
         {
           "year": 2023,
-          "funding": 594651297.0,
+          "funding": 594906548.0,
           "projects": 985
         },
         {
           "year": 2024,
-          "funding": 437791737.0,
+          "funding": 436011950.0,
           "projects": 826
         },
         {
@@ -1556,7 +1556,7 @@
       ]
     },
     "Niedersachsen": {
-      "total_funding": 11585658640.0,
+      "total_funding": 11478092585.0,
       "total_projects": 25508,
       "yearly": [
         {
@@ -1816,7 +1816,7 @@
         },
         {
           "year": 2019,
-          "funding": 775118857.0,
+          "funding": 775480844.0,
           "projects": 1301
         },
         {
@@ -1826,22 +1826,22 @@
         },
         {
           "year": 2021,
-          "funding": 1040679296.0,
+          "funding": 1040656895.0,
           "projects": 1289
         },
         {
           "year": 2022,
-          "funding": 568366355.0,
+          "funding": 568026595.0,
           "projects": 1389
         },
         {
           "year": 2023,
-          "funding": 702342077.0,
+          "funding": 594866917.0,
           "projects": 1112
         },
         {
           "year": 2024,
-          "funding": 486686146.0,
+          "funding": 486595425.0,
           "projects": 1010
         },
         {
@@ -1857,7 +1857,7 @@
       ]
     },
     "Sachsen": {
-      "total_funding": 10625703087.0,
+      "total_funding": 10602577189.0,
       "total_projects": 17920,
       "yearly": [
         {
@@ -2032,7 +2032,7 @@
         },
         {
           "year": 2017,
-          "funding": 713995145.0,
+          "funding": 715702746.0,
           "projects": 912
         },
         {
@@ -2052,27 +2052,27 @@
         },
         {
           "year": 2021,
-          "funding": 1155263511.0,
+          "funding": 1155176354.0,
           "projects": 1206
         },
         {
           "year": 2022,
-          "funding": 1330169716.0,
+          "funding": 1329356106.0,
           "projects": 917
         },
         {
           "year": 2023,
-          "funding": 1143520771.0,
+          "funding": 1118359630.0,
           "projects": 1149
         },
         {
           "year": 2024,
-          "funding": 419265441.0,
+          "funding": 420736083.0,
           "projects": 809
         },
         {
           "year": 2025,
-          "funding": 271198102.0,
+          "funding": 270955869.0,
           "projects": 508
         },
         {
@@ -2083,7 +2083,7 @@
       ]
     },
     "Rheinland-Pfalz": {
-      "total_funding": 6679488518.0,
+      "total_funding": 6680452074.0,
       "total_projects": 11404,
       "yearly": [
         {
@@ -2343,12 +2343,12 @@
         },
         {
           "year": 2020,
-          "funding": 693180937.0,
+          "funding": 693141426.0,
           "projects": 637
         },
         {
           "year": 2021,
-          "funding": 720086195.0,
+          "funding": 721486534.0,
           "projects": 772
         },
         {
@@ -2358,7 +2358,7 @@
         },
         {
           "year": 2023,
-          "funding": 545179873.0,
+          "funding": 544779873.0,
           "projects": 595
         },
         {
@@ -2368,7 +2368,7 @@
         },
         {
           "year": 2025,
-          "funding": 197762424.0,
+          "funding": 197765152.0,
           "projects": 362
         },
         {
@@ -2379,7 +2379,7 @@
       ]
     },
     "Hamburg": {
-      "total_funding": 5591485553.0,
+      "total_funding": 5591154237.0,
       "total_projects": 8787,
       "yearly": [
         {
@@ -2644,27 +2644,27 @@
         },
         {
           "year": 2020,
-          "funding": 259078336.0,
+          "funding": 259077933.0,
           "projects": 482
         },
         {
           "year": 2021,
-          "funding": 500559652.0,
+          "funding": 500538254.0,
           "projects": 421
         },
         {
           "year": 2022,
-          "funding": 454098629.0,
+          "funding": 454068533.0,
           "projects": 412
         },
         {
           "year": 2023,
-          "funding": 568325258.0,
+          "funding": 568080334.0,
           "projects": 416
         },
         {
           "year": 2024,
-          "funding": 165115061.0,
+          "funding": 165080566.0,
           "projects": 302
         },
         {
@@ -2680,7 +2680,7 @@
       ]
     },
     "Brandenburg": {
-      "total_funding": 4657058844.0,
+      "total_funding": 4655013762.0,
       "total_projects": 7067,
       "yearly": [
         {
@@ -2900,22 +2900,22 @@
         },
         {
           "year": 2021,
-          "funding": 296085456.0,
+          "funding": 296080569.0,
           "projects": 427
         },
         {
           "year": 2022,
-          "funding": 257857862.0,
+          "funding": 257626628.0,
           "projects": 380
         },
         {
           "year": 2023,
-          "funding": 510944191.0,
+          "funding": 509191302.0,
           "projects": 410
         },
         {
           "year": 2024,
-          "funding": 308426368.0,
+          "funding": 308370296.0,
           "projects": 355
         },
         {
@@ -2931,7 +2931,7 @@
       ]
     },
     "Mecklenburg-Vorpommern": {
-      "total_funding": 3919335118.0,
+      "total_funding": 3918078439.0,
       "total_projects": 5525,
       "yearly": [
         {
@@ -3091,27 +3091,27 @@
         },
         {
           "year": 2021,
-          "funding": 234495771.0,
+          "funding": 234493035.0,
           "projects": 339
         },
         {
           "year": 2022,
-          "funding": 288274149.0,
+          "funding": 286729280.0,
           "projects": 238
         },
         {
           "year": 2023,
-          "funding": 328473241.0,
+          "funding": 328449103.0,
           "projects": 229
         },
         {
           "year": 2024,
-          "funding": 134521429.0,
+          "funding": 134847617.0,
           "projects": 291
         },
         {
           "year": 2025,
-          "funding": 65609467.0,
+          "funding": 65598343.0,
           "projects": 144
         },
         {
@@ -3122,8 +3122,8 @@
       ]
     },
     "Schleswig-Holstein": {
-      "total_funding": 3891837747.0,
-      "total_projects": 8689,
+      "total_funding": 3890388054.0,
+      "total_projects": 8688,
       "yearly": [
         {
           "year": 1968,
@@ -3382,32 +3382,32 @@
         },
         {
           "year": 2019,
-          "funding": 136467835.0,
+          "funding": 136441121.0,
           "projects": 391
         },
         {
           "year": 2020,
-          "funding": 173066755.0,
+          "funding": 173063822.0,
           "projects": 499
         },
         {
           "year": 2021,
-          "funding": 412841044.0,
+          "funding": 412712187.0,
           "projects": 500
         },
         {
           "year": 2022,
-          "funding": 203008791.0,
-          "projects": 415
+          "funding": 201810087.0,
+          "projects": 414
         },
         {
           "year": 2023,
-          "funding": 144028309.0,
+          "funding": 144016423.0,
           "projects": 396
         },
         {
           "year": 2024,
-          "funding": 173791717.0,
+          "funding": 173711118.0,
           "projects": 370
         },
         {
@@ -3423,7 +3423,7 @@
       ]
     },
     "Thüringen": {
-      "total_funding": 3807283179.0,
+      "total_funding": 3807157917.0,
       "total_projects": 8061,
       "yearly": [
         {
@@ -3583,7 +3583,7 @@
         },
         {
           "year": 2021,
-          "funding": 268520444.0,
+          "funding": 268395182.0,
           "projects": 435
         },
         {
@@ -3614,7 +3614,7 @@
       ]
     },
     "Bremen": {
-      "total_funding": 3367046166.0,
+      "total_funding": 3367001014.0,
       "total_projects": 4937,
       "yearly": [
         {
@@ -3879,12 +3879,12 @@
         },
         {
           "year": 2021,
-          "funding": 211621384.0,
+          "funding": 211597800.0,
           "projects": 225
         },
         {
           "year": 2022,
-          "funding": 103444253.0,
+          "funding": 103422685.0,
           "projects": 191
         },
         {
@@ -3905,7 +3905,7 @@
       ]
     },
     "Sachsen-Anhalt": {
-      "total_funding": 2657130913.0,
+      "total_funding": 2656946644.0,
       "total_projects": 6110,
       "yearly": [
         {
@@ -4050,7 +4050,7 @@
         },
         {
           "year": 2017,
-          "funding": 235874376.0,
+          "funding": 235873519.0,
           "projects": 298
         },
         {
@@ -4075,7 +4075,7 @@
         },
         {
           "year": 2022,
-          "funding": 101272440.0,
+          "funding": 101089028.0,
           "projects": 274
         },
         {
@@ -4101,7 +4101,7 @@
       ]
     },
     "Saarland": {
-      "total_funding": 1435258732.0,
+      "total_funding": 1435175301.0,
       "total_projects": 3208,
       "yearly": [
         {
@@ -4376,7 +4376,7 @@
         },
         {
           "year": 2023,
-          "funding": 95009995.0,
+          "funding": 94926564.0,
           "projects": 179
         },
         {
@@ -4400,7 +4400,7 @@
   "cities": {
     "Bonn": {
       "state": "Nordrhein-Westfalen",
-      "total_funding": 24656689863.0,
+      "total_funding": 24730418921.0,
       "total_projects": 5479,
       "yearly": [
         {
@@ -4670,7 +4670,7 @@
         },
         {
           "year": 2021,
-          "funding": 508737350.0,
+          "funding": 508734392.0,
           "projects": 200
         },
         {
@@ -4685,7 +4685,7 @@
         },
         {
           "year": 2024,
-          "funding": 1129346800.0,
+          "funding": 1203078816.0,
           "projects": 148
         },
         {
@@ -4702,7 +4702,7 @@
     },
     "München": {
       "state": "Bayern",
-      "total_funding": 23884966830.0,
+      "total_funding": 23883926247.0,
       "total_projects": 28517,
       "yearly": [
         {
@@ -4952,7 +4952,7 @@
         },
         {
           "year": 2017,
-          "funding": 1049342155.0,
+          "funding": 1049267314.0,
           "projects": 1076
         },
         {
@@ -4962,37 +4962,37 @@
         },
         {
           "year": 2019,
-          "funding": 1035969176.0,
+          "funding": 1036303179.0,
           "projects": 1135
         },
         {
           "year": 2020,
-          "funding": 1034199992.0,
+          "funding": 1034286526.0,
           "projects": 1241
         },
         {
           "year": 2021,
-          "funding": 2799134641.0,
+          "funding": 2799033131.0,
           "projects": 1609
         },
         {
           "year": 2022,
-          "funding": 1592064082.0,
+          "funding": 1591426659.0,
           "projects": 1256
         },
         {
           "year": 2023,
-          "funding": 1131064140.0,
+          "funding": 1130898009.0,
           "projects": 1270
         },
         {
           "year": 2024,
-          "funding": 899635464.0,
+          "funding": 899156729.0,
           "projects": 1047
         },
         {
           "year": 2025,
-          "funding": 535352152.0,
+          "funding": 535349672.0,
           "projects": 773
         },
         {
@@ -5004,8 +5004,8 @@
     },
     "Berlin": {
       "state": "Berlin",
-      "total_funding": 13485500592.0,
-      "total_projects": 19733,
+      "total_funding": 13533263593.0,
+      "total_projects": 19744,
       "yearly": [
         {
           "year": 1969,
@@ -5079,13 +5079,13 @@
         },
         {
           "year": 1983,
-          "funding": 49603777.0,
-          "projects": 149
+          "funding": 49611293.0,
+          "projects": 150
         },
         {
           "year": 1984,
-          "funding": 82925393.0,
-          "projects": 133
+          "funding": 82951158.0,
+          "projects": 134
         },
         {
           "year": 1985,
@@ -5134,8 +5134,8 @@
         },
         {
           "year": 1994,
-          "funding": 97171185.0,
-          "projects": 230
+          "funding": 97482761.0,
+          "projects": 231
         },
         {
           "year": 1995,
@@ -5169,8 +5169,8 @@
         },
         {
           "year": 2001,
-          "funding": 222704037.0,
-          "projects": 385
+          "funding": 223179528.0,
+          "projects": 386
         },
         {
           "year": 2002,
@@ -5189,8 +5189,8 @@
         },
         {
           "year": 2005,
-          "funding": 92693595.0,
-          "projects": 290
+          "funding": 93004352.0,
+          "projects": 291
         },
         {
           "year": 2006,
@@ -5209,8 +5209,8 @@
         },
         {
           "year": 2009,
-          "funding": 312098643.0,
-          "projects": 540
+          "funding": 312166735.0,
+          "projects": 541
         },
         {
           "year": 2010,
@@ -5224,8 +5224,8 @@
         },
         {
           "year": 2012,
-          "funding": 244030778.0,
-          "projects": 588
+          "funding": 263802038.0,
+          "projects": 589
         },
         {
           "year": 2013,
@@ -5234,8 +5234,8 @@
         },
         {
           "year": 2014,
-          "funding": 299498776.0,
-          "projects": 450
+          "funding": 299797146.0,
+          "projects": 451
         },
         {
           "year": 2015,
@@ -5249,8 +5249,8 @@
         },
         {
           "year": 2017,
-          "funding": 1009013098.0,
-          "projects": 843
+          "funding": 1032180366.0,
+          "projects": 844
         },
         {
           "year": 2018,
@@ -5259,7 +5259,7 @@
         },
         {
           "year": 2019,
-          "funding": 447707879.0,
+          "funding": 447617757.0,
           "projects": 911
         },
         {
@@ -5269,27 +5269,27 @@
         },
         {
           "year": 2021,
-          "funding": 1164244536.0,
+          "funding": 1164175466.0,
           "projects": 1052
         },
         {
           "year": 2022,
-          "funding": 866638185.0,
-          "projects": 899
+          "funding": 866718294.0,
+          "projects": 900
         },
         {
           "year": 2023,
-          "funding": 505015801.0,
-          "projects": 836
+          "funding": 505218873.0,
+          "projects": 837
         },
         {
           "year": 2024,
-          "funding": 434813336.0,
+          "funding": 434838492.0,
           "projects": 731
         },
         {
           "year": 2025,
-          "funding": 456865821.0,
+          "funding": 460043582.0,
           "projects": 549
         },
         {
@@ -5301,7 +5301,7 @@
     },
     "Hamburg": {
       "state": "Hamburg",
-      "total_funding": 5591475728.0,
+      "total_funding": 5591144412.0,
       "total_projects": 8786,
       "yearly": [
         {
@@ -5566,27 +5566,27 @@
         },
         {
           "year": 2020,
-          "funding": 259078336.0,
+          "funding": 259077933.0,
           "projects": 482
         },
         {
           "year": 2021,
-          "funding": 500559652.0,
+          "funding": 500538254.0,
           "projects": 421
         },
         {
           "year": 2022,
-          "funding": 454098629.0,
+          "funding": 454068533.0,
           "projects": 412
         },
         {
           "year": 2023,
-          "funding": 568315433.0,
+          "funding": 568070509.0,
           "projects": 415
         },
         {
           "year": 2024,
-          "funding": 165115061.0,
+          "funding": 165080566.0,
           "projects": 302
         },
         {
@@ -5603,7 +5603,7 @@
     },
     "Stuttgart": {
       "state": "Baden-Württemberg",
-      "total_funding": 5119104515.0,
+      "total_funding": 5119315310.0,
       "total_projects": 7562,
       "yearly": [
         {
@@ -5858,7 +5858,7 @@
         },
         {
           "year": 2018,
-          "funding": 115452757.0,
+          "funding": 115700991.0,
           "projects": 273
         },
         {
@@ -5868,7 +5868,7 @@
         },
         {
           "year": 2020,
-          "funding": 163210375.0,
+          "funding": 163210683.0,
           "projects": 329
         },
         {
@@ -5878,12 +5878,12 @@
         },
         {
           "year": 2022,
-          "funding": 174353771.0,
+          "funding": 174351786.0,
           "projects": 271
         },
         {
           "year": 2023,
-          "funding": 137954470.0,
+          "funding": 137918708.0,
           "projects": 252
         },
         {
@@ -5905,7 +5905,7 @@
     },
     "Köln": {
       "state": "Nordrhein-Westfalen",
-      "total_funding": 4823963747.0,
+      "total_funding": 4809738002.0,
       "total_projects": 6097,
       "yearly": [
         {
@@ -6175,7 +6175,7 @@
         },
         {
           "year": 2021,
-          "funding": 220488253.0,
+          "funding": 220136883.0,
           "projects": 299
         },
         {
@@ -6185,7 +6185,7 @@
         },
         {
           "year": 2023,
-          "funding": 328955235.0,
+          "funding": 315080860.0,
           "projects": 242
         },
         {
@@ -6207,7 +6207,7 @@
     },
     "Düsseldorf": {
       "state": "Nordrhein-Westfalen",
-      "total_funding": 4573672755.0,
+      "total_funding": 4573623378.0,
       "total_projects": 4195,
       "yearly": [
         {
@@ -6472,7 +6472,7 @@
         },
         {
           "year": 2021,
-          "funding": 1856405366.0,
+          "funding": 1856355989.0,
           "projects": 218
         },
         {
@@ -6504,7 +6504,7 @@
     },
     "Dresden": {
       "state": "Sachsen",
-      "total_funding": 4148796422.0,
+      "total_funding": 4148796481.0,
       "total_projects": 6509,
       "yearly": [
         {
@@ -6674,12 +6674,12 @@
         },
         {
           "year": 2023,
-          "funding": 166298280.0,
+          "funding": 166296300.0,
           "projects": 346
         },
         {
           "year": 2024,
-          "funding": 125357671.0,
+          "funding": 125359710.0,
           "projects": 250
         },
         {
@@ -6696,7 +6696,7 @@
     },
     "Essen": {
       "state": "Nordrhein-Westfalen",
-      "total_funding": 3998837000.0,
+      "total_funding": 3998804807.0,
       "total_projects": 3106,
       "yearly": [
         {
@@ -6971,12 +6971,12 @@
         },
         {
           "year": 2022,
-          "funding": 59406974.0,
+          "funding": 59376810.0,
           "projects": 92
         },
         {
           "year": 2023,
-          "funding": 87929051.0,
+          "funding": 87927022.0,
           "projects": 109
         },
         {
@@ -6998,7 +6998,7 @@
     },
     "Darmstadt": {
       "state": "Hessen",
-      "total_funding": 3804641802.0,
+      "total_funding": 3805202629.0,
       "total_projects": 3208,
       "yearly": [
         {
@@ -7273,12 +7273,12 @@
         },
         {
           "year": 2022,
-          "funding": 83979808.0,
+          "funding": 84279484.0,
           "projects": 129
         },
         {
           "year": 2023,
-          "funding": 80843259.0,
+          "funding": 81104410.0,
           "projects": 121
         },
         {
@@ -7295,7 +7295,7 @@
     },
     "Hannover": {
       "state": "Niedersachsen",
-      "total_funding": 3451783889.0,
+      "total_funding": 3451773715.0,
       "total_projects": 6026,
       "yearly": [
         {
@@ -7560,7 +7560,7 @@
         },
         {
           "year": 2021,
-          "funding": 630928209.0,
+          "funding": 630918035.0,
           "projects": 250
         },
         {
@@ -7592,8 +7592,8 @@
     },
     "Aachen": {
       "state": "Nordrhein-Westfalen",
-      "total_funding": 3390911528.0,
-      "total_projects": 6729,
+      "total_funding": 3390469133.0,
+      "total_projects": 6730,
       "yearly": [
         {
           "year": 1968,
@@ -7852,23 +7852,23 @@
         },
         {
           "year": 2019,
-          "funding": 173507895.0,
+          "funding": 173143531.0,
           "projects": 271
         },
         {
           "year": 2020,
-          "funding": 190771469.0,
+          "funding": 190770269.0,
           "projects": 361
         },
         {
           "year": 2021,
-          "funding": 291780104.0,
+          "funding": 291720382.0,
           "projects": 468
         },
         {
           "year": 2022,
-          "funding": 270386614.0,
-          "projects": 463
+          "funding": 270369505.0,
+          "projects": 464
         },
         {
           "year": 2023,
@@ -7894,7 +7894,7 @@
     },
     "Mainz": {
       "state": "Rheinland-Pfalz",
-      "total_funding": 2944418039.0,
+      "total_funding": 2946107068.0,
       "total_projects": 2648,
       "yearly": [
         {
@@ -8159,7 +8159,7 @@
         },
         {
           "year": 2021,
-          "funding": 464628043.0,
+          "funding": 466317072.0,
           "projects": 82
         },
         {
@@ -8191,7 +8191,7 @@
     },
     "Frankfurt am Main": {
       "state": "Hessen",
-      "total_funding": 2721983376.0,
+      "total_funding": 2719132682.0,
       "total_projects": 5498,
       "yearly": [
         {
@@ -8456,27 +8456,27 @@
         },
         {
           "year": 2020,
-          "funding": 153327491.0,
+          "funding": 153321958.0,
           "projects": 363
         },
         {
           "year": 2021,
-          "funding": 214768127.0,
+          "funding": 214724008.0,
           "projects": 355
         },
         {
           "year": 2022,
-          "funding": 164800444.0,
+          "funding": 163737510.0,
           "projects": 243
         },
         {
           "year": 2023,
-          "funding": 170057438.0,
+          "funding": 170131538.0,
           "projects": 254
         },
         {
           "year": 2024,
-          "funding": 133980365.0,
+          "funding": 132168157.0,
           "projects": 217
         },
         {
@@ -9077,7 +9077,7 @@
     },
     "Leipzig": {
       "state": "Sachsen",
-      "total_funding": 2009825566.0,
+      "total_funding": 2009592912.0,
       "total_projects": 3411,
       "yearly": [
         {
@@ -9237,12 +9237,12 @@
         },
         {
           "year": 2021,
-          "funding": 336761185.0,
+          "funding": 336698531.0,
           "projects": 251
         },
         {
           "year": 2022,
-          "funding": 148578472.0,
+          "funding": 148408472.0,
           "projects": 174
         },
         {
@@ -9571,7 +9571,7 @@
     },
     "Bremen": {
       "state": "Bremen",
-      "total_funding": 1812859250.0,
+      "total_funding": 1812814098.0,
       "total_projects": 4151,
       "yearly": [
         {
@@ -9836,12 +9836,12 @@
         },
         {
           "year": 2021,
-          "funding": 182334945.0,
+          "funding": 182311361.0,
           "projects": 178
         },
         {
           "year": 2022,
-          "funding": 96700623.0,
+          "funding": 96679055.0,
           "projects": 162
         },
         {
@@ -9863,7 +9863,7 @@
     },
     "Potsdam": {
       "state": "Brandenburg",
-      "total_funding": 1802984359.0,
+      "total_funding": 1802747206.0,
       "total_projects": 2299,
       "yearly": [
         {
@@ -10038,17 +10038,17 @@
         },
         {
           "year": 2021,
-          "funding": 186412377.0,
+          "funding": 186407897.0,
           "projects": 130
         },
         {
           "year": 2022,
-          "funding": 52580506.0,
+          "funding": 52349272.0,
           "projects": 85
         },
         {
           "year": 2023,
-          "funding": 85614226.0,
+          "funding": 85612787.0,
           "projects": 111
         },
         {
@@ -10070,7 +10070,7 @@
     },
     "Braunschweig": {
       "state": "Niedersachsen",
-      "total_funding": 1703960394.0,
+      "total_funding": 1703958875.0,
       "total_projects": 3155,
       "yearly": [
         {
@@ -10330,7 +10330,7 @@
         },
         {
           "year": 2021,
-          "funding": 119123330.0,
+          "funding": 119121811.0,
           "projects": 159
         },
         {
@@ -10362,7 +10362,7 @@
     },
     "Kiel": {
       "state": "Schleswig-Holstein",
-      "total_funding": 1685253030.0,
+      "total_funding": 1685110892.0,
       "total_projects": 3095,
       "yearly": [
         {
@@ -10622,7 +10622,7 @@
         },
         {
           "year": 2019,
-          "funding": 55416860.0,
+          "funding": 55390146.0,
           "projects": 100
         },
         {
@@ -10632,7 +10632,7 @@
         },
         {
           "year": 2021,
-          "funding": 253987534.0,
+          "funding": 253981845.0,
           "projects": 158
         },
         {
@@ -10642,12 +10642,12 @@
         },
         {
           "year": 2023,
-          "funding": 39913775.0,
+          "funding": 39901944.0,
           "projects": 113
         },
         {
           "year": 2024,
-          "funding": 60919085.0,
+          "funding": 60821181.0,
           "projects": 114
         },
         {
@@ -10664,7 +10664,7 @@
     },
     "Freiburg im Breisgau": {
       "state": "Baden-Württemberg",
-      "total_funding": 1602454750.0,
+      "total_funding": 1602484248.0,
       "total_projects": 2833,
       "yearly": [
         {
@@ -10939,7 +10939,7 @@
         },
         {
           "year": 2023,
-          "funding": 61539899.0,
+          "funding": 61569397.0,
           "projects": 130
         },
         {
@@ -11742,7 +11742,7 @@
     },
     "Kaiserslautern": {
       "state": "Rheinland-Pfalz",
-      "total_funding": 1326568165.0,
+      "total_funding": 1326528654.0,
       "total_projects": 1954,
       "yearly": [
         {
@@ -11982,7 +11982,7 @@
         },
         {
           "year": 2020,
-          "funding": 78269436.0,
+          "funding": 78229925.0,
           "projects": 114
         },
         {
@@ -12311,7 +12311,7 @@
     },
     "Erlangen": {
       "state": "Bayern",
-      "total_funding": 1309850713.0,
+      "total_funding": 1309814958.0,
       "total_projects": 2488,
       "yearly": [
         {
@@ -12581,7 +12581,7 @@
         },
         {
           "year": 2021,
-          "funding": 52064757.0,
+          "funding": 52029002.0,
           "projects": 95
         },
         {
@@ -12613,7 +12613,7 @@
     },
     "Gerlingen": {
       "state": "Baden-Württemberg",
-      "total_funding": 1258028219.0,
+      "total_funding": 1258010593.0,
       "total_projects": 874,
       "yearly": [
         {
@@ -12878,7 +12878,7 @@
         },
         {
           "year": 2021,
-          "funding": 45642879.0,
+          "funding": 45625253.0,
           "projects": 42
         },
         {
@@ -13162,7 +13162,7 @@
       ]
     },
     "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung eingetragener Verein": {
-      "total_funding": 10571601995.0,
+      "total_funding": 10571904830.0,
       "total_projects": 12254,
       "yearly": [
         {
@@ -13412,7 +13412,7 @@
         },
         {
           "year": 2019,
-          "funding": 684933077.0,
+          "funding": 685267080.0,
           "projects": 607
         },
         {
@@ -13422,7 +13422,7 @@
         },
         {
           "year": 2021,
-          "funding": 1005696579.0,
+          "funding": 1005665411.0,
           "projects": 877
         },
         {
@@ -13453,7 +13453,7 @@
       ]
     },
     "Deutscher Akademischer Austauschdienst e.V.": {
-      "total_funding": 3759106075.0,
+      "total_funding": 3832838091.0,
       "total_projects": 291,
       "yearly": [
         {
@@ -13713,7 +13713,7 @@
         },
         {
           "year": 2024,
-          "funding": 478196613.0,
+          "funding": 551928629.0,
           "projects": 15
         },
         {
@@ -13724,7 +13724,7 @@
       ]
     },
     "Deutsches Zentrum für Luft- und Raumfahrt e.V.": {
-      "total_funding": 2664654884.0,
+      "total_funding": 2651210646.0,
       "total_projects": 2051,
       "yearly": [
         {
@@ -14004,7 +14004,7 @@
         },
         {
           "year": 2023,
-          "funding": 239062026.0,
+          "funding": 225617788.0,
           "projects": 100
         },
         {
@@ -14321,7 +14321,7 @@
       ]
     },
     "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.": {
-      "total_funding": 2452953653.0,
+      "total_funding": 2452878812.0,
       "total_projects": 2715,
       "yearly": [
         {
@@ -14571,7 +14571,7 @@
         },
         {
           "year": 2017,
-          "funding": 83132112.0,
+          "funding": 83057271.0,
           "projects": 46
         },
         {
@@ -14673,7 +14673,7 @@
       ]
     },
     "Rheinisch-Westfälische Technische Hochschule Aachen": {
-      "total_funding": 2290914085.0,
+      "total_funding": 2290889483.0,
       "total_projects": 3824,
       "yearly": [
         {
@@ -14938,12 +14938,12 @@
         },
         {
           "year": 2020,
-          "funding": 129658585.0,
+          "funding": 129657385.0,
           "projects": 174
         },
         {
           "year": 2021,
-          "funding": 196649107.0,
+          "funding": 196625705.0,
           "projects": 223
         },
         {
@@ -15308,7 +15308,7 @@
       ]
     },
     "Technische Universität München": {
-      "total_funding": 1680808829.0,
+      "total_funding": 1680823044.0,
       "total_projects": 3156,
       "yearly": [
         {
@@ -15583,12 +15583,12 @@
         },
         {
           "year": 2022,
-          "funding": 113405714.0,
+          "funding": 113391314.0,
           "projects": 149
         },
         {
           "year": 2023,
-          "funding": 101550022.0,
+          "funding": 101578637.0,
           "projects": 139
         },
         {
@@ -16321,109 +16321,8 @@
         }
       ]
     },
-    "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung": {
-      "total_funding": 1321463355.0,
-      "total_projects": 275,
-      "yearly": [
-        {
-          "year": 2001,
-          "funding": 797164.0,
-          "projects": 1
-        },
-        {
-          "year": 2008,
-          "funding": 1518936.0,
-          "projects": 1
-        },
-        {
-          "year": 2009,
-          "funding": 108335.0,
-          "projects": 1
-        },
-        {
-          "year": 2010,
-          "funding": 2103819.0,
-          "projects": 4
-        },
-        {
-          "year": 2011,
-          "funding": 3189833.0,
-          "projects": 13
-        },
-        {
-          "year": 2012,
-          "funding": 6104045.0,
-          "projects": 20
-        },
-        {
-          "year": 2013,
-          "funding": 5820761.0,
-          "projects": 12
-        },
-        {
-          "year": 2014,
-          "funding": 4828364.0,
-          "projects": 16
-        },
-        {
-          "year": 2015,
-          "funding": 6008378.0,
-          "projects": 21
-        },
-        {
-          "year": 2016,
-          "funding": 11681382.0,
-          "projects": 19
-        },
-        {
-          "year": 2017,
-          "funding": 12980040.0,
-          "projects": 22
-        },
-        {
-          "year": 2018,
-          "funding": 5056864.0,
-          "projects": 17
-        },
-        {
-          "year": 2019,
-          "funding": 4142613.0,
-          "projects": 11
-        },
-        {
-          "year": 2020,
-          "funding": 27530181.0,
-          "projects": 30
-        },
-        {
-          "year": 2021,
-          "funding": 16086422.0,
-          "projects": 28
-        },
-        {
-          "year": 2022,
-          "funding": 3455938.0,
-          "projects": 10
-        },
-        {
-          "year": 2023,
-          "funding": 10688867.0,
-          "projects": 17
-        },
-        {
-          "year": 2024,
-          "funding": 1198335307.0,
-          "projects": 30
-        },
-        {
-          "year": 2025,
-          "funding": 1026106.0,
-          "projects": 2
-        }
-      ]
-    },
     "Charité - Universitätsmedizin Berlin": {
-      "total_funding": 1318388573.0,
+      "total_funding": 1321566334.0,
       "total_projects": 1040,
       "yearly": [
         {
@@ -16563,13 +16462,114 @@
         },
         {
           "year": 2025,
-          "funding": 210190222.0,
+          "funding": 213367983.0,
           "projects": 52
         }
       ]
     },
+    "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung": {
+      "total_funding": 1321463355.0,
+      "total_projects": 275,
+      "yearly": [
+        {
+          "year": 2001,
+          "funding": 797164.0,
+          "projects": 1
+        },
+        {
+          "year": 2008,
+          "funding": 1518936.0,
+          "projects": 1
+        },
+        {
+          "year": 2009,
+          "funding": 108335.0,
+          "projects": 1
+        },
+        {
+          "year": 2010,
+          "funding": 2103819.0,
+          "projects": 4
+        },
+        {
+          "year": 2011,
+          "funding": 3189833.0,
+          "projects": 13
+        },
+        {
+          "year": 2012,
+          "funding": 6104045.0,
+          "projects": 20
+        },
+        {
+          "year": 2013,
+          "funding": 5820761.0,
+          "projects": 12
+        },
+        {
+          "year": 2014,
+          "funding": 4828364.0,
+          "projects": 16
+        },
+        {
+          "year": 2015,
+          "funding": 6008378.0,
+          "projects": 21
+        },
+        {
+          "year": 2016,
+          "funding": 11681382.0,
+          "projects": 19
+        },
+        {
+          "year": 2017,
+          "funding": 12980040.0,
+          "projects": 22
+        },
+        {
+          "year": 2018,
+          "funding": 5056864.0,
+          "projects": 17
+        },
+        {
+          "year": 2019,
+          "funding": 4142613.0,
+          "projects": 11
+        },
+        {
+          "year": 2020,
+          "funding": 27530181.0,
+          "projects": 30
+        },
+        {
+          "year": 2021,
+          "funding": 16086422.0,
+          "projects": 28
+        },
+        {
+          "year": 2022,
+          "funding": 3455938.0,
+          "projects": 10
+        },
+        {
+          "year": 2023,
+          "funding": 10688867.0,
+          "projects": 17
+        },
+        {
+          "year": 2024,
+          "funding": 1198335307.0,
+          "projects": 30
+        },
+        {
+          "year": 2025,
+          "funding": 1026106.0,
+          "projects": 2
+        }
+      ]
+    },
     "Universität Stuttgart": {
-      "total_funding": 1251554565.0,
+      "total_funding": 1251519111.0,
       "total_projects": 2285,
       "yearly": [
         {
@@ -16829,7 +16829,7 @@
         },
         {
           "year": 2020,
-          "funding": 37376030.0,
+          "funding": 37376338.0,
           "projects": 85
         },
         {
@@ -16844,7 +16844,7 @@
         },
         {
           "year": 2023,
-          "funding": 55086205.0,
+          "funding": 55050443.0,
           "projects": 87
         },
         {
@@ -16860,7 +16860,7 @@
       ]
     },
     "Robert Bosch Gesellschaft mit beschränkter Haftung": {
-      "total_funding": 1247248096.0,
+      "total_funding": 1247230470.0,
       "total_projects": 834,
       "yearly": [
         {
@@ -17125,7 +17125,7 @@
         },
         {
           "year": 2021,
-          "funding": 45642879.0,
+          "funding": 45625253.0,
           "projects": 42
         },
         {
@@ -17151,7 +17151,7 @@
       ]
     },
     "Technische Universität Berlin": {
-      "total_funding": 1216907388.0,
+      "total_funding": 1216876477.0,
       "total_projects": 2429,
       "yearly": [
         {
@@ -17411,7 +17411,7 @@
         },
         {
           "year": 2021,
-          "funding": 72543430.0,
+          "funding": 72512519.0,
           "projects": 92
         },
         {
@@ -18086,7 +18086,7 @@
       ]
     },
     "Ludwig-Maximilians-Universität München": {
-      "total_funding": 982143769.0,
+      "total_funding": 982230303.0,
       "total_projects": 1699,
       "yearly": [
         {
@@ -18346,7 +18346,7 @@
         },
         {
           "year": 2020,
-          "funding": 20630991.0,
+          "funding": 20717525.0,
           "projects": 54
         },
         {
@@ -18668,7 +18668,7 @@
       ]
     },
     "Universität Hamburg": {
-      "total_funding": 915484490.0,
+      "total_funding": 915473020.0,
       "total_projects": 1773,
       "yearly": [
         {
@@ -18953,7 +18953,7 @@
         },
         {
           "year": 2024,
-          "funding": 25782873.0,
+          "funding": 25771403.0,
           "projects": 51
         },
         {
@@ -18964,7 +18964,7 @@
       ]
     },
     "Technische Universität Darmstadt": {
-      "total_funding": 908981251.0,
+      "total_funding": 909542078.0,
       "total_projects": 1745,
       "yearly": [
         {
@@ -19234,12 +19234,12 @@
         },
         {
           "year": 2022,
-          "funding": 60933657.0,
+          "funding": 61233333.0,
           "projects": 69
         },
         {
           "year": 2023,
-          "funding": 43337541.0,
+          "funding": 43598692.0,
           "projects": 65
         },
         {
@@ -19597,7 +19597,7 @@
       ]
     },
     "Albert-Ludwigs-Universität Freiburg": {
-      "total_funding": 833516295.0,
+      "total_funding": 833545793.0,
       "total_projects": 1452,
       "yearly": [
         {
@@ -19872,7 +19872,7 @@
         },
         {
           "year": 2023,
-          "funding": 32641028.0,
+          "funding": 32670526.0,
           "projects": 60
         },
         {
@@ -19955,7 +19955,7 @@
       ]
     },
     "Friedrich-Alexander-Universität Erlangen-Nürnberg": {
-      "total_funding": 801416513.0,
+      "total_funding": 801380758.0,
       "total_projects": 1662,
       "yearly": [
         {
@@ -20225,7 +20225,7 @@
         },
         {
           "year": 2021,
-          "funding": 45256839.0,
+          "funding": 45221084.0,
           "projects": 68
         },
         {
@@ -20833,7 +20833,7 @@
       ]
     },
     "Eberhard Karls Universität Tübingen": {
-      "total_funding": 738526626.0,
+      "total_funding": 738522357.0,
       "total_projects": 1311,
       "yearly": [
         {
@@ -21093,7 +21093,7 @@
         },
         {
           "year": 2020,
-          "funding": 37321405.0,
+          "funding": 37317136.0,
           "projects": 54
         },
         {
@@ -21310,7 +21310,7 @@
       ]
     },
     "Ruhr-Universität Bochum": {
-      "total_funding": 722139826.0,
+      "total_funding": 722115573.0,
       "total_projects": 1396,
       "yearly": [
         {
@@ -21585,7 +21585,7 @@
         },
         {
           "year": 2022,
-          "funding": 26728509.0,
+          "funding": 26704256.0,
           "projects": 56
         },
         {
@@ -22796,7 +22796,7 @@
       ]
     },
     "Christian-Albrechts-Universität zu Kiel": {
-      "total_funding": 647400882.0,
+      "total_funding": 647291147.0,
       "total_projects": 1156,
       "yearly": [
         {
@@ -23066,12 +23066,12 @@
         },
         {
           "year": 2023,
-          "funding": 13949833.0,
+          "funding": 13938002.0,
           "projects": 38
         },
         {
           "year": 2024,
-          "funding": 19599403.0,
+          "funding": 19501499.0,
           "projects": 40
         },
         {
@@ -23289,7 +23289,7 @@
       ]
     },
     "Universität Leipzig": {
-      "total_funding": 612005989.0,
+      "total_funding": 611975957.0,
       "total_projects": 929,
       "yearly": [
         {
@@ -23449,7 +23449,7 @@
         },
         {
           "year": 2021,
-          "funding": 27435639.0,
+          "funding": 27405607.0,
           "projects": 60
         },
         {

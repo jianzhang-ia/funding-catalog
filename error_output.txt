@@ -1,0 +1,31 @@
+[14:17:36] ============================================================
+[14:17:36] German Federal Funding Catalog Analysis Pipeline
+[14:17:36] ============================================================
+[14:17:36] Output directory ready: output
+[14:17:36] Loading CSV file...
+[14:17:43] Loaded 317,240 rows
+[14:17:43] Cleaning values...
+[14:17:49] Parsing funding amounts...
+Traceback (most recent call last):
+  File "D:\Program Files\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Fördersumme in EUR'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\VS Code\Funding\analyze_funding.py", line 842, in <module>
+    main()
+  File "F:\VS Code\Funding\analyze_funding.py", line 812, in main
+    df = load_and_clean_data()
+  File "F:\VS Code\Funding\analyze_funding.py", line 93, in load_and_clean_data
+    df['Fördersumme'] = df['Fördersumme in EUR'].apply(parse_german_number)
+  File "D:\Program Files\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Program Files\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Fördersumme in EUR'

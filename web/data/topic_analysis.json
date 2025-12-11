@@ -3,7 +3,7 @@
     {
       "code": "ZMAN",
       "description": "LP für alle Mandanten",
-      "total_funding": 18363200086.0,
+      "total_funding": 18237135966.0,
       "project_count": 11446
     },
     {
@@ -27,7 +27,7 @@
     {
       "code": "YC7000",
       "description": "Förderung des Studenten- und Wissenschaftleraustausches sowie der internationalen Kooperation von Wissenschaftlern",
-      "total_funding": 5220004318.0,
+      "total_funding": 5291740323.0,
       "project_count": 608
     },
     {
@@ -57,7 +57,7 @@
     {
       "code": "HA4011",
       "description": "Alternative Antriebstechnologien",
-      "total_funding": 2262897667.0,
+      "total_funding": 2263129334.0,
       "project_count": 2275
     },
     {
@@ -87,7 +87,7 @@
     {
       "code": "EB6010",
       "description": "Grundlagenforschung Energie",
-      "total_funding": 1635727535.0,
+      "total_funding": 1635974657.0,
       "project_count": 1413
     },
     {
@@ -99,38 +99,32 @@
     {
       "code": "RB9510",
       "description": "Digitaler Wandel",
-      "total_funding": 1586053836.0,
+      "total_funding": 1585729106.0,
       "project_count": 3319
     },
     {
       "code": "EA6010",
       "description": "Grundlagenforschung Energie",
-      "total_funding": 1463692952.0,
+      "total_funding": 1463324016.0,
       "project_count": 1201
     },
     {
       "code": "KB2220",
       "description": "Li-Ionen-Batterien",
-      "total_funding": 1428061169.0,
+      "total_funding": 1428000082.0,
       "project_count": 1563
     },
     {
       "code": "HA5010",
       "description": "Sicherheit im Straßenverkehr",
-      "total_funding": 1400865949.0,
-      "project_count": 6263
+      "total_funding": 1396951792.0,
+      "project_count": 6261
     },
     {
       "code": "GA1010",
       "description": "Förderung im Bereich Cloud und Edge Infrastruktur und Services im Rahmen des IPCEI-CIS",
-      "total_funding": 1396417983.0,
+      "total_funding": 1396274045.0,
       "project_count": 3283
-    },
-    {
-      "code": "AA0510",
-      "description": "Medizintechnik",
-      "total_funding": 1323310465.0,
-      "project_count": 3352
     },
     {
       "code": "FB6030",
@@ -139,15 +133,21 @@
       "project_count": 6
     },
     {
+      "code": "AA0510",
+      "description": "Medizintechnik",
+      "total_funding": 1322228253.0,
+      "project_count": 3352
+    },
+    {
       "code": "OB5100",
       "description": "Bildungsforschung",
-      "total_funding": 1317856264.0,
+      "total_funding": 1317808671.0,
       "project_count": 1587
     },
     {
       "code": "AA0160",
       "description": "Sonstige krankheitsbezogene und -übergreifende Maßnahmen",
-      "total_funding": 1260139343.0,
+      "total_funding": 1263317104.0,
       "project_count": 658
     },
     {
@@ -159,14 +159,14 @@
     {
       "code": "QD1010",
       "description": "Förderung der industriellen Gemeinschaftsforschung (IGF)",
-      "total_funding": 1198636501.0,
+      "total_funding": 1198481621.0,
       "project_count": 3076
     },
     {
       "code": "HA1030",
       "description": "Innovative Verkehrsinfrastrukturen und Betriebsweisen",
-      "total_funding": 1139015141.0,
-      "project_count": 1374
+      "total_funding": 1143225927.0,
+      "project_count": 1375
     },
     {
       "code": "RB9210",
@@ -177,7 +177,7 @@
     {
       "code": "RE8050",
       "description": "Wissenschaftliche Zusammenarbeit mit anderen Staaten (soweit nicht in anderen Bereichen)",
-      "total_funding": 1093674738.0,
+      "total_funding": 1095530359.0,
       "project_count": 4260
     },
     {
@@ -201,7 +201,7 @@
     {
       "code": "IA1040",
       "description": "Umweltfreundliches und klimaneutrales Fliegen",
-      "total_funding": 945485847.0,
+      "total_funding": 930290159.0,
       "project_count": 524
     },
     {
@@ -213,7 +213,7 @@
     {
       "code": "OB7000",
       "description": "Reform- und Umsetzungsstrategien des Lebenslangen Lernens in nationalen und internationalen Bezügen",
-      "total_funding": 888696010.0,
+      "total_funding": 888658703.0,
       "project_count": 1893
     },
     {
@@ -237,7 +237,7 @@
     {
       "code": "HA4010",
       "description": "Emissionsverringerung und Energiereinsparung  im Straßenverkehr",
-      "total_funding": 820388813.0,
+      "total_funding": 818353281.0,
       "project_count": 1131
     },
     {
@@ -249,7 +249,7 @@
     {
       "code": "AA0120",
       "description": "Nervensystem und Psyche",
-      "total_funding": 770065024.0,
+      "total_funding": 769978700.0,
       "project_count": 1172
     },
     {
@@ -261,7 +261,7 @@
     {
       "code": "RB3020",
       "description": "Innovation und Strukturwandel",
-      "total_funding": 743385729.0,
+      "total_funding": 743156536.0,
       "project_count": 2665
     },
     {
