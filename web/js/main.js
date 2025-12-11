@@ -484,8 +484,16 @@ function createDecadeMinistryChart() {
     const ctx = document.getElementById('decadeMinistryChart').getContext('2d');
     const decadeData = globalData.temporal.decade_ministry_share || {};
 
-    const decades = ['2000', '2010', '2020'];
-    const ministries = ['BMFTR', 'BMV', 'BMWE', 'BMLEH'];
+    // Get all decades from data (dynamic, sorted)
+    const decades = Object.keys(decadeData).sort();
+    
+    // Get all unique ministries from the data
+    const allMinistries = new Set();
+    Object.values(decadeData).forEach(entries => {
+        entries.forEach(entry => allMinistries.add(entry.ministry));
+    });
+    const ministries = Array.from(allMinistries);
+    
     const ministryColors = {
         'BMFTR': '#6366F1',
         'BMV': '#F59E0B',
@@ -496,14 +504,14 @@ function createDecadeMinistryChart() {
     };
 
     // Build datasets for each ministry
-    const datasets = ministries.map(ministry => ({
+    const datasets = ministries.map((ministry, i) => ({
         label: ministry,
         data: decades.map(decade => {
             const decadeInfo = decadeData[decade] || [];
             const ministryInfo = decadeInfo.find(m => m.ministry === ministry);
             return ministryInfo ? ministryInfo.share_pct : 0;
         }),
-        backgroundColor: ministryColors[ministry] || '#94A3B8',
+        backgroundColor: ministryColors[ministry] || CHART_COLORS.gradient[i % CHART_COLORS.gradient.length],
         borderRadius: 4
     }));
 
