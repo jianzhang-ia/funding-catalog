@@ -120,8 +120,8 @@
             <!-- Temporal Trends (Full Width at Top) -->
             <div class="chart-card chart-full">
                 <div class="chart-header">
-                    <h2>Funding Trends Over Time</h2>
-                    <p>Yearly funding totals and project counts</p>
+                    <h2>Funding Trends Over Time (Fördersumme)</h2>
+                    <p>Total funding and project counts by year, based on project start date (Laufzeit von)</p>
                     <div class="chart-controls">
                         <button class="chart-btn active" data-range="all">All Time</button>
                         <button class="chart-btn" data-range="recent">Last 20 Years</button>
@@ -136,8 +136,8 @@
             <!-- Monthly Distribution (Seasonal Patterns) -->
             <div class="chart-card chart-large">
                 <div class="chart-header">
-                    <h2>Monthly Distribution</h2>
-                    <p>When do projects start? Seasonal patterns in project approvals</p>
+                    <h2>Monthly Start Distribution</h2>
+                    <p>Seasonal patterns in when projects begin, based on start date (Laufzeit von)</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="monthlyChart"></canvas>
@@ -147,8 +147,8 @@
             <!-- Ministry Share Evolution -->
             <div class="chart-card chart-large">
                 <div class="chart-header">
-                    <h2>Ministry Share by Decade</h2>
-                    <p>How the funding landscape has shifted over time</p>
+                    <h2>Ministry Share by Decade (Ressort)</h2>
+                    <p>How funding distribution across ministries has evolved over time</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="decadeMinistryChart"></canvas>
@@ -159,7 +159,7 @@
             <div class="chart-card chart-large">
                 <div class="chart-header">
                     <h2>Funding by Ministry (Ressort)</h2>
-                    <p>Total funding distribution across federal ministries</p>
+                    <p>Total funding allocated by each federal ministry</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="ministryChart"></canvas>
@@ -169,8 +169,8 @@
             <!-- International Funding Chart -->
             <div class="chart-card">
                 <div class="chart-header">
-                    <h2>International Funding</h2>
-                    <p>Funding for projects outside Germany (37 countries)</p>
+                    <h2>International Funding (Staat)</h2>
+                    <p>Projects with recipients outside Germany, by country</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="internationalChart"></canvas>
@@ -181,7 +181,8 @@
             <div class="chart-card chart-large">
                 <div class="chart-header">
                     <h2>Funding by State (Bundesland)</h2>
-                    <p>Project funding by German federal state</p>
+                    <p>Distribution across German federal states · <span class="click-hint">Click bars for historical
+                            trends</span></p>
                     <div class="chart-controls">
                         <button class="chart-btn active" data-geo-mode="total">Total Funding</button>
                         <button class="chart-btn" data-geo-mode="percapita">Per Capita</button>
@@ -195,8 +196,9 @@
             <!-- Top Cities (near Geographic for logical grouping) -->
             <div class="chart-card chart-large">
                 <div class="chart-header">
-                    <h2>Funding by City</h2>
-                    <p>Top 15 cities with highest funding received</p>
+                    <h2>Top Cities (Ort)</h2>
+                    <p>Cities receiving the most funding · <span class="click-hint">Click bars for historical
+                            trends</span></p>
                 </div>
                 <div class="chart-container">
                     <canvas id="cityChart"></canvas>
@@ -206,8 +208,8 @@
             <!-- Top Recipients (Zuwendungsempfänger) -->
             <div class="chart-card chart-large">
                 <div class="chart-header">
-                    <h2>Top Funding Recipients (Zuwendungsempfänger)</h2>
-                    <p>Organizations receiving the most direct project funding</p>
+                    <h2>Top Recipients (Zuwendungsempfänger)</h2>
+                    <p>Organizations receiving the highest total funding</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="recipientChart"></canvas>
@@ -218,7 +220,7 @@
             <div class="chart-card chart-medium">
                 <div class="chart-header">
                     <h2>Funding Type (Förderart)</h2>
-                    <p>Direct project funding vs. R&D contracts</p>
+                    <p>Project funding (Zuwendung) vs. R&D contracts (Aufträge)</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="fundingTypeChart"></canvas>
@@ -229,7 +231,7 @@
             <div class="chart-card chart-medium">
                 <div class="chart-header">
                     <h2>Project Duration (Laufzeit)</h2>
-                    <p>Distribution of project lengths from start to end date</p>
+                    <p>Length of projects from start to end date (Laufzeit von/bis)</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="durationChart"></canvas>
@@ -239,8 +241,8 @@
             <!-- Leistungsplansystematik -->
             <div class="chart-card chart-large">
                 <div class="chart-header">
-                    <h2>Funding Areas (Leistungsplansystematik)</h2>
-                    <p>Categorization system for federal funding areas and objectives</p>
+                    <h2>Research Areas (Leistungsplansystematik)</h2>
+                    <p>Federal classification system for funding areas and objectives</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="topicChart"></canvas>
@@ -250,8 +252,8 @@
             <!-- Joint Projects (Verbundprojekt) -->
             <div class="chart-card chart-medium">
                 <div class="chart-header">
-                    <h2>Joint Projects (Verbundprojekt)</h2>
-                    <p>Consortium projects with multiple partners vs. individual projects</p>
+                    <h2>Joint vs. Individual Projects (Verbundprojekt)</h2>
+                    <p>Multi-partner consortium projects compared to individual projects</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="jointChart"></canvas>
@@ -262,7 +264,7 @@
             <div class="chart-card chart-large">
                 <div class="chart-header">
                     <h2>Project Sponsors (Projektträger)</h2>
-                    <p>Organizations managing project administration on behalf of ministries</p>
+                    <p>Administrative agencies managing project funding on behalf of ministries</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="projekttraegerChart"></canvas>
@@ -273,7 +275,7 @@
             <div class="chart-card chart-medium">
                 <div class="chart-header">
                     <h2>Funding Profile (Förderprofil)</h2>
-                    <p>Strategic funding categories and innovation profiles</p>
+                    <p>Strategic categories defining the type of innovation support</p>
                 </div>
                 <div class="chart-container">
                     <canvas id="foerderprofilChart"></canvas>
@@ -283,8 +285,9 @@
             <!-- Keywords from Thema -->
             <div class="chart-card chart-medium">
                 <div class="chart-header">
-                    <h2>Project Title Keywords (Thema)</h2>
-                    <p>Most common terms extracted from project titles</p>
+                    <h2>Project Keywords (Thema)</h2>
+                    <p>Common terms from project titles · <span class="click-hint">Click keywords for historical
+                            trends</span></p>
                 </div>
                 <div class="keywords-container" id="keywordsCloud">
                     <!-- Keywords will be inserted here -->
@@ -296,10 +299,9 @@
         <section class="tables-section">
             <div class="table-card">
                 <div class="table-header">
-                    <h2>Top 20 Funding Recipients</h2>
-                    <p class="table-note">* "Keine Anzeige" entries represent multiple protected recipients grouped
-                        together (data protection) – all funding and project data is available, only individual names
-                        are hidden.</p>
+                    <h2>Top Recipients Table (Zuwendungsempfänger)</h2>
+                    <p class="table-note"><span class="click-hint">Click row for historical trends</span> · * "Keine
+                        Anzeige" entries are protected for data privacy</p>
                     <div class="table-controls">
                         <button class="table-btn active" data-sort="funding">Rank by Funding</button>
                         <button class="table-btn" data-sort="count">Rank by Project Count</button>

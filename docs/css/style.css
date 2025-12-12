@@ -867,3 +867,11 @@ td:nth-child(5) {
 .clickable-row:hover td {
     background: var(--primary-50) !important;
 }
+
+/* Click hints for interactive charts */
+.click-hint {
+    font-style: italic;
+    color: var(--primary-500);
+    font-size: 0.85em;
+    opacity: 0.85;
+}
