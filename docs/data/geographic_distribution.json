@@ -312,5 +312,186 @@
     }
   ],
   "total_domestic_funding": 205653564488.0,
-  "total_domestic_projects": 316693
+  "total_domestic_projects": 316693,
+  "international": {
+    "total_funding": 919635066.0,
+    "total_projects": 547,
+    "countries": [
+      {
+        "name": "Schweden",
+        "total_funding": 245912086.0,
+        "project_count": 5
+      },
+      {
+        "name": "Frankreich",
+        "total_funding": 122820464.0,
+        "project_count": 66
+      },
+      {
+        "name": "Israel",
+        "total_funding": 87259447.0,
+        "project_count": 52
+      },
+      {
+        "name": "Vereinigte Staaten von Amerika",
+        "total_funding": 84712243.0,
+        "project_count": 7
+      },
+      {
+        "name": "Italien",
+        "total_funding": 77136450.0,
+        "project_count": 53
+      },
+      {
+        "name": "Schweiz",
+        "total_funding": 58003297.0,
+        "project_count": 38
+      },
+      {
+        "name": "Namibia",
+        "total_funding": 53884420.0,
+        "project_count": 7
+      },
+      {
+        "name": "Ghana",
+        "total_funding": 50868433.0,
+        "project_count": 11
+      },
+      {
+        "name": "Belgien",
+        "total_funding": 27879460.0,
+        "project_count": 53
+      },
+      {
+        "name": "Dänemark",
+        "total_funding": 19238587.0,
+        "project_count": 12
+      },
+      {
+        "name": "Österreich",
+        "total_funding": 18030946.0,
+        "project_count": 61
+      },
+      {
+        "name": "Niederlande",
+        "total_funding": 17591927.0,
+        "project_count": 28
+      },
+      {
+        "name": "Polen",
+        "total_funding": 14618589.0,
+        "project_count": 2
+      },
+      {
+        "name": "Luxemburg",
+        "total_funding": 10302820.0,
+        "project_count": 3
+      },
+      {
+        "name": "Vereinigtes Königreich - Großbritannien",
+        "total_funding": 6249527.0,
+        "project_count": 12
+      },
+      {
+        "name": "nicht zuzuordnen",
+        "total_funding": 4461513.0,
+        "project_count": 11
+      },
+      {
+        "name": "Norwegen",
+        "total_funding": 2859885.0,
+        "project_count": 4
+      },
+      {
+        "name": "Tschechische Republik",
+        "total_funding": 1613455.0,
+        "project_count": 2
+      },
+      {
+        "name": "Finnland",
+        "total_funding": 914218.0,
+        "project_count": 5
+      },
+      {
+        "name": "Mexiko",
+        "total_funding": 676732.0,
+        "project_count": 3
+      },
+      {
+        "name": "Monaco",
+        "total_funding": 559461.0,
+        "project_count": 27
+      },
+      {
+        "name": "Griechenland",
+        "total_funding": 475722.0,
+        "project_count": 3
+      },
+      {
+        "name": "Japan",
+        "total_funding": 372427.0,
+        "project_count": 3
+      },
+      {
+        "name": "Spanien",
+        "total_funding": 255871.0,
+        "project_count": 1
+      },
+      {
+        "name": "Lettland",
+        "total_funding": 216737.0,
+        "project_count": 2
+      },
+      {
+        "name": "China",
+        "total_funding": 172576.0,
+        "project_count": 1
+      },
+      {
+        "name": "Ukraine",
+        "total_funding": 108396.0,
+        "project_count": 1
+      },
+      {
+        "name": "Portugal",
+        "total_funding": 77319.0,
+        "project_count": 1
+      },
+      {
+        "name": "Mosambik",
+        "total_funding": 53099.0,
+        "project_count": 1
+      },
+      {
+        "name": "Burkina Faso",
+        "total_funding": 48213.0,
+        "project_count": 1
+      },
+      {
+        "name": "Uganda",
+        "total_funding": 47316.0,
+        "project_count": 1
+      },
+      {
+        "name": "Kenia",
+        "total_funding": 41924.0,
+        "project_count": 1
+      },
+      {
+        "name": "Argentinien",
+        "total_funding": 39254.0,
+        "project_count": 2
+      },
+      {
+        "name": "Ruanda",
+        "total_funding": 29028.0,
+        "project_count": 1
+      },
+      {
+        "name": "Estland",
+        "total_funding": 24660.0,
+        "project_count": 1
+      }
+    ]
+  }
 }

@@ -2,9 +2,9 @@
   "by_ministry": [
     {
       "ministry": "BMFTR",
-      "mean_months": 33.47294815042231,
+      "mean_months": 33.469568256530685,
       "median_months": 35.972404730617605,
-      "project_count": 198051
+      "project_count": 198071
     },
     {
       "ministry": "BMJV_BLE",
@@ -26,15 +26,15 @@
     },
     {
       "ministry": "BMV",
-      "mean_months": 31.577460776751977,
+      "mean_months": 31.573877993108006,
       "median_months": 24.638633377135346,
-      "project_count": 26438
+      "project_count": 26441
     },
     {
       "ministry": "BMWE",
-      "mean_months": 29.785174742810675,
+      "mean_months": 29.78482045263888,
       "median_months": 29.993429697766096,
-      "project_count": 84069
+      "project_count": 84070
     }
   ],
   "distribution": [
@@ -68,8 +68,8 @@
     }
   ],
   "overall_stats": {
-    "mean_months": 32.45632007085163,
+    "mean_months": 32.453864669005384,
     "median_months": 35.939553219448094,
-    "total_analyzed": 317216
+    "total_analyzed": 317240
   }
 }

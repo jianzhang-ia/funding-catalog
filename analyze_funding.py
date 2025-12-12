@@ -237,6 +237,28 @@ def analyze_geographic_distribution(df):
             'project_count': int(row['project_count'])
         })
     
+    # International funding analysis (projects outside Germany)
+    df_intl = df[df['Staat'] != 'Deutschland'].copy()
+    if len(df_intl) > 0:
+        country_stats = df_intl.groupby('Staat').agg({
+            'Fördersumme': ['sum', 'count']
+        }).reset_index()
+        country_stats.columns = ['country', 'total_funding', 'project_count']
+        country_stats = country_stats.sort_values('total_funding', ascending=False)
+        
+        result['international'] = {
+            'total_funding': float(df_intl['Fördersumme'].sum()),
+            'total_projects': int(len(df_intl)),
+            'countries': []
+        }
+        for _, row in country_stats.iterrows():
+            if row['country'] and row['country'] != 'nan' and str(row['country']).strip():
+                result['international']['countries'].append({
+                    'name': row['country'],
+                    'total_funding': float(row['total_funding']),
+                    'project_count': int(row['project_count'])
+                })
+    
     save_json(result, 'geographic_distribution.json')
     return result
 
@@ -245,8 +267,8 @@ def analyze_temporal_trends(df):
     """Analysis 3: Funding trends over time with extended temporal patterns."""
     log("Analyzing temporal trends...")
     
-    # Include all projects with valid start years (no date filtering)
-    df_valid = df[df['StartYear'].notna()].copy()
+    # All projects have valid start years - no filtering needed
+    df_valid = df.copy()
     
     # Extract month for seasonal analysis
     df_valid['StartMonth'] = df_valid['StartDate'].apply(lambda x: x.month if x else None)
@@ -408,7 +430,7 @@ def analyze_topics(df):
                  'hat', 'haben', 'kann', 'können', 'soll', 'sollen', 'muss', 'müssen', 'teil',
                  'phase', 'projekt', 'verbundprojekt', 'teilprojekt', 'vorhaben', 'entwicklung'}
     
-    for thema in df['Thema'].dropna().head(50000):  # Sample for performance
+    for thema in df['Thema'].dropna():  # Process all entries - 100% have valid Thema
         words = re.findall(r'\b[A-ZÄÖÜa-zäöüß]{4,}\b', str(thema))
         for word in words:
             word_lower = word.lower()
@@ -444,8 +466,8 @@ def analyze_keyword_trends(df, word_counts):
     """Analysis: Temporal funding trends for each top keyword (for drill-down feature)."""
     log("Analyzing keyword temporal trends...")
     
-    # Filter to valid years only (include all historical and future projects)
-    df_valid = df[df['StartYear'].notna()].copy()
+    # All projects have valid start years - no filtering needed
+    df_valid = df.copy()
     
     result = {
         'keywords': {}
@@ -494,8 +516,8 @@ def analyze_entity_trends(df):
     """Generate temporal funding trends for states, cities, and recipients (for drill-down feature)."""
     log("Analyzing entity temporal trends (states, cities, recipients)...")
     
-    # Filter to valid years only (include all historical and future projects)
-    df_valid = df[df['StartYear'].notna()].copy()
+    # All projects have valid start years - no filtering needed
+    df_valid = df.copy()
     
     result = {
         'states': {},
@@ -576,8 +598,9 @@ def analyze_entity_trends(df):
 def analyze_duration(df):
     """Analysis 6: Project duration analysis."""
     log("Analyzing project durations...")
-    # Include all projects with valid duration (no upper limit filter)
-    df_valid = df[df['DurationMonths'].notna() & (df['DurationMonths'] > 0)].copy()
+    # Include all projects - treat negative durations as 0 (1-day events)
+    df_valid = df[df['DurationMonths'].notna()].copy()
+    df_valid['DurationMonths'] = df_valid['DurationMonths'].apply(lambda x: max(0, x))
     
     # Duration by ministry
     duration_by_ministry = df_valid.groupby('Ressort')['DurationMonths'].agg(['mean', 'median', 'std', 'count']).reset_index()
