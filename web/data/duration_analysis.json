@@ -2,9 +2,9 @@
   "by_ministry": [
     {
       "ministry": "BMFTR",
-      "mean_months": 33.414481503383726,
+      "mean_months": 33.47294815042231,
       "median_months": 35.972404730617605,
-      "project_count": 198031
+      "project_count": 198051
     },
     {
       "ministry": "BMJV_BLE",
@@ -68,8 +68,8 @@
     }
   ],
   "overall_stats": {
-    "mean_months": 32.41975422153042,
+    "mean_months": 32.45632007085163,
     "median_months": 35.939553219448094,
-    "total_analyzed": 317196
+    "total_analyzed": 317216
   }
 }

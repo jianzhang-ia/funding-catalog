@@ -576,8 +576,8 @@ def analyze_entity_trends(df):
 def analyze_duration(df):
     """Analysis 6: Project duration analysis."""
     log("Analyzing project durations...")
-    
-    df_valid = df[df['DurationMonths'].notna() & (df['DurationMonths'] > 0) & (df['DurationMonths'] < 360)].copy()
+    # Include all projects with valid duration (no upper limit filter)
+    df_valid = df[df['DurationMonths'].notna() & (df['DurationMonths'] > 0)].copy()
     
     # Duration by ministry
     duration_by_ministry = df_valid.groupby('Ressort')['DurationMonths'].agg(['mean', 'median', 'std', 'count']).reset_index()
