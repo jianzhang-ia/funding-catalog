@@ -138,6 +138,7 @@ function initializeDashboard() {
     createMonthlyChart();
     createDecadeMinistryChart();
     createMinistryChart();
+    createInternationalChart();
     createGeoChart();
     createCityChart();
     createRecipientChart();
@@ -220,6 +221,63 @@ function createMinistryChart() {
                     grid: { color: '#E2E8F0' }
                 },
                 y: {
+                    grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// International funding chart
+function createInternationalChart() {
+    const ctx = document.getElementById('internationalChart').getContext('2d');
+    const intlData = globalData.geographic.international;
+
+    if (!intlData || !intlData.countries || intlData.countries.length === 0) {
+        // No international data available
+        document.getElementById('internationalChart').parentElement.innerHTML =
+            '<p style="text-align: center; color: #64748B; padding: 2rem;">No international funding data available</p>';
+        return;
+    }
+
+    const data = intlData.countries.slice(0, 15);
+
+    charts.international = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.name),
+            datasets: [{
+                label: 'Total Funding',
+                data: data.map(d => d.total_funding),
+                backgroundColor: CHART_COLORS.gradient.slice(0, data.length),
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            indexAxis: 'y',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: (item) => [
+                            `Funding: ${formatCurrency(item.raw)}`,
+                            `Projects: ${formatNumber(data[item.dataIndex].project_count)}`
+                        ]
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
+                },
+                y: {
+                    ticks: { font: { size: 10 } },
                     grid: { display: false }
                 }
             }
@@ -486,14 +544,14 @@ function createDecadeMinistryChart() {
 
     // Get all decades from data (dynamic, sorted)
     const decades = Object.keys(decadeData).sort();
-    
+
     // Get all unique ministries from the data
     const allMinistries = new Set();
     Object.values(decadeData).forEach(entries => {
         entries.forEach(entry => allMinistries.add(entry.ministry));
     });
     const ministries = Array.from(allMinistries);
-    
+
     const ministryColors = {
         'BMFTR': '#6366F1',
         'BMV': '#F59E0B',
