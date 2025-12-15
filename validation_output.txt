@@ -1,129 +1,34 @@
-======================================================================
-CROSS-REFERENCE VALIDATION REPORT
-======================================================================
-
-[1] Loading raw CSV data...
-   Loaded 317,240 rows from CSV
-
-[2] Loading JSON outputs...
-   Loaded 12 JSON files
-
-======================================================================
-VALIDATION 1: TOTAL FUNDING
-======================================================================
-   CSV Total:  €206,634,827,208
-   JSON Total: €206,634,827,208
-   Difference: 0.0000%
-   ✓ VERIFIED
-
-======================================================================
-VALIDATION 2: TOTAL PROJECTS
-======================================================================
-   CSV Count:  317,240
-   JSON Count: 317,240
-   ✓ VERIFIED
+Traceback (most recent call last):
+[INFO] Loading source CSV...
+  File "F:\VS Code\Funding\validate_data.py", line 113, in <module>
+[INFO] Source CSV: 317,504 rows, €206.70B total funding
+[INFO] 
+Loading JSON analysis files...
+[INFO]   Loaded: duration_analysis.json
+[INFO]   Loaded: entity_trends.json
+[INFO]   Loaded: funding_forecast.json
+[INFO]   Loaded: funding_types.json
+[INFO]   Loaded: geographic_distribution.json
+[INFO]   Loaded: joint_projects.json
+[INFO]   Loaded: keyword_trends.json
+[INFO]   Loaded: ministry_funding.json
+[INFO]   Loaded: projekttraeger.json
+[INFO]   Loaded: recent_projects.json
+[INFO]   Loaded: summary_stats.json
+[INFO]   Loaded: temporal_trends.json
+[INFO]   Loaded: topic_analysis.json
+[INFO]   Loaded: top_recipients.json
 
 ======================================================================
-VALIDATION 3: MINISTRY FUNDING
-======================================================================
-   BMFTR: CSV €134.61B, JSON €134.61B (0.0000%) ✓
-   BMWE: CSV €43.41B, JSON €43.41B (0.0000%) ✓
-   BMV: CSV €26.38B, JSON €26.38B (0.0000%) ✓
-   BMLEH: CSV €1.97B, JSON €1.97B (0.0000%) ✓
-   BMUKN: CSV €0.26B, JSON €0.26B (0.0000%) ✓
-   BMJV_BLE: CSV €0.00B, JSON €0.00B (0.0000%) ✓
-
-======================================================================
-VALIDATION 4: TOP RECIPIENTS
-======================================================================
-   Deutsche Forschungsgemeinschaft e.V. (DF: 0.0000% ✓
-   Fraunhofer-Gesellschaft zur Förderung de: 0.0000% ✓
-   Deutscher Akademischer Austauschdienst e: 0.0000% ✓
-   Deutsches Zentrum für Luft- und Raumfahr: 0.0000% ✓
-   Siemens Aktiengesellschaft: 0.0000% ✓
-
-======================================================================
-VALIDATION 5: STATE (BUNDESLAND) FUNDING
-======================================================================
-   Nordrhein-Westfalen: CSV €57.74B, JSON €57.74B (0.0000%) ✓
-   Bayern: CSV €37.28B, JSON €37.28B (0.0000%) ✓
-   Baden-Württemberg: CSV €27.07B, JSON €27.07B (0.0000%) ✓
-   Berlin: CSV €13.48B, JSON €13.48B (0.0000%) ✓
-   Hessen: CSV €11.89B, JSON €11.89B (0.0000%) ✓
-
-======================================================================
-VALIDATION 6: UNIQUE RECIPIENTS
-======================================================================
-   CSV Unique:  54,736
-   JSON Unique: 54,736
-   ✓ VERIFIED
-
-======================================================================
-VALIDATION 7: INTERNAL CONSISTENCY - MINISTRY SUM
-======================================================================
-   Sum of Ministries: €206.63B
-   Total Funding:     €206.63B
-   Difference:        0.0000%
-   ✓ INTERNALLY CONSISTENT
-
-======================================================================
-VALIDATION 8: MONTHLY DISTRIBUTION
-======================================================================
-   Monthly sum:     €188.55B
-   Monthly projects: 302,516
-   Jan projects:    46,359 (should be highest)
-   ✓ January is highest as expected
-
-======================================================================
-VALIDATION 9: PROJEKTTRÄGER
-======================================================================
-   BF: CSV €47.74B, JSON €47.74B (0.0000%) ✓
-   PT-J: CSV €44.19B, JSON €44.19B (0.0000%) ✓
-   PT-DLR: CSV €32.10B, JSON €32.10B (0.0000%) ✓
-
-======================================================================
-VALIDATION 10: DECADE MINISTRY SHARES
-======================================================================
-   1990s: 100.00% total ✓
-   2000s: 100.00% total ✓
-   2010s: 100.00% total ✓
-   2020s: 100.00% total ✓
-
-======================================================================
-VALIDATION 11: KEYWORD TRENDS
-======================================================================
-   Keywords tracked: 50
-   Sample 'Teilvorhaben': 37 years, €32186.0M
-   ✓ Keyword trends structure valid
-
-======================================================================
-VALIDATION 12: ENTITY TRENDS
-======================================================================
-   States with trends:     16
-   Cities with trends:     30
-   Recipients with trends: 50
-   Nordrhein-Westfalen: Trend €43.32B vs Geo €57.74B (25.0%) ✗
-   Bayern: Trend €31.35B vs Geo €37.28B (15.9%) ✗
-   Baden-Württemberg: Trend €23.16B vs Geo €27.07B (14.5%) ✗
-   ✓ Entity trends structure valid
-
-======================================================================
-VALIDATION 13: PER CAPITA POPULATION DATA
-======================================================================
-   States with population data: 16
-   Population values verified:  16
-   ✓ All 16 states have population data
-
-======================================================================
-VALIDATION 14: JSON FILE COMPLETENESS
-======================================================================
-   ✓ All 12 expected JSON files present
-
-======================================================================
-VALIDATION SUMMARY
+DATA VALIDATION REPORT
 ======================================================================
 
-⚠️  WARNINGS (1):
-   - State Nordrhein-Westfalen trend/geo mismatch: 25.0%
+1. SUMMARY STATISTICS VALIDATION
+----------------------------------------
+  ✅ PASS: Total projects match CSV
+  ✅ PASS: Total funding matches CSV (within 0.01%)
 
-Total: 0 errors, 1 warnings
+2. MINISTRY FUNDING VALIDATION
+----------------------------------------
+    ministry_total_funding = sum(m['total_funding'] for m in ministry['by_funding'])
+KeyError: 'by_funding'

@@ -1,0 +1,185 @@
+[INFO] Loading source CSV...
+[INFO] Total rows: 317,504
+
+======================================================================
+1. GEOGRAPHIC - Projects with missing Staat (Country)
+======================================================================
+
+Total missing: 65
+
+Sample entries (first 10):
+----------------------------------------------------------------------
+
+Entry 1:
+  FKZ: 03FS14013
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Erstellung neuer Referenzlastprofile zur Auslegung, Dimensio...
+
+Entry 2:
+  FKZ: 03FS14016
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Verbundprojekt: Untersuchung der Variabilität von Prüfmethod...
+
+Entry 3:
+  FKZ: 03EFFNI044
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: EXIST-Forschungstransfer: ResiFlow...
+
+Entry 4:
+  FKZ: 0327559R
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: Amman
+  Empfänger: National Energy Research Center...
+  Thema: Verbundprojekt: Concentrating Solar Power & Desalination for...
+
+Entry 5:
+  FKZ: 0325317B
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Steigerung der Produktionsleistung der Silizium-basierten Dü...
+
+Entry 6:
+  FKZ: 0325825H
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Verbundvorhaben: Fertigungskonzepte für eine effiziente, kos...
+
+Entry 7:
+  FKZ: 03ET1205E
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: EnOB/EnBop: Verbundvorhaben Intelligentes Heimenergiemanagem...
+
+Entry 8:
+  FKZ: 03ET6046A
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Qualifix - Reduzierung produktionsbedingter Fertigungsverlus...
+
+Entry 9:
+  FKZ: 0325881D
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Verbundvorhaben: open_eGo - Netzebenen-übergreifendes Planun...
+
+Entry 10:
+  FKZ: 0325521H
+  Staat: '' (empty/null)
+  Bundesland: 
+  Ort: 
+  Empfänger: DLR-Institut für Vernetzte Energiesysteme e.V....
+  Thema: Verbundvorhaben: green2store - Integrative Speichernutzung i...
+
+======================================================================
+2. FÖRDERPROFIL - Projects with missing Förderprofil
+======================================================================
+
+Total missing: 2918
+
+Sample entries (first 10):
+----------------------------------------------------------------------
+
+Entry 1:
+  FKZ: 50OO1601
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V...
+  Thema: Vorstudie SPUR...
+
+Entry 2:
+  FKZ: 50NA1718
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Technische Universität Ilmenau...
+  Thema: Verbundvorhaben 'Robuste Satellitennavigation in sicherheits...
+
+Entry 3:
+  FKZ: 50JR1908
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Rheinisch-Westfälische Technische Hochschule Aachen...
+  Thema: Moonfibre Trade-off-Untersuchung...
+
+Entry 4:
+  FKZ: 01IF23621N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Forschungsvereinigung Stahlanwendung e.V. (FOSTA), Research ...
+  Thema: Methodik zur Parametrierung von 3-Blech-Verbindungen beim Wi...
+
+Entry 5:
+  FKZ: 01IF23603N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Forschungsvereinigung Stahlanwendung e.V. (FOSTA), Research ...
+  Thema: Optimierte Knoten von ermüdungsbeanspruchten Hohlprofilkonst...
+
+Entry 6:
+  FKZ: 01IF23622N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Forschungsvereinigung Stahlanwendung e.V. (FOSTA), Research ...
+  Thema: Vermeidung wasserstoffinduzierte Rissbildung von vorgefertig...
+
+Entry 7:
+  FKZ: 01IF23662N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Fördergemeinschaft für das Süddeutsche Kunststoff-Zentrum e....
+  Thema: Papierspritzguss: Aufbereitung von Naturfaserstoffen und Ada...
+
+Entry 8:
+  FKZ: 01IF23668N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Fördergemeinschaft für das Süddeutsche Kunststoff-Zentrum e....
+  Thema: Entwicklung eines Messverfahrens zur Inline-Prozesskontrolle...
+
+Entry 9:
+  FKZ: 01IF23657N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: Deutsche Forschungsgesellschaft für Automatisierung und Mikr...
+  Thema: SecureTSN - Intelligente Absicherung echtzeitfähiger und int...
+
+Entry 10:
+  FKZ: 01IF23652N
+  Förderprofil: '' (empty/null)
+  Ressort: BMWE
+  Empfänger: FVV e.V....
+  Thema: Bewertung des Werkstoffverhaltens unter Zeitstandbeanspruchu...
+
+======================================================================
+3. PROJEKTTRÄGER - Projects with missing PT
+======================================================================
+
+Total missing: 0
+
+======================================================================
+SUMMARY
+======================================================================
+
+Total projects: 317,504
+Missing Staat: 65
+Missing Förderprofil: 2,918
+Missing PT: 0

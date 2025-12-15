@@ -1,0 +1,77 @@
+[INFO] Loading source CSV...
+[INFO] Total rows: 317,504
+
+======================================================================
+GEOGRAPHIC DISTRIBUTION INVESTIGATION
+======================================================================
+
+1. df['Staat'] == 'Deutschland': 316,957 projects
+2. df['Staat'] != 'Deutschland': 547 projects
+   SUM: 317,504
+
+3. Value counts in df_intl (non-Deutschland) Staat column:
+   Unique values: 36
+   NaN count: 0
+   Empty string count: 65
+
+   Top 10 non-DE countries:
+      'Frankreich': 66
+      '': 65
+      'Österreich': 61
+      'Belgien': 53
+      'Italien': 53
+      'Israel': 52
+      'Schweiz': 38
+      'Niederlande': 28
+      'Monaco': 27
+      'Vereinigtes Königreich - Großbritannien': 12
+
+4. In df_intl, entries with empty/null Staat: 65
+   In df_intl, entries with valid Staat: 482
+
+5. JSON output comparison:
+   German states in JSON: 316,865
+   International in JSON: 547
+   JSON Total: 317,412
+
+6. German projects by Bundesland sum: 316,957
+   German projects with empty Bundesland: 92
+
+======================================================================
+PROJEKTTRÄGER INVESTIGATION
+======================================================================
+
+1. Total unique PT values: 41
+   Total projects: 317,504
+
+2. PT null/empty:
+   NaN: 0
+   Empty string: 0
+
+3. Sum of projects in TOP 20 PT: 314,227
+   Remaining: 3,277
+
+4. JSON projekttraeger total: 313,071
+
+5. Projekttraeger in JSON (20 entries):
+   BF: 19,549 projects
+   PT-J: 75,765 projects
+   PT-DLR: 57,919 projects
+   ACONIUM: 10,036 projects
+   PT-VDI/VDE: 24,723 projects
+   ...
+
+======================================================================
+ROOT CAUSE SUMMARY
+======================================================================
+
+GEOGRAPHIC DISCREPANCY:
+- The code filters df['Staat'] == 'Deutschland' for German states
+- Empty Staat values are in df_intl but get filtered out in output
+- Also, German projects with empty Bundesland are filtered out
+
+PROJEKTTRÄGER DISCREPANCY:
+- The code only outputs TOP 20 Projekttraeger (.head(20))
+- Projects handled by less common PTs are not counted
+- This is by design (for chart readability) but affects validation
+

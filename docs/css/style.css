@@ -428,6 +428,14 @@ body {
     position: relative;
 }
 
+.chart-footnote {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-top: var(--spacing-sm);
+    opacity: 0.8;
+}
+
 .chart-tall {
     height: 400px;
 }
