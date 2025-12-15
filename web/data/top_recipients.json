@@ -8,33 +8,33 @@
     },
     {
       "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung eingetragener Verein",
-      "total_funding": 10571904830.0,
-      "avg_funding": 862730.9311245307,
-      "project_count": 12254
+      "total_funding": 10590277191.0,
+      "avg_funding": 863032.938717301,
+      "project_count": 12271
     },
     {
       "name": "Deutscher Akademischer Austauschdienst e.V.",
-      "total_funding": 3832838091.0,
-      "avg_funding": 13171264.917525774,
-      "project_count": 291
+      "total_funding": 3833963823.0,
+      "avg_funding": 13130013.092465753,
+      "project_count": 292
     },
     {
       "name": "Deutsches Zentrum für Luft- und Raumfahrt e.V.",
-      "total_funding": 2651210646.0,
-      "avg_funding": 1292642.928327645,
-      "project_count": 2051
+      "total_funding": 2651811697.0,
+      "avg_funding": 1291676.4232830005,
+      "project_count": 2053
     },
     {
       "name": "Siemens Aktiengesellschaft",
-      "total_funding": 2519999063.0,
-      "avg_funding": 1256230.8389830508,
-      "project_count": 2006
+      "total_funding": 2520639036.0,
+      "avg_funding": 1255298.3247011951,
+      "project_count": 2008
     },
     {
       "name": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.",
-      "total_funding": 2452878812.0,
-      "avg_funding": 903454.4427255986,
-      "project_count": 2715
+      "total_funding": 2452970554.0,
+      "avg_funding": 903155.5795287187,
+      "project_count": 2716
     },
     {
       "name": "Studienstiftung des deutschen Volkes e.V.",
@@ -44,9 +44,9 @@
     },
     {
       "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
-      "total_funding": 2290889483.0,
-      "avg_funding": 599081.9777719665,
-      "project_count": 3824
+      "total_funding": 2291082997.0,
+      "avg_funding": 598975.9469281046,
+      "project_count": 3825
     },
     {
       "name": "Facility for Antiproton and Ion Research in Europe GmbH (FAIR GmbH)",
@@ -62,9 +62,9 @@
     },
     {
       "name": "Forschungszentrum Jülich GmbH",
-      "total_funding": 1756094510.0,
-      "avg_funding": 1468306.4464882943,
-      "project_count": 1196
+      "total_funding": 1747692204.0,
+      "avg_funding": 1460060.320802005,
+      "project_count": 1197
     },
     {
       "name": "Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen",
@@ -74,33 +74,27 @@
     },
     {
       "name": "Technische Universität München",
-      "total_funding": 1680823044.0,
-      "avg_funding": 532580.1787072243,
-      "project_count": 3156
+      "total_funding": 1684532331.0,
+      "avg_funding": 533079.8515822785,
+      "project_count": 3160
     },
     {
       "name": "Alexander von Humboldt-Stiftung",
-      "total_funding": 1551622373.0,
-      "avg_funding": 13376054.939655172,
+      "total_funding": 1587632107.0,
+      "avg_funding": 13686483.681034483,
       "project_count": 116
     },
     {
       "name": "Technische Universität Dresden",
-      "total_funding": 1498827585.0,
-      "avg_funding": 532443.1918294849,
-      "project_count": 2815
+      "total_funding": 1500798484.0,
+      "avg_funding": 532386.8336289464,
+      "project_count": 2819
     },
     {
       "name": "Karlsruher Institut für Technologie (Großforschungsaufgabe)",
       "total_funding": 1406795498.0,
       "avg_funding": 1570084.2611607143,
       "project_count": 896
-    },
-    {
-      "name": "Charité - Universitätsmedizin Berlin",
-      "total_funding": 1321566334.0,
-      "avg_funding": 1270736.8596153846,
-      "project_count": 1040
     },
     {
       "name": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
@@ -110,9 +104,9 @@
     },
     {
       "name": "Universität Stuttgart",
-      "total_funding": 1251519111.0,
-      "avg_funding": 547710.770678337,
-      "project_count": 2285
+      "total_funding": 1252142670.0,
+      "avg_funding": 547504.4468736335,
+      "project_count": 2287
     },
     {
       "name": "Robert Bosch Gesellschaft mit beschränkter Haftung",
@@ -121,22 +115,28 @@
       "project_count": 834
     },
     {
+      "name": "Stiftung Begabtenförderung berufliche Bildung (SBB) Gemeinnützige Gesellschaft mit beschränkter Haftung",
+      "total_funding": 1220084995.0,
+      "avg_funding": 21787232.05357143,
+      "project_count": 56
+    },
+    {
       "name": "Technische Universität Berlin",
-      "total_funding": 1216876477.0,
-      "avg_funding": 500978.37669822975,
-      "project_count": 2429
+      "total_funding": 1219166711.0,
+      "avg_funding": 501714.6958847737,
+      "project_count": 2430
+    },
+    {
+      "name": "Charité - Universitätsmedizin Berlin",
+      "total_funding": 1203832848.0,
+      "avg_funding": 1156419.642651297,
+      "project_count": 1041
     },
     {
       "name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
       "total_funding": 1201183731.0,
       "avg_funding": 7324291.042682927,
       "project_count": 164
-    },
-    {
-      "name": "Stiftung Begabtenförderung berufliche Bildung (SBB) Gemeinnützige Gesellschaft mit beschränkter Haftung",
-      "total_funding": 1162432992.0,
-      "avg_funding": 20757732.0,
-      "project_count": 56
     },
     {
       "name": "Bayerisches Staatsministerium für Wissenschaft und Kunst",
@@ -146,38 +146,38 @@
     },
     {
       "name": "Karlsruher Institut für Technologie (Universitätsaufgabe)",
-      "total_funding": 1093932150.0,
-      "avg_funding": 498147.6092896175,
-      "project_count": 2196
+      "total_funding": 1096369650.0,
+      "avg_funding": 499030.3368229404,
+      "project_count": 2197
     },
     {
       "name": "Ludwig-Maximilians-Universität München",
-      "total_funding": 982230303.0,
-      "avg_funding": 578122.6032960565,
-      "project_count": 1699
+      "total_funding": 982729044.0,
+      "avg_funding": 578075.9082352942,
+      "project_count": 1700
     },
     {
       "name": "Universität Heidelberg",
-      "total_funding": 933413437.0,
-      "avg_funding": 596811.6604859335,
-      "project_count": 1564
+      "total_funding": 933691060.0,
+      "avg_funding": 596607.7060702875,
+      "project_count": 1565
     },
     {
       "name": "Universität Hamburg",
-      "total_funding": 915473020.0,
-      "avg_funding": 516341.24083474337,
-      "project_count": 1773
+      "total_funding": 915639570.0,
+      "avg_funding": 516144.0642615558,
+      "project_count": 1774
     },
     {
       "name": "Technische Universität Darmstadt",
-      "total_funding": 909542078.0,
-      "avg_funding": 521227.55186246417,
-      "project_count": 1745
+      "total_funding": 911395491.0,
+      "avg_funding": 521691.7521465369,
+      "project_count": 1747
     },
     {
       "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
-      "total_funding": 871840096.0,
-      "avg_funding": 563568.2585649644,
+      "total_funding": 871800463.0,
+      "avg_funding": 563542.6393018746,
       "project_count": 1547
     },
     {
@@ -188,14 +188,14 @@
     },
     {
       "name": "Albert-Ludwigs-Universität Freiburg",
-      "total_funding": 833545793.0,
-      "avg_funding": 574067.3505509642,
-      "project_count": 1452
+      "total_funding": 833762825.0,
+      "avg_funding": 573821.6276668961,
+      "project_count": 1453
     },
     {
       "name": "OEW Breitband GmbH",
-      "total_funding": 824266435.0,
-      "avg_funding": 11448144.930555556,
+      "total_funding": 823539044.0,
+      "avg_funding": 11438042.277777778,
       "project_count": 72
     },
     {
@@ -206,27 +206,27 @@
     },
     {
       "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-      "total_funding": 801380758.0,
-      "avg_funding": 482178.5547533093,
-      "project_count": 1662
+      "total_funding": 804550940.0,
+      "avg_funding": 483213.77777777775,
+      "project_count": 1665
     },
     {
       "name": "Leibniz Universität Hannover",
-      "total_funding": 798290331.0,
-      "avg_funding": 487952.5250611247,
-      "project_count": 1636
+      "total_funding": 798570355.0,
+      "avg_funding": 487825.5070250458,
+      "project_count": 1637
     },
     {
       "name": "Technische Universität Braunschweig",
-      "total_funding": 761469914.0,
-      "avg_funding": 504618.8959575878,
-      "project_count": 1509
+      "total_funding": 762537717.0,
+      "avg_funding": 504657.6551952349,
+      "project_count": 1511
     },
     {
       "name": "Eberhard Karls Universität Tübingen",
-      "total_funding": 738522357.0,
-      "avg_funding": 563327.5034324942,
-      "project_count": 1311
+      "total_funding": 734642992.0,
+      "avg_funding": 559941.3048780488,
+      "project_count": 1312
     },
     {
       "name": "Union der deutschen Akademien der Wissenschaften e.V.",
@@ -236,8 +236,8 @@
     },
     {
       "name": "Ruhr-Universität Bochum",
-      "total_funding": 722115573.0,
-      "avg_funding": 517274.7657593123,
+      "total_funding": 722115567.0,
+      "avg_funding": 517274.76146131806,
       "project_count": 1396
     },
     {
@@ -248,9 +248,9 @@
     },
     {
       "name": "Universität Bremen",
-      "total_funding": 707909190.0,
-      "avg_funding": 560498.1710213777,
-      "project_count": 1263
+      "total_funding": 709600210.0,
+      "avg_funding": 561392.5712025317,
+      "project_count": 1264
     },
     {
       "name": "Georg-August-Universität Göttingen",
@@ -260,20 +260,20 @@
     },
     {
       "name": "Universität Münster",
-      "total_funding": 679871720.0,
-      "avg_funding": 633617.632805219,
+      "total_funding": 679837377.0,
+      "avg_funding": 633585.6262814539,
       "project_count": 1073
     },
     {
       "name": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
-      "total_funding": 659295073.0,
-      "avg_funding": 1008096.4418960245,
-      "project_count": 654
+      "total_funding": 662834339.0,
+      "avg_funding": 1010418.199695122,
+      "project_count": 656
     },
     {
       "name": "Christian-Albrechts-Universität zu Kiel",
-      "total_funding": 647291147.0,
-      "avg_funding": 559940.4385813149,
+      "total_funding": 647276574.0,
+      "avg_funding": 559927.8321799308,
       "project_count": 1156
     },
     {
@@ -304,113 +304,113 @@
   "top_by_count": [
     {
       "name": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung eingetragener Verein",
-      "total_funding": 10571904830.0,
-      "project_count": 12254
+      "total_funding": 10590277191.0,
+      "project_count": 12271
     },
     {
       "name": "Keine Anzeige aufgrund datenschutzrechtlicher Regelungen.",
-      "total_funding": 417372922.0,
-      "project_count": 4281
+      "total_funding": 417546284.0,
+      "project_count": 4283
     },
     {
       "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
-      "total_funding": 2290889483.0,
-      "project_count": 3824
+      "total_funding": 2291082997.0,
+      "project_count": 3825
     },
     {
       "name": "Technische Universität München",
-      "total_funding": 1680823044.0,
-      "project_count": 3156
+      "total_funding": 1684532331.0,
+      "project_count": 3160
     },
     {
       "name": "Technische Universität Dresden",
-      "total_funding": 1498827585.0,
-      "project_count": 2815
+      "total_funding": 1500798484.0,
+      "project_count": 2819
     },
     {
       "name": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.",
-      "total_funding": 2452878812.0,
-      "project_count": 2715
+      "total_funding": 2452970554.0,
+      "project_count": 2716
     },
     {
       "name": "Technische Universität Berlin",
-      "total_funding": 1216876477.0,
-      "project_count": 2429
+      "total_funding": 1219166711.0,
+      "project_count": 2430
     },
     {
       "name": "Universität Stuttgart",
-      "total_funding": 1251519111.0,
-      "project_count": 2285
+      "total_funding": 1252142670.0,
+      "project_count": 2287
     },
     {
       "name": "Karlsruher Institut für Technologie (Universitätsaufgabe)",
-      "total_funding": 1093932150.0,
-      "project_count": 2196
+      "total_funding": 1096369650.0,
+      "project_count": 2197
     },
     {
       "name": "Deutsches Zentrum für Luft- und Raumfahrt e.V.",
-      "total_funding": 2651210646.0,
-      "project_count": 2051
+      "total_funding": 2651811697.0,
+      "project_count": 2053
     },
     {
       "name": "Siemens Aktiengesellschaft",
-      "total_funding": 2519999063.0,
-      "project_count": 2006
+      "total_funding": 2520639036.0,
+      "project_count": 2008
     },
     {
       "name": "Universität Hamburg",
-      "total_funding": 915473020.0,
-      "project_count": 1773
+      "total_funding": 915639570.0,
+      "project_count": 1774
     },
     {
       "name": "Technische Universität Darmstadt",
-      "total_funding": 909542078.0,
-      "project_count": 1745
+      "total_funding": 911395491.0,
+      "project_count": 1747
     },
     {
       "name": "Ludwig-Maximilians-Universität München",
-      "total_funding": 982230303.0,
-      "project_count": 1699
+      "total_funding": 982729044.0,
+      "project_count": 1700
     },
     {
       "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-      "total_funding": 801380758.0,
-      "project_count": 1662
+      "total_funding": 804550940.0,
+      "project_count": 1665
     },
     {
       "name": "Leibniz Universität Hannover",
-      "total_funding": 798290331.0,
-      "project_count": 1636
+      "total_funding": 798570355.0,
+      "project_count": 1637
     },
     {
       "name": "Universität Heidelberg",
-      "total_funding": 933413437.0,
-      "project_count": 1564
+      "total_funding": 933691060.0,
+      "project_count": 1565
     },
     {
       "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
-      "total_funding": 871840096.0,
+      "total_funding": 871800463.0,
       "project_count": 1547
     },
     {
       "name": "Technische Universität Braunschweig",
-      "total_funding": 761469914.0,
-      "project_count": 1509
+      "total_funding": 762537717.0,
+      "project_count": 1511
     },
     {
       "name": "Albert-Ludwigs-Universität Freiburg",
-      "total_funding": 833545793.0,
-      "project_count": 1452
+      "total_funding": 833762825.0,
+      "project_count": 1453
     },
     {
       "name": "Ruhr-Universität Bochum",
-      "total_funding": 722115573.0,
+      "total_funding": 722115567.0,
       "project_count": 1396
     },
     {
       "name": "Eberhard Karls Universität Tübingen",
-      "total_funding": 738522357.0,
-      "project_count": 1311
+      "total_funding": 734642992.0,
+      "project_count": 1312
     },
     {
       "name": "Georg-August-Universität Göttingen",
@@ -419,8 +419,8 @@
     },
     {
       "name": "Universität Bremen",
-      "total_funding": 707909190.0,
-      "project_count": 1263
+      "total_funding": 709600210.0,
+      "project_count": 1264
     },
     {
       "name": "Freie Universität Berlin",
@@ -429,53 +429,53 @@
     },
     {
       "name": "Forschungszentrum Jülich GmbH",
-      "total_funding": 1756094510.0,
-      "project_count": 1196
+      "total_funding": 1747692204.0,
+      "project_count": 1197
     },
     {
       "name": "Christian-Albrechts-Universität zu Kiel",
-      "total_funding": 647291147.0,
+      "total_funding": 647276574.0,
       "project_count": 1156
     },
     {
       "name": "Johann Wolfgang Goethe-Universität Frankfurt am Main",
-      "total_funding": 565621229.0,
+      "total_funding": 565616108.0,
       "project_count": 1116
     },
     {
       "name": "Universität Duisburg-Essen",
-      "total_funding": 525433511.0,
+      "total_funding": 525307018.0,
       "project_count": 1087
     },
     {
       "name": "Technische Universität Dortmund",
-      "total_funding": 499454304.0,
+      "total_funding": 499347611.0,
       "project_count": 1082
     },
     {
       "name": "Universität Münster",
-      "total_funding": 679871720.0,
+      "total_funding": 679837377.0,
       "project_count": 1073
     },
     {
       "name": "Charité - Universitätsmedizin Berlin",
-      "total_funding": 1321566334.0,
-      "project_count": 1040
+      "total_funding": 1203832848.0,
+      "project_count": 1041
     },
     {
       "name": "Universität zu Köln",
-      "total_funding": 583901889.0,
-      "project_count": 986
-    },
-    {
-      "name": "Justus-Liebig-Universität Gießen",
-      "total_funding": 408413036.0,
-      "project_count": 961
+      "total_funding": 584641078.0,
+      "project_count": 988
     },
     {
       "name": "Universität Kassel",
-      "total_funding": 438544507.0,
-      "project_count": 961
+      "total_funding": 440783465.0,
+      "project_count": 964
+    },
+    {
+      "name": "Justus-Liebig-Universität Gießen",
+      "total_funding": 410339991.0,
+      "project_count": 962
     },
     {
       "name": "Universität Leipzig",
@@ -488,19 +488,19 @@
       "project_count": 896
     },
     {
+      "name": "Humboldt-Universität zu Berlin",
+      "total_funding": 502414466.0,
+      "project_count": 894
+    },
+    {
       "name": "Johannes Gutenberg-Universität Mainz",
       "total_funding": 434169108.0,
       "project_count": 894
     },
     {
-      "name": "Humboldt-Universität zu Berlin",
-      "total_funding": 500047015.0,
-      "project_count": 893
-    },
-    {
       "name": "Friedrich-Schiller-Universität Jena",
-      "total_funding": 520140157.0,
-      "project_count": 867
+      "total_funding": 525557443.0,
+      "project_count": 868
     },
     {
       "name": "Robert Bosch Gesellschaft mit beschränkter Haftung",
@@ -509,18 +509,18 @@
     },
     {
       "name": "Universität Rostock",
-      "total_funding": 351134114.0,
+      "total_funding": 352570742.0,
       "project_count": 816
     },
     {
       "name": "Technische Universität Chemnitz",
-      "total_funding": 389497246.0,
-      "project_count": 782
+      "total_funding": 389855168.0,
+      "project_count": 783
     },
     {
       "name": "Technische Universität Hamburg",
-      "total_funding": 347877973.0,
-      "project_count": 754
+      "total_funding": 348391572.0,
+      "project_count": 756
     },
     {
       "name": "Julius-Maximilians-Universität Würzburg",
@@ -529,29 +529,29 @@
     },
     {
       "name": "Philipps-Universität Marburg",
-      "total_funding": 332798858.0,
-      "project_count": 687
+      "total_funding": 333255047.0,
+      "project_count": 688
     },
     {
       "name": "Universität Ulm",
-      "total_funding": 364304109.0,
-      "project_count": 670
+      "total_funding": 364460332.0,
+      "project_count": 671
     },
     {
       "name": "Otto-von-Guericke-Universität Magdeburg",
-      "total_funding": 326280641.0,
-      "project_count": 661
+      "total_funding": 326339920.0,
+      "project_count": 662
     },
     {
       "name": "Universität des Saarlandes",
-      "total_funding": 297197498.0,
-      "project_count": 656
+      "total_funding": 297451290.0,
+      "project_count": 657
     },
     {
-      "name": "Martin-Luther-Universität Halle-Wittenberg",
-      "total_funding": 339393400.0,
-      "project_count": 654
+      "name": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
+      "total_funding": 662834339.0,
+      "project_count": 656
     }
   ],
-  "unique_recipients": 54735
+  "unique_recipients": 54784
 }

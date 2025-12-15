@@ -89,7 +89,8 @@ async function loadData() {
         'joint_projects.json',
         'projekttraeger.json',
         'keyword_trends.json',
-        'entity_trends.json'
+        'entity_trends.json',
+        'funding_forecast.json'
     ];
 
     try {
@@ -114,7 +115,8 @@ async function loadData() {
             jointProjects: results[8],
             projekttraeger: results[9],
             keywordTrends: results[10],
-            entityTrends: results[11]
+            entityTrends: results[11],
+            forecast: results[12]
         };
 
         initializeDashboard();
@@ -379,19 +381,26 @@ function createGeoChart(mode = 'total') {
 // Temporal trends chart
 function createTemporalChart(range = 'all') {
     const ctx = document.getElementById('temporalChart').getContext('2d');
-    let data = globalData.temporal.yearly_totals;
-
-    // Filter by range
-    const currentYear = new Date().getFullYear();
-    if (range === 'recent') {
-        data = data.filter(d => d.year >= currentYear - 20);
-    } else if (range === 'decade') {
-        data = data.filter(d => d.year >= currentYear - 10);
-    }
 
     // Destroy existing chart if exists
     if (charts.temporal) {
         charts.temporal.destroy();
+    }
+
+    // Handle forecast mode separately
+    if (range === 'forecast') {
+        createForecastChart(ctx);
+        return;
+    }
+
+    let data = globalData.temporal.yearly_totals;
+
+    // Filter by range
+    const currentYear = 2025; // December 2025
+    if (range === 'recent') {
+        data = data.filter(d => d.year >= currentYear - 20);
+    } else if (range === 'decade') {
+        data = data.filter(d => d.year >= currentYear - 10);
     }
 
     charts.temporal = new Chart(ctx, {
@@ -463,6 +472,209 @@ function createTemporalChart(range = 'all') {
                         callback: (value) => formatNumber(value, true)
                     },
                     grid: { display: false }
+                }
+            }
+        }
+    });
+}
+
+// Forecast chart with confidence intervals
+function createForecastChart(ctx) {
+    const forecast = globalData.forecast;
+    const historicalData = globalData.temporal.yearly_totals;
+
+    // Get last 10 years of historical data + forecast
+    const currentYear = forecast.current_year;
+    const recentHistory = historicalData.filter(d => d.year >= currentYear - 10 && d.year <= currentYear);
+    const forecastData = forecast.forecast;
+
+    // Combine labels: historical years + forecast years
+    const allYears = [
+        ...recentHistory.map(d => d.year),
+        ...forecastData.map(d => d.year)
+    ];
+
+    // Historical funding (with nulls for forecast years)
+    const historicalFunding = [
+        ...recentHistory.map(d => d.total_funding),
+        ...forecastData.map(() => null)
+    ];
+
+    // Predicted funding (with nulls for historical years, starting from last historical point)
+    const lastHistoricalValue = recentHistory[recentHistory.length - 1]?.total_funding || 0;
+    const predictedFunding = [
+        ...recentHistory.slice(0, -1).map(() => null),
+        lastHistoricalValue,  // Connect to last historical point
+        ...forecastData.map(d => d.predicted_funding)
+    ];
+
+    // Confidence interval bounds
+    const upperBound = [
+        ...recentHistory.slice(0, -1).map(() => null),
+        lastHistoricalValue,
+        ...forecastData.map(d => d.upper_bound)
+    ];
+
+    const lowerBound = [
+        ...recentHistory.slice(0, -1).map(() => null),
+        lastHistoricalValue,
+        ...forecastData.map(d => d.lower_bound)
+    ];
+
+    // Already approved funding (for comparison)
+    const approvedFunding = [
+        ...recentHistory.map(() => null),
+        ...forecastData.map(d => d.approved_funding || null)
+    ];
+
+    charts.temporal = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: allYears,
+            datasets: [
+                {
+                    label: 'Historical Funding',
+                    data: historicalFunding,
+                    borderColor: '#6366F1',
+                    backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 3,
+                    pointHoverRadius: 6,
+                    order: 2
+                },
+                {
+                    label: 'Forecast (Prophet ML)',
+                    data: predictedFunding,
+                    borderColor: '#10B981',
+                    backgroundColor: 'transparent',
+                    borderWidth: 3,
+                    borderDash: [8, 4],
+                    tension: 0.3,
+                    pointRadius: 4,
+                    pointHoverRadius: 8,
+                    pointStyle: 'triangle',
+                    order: 1
+                },
+                {
+                    label: '80% Confidence Upper',
+                    data: upperBound,
+                    borderColor: 'rgba(16, 185, 129, 0.3)',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                    fill: '+1',
+                    tension: 0.3,
+                    pointRadius: 0,
+                    borderWidth: 1,
+                    order: 3
+                },
+                {
+                    label: '80% Confidence Lower',
+                    data: lowerBound,
+                    borderColor: 'rgba(16, 185, 129, 0.3)',
+                    backgroundColor: 'transparent',
+                    tension: 0.3,
+                    pointRadius: 0,
+                    borderWidth: 1,
+                    order: 4
+                },
+                {
+                    label: 'Already Approved',
+                    data: approvedFunding,
+                    borderColor: '#F59E0B',
+                    backgroundColor: 'rgba(245, 158, 11, 0.2)',
+                    fill: true,
+                    tension: 0,
+                    pointRadius: 5,
+                    pointStyle: 'rect',
+                    order: 0
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false
+            },
+            plugins: {
+                legend: {
+                    labels: {
+                        filter: (item) => !item.text.includes('Confidence')
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: (items) => {
+                            const year = items[0].label;
+                            const isHistorical = parseInt(year) <= currentYear;
+                            return `${year} ${isHistorical ? '' : '(Forecast)'}`;
+                        },
+                        label: (item) => {
+                            if (item.raw === null) return null;
+                            const datasetLabel = item.dataset.label;
+                            if (datasetLabel.includes('Confidence')) return null;
+
+                            if (datasetLabel === 'Already Approved') {
+                                const forecastItem = forecastData.find(f => f.year === parseInt(item.label));
+                                if (forecastItem && forecastItem.approved_projects) {
+                                    return `Approved: ${formatCurrency(item.raw)} (${forecastItem.approved_projects} projects)`;
+                                }
+                                return `Approved: ${formatCurrency(item.raw)}`;
+                            }
+                            return `${datasetLabel}: ${formatCurrency(item.raw)}`;
+                        },
+                        afterBody: (items) => {
+                            const year = parseInt(items[0].label);
+                            if (year > currentYear) {
+                                const forecastItem = forecastData.find(f => f.year === year);
+                                if (forecastItem) {
+                                    return [
+                                        '',
+                                        `Confidence: ${formatCurrency(forecastItem.lower_bound, true)} - ${formatCurrency(forecastItem.upper_bound, true)}`
+                                    ];
+                                }
+                            }
+                            return [];
+                        }
+                    }
+                },
+                annotation: {
+                    annotations: {
+                        currentYearLine: {
+                            type: 'line',
+                            xMin: currentYear,
+                            xMax: currentYear,
+                            borderColor: '#94A3B8',
+                            borderWidth: 2,
+                            borderDash: [6, 6],
+                            label: {
+                                display: true,
+                                content: 'Now',
+                                position: 'start'
+                            }
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: '#E2E8F0' },
+                    ticks: {
+                        callback: function (value, index) {
+                            const year = this.getLabelForValue(value);
+                            return year;
+                        }
+                    }
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: { display: true, text: 'Funding (€)' },
+                    ticks: {
+                        callback: (value) => formatCurrency(value, true)
+                    },
+                    grid: { color: '#E2E8F0' }
                 }
             }
         }

@@ -1,9 +1,9 @@
 {
   "summary": {
-    "joint_project_count": 154391,
-    "individual_project_count": 162849,
-    "joint_funding": 78360436115.0,
-    "individual_funding": 128212763439.0
+    "joint_project_count": 154581,
+    "individual_project_count": 162923,
+    "joint_funding": 78448308456.0,
+    "individual_funding": 128254171150.0
   },
   "top_joint_projects": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "name": "NAKO Gesundheitsstudie",
-      "total_funding": 212370384.0,
+      "total_funding": 232455919.0,
       "subproject_count": 3,
       "states_involved": [
         "Baden-Württemberg"
@@ -128,19 +128,19 @@
       ]
     },
     {
-      "name": "FAMELausitz",
-      "total_funding": 123671000.0,
-      "subproject_count": 2,
-      "states_involved": [
-        "Brandenburg"
-      ]
-    },
-    {
       "name": "MKV Völklingen",
       "total_funding": 108671263.0,
       "subproject_count": 5,
       "states_involved": [
         "Saarland"
+      ]
+    },
+    {
+      "name": "FAMELausitz",
+      "total_funding": 107139082.0,
+      "subproject_count": 2,
+      "states_involved": [
+        "Brandenburg"
       ]
     },
     {

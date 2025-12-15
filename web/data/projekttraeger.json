@@ -3,9 +3,9 @@
     {
       "code": "BF",
       "name": "DLR Projektträger (ehem. Beratungsfirma)",
-      "total_funding": 47809042273.0,
-      "avg_funding": 2445725.5101800696,
-      "project_count": 19548,
+      "total_funding": 47903829598.0,
+      "avg_funding": 2450449.107268914,
+      "project_count": 19549,
       "ministries": [
         "BMFTR",
         "BMUKN"
@@ -14,9 +14,9 @@
     {
       "code": "PT-J",
       "name": "PT-J",
-      "total_funding": 44187847964.0,
-      "avg_funding": 583808.0561772516,
-      "project_count": 75689,
+      "total_funding": 44316312450.0,
+      "avg_funding": 584918.0023757672,
+      "project_count": 75765,
       "ministries": [
         "BMV",
         "BMWE",
@@ -26,9 +26,9 @@
     {
       "code": "PT-DLR",
       "name": "DLR Projektträger",
-      "total_funding": 32102300940.0,
-      "avg_funding": 554577.9798224096,
-      "project_count": 57886,
+      "total_funding": 31997629766.0,
+      "avg_funding": 552454.8035359726,
+      "project_count": 57919,
       "ministries": [
         "BMWE",
         "BMFTR",
@@ -38,9 +38,9 @@
     {
       "code": "ACONIUM",
       "name": "ACONIUM",
-      "total_funding": 17674083033.0,
-      "avg_funding": 1759840.9870556607,
-      "project_count": 10043,
+      "total_funding": 17570065019.0,
+      "avg_funding": 1750703.9676165804,
+      "project_count": 10036,
       "ministries": [
         "BMV"
       ]
@@ -48,9 +48,9 @@
     {
       "code": "PT-VDI/VDE",
       "name": "PT-VDI/VDE",
-      "total_funding": 15097582987.0,
-      "avg_funding": 611634.3780181494,
-      "project_count": 24684,
+      "total_funding": 15136809857.0,
+      "avg_funding": 612256.1928973021,
+      "project_count": 24723,
       "ministries": [
         "BMWE",
         "BMV",
@@ -60,9 +60,9 @@
     {
       "code": "PT-VDI",
       "name": "PT-VDI",
-      "total_funding": 10411794418.0,
-      "avg_funding": 532845.1595701126,
-      "project_count": 19540,
+      "total_funding": 10434360357.0,
+      "avg_funding": 533344.9374872214,
+      "project_count": 19564,
       "ministries": [
         "BMWE",
         "BMFTR"
@@ -81,9 +81,9 @@
     {
       "code": "PTKA",
       "name": "Karlsruher Institut für Technologie (KIT)",
-      "total_funding": 5367377834.0,
-      "avg_funding": 276711.7509924215,
-      "project_count": 19397,
+      "total_funding": 5371081163.0,
+      "avg_funding": 276617.457022197,
+      "project_count": 19417,
       "ministries": [
         "BMFTR"
       ]
@@ -91,9 +91,9 @@
     {
       "code": "DLR-RFM",
       "name": "DLR-RFM",
-      "total_funding": 4501775028.0,
-      "avg_funding": 681570.7839515519,
-      "project_count": 6605,
+      "total_funding": 4530064880.0,
+      "avg_funding": 684403.2149871582,
+      "project_count": 6619,
       "ministries": [
         "BMWE",
         "BMV",
@@ -103,9 +103,9 @@
     {
       "code": "BIBB",
       "name": "BIBB",
-      "total_funding": 4389563698.0,
-      "avg_funding": 402085.1605752496,
-      "project_count": 10917,
+      "total_funding": 4388948243.0,
+      "avg_funding": 401955.14635039837,
+      "project_count": 10919,
       "ministries": [
         "BMFTR"
       ]
@@ -113,9 +113,9 @@
     {
       "code": "PT-ZUG",
       "name": "PT-ZUG",
-      "total_funding": 2721887896.0,
-      "avg_funding": 84459.85962081485,
-      "project_count": 32227,
+      "total_funding": 2727324185.0,
+      "avg_funding": 84531.49593974708,
+      "project_count": 32264,
       "ministries": [
         "BMWE"
       ]
@@ -123,9 +123,9 @@
     {
       "code": "PT-DESY",
       "name": "PT-DESY",
-      "total_funding": 2657996914.0,
-      "avg_funding": 558989.887276551,
-      "project_count": 4755,
+      "total_funding": 2658718131.0,
+      "avg_funding": 559023.9972666106,
+      "project_count": 4756,
       "ministries": [
         "BMFTR"
       ]
@@ -133,8 +133,8 @@
     {
       "code": "PT-TÜV",
       "name": "PT-TÜV",
-      "total_funding": 2431023078.0,
-      "avg_funding": 578401.8743754461,
+      "total_funding": 2430552791.0,
+      "avg_funding": 578289.9812039019,
       "project_count": 4203,
       "ministries": [
         "BMWE",
@@ -145,8 +145,8 @@
     {
       "code": "PT-LFT",
       "name": "PT-LFT",
-      "total_funding": 2266051970.0,
-      "avg_funding": 1094711.0966183576,
+      "total_funding": 2264811754.0,
+      "avg_funding": 1094111.9584541062,
       "project_count": 2070,
       "ministries": [
         "BMWE",
@@ -156,9 +156,9 @@
     {
       "code": "BAV",
       "name": "BAV",
-      "total_funding": 1341930432.0,
-      "avg_funding": 177246.12759212786,
-      "project_count": 7571,
+      "total_funding": 1347503344.0,
+      "avg_funding": 177935.20982437607,
+      "project_count": 7573,
       "ministries": [
         "BMV"
       ]
@@ -166,9 +166,9 @@
     {
       "code": "BLE",
       "name": "Bundesanstalt für Landwirtschaft und Ernährung",
-      "total_funding": 1195767764.0,
-      "avg_funding": 215220.97984161266,
-      "project_count": 5556,
+      "total_funding": 1199396567.0,
+      "avg_funding": 215292.86788727337,
+      "project_count": 5571,
       "ministries": [
         "BMJV_BLE",
         "BMLEH"
@@ -221,44 +221,44 @@
     {
       "pt": "BF",
       "ministry": "BMFTR",
-      "funding": 47809025274.0,
-      "projects": 19547
+      "funding": 47903812599.0,
+      "projects": 19548
     },
     {
       "pt": "PT-DLR",
       "ministry": "BMFTR",
-      "funding": 27412060630.0,
-      "projects": 47873
+      "funding": 27306273018.0,
+      "projects": 47900
     },
     {
       "pt": "PT-J",
       "ministry": "BMFTR",
-      "funding": 24254077027.0,
-      "projects": 46035
+      "funding": 24390759809.0,
+      "projects": 46087
     },
     {
       "pt": "ACONIUM",
       "ministry": "BMV",
-      "funding": 17674083033.0,
-      "projects": 10043
+      "funding": 17570065019.0,
+      "projects": 10036
     },
     {
       "pt": "PT-J",
       "ministry": "BMWE",
-      "funding": 16010024206.0,
-      "projects": 25978
+      "funding": 16016514868.0,
+      "projects": 26001
     },
     {
       "pt": "PT-VDI/VDE",
       "ministry": "BMFTR",
-      "funding": 10228326021.0,
-      "projects": 21969
+      "funding": 10271359506.0,
+      "projects": 22008
     },
     {
       "pt": "PT-VDI",
       "ministry": "BMFTR",
-      "funding": 9298020204.0,
-      "projects": 18769
+      "funding": 9313428502.0,
+      "projects": 18785
     },
     {
       "pt": "WI",
@@ -269,85 +269,85 @@
     {
       "pt": "PTKA",
       "ministry": "BMFTR",
-      "funding": 5367377834.0,
-      "projects": 19397
+      "funding": 5371081163.0,
+      "projects": 19417
     },
     {
       "pt": "BIBB",
       "ministry": "BMFTR",
-      "funding": 4389563698.0,
-      "projects": 10917
+      "funding": 4388948243.0,
+      "projects": 10919
     },
     {
       "pt": "PT-DLR",
       "ministry": "BMWE",
-      "funding": 4161057165.0,
-      "projects": 8140
+      "funding": 4162153076.0,
+      "projects": 8146
     },
     {
       "pt": "DLR-RFM",
       "ministry": "BMWE",
-      "funding": 4096973435.0,
-      "projects": 6390
+      "funding": 4100677745.0,
+      "projects": 6404
     },
     {
       "pt": "PT-J",
       "ministry": "BMV",
-      "funding": 3923746731.0,
-      "projects": 3676
+      "funding": 3909037773.0,
+      "projects": 3677
     },
     {
       "pt": "PT-VDI/VDE",
       "ministry": "BMWE",
-      "funding": 3699568724.0,
+      "funding": 3698493031.0,
       "projects": 1360
     },
     {
       "pt": "PT-ZUG",
       "ministry": "BMWE",
-      "funding": 2721887896.0,
-      "projects": 32227
+      "funding": 2727324185.0,
+      "projects": 32264
     },
     {
       "pt": "PT-DESY",
       "ministry": "BMFTR",
-      "funding": 2657996914.0,
-      "projects": 4755
+      "funding": 2658718131.0,
+      "projects": 4756
     },
     {
       "pt": "PT-LFT",
       "ministry": "BMWE",
-      "funding": 2266008463.0,
+      "funding": 2264768247.0,
       "projects": 2069
     },
     {
       "pt": "PT-TÜV",
       "ministry": "BMWE",
-      "funding": 1947182771.0,
+      "funding": 1946747414.0,
       "projects": 3375
     },
     {
       "pt": "BAV",
       "ministry": "BMV",
-      "funding": 1341930432.0,
-      "projects": 7571
+      "funding": 1347503344.0,
+      "projects": 7573
     },
     {
       "pt": "BLE",
       "ministry": "BMLEH",
-      "funding": 1193992072.0,
-      "projects": 5547
+      "funding": 1197620875.0,
+      "projects": 5562
     },
     {
       "pt": "PT-VDI",
       "ministry": "BMWE",
-      "funding": 1113774214.0,
-      "projects": 771
+      "funding": 1120931855.0,
+      "projects": 779
     },
     {
       "pt": "PT-VDI/VDE",
       "ministry": "BMV",
-      "funding": 1044399671.0,
+      "funding": 1041668749.0,
       "projects": 1223
     },
     {
@@ -371,7 +371,7 @@
     {
       "pt": "PT-DLR",
       "ministry": "BMV",
-      "funding": 529163145.0,
+      "funding": 529183672.0,
       "projects": 1872
     },
     {
@@ -383,7 +383,7 @@
     {
       "pt": "PT-TÜV",
       "ministry": "BMV",
-      "funding": 435586480.0,
+      "funding": 435551550.0,
       "projects": 615
     },
     {
@@ -395,7 +395,7 @@
     {
       "pt": "DLR-RFM",
       "ministry": "BMV",
-      "funding": 391852437.0,
+      "funding": 416437979.0,
       "projects": 170
     }
   ]

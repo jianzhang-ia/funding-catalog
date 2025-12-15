@@ -3,30 +3,30 @@
     {
       "code": "BMFTR",
       "name": "Bundesministerium für Forschung, Technologie und Raumfahrt",
-      "total_funding": 134694912028.0,
-      "avg_funding": 680033.4830843485,
-      "project_count": 198071
+      "total_funding": 134882842640.0,
+      "avg_funding": 680439.5050169248,
+      "project_count": 198229
     },
     {
       "code": "BMWE",
       "name": "Bundesministerium für Wirtschaft und Energie",
-      "total_funding": 43391132659.0,
-      "avg_funding": 516130.9939217319,
-      "project_count": 84070
+      "total_funding": 43411527268.0,
+      "avg_funding": 515833.6375389149,
+      "project_count": 84158
     },
     {
       "code": "BMV",
       "name": "Bundesministerium für Verkehr",
-      "total_funding": 26258608846.0,
-      "avg_funding": 993101.9570364207,
-      "project_count": 26441
+      "total_funding": 26175934874.0,
+      "avg_funding": 989862.9130993799,
+      "project_count": 26444
     },
     {
       "code": "BMLEH",
       "name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
-      "total_funding": 1966475903.0,
-      "avg_funding": 232361.56244830438,
-      "project_count": 8463
+      "total_funding": 1970104706.0,
+      "avg_funding": 232378.47440434064,
+      "project_count": 8478
     },
     {
       "code": "BMUKN",
@@ -43,6 +43,6 @@
       "project_count": 9
     }
   ],
-  "total_funding": 206573199554.0,
-  "total_projects": 317240
+  "total_funding": 206702479606.0,
+  "total_projects": 317504
 }

@@ -101,6 +101,7 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -110,6 +111,7 @@ body {
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden;
+    max-width: 100vw;
 }
 
 /* Animated Background */
@@ -874,4 +876,252 @@ td:nth-child(5) {
     color: var(--primary-500);
     font-size: 0.85em;
     opacity: 0.85;
+}
+
+/* Forecast button styling */
+.forecast-btn {
+    background: linear-gradient(135deg, var(--success-500) 0%, #059669 100%);
+    color: white;
+    border: none;
+}
+
+.forecast-btn:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.forecast-btn.active {
+    background: linear-gradient(135deg, #047857 0%, #065f46 100%);
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - TABLET & MOBILE
+   ========================================== */
+
+/* Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .main-content {
+        padding: var(--spacing-lg);
+    }
+
+    .charts-section {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .chart-large {
+        grid-column: span 6;
+    }
+
+    .chart-medium {
+        grid-column: span 6;
+    }
+
+    .chart-full {
+        grid-column: span 6;
+    }
+
+    .header {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .logo-text h1 {
+        font-size: 1.25rem;
+    }
+
+    .logo-text p {
+        font-size: 0.75rem;
+    }
+
+    .update-badge {
+        display: none;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding: var(--spacing-md);
+    }
+
+    .charts-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    .chart-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .chart-container {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .chart-container canvas {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .main-content {
+        overflow-x: hidden;
+        max-width: 100vw;
+    }
+
+    .chart-large,
+    .chart-medium,
+    .chart-full {
+        grid-column: span 1;
+        width: 100%;
+    }
+
+    .overview-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .overview-card {
+        padding: var(--spacing-md);
+    }
+
+    .card-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .card-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .card-value {
+        font-size: 1.25rem;
+    }
+
+    .card-label {
+        font-size: 0.75rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        text-align: center;
+    }
+
+    .logo-section {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .logo-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text h1 {
+        font-size: 1.125rem;
+    }
+
+    .chart-header h2 {
+        font-size: 1rem;
+    }
+
+    .chart-header p {
+        font-size: 0.75rem;
+    }
+
+    .chart-controls {
+        flex-wrap: wrap;
+        gap: var(--spacing-xs);
+    }
+
+    .chart-btn {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: 0.7rem;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .tables-section table {
+        font-size: 0.75rem;
+    }
+
+    .tables-section th,
+    .tables-section td {
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    /* Keywords cloud on mobile */
+    .keywords-container {
+        gap: var(--spacing-xs);
+    }
+
+    .keyword-tag {
+        font-size: 0.7rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .main-content {
+        padding: var(--spacing-sm);
+    }
+
+    .overview-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .overview-card {
+        padding: var(--spacing-sm);
+        gap: var(--spacing-sm);
+    }
+
+    .card-value {
+        font-size: 1.1rem;
+    }
+
+    .chart-card {
+        padding: var(--spacing-sm);
+    }
+
+    .chart-container {
+        min-height: 250px;
+    }
+
+    .chart-tall {
+        min-height: 300px;
+    }
+
+    .logo-text h1 {
+        font-size: 1rem;
+    }
+
+    .logo-text p {
+        display: none;
+    }
+
+    .chart-controls {
+        justify-content: center;
+    }
+
+    .chart-btn {
+        flex: 1;
+        min-width: 60px;
+        text-align: center;
+    }
+
+    /* Hide some table columns on very small screens */
+    .tables-section th:nth-child(5),
+    .tables-section td:nth-child(5) {
+        display: none;
+    }
 }

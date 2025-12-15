@@ -1,0 +1,131 @@
+{
+  "generated_at": "2025-12-15T02:20:06.167207",
+  "current_year": 2025,
+  "forecast_horizon_years": 10,
+  "historical_range": {
+    "start": 1968,
+    "end": 2025
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "predicted_funding": 10827591788.402542,
+      "lower_bound": 7025840748.500668,
+      "upper_bound": 14745831222.439823,
+      "approved_funding": 198384259.0,
+      "approved_projects": 338
+    },
+    {
+      "year": 2027,
+      "predicted_funding": 11227330954.155943,
+      "lower_bound": 6801528066.660394,
+      "upper_bound": 15205668053.705893,
+      "approved_funding": 5128725.0,
+      "approved_projects": 6
+    },
+    {
+      "year": 2028,
+      "predicted_funding": 11627070119.909346,
+      "lower_bound": 7358590289.685022,
+      "upper_bound": 15810902353.352781,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2029,
+      "predicted_funding": 12027904461.459335,
+      "lower_bound": 7834303724.056676,
+      "upper_bound": 16303490977.828154,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2030,
+      "predicted_funding": 12427643627.212736,
+      "lower_bound": 8396937704.417244,
+      "upper_bound": 16483600192.066433,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2031,
+      "predicted_funding": 12827382792.966139,
+      "lower_bound": 8564467464.323547,
+      "upper_bound": 17022808539.75454,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2032,
+      "predicted_funding": 13227121958.719543,
+      "lower_bound": 9317784538.799318,
+      "upper_bound": 17455104493.364246,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2033,
+      "predicted_funding": 13627956300.269527,
+      "lower_bound": 9499777439.365517,
+      "upper_bound": 17961244431.766434,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2034,
+      "predicted_funding": 14027695466.022932,
+      "lower_bound": 9926351065.689272,
+      "upper_bound": 18475749540.811237,
+      "approved_funding": 0.0,
+      "approved_projects": 3
+    },
+    {
+      "year": 2035,
+      "predicted_funding": 14427434631.776333,
+      "lower_bound": 10131833262.050562,
+      "upper_bound": 18529076738.11553,
+      "approved_funding": 83766000.0,
+      "approved_projects": 3
+    }
+  ],
+  "backtest": {
+    "backtest_years": [
+      {
+        "year": 2021,
+        "predicted": 9020392134.302258,
+        "actual": 17727562983.0,
+        "error_pct": 49.11656981305078
+      },
+      {
+        "year": 2022,
+        "predicted": 9499831792.14512,
+        "actual": 13336762386.0,
+        "error_pct": 28.769580523400645
+      },
+      {
+        "year": 2023,
+        "predicted": 9979271449.987984,
+        "actual": 12825974281.0,
+        "error_pct": 22.19482722048674
+      },
+      {
+        "year": 2024,
+        "predicted": 10458711107.830847,
+        "actual": 10423153629.0,
+        "error_pct": 0.341139352795457
+      },
+      {
+        "year": 2025,
+        "predicted": 10939464298.982868,
+        "actual": 5411291054.0,
+        "error_pct": 102.15996866212676
+      }
+    ],
+    "average_error_pct": 40.516417114372075
+  },
+  "summary": {
+    "total_predicted_funding_next_5_years": 58137540951.13991,
+    "total_approved_funding_future": 287278984.0,
+    "forecast_vs_approved_ratio": 439.5557598494375
+  }
+}

@@ -1,0 +1,122 @@
+======================================================================
+COMPARING SUCHLISTE.CSV VS SUCHLISTE_UPDATED.CSV
+======================================================================
+
+Loading files...
+Old file (Suchliste.csv): 317,240 rows
+New file (Suchliste_updated.csv): 317,504 rows
+Difference: 264 rows
+
+Columns in old: 21
+Columns in new: 21
+
+--------------------------------------------------
+IDENTIFYING NEW ENTRIES BY FKZ
+--------------------------------------------------
+FKZ in old: 317,240
+FKZ in new: 317,504
+Added FKZ: 275
+Removed FKZ: 11
+
+275 NEW ENTRIES FOUND:
+--------------------------------------------------
+
+1. FKZ: 03SX646A
+   Thema: Verbundprojekt: MultiProp - Entwurf und Prognose moderner Mischpropulsion, Vorha...
+   Laufzeit: 01.08.2025 - 31.07.2028
+   Fördersumme: 241.967,00
+
+2. FKZ: 03SX646B
+   Thema: Verbundprojekt: MultiProp - Entwurf und Prognose moderner Mischpropulsion, Vorha...
+   Laufzeit: 01.08.2025 - 31.07.2028
+   Fördersumme: 279.852,00
+
+3. FKZ: 03SX646C
+   Thema: Verbundprojekt: MultiProp - Entwurf und Prognose moderner Mischpropulsion, Vorha...
+   Laufzeit: 01.08.2025 - 31.07.2028
+   Fördersumme: 399.626,00
+
+4. FKZ: 03SX646D
+   Thema: Verbundprojekt: MultiProp - Entwurf und Prognose moderner Mischpropulsion, Vorha...
+   Laufzeit: 01.08.2025 - 31.07.2028
+   Fördersumme: 419.761,00
+
+5. FKZ: 03SX647D
+   Thema: Verbundprojekt: LetsROC - Remote Operation Center für (teil-)autonome Schifffahr...
+   Laufzeit: 01.09.2025 - 30.04.2028
+   Fördersumme: 626.319,00
+
+6. FKZ: 03SX645A
+   Thema: Verbundprojekt: MKSV - Maritime Klärschlammverarbeitung, Vorhaben: Konstruktion,...
+   Laufzeit: 01.11.2025 - 30.06.2028
+   Fördersumme: 270.091,00
+
+7. FKZ: 03SX645B
+   Thema: Verbundprojekt: MKSV - Maritime Klärschlammverarbeitung, Vorhaben: Entwicklung d...
+   Laufzeit: 01.11.2025 - 30.06.2028
+   Fördersumme: 204.200,00
+
+8. FKZ: 01SC26009
+   Thema: Revision - DLC...
+   Laufzeit: 01.11.2025 - 31.10.2026
+   Fördersumme: 260.262,00
+
+9. FKZ: 01SC26017
+   Thema: Tropico 7 Season Pass...
+   Laufzeit: 15.10.2025 - 14.10.2028
+   Fördersumme: 1.262.544,00
+
+10. FKZ: 01SC26024
+   Thema: Galactic Jouney Switch 2 Portierung mit Erweiterung...
+   Laufzeit: 01.11.2025 - 28.02.2026
+   Fördersumme: 142.775,00
+
+--------------------------------------------------
+CHECKING IF NEW ENTRIES ARE AT THE END
+--------------------------------------------------
+Positions of new entries in new file: [6850, 6851, 6852, 6853, 6856, 6864, 6865, 10878, 10879, 10880, 10881, 16280, 16281, 16282, 16284, 16285, 16286, 16287, 16427, 16428]...
+Min position: 6850, Max position: 307329
+Total rows in new file: 317504
+=> New entries appear to be SCATTERED throughout the file
+
+--------------------------------------------------
+CHECKING ORDERING BY DATE
+--------------------------------------------------
+
+First 5 entries by row position:
+  1. GM 2079A - Start: 01.03.2002
+  2. GM 2079B - Start: 01.01.2003
+  3. N000100 /A - Start: 01.08.1989
+  4. FK01300 /A - Start: 01.01.1989
+  5. FK00100 /A - Start: 15.03.1987
+
+Last 5 entries by row position:
+  1. 01SC25021 - Start: 15.07.2025
+  2. 01SCBKM065 - Start: 01.10.2025
+  3. 01SCBKM066 - Start: 01.10.2025
+  4. 01SCBKM067 - Start: 15.09.2025
+  5. 01SCBKM070 - Start: 15.10.2025
+
+5 entries with LATEST start dates:
+  1. STIREAK35A - Start: 01.01.2035 - Stilllegung Reaktorprojekte der FZK GmbH...
+  2. WAK2035A - Start: 01.01.2035 - Stilllegung und Rückbau der Wiederaufarbeitungsanl...
+  3. HDB2035A - Start: 01.01.2035 - Hauptabteilung Dekontaminationsbetriebe (HDB)...
+  4. STIREAK34A - Start: 01.01.2034 - Stilllegung Reaktorprojekte der FZK GmbH...
+  5. WAK2034A - Start: 01.01.2034 - Stilllegung und Rückbau der Wiederaufarbeitungsanl...
+
+======================================================================
+SUMMARY & RECOMMENDATIONS
+======================================================================
+
+FINDINGS:
+1. New entries can be identified by comparing FKZ between old/new files
+2. Need to check if entries are ordered by:
+   - Row position (end of file = newest)
+   - Start date (Laufzeit von)
+   - FKZ number pattern
+   
+RECOMMENDATION for "Latest 5" feature:
+- Since there's no explicit "added date" field, use START DATE (Laufzeit von)
+  as proxy for "latest" - projects starting most recently are likely newest
+- Alternative: If new entries are always appended to end, use row position
+

@@ -1,0 +1,130 @@
+============================================================
+COMPARING CSV FILES
+============================================================
+
+Old file: 317,240 rows
+New file: 317,504 rows
+Difference: 264 rows
+
+Columns: ['FKZ', 'Ressort', 'Referat', 'PT', 'Arb.-Einh.', 'Zuwendungsempfänger', 'Gemeindekennziffer', 'Stadt/Gemeinde', 'Ort', 'Bundesland']...
+
+----------------------------------------
+IDENTIFYING UNIQUE KEY
+----------------------------------------
+FKZ unique values in old: 317,240 / 317,240
+FKZ unique values in new: 317,504 / 317,504
+
+New FKZ entries: 275
+Removed FKZ entries: 11
+
+----------------------------------------
+NEW ENTRIES ANALYSIS
+----------------------------------------
+
+New entries: 275
+
+Sample of new entries (first 5):
+
+  Entry 1:
+    FKZ: 03SX646A
+    Thema: Verbundprojekt: MultiProp - Entwurf und Prognose m...
+    Laufzeit von: 01.08.2025
+    Laufzeit bis: 31.07.2028
+    Ressort: BMWE
+    Zuwendungsempfänger: Mecklenburger Metallguß GmbH
+
+  Entry 2:
+    FKZ: 03SX646B
+    Thema: Verbundprojekt: MultiProp - Entwurf und Prognose m...
+    Laufzeit von: 01.08.2025
+    Laufzeit bis: 31.07.2028
+    Ressort: BMWE
+    Zuwendungsempfänger: SCHOTTEL GmbH
+
+  Entry 3:
+    FKZ: 03SX646C
+    Thema: Verbundprojekt: MultiProp - Entwurf und Prognose m...
+    Laufzeit von: 01.08.2025
+    Laufzeit bis: 31.07.2028
+    Ressort: BMWE
+    Zuwendungsempfänger: Schiffbau-Versuchsanstalt Potsdam GmbH
+
+  Entry 4:
+    FKZ: 03SX646D
+    Thema: Verbundprojekt: MultiProp - Entwurf und Prognose m...
+    Laufzeit von: 01.08.2025
+    Laufzeit bis: 31.07.2028
+    Ressort: BMWE
+    Zuwendungsempfänger: Technische Universität Hamburg
+
+  Entry 5:
+    FKZ: 03SX647D
+    Thema: Verbundprojekt: LetsROC - Remote Operation Center ...
+    Laufzeit von: 01.09.2025
+    Laufzeit bis: 30.04.2028
+    Ressort: BMWE
+    Zuwendungsempfänger: inTrim GmbH
+
+----------------------------------------
+FKZ PATTERN ANALYSIS
+----------------------------------------
+
+Last 10 FKZ from old file (sorted):
+  ZWS0014
+  ZWS0015
+  ZWS0017
+  ZWS0018
+  ZWS0019
+  ZWS0020
+  ZWS0021
+  ZWS0022
+  ZWS0023
+  ZWS0024
+
+First 10 new FKZ entries (sorted):
+  01DK25028
+  01DM25012
+  01DN25023
+  01GTS2006
+  01IF23728N
+  01JR2505
+  01JV2401A
+  01JV2404A
+  01JV2404B
+  01JV2405A
+
+----------------------------------------
+ROW ORDERING ANALYSIS
+----------------------------------------
+New entries index positions: min=6850, max=307329
+Total rows in new file: 317504
+  -> New entries are scattered throughout the file
+
+----------------------------------------
+ALL COLUMNS IN DATA
+----------------------------------------
+  FKZ
+  Ressort
+  Referat
+  PT
+  Arb.-Einh.
+  Zuwendungsempfänger
+  Gemeindekennziffer
+  Stadt/Gemeinde
+  Ort
+  Bundesland
+  Staat
+  Ausführende Stelle
+  Thema
+  Leistungsplansystematik
+  Klartext Leistungsplansystematik
+  Laufzeit von
+  Laufzeit bis
+  Fördersumme in EUR
+  Förderprofil
+  Verbundprojekt
+  Förderart
+
+============================================================
+CONCLUSION
+============================================================

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-12T22:05:23.087553",
+  "generated_at": "2025-12-15T02:19:36.193698",
   "data_source": "Suchliste.csv",
-  "total_projects": 317240,
-  "total_funding": 206573199554.0,
-  "unique_recipients": 54735,
+  "total_projects": 317504,
+  "total_funding": 206702479606.0,
+  "unique_recipients": 54784,
   "unique_ministries": 6,
   "date_range": {
     "earliest_start": "1968-01-01T00:00:00",
@@ -15,7 +15,7 @@
     "top_ministry": "BMFTR",
     "top_state": "Nordrhein-Westfalen",
     "top_recipient": "Deutsche Forschungsgemeinschaft e.V. (DFG)",
-    "avg_project_funding": 651157.48188753,
-    "median_project_funding": 197688.5
+    "avg_project_funding": 651023.2299624572,
+    "median_project_funding": 197753.0
   }
 }
