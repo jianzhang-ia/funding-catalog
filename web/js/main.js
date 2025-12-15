@@ -1205,8 +1205,8 @@ function createKeywordsCloud() {
         const clickAttr = hasTrends ? `onclick="showKeywordTrends('${keyword.word}')"` : '';
         const cursorStyle = hasTrends ? '' : 'style="cursor: default;"';
         const titleText = hasTrends
-            ? `${keyword.count} occurrences - Click to see trends`
-            : `${keyword.count} occurrences`;
+            ? `${keyword.count} word matches - Click to see related projects`
+            : `${keyword.count} word matches`;
 
         return `<span class="keyword-tag ${sizeClass}" ${clickAttr} ${cursorStyle} title="${titleText}">${keyword.word}</span>`;
     }).join('');
@@ -1224,7 +1224,7 @@ function showDrilldown(type, name) {
         case 'keyword':
             data = globalData.keywordTrends?.keywords?.[name];
             title = `"${name}"`;
-            subtitle = 'Keyword funding trends over time';
+            subtitle = 'Projects containing this keyword (includes compound words)';
             break;
         case 'state':
             data = globalData.entityTrends?.states?.[name];
