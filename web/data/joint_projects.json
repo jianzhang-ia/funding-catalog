@@ -1,9 +1,9 @@
 {
   "summary": {
-    "joint_project_count": 154581,
-    "individual_project_count": 162923,
-    "joint_funding": 78448308456.0,
-    "individual_funding": 128254171150.0
+    "joint_project_count": 155522,
+    "individual_project_count": 163203,
+    "joint_funding": 78839808876.0,
+    "individual_funding": 129010481774.0
   },
   "top_joint_projects": [
     {
@@ -223,9 +223,9 @@
       "total_funding": 82387492.0,
       "subproject_count": 27,
       "states_involved": [
-        "Bayern",
         "Baden-Württemberg",
         "Niedersachsen",
+        "Bayern",
         "Hessen",
         "Berlin"
       ]
@@ -281,7 +281,7 @@
     },
     {
       "name": "Aufbau eines Datenraums für die ausrüstende Industrie - die Ausrüster von Fabriken weltweit (Factory-X)",
-      "total_funding": 71958562.0,
+      "total_funding": 72063772.0,
       "subproject_count": 47,
       "states_involved": [
         "Bayern",

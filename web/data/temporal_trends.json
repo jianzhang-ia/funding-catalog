@@ -194,9 +194,9 @@
     },
     {
       "year": 2000,
-      "total_funding": 1906596616.0,
-      "avg_funding": 521926.2567752532,
-      "project_count": 3653
+      "total_funding": 1906842585.0,
+      "avg_funding": 521850.73481116584,
+      "project_count": 3654
     },
     {
       "year": 2001,
@@ -242,21 +242,21 @@
     },
     {
       "year": 2008,
-      "total_funding": 3598840197.0,
-      "avg_funding": 563993.1354019747,
-      "project_count": 6381
+      "total_funding": 3598884011.0,
+      "avg_funding": 563911.6281729866,
+      "project_count": 6382
     },
     {
       "year": 2009,
-      "total_funding": 4015368899.0,
-      "avg_funding": 487716.3730110531,
+      "total_funding": 4014693899.0,
+      "avg_funding": 487634.3858860683,
       "project_count": 8233
     },
     {
       "year": 2010,
-      "total_funding": 3185204649.0,
-      "avg_funding": 471323.56451612903,
-      "project_count": 6758
+      "total_funding": 3185237100.0,
+      "avg_funding": 471258.63293386594,
+      "project_count": 6759
     },
     {
       "year": 2011,
@@ -272,93 +272,93 @@
     },
     {
       "year": 2013,
-      "total_funding": 3289128085.0,
-      "avg_funding": 394995.5668307914,
-      "project_count": 8327
+      "total_funding": 3289376631.0,
+      "avg_funding": 394977.98162824207,
+      "project_count": 8328
     },
     {
       "year": 2014,
-      "total_funding": 2986241940.0,
-      "avg_funding": 414295.49667036626,
-      "project_count": 7208
+      "total_funding": 2984420576.0,
+      "avg_funding": 414157.7263391618,
+      "project_count": 7206
     },
     {
       "year": 2015,
-      "total_funding": 4031212633.0,
-      "avg_funding": 446919.36064301553,
-      "project_count": 9020
+      "total_funding": 4030781580.0,
+      "avg_funding": 446970.67864271457,
+      "project_count": 9018
     },
     {
       "year": 2016,
-      "total_funding": 9612340970.0,
-      "avg_funding": 758489.7790578395,
-      "project_count": 12673
+      "total_funding": 9612081851.0,
+      "avg_funding": 758589.0498776734,
+      "project_count": 12671
     },
     {
       "year": 2017,
-      "total_funding": 9190442831.0,
-      "avg_funding": 634962.196421169,
-      "project_count": 14474
+      "total_funding": 9196051486.0,
+      "avg_funding": 635305.8021416235,
+      "project_count": 14475
     },
     {
       "year": 2018,
-      "total_funding": 5508610000.0,
-      "avg_funding": 437434.2888906535,
+      "total_funding": 5508601432.0,
+      "avg_funding": 437433.6085126658,
       "project_count": 12593
     },
     {
       "year": 2019,
-      "total_funding": 9083809874.0,
-      "avg_funding": 606882.006547301,
-      "project_count": 14968
+      "total_funding": 9069141340.0,
+      "avg_funding": 605578.3480235043,
+      "project_count": 14976
     },
     {
       "year": 2020,
-      "total_funding": 9170731419.0,
-      "avg_funding": 540695.2077707682,
-      "project_count": 16961
+      "total_funding": 9173129454.0,
+      "avg_funding": 540581.6167128293,
+      "project_count": 16969
     },
     {
       "year": 2021,
-      "total_funding": 17727562983.0,
-      "avg_funding": 912474.9322112415,
-      "project_count": 19428
+      "total_funding": 17834278998.0,
+      "avg_funding": 921858.7303835418,
+      "project_count": 19346
     },
     {
       "year": 2022,
-      "total_funding": 13336762386.0,
-      "avg_funding": 787898.764459148,
-      "project_count": 16927
+      "total_funding": 13325318134.0,
+      "avg_funding": 791948.0645429692,
+      "project_count": 16826
     },
     {
       "year": 2023,
-      "total_funding": 12825974281.0,
-      "avg_funding": 806411.4606098711,
-      "project_count": 15905
+      "total_funding": 12952330723.0,
+      "avg_funding": 818162.5117175162,
+      "project_count": 15831
     },
     {
       "year": 2024,
-      "total_funding": 10423153629.0,
-      "avg_funding": 789214.3279321572,
-      "project_count": 13207
+      "total_funding": 10374426832.0,
+      "avg_funding": 783863.0020400453,
+      "project_count": 13235
     },
     {
       "year": 2025,
-      "total_funding": 5411291054.0,
-      "avg_funding": 556373.7460415382,
-      "project_count": 9726
+      "total_funding": 6145628337.0,
+      "avg_funding": 575918.6896260894,
+      "project_count": 10671
     },
     {
       "year": 2026,
-      "total_funding": 198384259.0,
-      "avg_funding": 586935.6775147929,
-      "project_count": 338
+      "total_funding": 447872546.0,
+      "avg_funding": 541562.9334945587,
+      "project_count": 827
     },
     {
       "year": 2027,
-      "total_funding": 5128725.0,
-      "avg_funding": 854787.5,
-      "project_count": 6
+      "total_funding": 5498959.0,
+      "avg_funding": 785565.5714285715,
+      "project_count": 7
     },
     {
       "year": 2028,
@@ -541,7 +541,7 @@
       },
       {
         "year": 2000,
-        "funding": 1549617991.0
+        "funding": 1549863960.0
       },
       {
         "year": 2001,
@@ -573,11 +573,11 @@
       },
       {
         "year": 2008,
-        "funding": 2786322815.0
+        "funding": 2786366629.0
       },
       {
         "year": 2009,
-        "funding": 3080785583.0
+        "funding": 3080110583.0
       },
       {
         "year": 2010,
@@ -593,11 +593,11 @@
       },
       {
         "year": 2013,
-        "funding": 2283138815.0
+        "funding": 2283387361.0
       },
       {
         "year": 2014,
-        "funding": 2245747428.0
+        "funding": 2244581284.0
       },
       {
         "year": 2015,
@@ -605,47 +605,47 @@
       },
       {
         "year": 2016,
-        "funding": 5840499193.0
+        "funding": 5840964948.0
       },
       {
         "year": 2017,
-        "funding": 4648292194.0
+        "funding": 4640257376.0
       },
       {
         "year": 2018,
-        "funding": 3410822661.0
+        "funding": 3411309796.0
       },
       {
         "year": 2019,
-        "funding": 5242693115.0
+        "funding": 5239068326.0
       },
       {
         "year": 2020,
-        "funding": 4576002250.0
+        "funding": 4580710487.0
       },
       {
         "year": 2021,
-        "funding": 13420539693.0
+        "funding": 13568163239.0
       },
       {
         "year": 2022,
-        "funding": 4794493286.0
+        "funding": 4795238677.0
       },
       {
         "year": 2023,
-        "funding": 4284462114.0
+        "funding": 4292242933.0
       },
       {
         "year": 2024,
-        "funding": 5638831483.0
+        "funding": 5586916016.0
       },
       {
         "year": 2025,
-        "funding": 3024466004.0
+        "funding": 3319966008.0
       },
       {
         "year": 2026,
-        "funding": 146003192.0
+        "funding": 339654185.0
       },
       {
         "year": 2027,
@@ -1129,7 +1129,7 @@
       },
       {
         "year": 2010,
-        "funding": 62474036.0
+        "funding": 62506487.0
       },
       {
         "year": 2011,
@@ -1157,7 +1157,7 @@
       },
       {
         "year": 2017,
-        "funding": 125102252.0
+        "funding": 125095010.0
       },
       {
         "year": 2018,
@@ -1165,35 +1165,35 @@
       },
       {
         "year": 2019,
-        "funding": 183377175.0
+        "funding": 183361494.0
       },
       {
         "year": 2020,
-        "funding": 102389395.0
+        "funding": 102079988.0
       },
       {
         "year": 2021,
-        "funding": 62482826.0
+        "funding": 62394955.0
       },
       {
         "year": 2022,
-        "funding": 36741432.0
+        "funding": 36170200.0
       },
       {
         "year": 2023,
-        "funding": 84703113.0
+        "funding": 83793929.0
       },
       {
         "year": 2024,
-        "funding": 61418708.0
+        "funding": 59994168.0
       },
       {
         "year": 2025,
-        "funding": 37849387.0
+        "funding": 51684970.0
       },
       {
         "year": 2026,
-        "funding": 1099481.0
+        "funding": 4047958.0
       },
       {
         "year": 2027,
@@ -1705,43 +1705,43 @@
       },
       {
         "year": 2017,
-        "funding": 3194256113.0
+        "funding": 3208105838.0
       },
       {
         "year": 2018,
-        "funding": 908539293.0
+        "funding": 908435768.0
       },
       {
         "year": 2019,
-        "funding": 2218261835.0
+        "funding": 2206153744.0
       },
       {
         "year": 2020,
-        "funding": 2539388324.0
+        "funding": 2545560299.0
       },
       {
         "year": 2021,
-        "funding": 1541915846.0
+        "funding": 1545556010.0
       },
       {
         "year": 2022,
-        "funding": 3732582305.0
+        "funding": 3769403719.0
       },
       {
         "year": 2023,
-        "funding": 4574762813.0
+        "funding": 4755261700.0
       },
       {
         "year": 2024,
-        "funding": 2921951353.0
+        "funding": 2923782196.0
       },
       {
         "year": 2025,
-        "funding": 1078213649.0
+        "funding": 1339866781.0
       },
       {
         "year": 2026,
-        "funding": 1327542.0
+        "funding": 1817859.0
       },
       {
         "year": 2027,
@@ -1967,59 +1967,59 @@
       },
       {
         "year": 2014,
-        "funding": 628341054.0
+        "funding": 627685834.0
       },
       {
         "year": 2015,
-        "funding": 823309985.0
+        "funding": 822878932.0
       },
       {
         "year": 2016,
-        "funding": 1288129246.0
+        "funding": 1287404372.0
       },
       {
         "year": 2017,
-        "funding": 1203326738.0
+        "funding": 1203127728.0
       },
       {
         "year": 2018,
-        "funding": 1066392635.0
+        "funding": 1066000457.0
       },
       {
         "year": 2019,
-        "funding": 1433361162.0
+        "funding": 1434441189.0
       },
       {
         "year": 2020,
-        "funding": 1952951450.0
+        "funding": 1944778680.0
       },
       {
         "year": 2021,
-        "funding": 2702587667.0
+        "funding": 2658127843.0
       },
       {
         "year": 2022,
-        "funding": 4772945363.0
+        "funding": 4724505538.0
       },
       {
         "year": 2023,
-        "funding": 3882029242.0
+        "funding": 3821015162.0
       },
       {
         "year": 2024,
-        "funding": 1800952085.0
+        "funding": 1803734452.0
       },
       {
         "year": 2025,
-        "funding": 1270762014.0
+        "funding": 1434110578.0
       },
       {
         "year": 2026,
-        "funding": 49954044.0
+        "funding": 102352544.0
       },
       {
         "year": 2027,
-        "funding": 0.0
+        "funding": 370234.0
       },
       {
         "year": 2028,
@@ -2059,74 +2059,74 @@
     {
       "month": 1,
       "month_name": "Jan",
-      "total_funding": 62319895914.0,
-      "project_count": 52666
+      "total_funding": 62890326314.0,
+      "project_count": 53031
     },
     {
       "month": 2,
       "month_name": "Feb",
-      "total_funding": 7482757436.0,
-      "project_count": 14581
+      "total_funding": 7498507965.0,
+      "project_count": 14625
     },
     {
       "month": 3,
       "month_name": "Mar",
-      "total_funding": 9649804996.0,
-      "project_count": 20546
+      "total_funding": 9644361045.0,
+      "project_count": 20539
     },
     {
       "month": 4,
       "month_name": "Apr",
-      "total_funding": 14513971289.0,
-      "project_count": 27670
+      "total_funding": 14512767479.0,
+      "project_count": 27682
     },
     {
       "month": 5,
       "month_name": "May",
-      "total_funding": 10201142464.0,
-      "project_count": 20296
+      "total_funding": 10194958971.0,
+      "project_count": 20288
     },
     {
       "month": 6,
       "month_name": "Jun",
-      "total_funding": 10461064737.0,
-      "project_count": 20236
+      "total_funding": 10443455799.0,
+      "project_count": 20219
     },
     {
       "month": 7,
       "month_name": "Jul",
-      "total_funding": 21826052918.0,
-      "project_count": 33623
+      "total_funding": 21843684976.0,
+      "project_count": 33613
     },
     {
       "month": 8,
       "month_name": "Aug",
-      "total_funding": 13387727779.0,
-      "project_count": 23151
+      "total_funding": 13542114388.0,
+      "project_count": 23149
     },
     {
       "month": 9,
       "month_name": "Sep",
-      "total_funding": 12808074941.0,
-      "project_count": 30448
+      "total_funding": 12794591106.0,
+      "project_count": 30440
     },
     {
       "month": 10,
       "month_name": "Oct",
-      "total_funding": 17320013456.0,
-      "project_count": 35855
+      "total_funding": 17342672489.0,
+      "project_count": 35933
     },
     {
       "month": 11,
       "month_name": "Nov",
-      "total_funding": 13028284204.0,
-      "project_count": 22566
+      "total_funding": 13306051798.0,
+      "project_count": 23120
     },
     {
       "month": 12,
       "month_name": "Dec",
-      "total_funding": 13703689472.0,
-      "project_count": 15866
+      "total_funding": 13836798320.0,
+      "project_count": 16086
     }
   ],
   "decade_ministry_share": {
@@ -2201,87 +2201,87 @@
     "2000": [
       {
         "ministry": "BMFTR",
-        "funding": 25513983146.0,
-        "share_pct": 84.3612921210254
+        "funding": 25513597929.0,
+        "share_pct": 84.36109292677327
       },
       {
         "ministry": "BMWE",
         "funding": 3985663988.0,
-        "share_pct": 13.178489695782098
+        "share_pct": 13.178657553601274
       },
       {
         "ministry": "BMLEH",
         "funding": 414185016.0,
-        "share_pct": 1.3694915030311738
+        "share_pct": 1.369508946597348
       },
       {
         "ministry": "BMV",
         "funding": 282647969.0,
-        "share_pct": 0.9345678306588442
+        "share_pct": 0.9345797344901291
       },
       {
         "ministry": "BMUKN",
         "funding": 47228227.0,
-        "share_pct": 0.15615884950248288
+        "share_pct": 0.1561608385379891
       }
     ],
     "2010": [
       {
         "ministry": "BMFTR",
-        "funding": 38079693187.0,
-        "share_pct": 65.45807481238587
+        "funding": 38068068872.0,
+        "share_pct": 65.45080519853352
       },
       {
         "ministry": "BMV",
-        "funding": 9503145073.0,
-        "share_pct": 16.33567734084985
+        "funding": 9504783182.0,
+        "share_pct": 16.34166720122087
       },
       {
         "ministry": "BMWE",
-        "funding": 9374216183.0,
-        "share_pct": 16.114051686313875
+        "funding": 9372893875.0,
+        "share_pct": 16.114908618607927
       },
       {
         "ministry": "BMLEH",
-        "funding": 1115510513.0,
-        "share_pct": 1.917535686418947
+        "funding": 1115520041.0,
+        "share_pct": 1.917924577263046
       },
       {
         "ministry": "BMUKN",
         "funding": 99831593.0,
-        "share_pct": 0.17160810228020862
+        "share_pct": 0.1716414396556964
       },
       {
         "ministry": "BMJV_BLE",
         "funding": 1775692.0,
-        "share_pct": 0.0030523717512365867
+        "share_pct": 0.0030529647189452623
       }
     ],
     "2020": [
       {
         "ministry": "BMFTR",
-        "funding": 35889790846.0,
-        "share_pct": 51.939675967069135
-      },
-      {
-        "ministry": "BMWE",
-        "funding": 16432181865.0,
-        "share_pct": 23.780640159266138
+        "funding": 36487884369.0,
+        "share_pct": 51.93377696254981
       },
       {
         "ministry": "BMV",
-        "funding": 16390141832.0,
-        "share_pct": 23.71979985788254
+        "funding": 16881248564.0,
+        "share_pct": 24.027345321149614
+      },
+      {
+        "ministry": "BMWE",
+        "funding": 16488995031.0,
+        "share_pct": 23.46904472773671
       },
       {
         "ministry": "BMLEH",
-        "funding": 386820243.0,
-        "share_pct": 0.5598059393863023
+        "funding": 400302069.0,
+        "share_pct": 0.569756200684402
       },
       {
         "ministry": "BMUKN",
         "funding": 53950.0,
-        "share_pct": 7.807639588782071e-05
+        "share_pct": 7.678787947239787e-05
       }
     ],
     "2030": [
@@ -2295,13 +2295,13 @@
   "year_over_year_growth": [
     {
       "year": 2010,
-      "funding": 3185204649.0,
+      "funding": 3185237100.0,
       "growth_pct": null
     },
     {
       "year": 2011,
       "funding": 6707411119.0,
-      "growth_pct": 110.58022507614392
+      "growth_pct": 110.57807969774056
     },
     {
       "year": 2012,
@@ -2310,78 +2310,78 @@
     },
     {
       "year": 2013,
-      "funding": 3289128085.0,
-      "growth_pct": -28.1813718930444
+      "funding": 3289376631.0,
+      "growth_pct": -28.17594485211435
     },
     {
       "year": 2014,
-      "funding": 2986241940.0,
-      "growth_pct": -9.208706294574114
+      "funding": 2984420576.0,
+      "growth_pct": -9.270937603374735
     },
     {
       "year": 2015,
-      "funding": 4031212633.0,
-      "growth_pct": 34.99283427115755
+      "funding": 4030781580.0,
+      "growth_pct": 35.060775696783026
     },
     {
       "year": 2016,
-      "funding": 9612340970.0,
-      "growth_pct": 138.44787772572948
+      "funding": 9612081851.0,
+      "growth_pct": 138.4669489087027
     },
     {
       "year": 2017,
-      "funding": 9190442831.0,
-      "growth_pct": -4.389129976940467
+      "funding": 9196051486.0,
+      "growth_pct": -4.328202479431841
     },
     {
       "year": 2018,
-      "funding": 5508610000.0,
-      "growth_pct": -40.06153891280323
+      "funding": 5508601432.0,
+      "growth_pct": -40.098188441134184
     },
     {
       "year": 2019,
-      "funding": 9083809874.0,
-      "growth_pct": 64.90203289032986
+      "funding": 9069141340.0,
+      "growth_pct": 64.63600519936836
     },
     {
       "year": 2020,
-      "funding": 9170731419.0,
-      "growth_pct": 0.9568842391647794
+      "funding": 9173129454.0,
+      "growth_pct": 1.146614768714146
     },
     {
       "year": 2021,
-      "funding": 17727562983.0,
-      "growth_pct": 93.30587903023616
+      "funding": 17834278998.0,
+      "growth_pct": 94.41869960990523
     },
     {
       "year": 2022,
-      "funding": 13336762386.0,
-      "growth_pct": -24.76821321244548
+      "funding": 13325318134.0,
+      "growth_pct": -25.282552014049188
     },
     {
       "year": 2023,
-      "funding": 12825974281.0,
-      "growth_pct": -3.829925811201297
+      "funding": 12952330723.0,
+      "growth_pct": -2.7990882262563774
     },
     {
       "year": 2024,
-      "funding": 10423153629.0,
-      "growth_pct": -18.734020506804413
+      "funding": 10374426832.0,
+      "growth_pct": -19.90301163652583
     },
     {
       "year": 2025,
-      "funding": 5411291054.0,
-      "growth_pct": -48.08393652623193
+      "funding": 6145628337.0,
+      "growth_pct": -40.76175545386506
     },
     {
       "year": 2026,
-      "funding": 198384259.0,
-      "growth_pct": -96.33388304158292
+      "funding": 447872546.0,
+      "growth_pct": -92.71233922000187
     },
     {
       "year": 2027,
-      "funding": 5128725.0,
-      "growth_pct": -97.41475204441498
+      "funding": 5498959.0,
+      "growth_pct": -98.77220449230215
     },
     {
       "year": 2028,

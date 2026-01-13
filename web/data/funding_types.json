@@ -2,8 +2,8 @@
   "funding_types": [
     {
       "name": "Direkte Projektförderung",
-      "total_funding": 205810573702.0,
-      "project_count": 310111
+      "total_funding": 206958384746.0,
+      "project_count": 311332
     },
     {
       "name": "Indirekt-spezifische Projektförderung",
@@ -24,33 +24,33 @@
   "funding_profiles": [
     {
       "name": "Technologie- und Innovationsförderung",
-      "total_funding": 117266855810.0,
-      "project_count": 211416
+      "total_funding": 118087111630.0,
+      "project_count": 212327
     },
     {
       "name": "Forschung und Entwicklung zur Daseinsvorsorge",
-      "total_funding": 24866316919.0,
-      "project_count": 67392
+      "total_funding": 24952952118.0,
+      "project_count": 67754
     },
     {
       "name": "Hochschulbau und überwiegend hochschulbezogene Sonderprogramme",
-      "total_funding": 20049839534.0,
-      "project_count": 578
+      "total_funding": 20193866372.0,
+      "project_count": 579
     },
     {
       "name": "Ministerium",
-      "total_funding": 18320701803.0,
-      "project_count": 11717
+      "total_funding": 18336962108.0,
+      "project_count": 11595
     },
     {
       "name": "Übrige, nicht FuE-relevante Bildungsausgaben (ohne BAföG)",
-      "total_funding": 18190865483.0,
-      "project_count": 15445
+      "total_funding": 18246716165.0,
+      "project_count": 15477
     },
     {
       "name": "Erkenntnisorientierte und programmübergreifende Grundlagenforschung",
-      "total_funding": 6683192088.0,
-      "project_count": 8038
+      "total_funding": 6708160548.0,
+      "project_count": 8075
     }
   ]
 }

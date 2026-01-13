@@ -1,0 +1,33 @@
+[2026-01-13 18:03:55] ============================================================
+[2026-01-13 18:03:55] German Federal Funding Catalog - Update Pipeline
+[2026-01-13 18:03:55] ============================================================
+[2026-01-13 18:03:55] Validating CSV file: Suchliste.csv
+[2026-01-13 18:03:55] CSV file size: 189.9 MB
+[2026-01-13 18:03:55] CSV validation passed.
+[2026-01-13 18:03:55] Running analysis pipeline...
+[2026-01-13 18:04:53] Analysis completed successfully.
+[2026-01-13 18:04:53] Copying output files to web data directory...
+[2026-01-13 18:04:53]   Copied: duration_analysis.json
+[2026-01-13 18:04:53]   Copied: entity_trends.json
+[2026-01-13 18:04:53]   Copied: funding_forecast.json
+[2026-01-13 18:04:53]   Copied: funding_types.json
+[2026-01-13 18:04:53]   Copied: geographic_distribution.json
+[2026-01-13 18:04:53]   Copied: joint_projects.json
+[2026-01-13 18:04:53]   Copied: keyword_trends.json
+[2026-01-13 18:04:53]   Copied: ministry_funding.json
+[2026-01-13 18:04:53]   Copied: projekttraeger.json
+[2026-01-13 18:04:53]   Copied: recent_projects.json
+[2026-01-13 18:04:53]   Copied: summary_stats.json
+[2026-01-13 18:04:53]   Copied: temporal_trends.json
+[2026-01-13 18:04:53]   Copied: topic_analysis.json
+[2026-01-13 18:04:53]   Copied: top_recipients.json
+[2026-01-13 18:04:53] Copied 14 files to web/data
+[2026-01-13 18:04:53] Timestamp updated: 2026-01-13T18:04:53.945944
+[2026-01-13 18:04:53] ============================================================
+[2026-01-13 18:04:53] Pipeline completed successfully in 58.9 seconds
+[2026-01-13 18:04:53] ============================================================
+[2026-01-13 18:04:53] 
+[2026-01-13 18:04:53] Next steps:
+[2026-01-13 18:04:53]   1. Start local server: cd web && python -m http.server 8000
+[2026-01-13 18:04:53]   2. Open browser: http://localhost:8000
+[2026-01-13 18:04:53] 
