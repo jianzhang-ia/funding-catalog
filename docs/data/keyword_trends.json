@@ -1,8 +1,8 @@
 {
   "keywords": {
     "Teilvorhaben": {
-      "total_funding": 33316825774.0,
-      "total_projects": 67938,
+      "total_funding": 33471795473.0,
+      "total_projects": 68283,
       "yearly": [
         {
           "year": 1968,
@@ -166,8 +166,8 @@
         },
         {
           "year": 2000,
-          "funding": 347129803.0,
-          "projects": 952
+          "funding": 347375772.0,
+          "projects": 953
         },
         {
           "year": 2001,
@@ -206,8 +206,8 @@
         },
         {
           "year": 2008,
-          "funding": 663623077.0,
-          "projects": 1508
+          "funding": 663666891.0,
+          "projects": 1509
         },
         {
           "year": 2009,
@@ -251,59 +251,59 @@
         },
         {
           "year": 2017,
-          "funding": 1909833900.0,
-          "projects": 3479
+          "funding": 1909883670.0,
+          "projects": 3480
         },
         {
           "year": 2018,
-          "funding": 1604817376.0,
-          "projects": 3356
+          "funding": 1604921317.0,
+          "projects": 3357
         },
         {
           "year": 2019,
-          "funding": 1620717180.0,
-          "projects": 3624
+          "funding": 1622303017.0,
+          "projects": 3627
         },
         {
           "year": 2020,
-          "funding": 1689770666.0,
-          "projects": 3616
+          "funding": 1692435354.0,
+          "projects": 3622
         },
         {
           "year": 2021,
-          "funding": 3716761222.0,
-          "projects": 5082
+          "funding": 3719731770.0,
+          "projects": 5091
         },
         {
           "year": 2022,
-          "funding": 2302847556.0,
-          "projects": 3976
+          "funding": 2302723441.0,
+          "projects": 3982
         },
         {
           "year": 2023,
-          "funding": 2331503621.0,
-          "projects": 4122
+          "funding": 2335950518.0,
+          "projects": 4126
         },
         {
           "year": 2024,
-          "funding": 1767729436.0,
-          "projects": 2838
+          "funding": 1756144984.0,
+          "projects": 2843
         },
         {
           "year": 2025,
-          "funding": 1175235608.0,
-          "projects": 2119
+          "funding": 1285572973.0,
+          "projects": 2315
         },
         {
           "year": 2026,
-          "funding": 23671741.0,
-          "projects": 36
+          "funding": 67901178.0,
+          "projects": 148
         }
       ]
     },
     "Eines": {
-      "total_funding": 14233144510.0,
-      "total_projects": 26992,
+      "total_funding": 14292465179.0,
+      "total_projects": 27133,
       "yearly": [
         {
           "year": 1968,
@@ -517,8 +517,8 @@
         },
         {
           "year": 2010,
-          "funding": 301507104.0,
-          "projects": 651
+          "funding": 301539555.0,
+          "projects": 652
         },
         {
           "year": 2011,
@@ -547,7 +547,7 @@
         },
         {
           "year": 2016,
-          "funding": 353308811.0,
+          "funding": 353208237.0,
           "projects": 928
         },
         {
@@ -557,7 +557,7 @@
         },
         {
           "year": 2018,
-          "funding": 319268587.0,
+          "funding": 319224277.0,
           "projects": 829
         },
         {
@@ -567,38 +567,38 @@
         },
         {
           "year": 2020,
-          "funding": 1089080914.0,
+          "funding": 1089067125.0,
           "projects": 1077
         },
         {
           "year": 2021,
-          "funding": 764014687.0,
-          "projects": 1381
+          "funding": 764137008.0,
+          "projects": 1383
         },
         {
           "year": 2022,
-          "funding": 926434999.0,
-          "projects": 1237
+          "funding": 927253110.0,
+          "projects": 1239
         },
         {
           "year": 2023,
-          "funding": 718536689.0,
-          "projects": 1420
+          "funding": 721508736.0,
+          "projects": 1428
         },
         {
           "year": 2024,
-          "funding": 658538941.0,
-          "projects": 1233
+          "funding": 659507238.0,
+          "projects": 1236
         },
         {
           "year": 2025,
-          "funding": 535591208.0,
-          "projects": 895
+          "funding": 573101062.0,
+          "projects": 960
         },
         {
           "year": 2026,
-          "funding": 26488055.0,
-          "projects": 93
+          "funding": 43544316.0,
+          "projects": 153
         },
         {
           "year": 2027,
@@ -608,8 +608,8 @@
       ]
     },
     "Verbundvorhaben": {
-      "total_funding": 12982337367.0,
-      "total_projects": 27308,
+      "total_funding": 13075741206.0,
+      "total_projects": 27526,
       "yearly": [
         {
           "year": 1980,
@@ -778,13 +778,13 @@
         },
         {
           "year": 2017,
-          "funding": 781464258.0,
-          "projects": 1657
+          "funding": 781514028.0,
+          "projects": 1658
         },
         {
           "year": 2018,
-          "funding": 535057555.0,
-          "projects": 1385
+          "funding": 535161417.0,
+          "projects": 1386
         },
         {
           "year": 2019,
@@ -793,44 +793,44 @@
         },
         {
           "year": 2020,
-          "funding": 962588539.0,
-          "projects": 1711
+          "funding": 964229120.0,
+          "projects": 1715
         },
         {
           "year": 2021,
-          "funding": 1723352013.0,
-          "projects": 2548
+          "funding": 1724391733.0,
+          "projects": 2551
         },
         {
           "year": 2022,
-          "funding": 940138340.0,
-          "projects": 2017
+          "funding": 940221372.0,
+          "projects": 2019
         },
         {
           "year": 2023,
-          "funding": 1113041188.0,
-          "projects": 2163
+          "funding": 1114074153.0,
+          "projects": 2165
         },
         {
           "year": 2024,
-          "funding": 875602412.0,
-          "projects": 1422
+          "funding": 863908221.0,
+          "projects": 1426
         },
         {
           "year": 2025,
-          "funding": 514146422.0,
-          "projects": 1043
+          "funding": 578328656.0,
+          "projects": 1166
         },
         {
           "year": 2026,
-          "funding": 8981869.0,
-          "projects": 22
+          "funding": 45947735.0,
+          "projects": 100
         }
       ]
     },
     "Sanierung": {
-      "total_funding": 793230846.0,
-      "total_projects": 13857,
+      "total_funding": 795351579.0,
+      "total_projects": 13934,
       "yearly": [
         {
           "year": 1975,
@@ -1024,8 +1024,8 @@
         },
         {
           "year": 2015,
-          "funding": 19377720.0,
-          "projects": 607
+          "funding": 19026115.0,
+          "projects": 606
         },
         {
           "year": 2016,
@@ -1049,44 +1049,44 @@
         },
         {
           "year": 2020,
-          "funding": 19027941.0,
-          "projects": 804
+          "funding": 19055054.0,
+          "projects": 805
         },
         {
           "year": 2021,
-          "funding": 56498737.0,
-          "projects": 1397
+          "funding": 56543489.0,
+          "projects": 1399
         },
         {
           "year": 2022,
-          "funding": 46312813.0,
-          "projects": 1336
+          "funding": 46540737.0,
+          "projects": 1338
         },
         {
           "year": 2023,
-          "funding": 45248854.0,
-          "projects": 1196
+          "funding": 45301687.0,
+          "projects": 1200
         },
         {
           "year": 2024,
-          "funding": 33683332.0,
-          "projects": 580
+          "funding": 33958853.0,
+          "projects": 585
         },
         {
           "year": 2025,
-          "funding": 37610960.0,
-          "projects": 829
+          "funding": 38934755.0,
+          "projects": 886
         },
         {
           "year": 2026,
-          "funding": 1317734.0,
-          "projects": 33
+          "funding": 1838134.0,
+          "projects": 40
         }
       ]
     },
     "Ausbau": {
-      "total_funding": 20474961058.0,
-      "total_projects": 11439,
+      "total_funding": 20584624933.0,
+      "total_projects": 11483,
       "yearly": [
         {
           "year": 1968,
@@ -1250,8 +1250,8 @@
         },
         {
           "year": 2000,
-          "funding": 6242057.0,
-          "projects": 12
+          "funding": 6488026.0,
+          "projects": 13
         },
         {
           "year": 2001,
@@ -1335,12 +1335,12 @@
         },
         {
           "year": 2017,
-          "funding": 2943006459.0,
-          "projects": 1456
+          "funding": 2956856184.0,
+          "projects": 1457
         },
         {
           "year": 2018,
-          "funding": 383815782.0,
+          "funding": 383756599.0,
           "projects": 535
         },
         {
@@ -1350,44 +1350,44 @@
         },
         {
           "year": 2020,
-          "funding": 1834465581.0,
-          "projects": 1508
+          "funding": 1841211135.0,
+          "projects": 1521
         },
         {
           "year": 2021,
-          "funding": 762102780.0,
-          "projects": 1289
+          "funding": 764064247.0,
+          "projects": 1292
         },
         {
           "year": 2022,
-          "funding": 1879554255.0,
+          "funding": 1871249243.0,
           "projects": 878
         },
         {
           "year": 2023,
-          "funding": 3648310969.0,
-          "projects": 1244
+          "funding": 3645831766.0,
+          "projects": 1246
         },
         {
           "year": 2024,
-          "funding": 2001639649.0,
-          "projects": 943
+          "funding": 2002698149.0,
+          "projects": 947
         },
         {
           "year": 2025,
-          "funding": 726137285.0,
-          "projects": 541
+          "funding": 822417117.0,
+          "projects": 560
         },
         {
           "year": 2026,
-          "funding": 33548.0,
-          "projects": 1
+          "funding": 399774.0,
+          "projects": 2
         }
       ]
     },
     "Förderung": {
-      "total_funding": 21133682010.0,
-      "total_projects": 12378,
+      "total_funding": 21160320196.0,
+      "total_projects": 12437,
       "yearly": [
         {
           "year": 1968,
@@ -1596,7 +1596,7 @@
         },
         {
           "year": 2009,
-          "funding": 231428756.0,
+          "funding": 230753756.0,
           "projects": 273
         },
         {
@@ -1621,7 +1621,7 @@
         },
         {
           "year": 2014,
-          "funding": 225022907.0,
+          "funding": 223856763.0,
           "projects": 273
         },
         {
@@ -1631,7 +1631,7 @@
         },
         {
           "year": 2016,
-          "funding": 101271880.0,
+          "funding": 101171306.0,
           "projects": 193
         },
         {
@@ -1651,44 +1651,44 @@
         },
         {
           "year": 2020,
-          "funding": 459966171.0,
-          "projects": 1435
+          "funding": 459443385.0,
+          "projects": 1434
         },
         {
           "year": 2021,
-          "funding": 452013502.0,
+          "funding": 451735550.0,
           "projects": 240
         },
         {
           "year": 2022,
-          "funding": 572446794.0,
+          "funding": 572063740.0,
           "projects": 153
         },
         {
           "year": 2023,
-          "funding": 502298138.0,
-          "projects": 252
+          "funding": 506930401.0,
+          "projects": 254
         },
         {
           "year": 2024,
-          "funding": 769656279.0,
-          "projects": 272
+          "funding": 771821478.0,
+          "projects": 279
         },
         {
           "year": 2025,
-          "funding": 479718220.0,
-          "projects": 197
+          "funding": 494531382.0,
+          "projects": 231
         },
         {
           "year": 2026,
-          "funding": 4882789.0,
-          "projects": 2
+          "funding": 13035861.0,
+          "projects": 19
         }
       ]
     },
     "Breitbandinfrastruktur": {
-      "total_funding": 14516569646.0,
-      "total_projects": 9549,
+      "total_funding": 14631247340.0,
+      "total_projects": 9586,
       "yearly": [
         {
           "year": 2015,
@@ -1702,12 +1702,12 @@
         },
         {
           "year": 2017,
-          "funding": 2915010976.0,
-          "projects": 1377
+          "funding": 2928860701.0,
+          "projects": 1378
         },
         {
           "year": 2018,
-          "funding": 311598886.0,
+          "funding": 311539703.0,
           "projects": 390
         },
         {
@@ -1717,13 +1717,13 @@
         },
         {
           "year": 2020,
-          "funding": 1820294772.0,
-          "projects": 1475
+          "funding": 1827040326.0,
+          "projects": 1488
         },
         {
           "year": 2021,
-          "funding": 580249884.0,
-          "projects": 1139
+          "funding": 582418530.0,
+          "projects": 1142
         },
         {
           "year": 2022,
@@ -1732,24 +1732,24 @@
         },
         {
           "year": 2023,
-          "funding": 2309053645.0,
-          "projects": 1110
+          "funding": 2306574442.0,
+          "projects": 1112
         },
         {
           "year": 2024,
-          "funding": 1250232814.0,
-          "projects": 724
+          "funding": 1251291314.0,
+          "projects": 728
         },
         {
           "year": 2025,
-          "funding": 298703330.0,
-          "projects": 400
+          "funding": 392096985.0,
+          "projects": 414
         }
       ]
     },
     "Innovativ": {
-      "total_funding": 6118189178.0,
-      "total_projects": 15136,
+      "total_funding": 6153476429.0,
+      "total_projects": 15234,
       "yearly": [
         {
           "year": 1973,
@@ -1938,43 +1938,43 @@
         },
         {
           "year": 2019,
-          "funding": 309547201.0,
+          "funding": 309541944.0,
           "projects": 832
         },
         {
           "year": 2020,
-          "funding": 303405836.0,
+          "funding": 303266381.0,
           "projects": 732
         },
         {
           "year": 2021,
-          "funding": 435267483.0,
-          "projects": 970
+          "funding": 436247907.0,
+          "projects": 974
         },
         {
           "year": 2022,
-          "funding": 775769444.0,
+          "funding": 776170460.0,
           "projects": 692
         },
         {
           "year": 2023,
-          "funding": 335439978.0,
+          "funding": 335397345.0,
           "projects": 784
         },
         {
           "year": 2024,
-          "funding": 263254550.0,
-          "projects": 577
+          "funding": 263648380.0,
+          "projects": 579
         },
         {
           "year": 2025,
-          "funding": 294000088.0,
-          "projects": 602
+          "funding": 323587618.0,
+          "projects": 683
         },
         {
           "year": 2026,
-          "funding": 662681.0,
-          "projects": 2
+          "funding": 4774477.0,
+          "projects": 13
         },
         {
           "year": 2027,
@@ -1984,8 +1984,8 @@
       ]
     },
     "Stadt": {
-      "total_funding": 2678616942.0,
-      "total_projects": 11183,
+      "total_funding": 2680600502.0,
+      "total_projects": 11234,
       "yearly": [
         {
           "year": 1968,
@@ -2229,7 +2229,7 @@
         },
         {
           "year": 2017,
-          "funding": 213550278.0,
+          "funding": 213085752.0,
           "projects": 964
         },
         {
@@ -2239,7 +2239,7 @@
         },
         {
           "year": 2019,
-          "funding": 185200827.0,
+          "funding": 185187778.0,
           "projects": 848
         },
         {
@@ -2249,39 +2249,39 @@
         },
         {
           "year": 2021,
-          "funding": 175243949.0,
-          "projects": 772
+          "funding": 176837263.0,
+          "projects": 775
         },
         {
           "year": 2022,
-          "funding": 207459137.0,
+          "funding": 199367804.0,
           "projects": 680
         },
         {
           "year": 2023,
-          "funding": 259582023.0,
-          "projects": 862
+          "funding": 260312552.0,
+          "projects": 867
         },
         {
           "year": 2024,
-          "funding": 144488212.0,
-          "projects": 806
+          "funding": 144788272.0,
+          "projects": 810
         },
         {
           "year": 2025,
-          "funding": 95257975.0,
-          "projects": 485
+          "funding": 99359751.0,
+          "projects": 507
         },
         {
           "year": 2026,
-          "funding": 8855757.0,
-          "projects": 38
+          "funding": 12682546.0,
+          "projects": 55
         }
       ]
     },
     "Unter": {
-      "total_funding": 12590007767.0,
-      "total_projects": 30702,
+      "total_funding": 12639178680.0,
+      "total_projects": 30805,
       "yearly": [
         {
           "year": 1968,
@@ -2515,8 +2515,8 @@
         },
         {
           "year": 2014,
-          "funding": 225813526.0,
-          "projects": 613
+          "funding": 225158306.0,
+          "projects": 611
         },
         {
           "year": 2015,
@@ -2530,8 +2530,8 @@
         },
         {
           "year": 2017,
-          "funding": 346520475.0,
-          "projects": 976
+          "funding": 346570245.0,
+          "projects": 977
         },
         {
           "year": 2018,
@@ -2540,49 +2540,49 @@
         },
         {
           "year": 2019,
-          "funding": 436142672.0,
+          "funding": 436113562.0,
           "projects": 1077
         },
         {
           "year": 2020,
-          "funding": 670143798.0,
-          "projects": 1092
+          "funding": 669060902.0,
+          "projects": 1090
         },
         {
           "year": 2021,
-          "funding": 854120922.0,
-          "projects": 1511
+          "funding": 848328421.0,
+          "projects": 1507
         },
         {
           "year": 2022,
-          "funding": 513372662.0,
-          "projects": 1120
+          "funding": 512302436.0,
+          "projects": 1121
         },
         {
           "year": 2023,
-          "funding": 456525289.0,
+          "funding": 456417826.0,
           "projects": 922
         },
         {
           "year": 2024,
-          "funding": 377834042.0,
-          "projects": 756
+          "funding": 378160425.0,
+          "projects": 758
         },
         {
           "year": 2025,
-          "funding": 371623240.0,
-          "projects": 739
+          "funding": 407930156.0,
+          "projects": 802
         },
         {
           "year": 2026,
-          "funding": 13269055.0,
-          "projects": 22
+          "funding": 34494315.0,
+          "projects": 66
         }
       ]
     },
     "Optimierung": {
-      "total_funding": 3788615755.0,
-      "total_projects": 8962,
+      "total_funding": 3815374479.0,
+      "total_projects": 9040,
       "yearly": [
         {
           "year": 1968,
@@ -2811,8 +2811,8 @@
         },
         {
           "year": 2013,
-          "funding": 95150511.0,
-          "projects": 272
+          "funding": 95399057.0,
+          "projects": 273
         },
         {
           "year": 2014,
@@ -2846,44 +2846,44 @@
         },
         {
           "year": 2020,
-          "funding": 185459881.0,
+          "funding": 185332832.0,
           "projects": 440
         },
         {
           "year": 2021,
-          "funding": 277686133.0,
+          "funding": 277372398.0,
           "projects": 576
         },
         {
           "year": 2022,
-          "funding": 238873799.0,
-          "projects": 535
+          "funding": 238764915.0,
+          "projects": 536
         },
         {
           "year": 2023,
-          "funding": 232517054.0,
+          "funding": 232509468.0,
           "projects": 470
         },
         {
           "year": 2024,
-          "funding": 162915854.0,
+          "funding": 162847188.0,
           "projects": 365
         },
         {
           "year": 2025,
-          "funding": 153515354.0,
-          "projects": 372
+          "funding": 174457932.0,
+          "projects": 426
         },
         {
           "year": 2026,
-          "funding": 6954310.0,
-          "projects": 11
+          "funding": 13147830.0,
+          "projects": 33
         }
       ]
     },
     "Analyse": {
-      "total_funding": 4990433774.0,
-      "total_projects": 12237,
+      "total_funding": 5028273513.0,
+      "total_projects": 12316,
       "yearly": [
         {
           "year": 1968,
@@ -3127,8 +3127,8 @@
         },
         {
           "year": 2016,
-          "funding": 257327099.0,
-          "projects": 605
+          "funding": 257227396.0,
+          "projects": 604
         },
         {
           "year": 2017,
@@ -3152,39 +3152,39 @@
         },
         {
           "year": 2021,
-          "funding": 372527705.0,
-          "projects": 817
+          "funding": 373777808.0,
+          "projects": 819
         },
         {
           "year": 2022,
-          "funding": 242584277.0,
-          "projects": 605
+          "funding": 242547451.0,
+          "projects": 606
         },
         {
           "year": 2023,
-          "funding": 249577871.0,
-          "projects": 552
+          "funding": 249740263.0,
+          "projects": 553
         },
         {
           "year": 2024,
-          "funding": 270034592.0,
+          "funding": 269996011.0,
           "projects": 481
         },
         {
           "year": 2025,
-          "funding": 140694412.0,
-          "projects": 376
+          "funding": 163985306.0,
+          "projects": 422
         },
         {
           "year": 2026,
-          "funding": 2976442.0,
-          "projects": 4
+          "funding": 16287902.0,
+          "projects": 34
         }
       ]
     },
     "Herstellung": {
-      "total_funding": 4005025321.0,
-      "total_projects": 7514,
+      "total_funding": 4031792623.0,
+      "total_projects": 7560,
       "yearly": [
         {
           "year": 1968,
@@ -3448,12 +3448,12 @@
         },
         {
           "year": 2020,
-          "funding": 114078568.0,
+          "funding": 114078567.0,
           "projects": 283
         },
         {
           "year": 2021,
-          "funding": 250106544.0,
+          "funding": 249971665.0,
           "projects": 485
         },
         {
@@ -3463,7 +3463,7 @@
         },
         {
           "year": 2023,
-          "funding": 219027918.0,
+          "funding": 221314585.0,
           "projects": 430
         },
         {
@@ -3473,13 +3473,13 @@
         },
         {
           "year": 2025,
-          "funding": 83390431.0,
-          "projects": 171
+          "funding": 102812456.0,
+          "projects": 207
         },
         {
           "year": 2026,
-          "funding": 945749.0,
-          "projects": 2
+          "funding": 6139239.0,
+          "projects": 12
         },
         {
           "year": 2027,
@@ -3489,8 +3489,8 @@
       ]
     },
     "Untersuchung": {
-      "total_funding": 5467036209.0,
-      "total_projects": 13296,
+      "total_funding": 5480828993.0,
+      "total_projects": 13323,
       "yearly": [
         {
           "year": 1968,
@@ -3739,8 +3739,8 @@
         },
         {
           "year": 2017,
-          "funding": 102445962.0,
-          "projects": 280
+          "funding": 102495732.0,
+          "projects": 281
         },
         {
           "year": 2018,
@@ -3749,7 +3749,7 @@
         },
         {
           "year": 2019,
-          "funding": 172879957.0,
+          "funding": 172850913.0,
           "projects": 389
         },
         {
@@ -3759,17 +3759,17 @@
         },
         {
           "year": 2021,
-          "funding": 200325922.0,
+          "funding": 200314129.0,
           "projects": 334
         },
         {
           "year": 2022,
-          "funding": 154481178.0,
+          "funding": 154458943.0,
           "projects": 269
         },
         {
           "year": 2023,
-          "funding": 153797930.0,
+          "funding": 153791555.0,
           "projects": 252
         },
         {
@@ -3779,19 +3779,19 @@
         },
         {
           "year": 2025,
-          "funding": 99452729.0,
-          "projects": 169
+          "funding": 110642812.0,
+          "projects": 187
         },
         {
           "year": 2026,
-          "funding": 2381167.0,
-          "projects": 4
+          "funding": 5003545.0,
+          "projects": 12
         }
       ]
     },
     "Bundes": {
-      "total_funding": 19255421424.0,
-      "total_projects": 11357,
+      "total_funding": 19353377691.0,
+      "total_projects": 11404,
       "yearly": [
         {
           "year": 1968,
@@ -4030,12 +4030,12 @@
         },
         {
           "year": 2017,
-          "funding": 2922499588.0,
-          "projects": 451
+          "funding": 2936349313.0,
+          "projects": 452
         },
         {
           "year": 2018,
-          "funding": 319444834.0,
+          "funding": 319385651.0,
           "projects": 132
         },
         {
@@ -4045,39 +4045,39 @@
         },
         {
           "year": 2020,
-          "funding": 1829619187.0,
-          "projects": 920
+          "funding": 1836057446.0,
+          "projects": 932
         },
         {
           "year": 2021,
-          "funding": 749492154.0,
-          "projects": 1743
+          "funding": 751981941.0,
+          "projects": 1749
         },
         {
           "year": 2022,
-          "funding": 1966230411.0,
-          "projects": 2665
+          "funding": 1956871502.0,
+          "projects": 2671
         },
         {
           "year": 2023,
-          "funding": 3695194794.0,
-          "projects": 1261
+          "funding": 3680563357.0,
+          "projects": 1264
         },
         {
           "year": 2024,
-          "funding": 1953900394.0,
-          "projects": 931
+          "funding": 1954949656.0,
+          "projects": 935
         },
         {
           "year": 2025,
-          "funding": 613557890.0,
-          "projects": 480
+          "funding": 711736653.0,
+          "projects": 495
         }
       ]
     },
     "Einsatz": {
-      "total_funding": 3188144043.0,
-      "total_projects": 7736,
+      "total_funding": 3208842496.0,
+      "total_projects": 7782,
       "yearly": [
         {
           "year": 1968,
@@ -4291,8 +4291,8 @@
         },
         {
           "year": 2010,
-          "funding": 70782536.0,
-          "projects": 201
+          "funding": 70814987.0,
+          "projects": 202
         },
         {
           "year": 2011,
@@ -4341,44 +4341,44 @@
         },
         {
           "year": 2020,
-          "funding": 148200579.0,
+          "funding": 148241372.0,
           "projects": 332
         },
         {
           "year": 2021,
-          "funding": 201625992.0,
-          "projects": 409
+          "funding": 205931413.0,
+          "projects": 411
         },
         {
           "year": 2022,
-          "funding": 139795238.0,
-          "projects": 301
+          "funding": 139549387.0,
+          "projects": 300
         },
         {
           "year": 2023,
-          "funding": 110921954.0,
+          "funding": 110908243.0,
           "projects": 309
         },
         {
           "year": 2024,
-          "funding": 155157910.0,
-          "projects": 278
+          "funding": 155598587.0,
+          "projects": 280
         },
         {
           "year": 2025,
-          "funding": 86076161.0,
-          "projects": 204
+          "funding": 99763339.0,
+          "projects": 240
         },
         {
           "year": 2026,
-          "funding": 4460788.0,
-          "projects": 5
+          "funding": 6912283.0,
+          "projects": 11
         }
       ]
     },
     "Beratungsleistung": {
-      "total_funding": 263888612.0,
-      "total_projects": 5949,
+      "total_funding": 264488612.0,
+      "total_projects": 5957,
       "yearly": [
         {
           "year": 1987,
@@ -4457,8 +4457,8 @@
         },
         {
           "year": 2021,
-          "funding": 32493386.0,
-          "projects": 814
+          "funding": 32543386.0,
+          "projects": 815
         },
         {
           "year": 2022,
@@ -4467,24 +4467,24 @@
         },
         {
           "year": 2023,
-          "funding": 43515041.0,
-          "projects": 638
+          "funding": 43615041.0,
+          "projects": 640
         },
         {
           "year": 2024,
-          "funding": 22220000.0,
-          "projects": 283
+          "funding": 22370000.0,
+          "projects": 285
         },
         {
           "year": 2025,
-          "funding": 10777198.0,
-          "projects": 129
+          "funding": 11077198.0,
+          "projects": 132
         }
       ]
     },
     "Integration": {
-      "total_funding": 4002337747.0,
-      "total_projects": 7825,
+      "total_funding": 4026987597.0,
+      "total_projects": 7863,
       "yearly": [
         {
           "year": 1969,
@@ -4678,8 +4678,8 @@
         },
         {
           "year": 2008,
-          "funding": 108891772.0,
-          "projects": 209
+          "funding": 108935586.0,
+          "projects": 210
         },
         {
           "year": 2009,
@@ -4728,7 +4728,7 @@
         },
         {
           "year": 2018,
-          "funding": 156241281.0,
+          "funding": 156197050.0,
           "projects": 284
         },
         {
@@ -4738,44 +4738,44 @@
         },
         {
           "year": 2020,
-          "funding": 225386937.0,
+          "funding": 225386936.0,
           "projects": 428
         },
         {
           "year": 2021,
-          "funding": 358435275.0,
-          "projects": 519
+          "funding": 359831129.0,
+          "projects": 520
         },
         {
           "year": 2022,
-          "funding": 244160846.0,
+          "funding": 244103098.0,
           "projects": 393
         },
         {
           "year": 2023,
-          "funding": 392100007.0,
+          "funding": 392099298.0,
           "projects": 436
         },
         {
           "year": 2024,
-          "funding": 175451522.0,
-          "projects": 331
+          "funding": 175840226.0,
+          "projects": 332
         },
         {
           "year": 2025,
-          "funding": 152542106.0,
-          "projects": 278
+          "funding": 172568198.0,
+          "projects": 307
         },
         {
           "year": 2026,
-          "funding": 4992256.0,
-          "projects": 9
+          "funding": 7890331.0,
+          "projects": 15
         }
       ]
     },
     "Mittels": {
-      "total_funding": 2918661640.0,
-      "total_projects": 6871,
+      "total_funding": 2941103518.0,
+      "total_projects": 6916,
       "yearly": [
         {
           "year": 1969,
@@ -5034,38 +5034,38 @@
         },
         {
           "year": 2020,
-          "funding": 184641679.0,
+          "funding": 184633429.0,
           "projects": 422
         },
         {
           "year": 2021,
-          "funding": 293647592.0,
-          "projects": 548
+          "funding": 295971049.0,
+          "projects": 550
         },
         {
           "year": 2022,
-          "funding": 278177945.0,
+          "funding": 278052530.0,
           "projects": 501
         },
         {
           "year": 2023,
-          "funding": 205786368.0,
+          "funding": 205786362.0,
           "projects": 410
         },
         {
           "year": 2024,
-          "funding": 138850143.0,
-          "projects": 322
+          "funding": 138869915.0,
+          "projects": 323
         },
         {
           "year": 2025,
-          "funding": 98235897.0,
-          "projects": 245
+          "funding": 117042174.0,
+          "projects": 283
         },
         {
           "year": 2026,
-          "funding": 89269.0,
-          "projects": 1
+          "funding": 1515312.0,
+          "projects": 5
         },
         {
           "year": 2027,
@@ -5075,8 +5075,8 @@
       ]
     },
     "Basis": {
-      "total_funding": 3471600178.0,
-      "total_projects": 7021,
+      "total_funding": 3486499005.0,
+      "total_projects": 7050,
       "yearly": [
         {
           "year": 1968,
@@ -5320,8 +5320,8 @@
         },
         {
           "year": 2016,
-          "funding": 120707742.0,
-          "projects": 253
+          "funding": 121274071.0,
+          "projects": 254
         },
         {
           "year": 2017,
@@ -5345,39 +5345,39 @@
         },
         {
           "year": 2021,
-          "funding": 173402103.0,
+          "funding": 173383791.0,
           "projects": 407
         },
         {
           "year": 2022,
-          "funding": 170521353.0,
+          "funding": 170512849.0,
           "projects": 329
         },
         {
           "year": 2023,
-          "funding": 109496684.0,
-          "projects": 299
+          "funding": 110065614.0,
+          "projects": 300
         },
         {
           "year": 2024,
-          "funding": 137399659.0,
-          "projects": 222
+          "funding": 137788866.0,
+          "projects": 223
         },
         {
           "year": 2025,
-          "funding": 57723067.0,
-          "projects": 121
+          "funding": 69268633.0,
+          "projects": 142
         },
         {
           "year": 2026,
-          "funding": 1593330.0,
-          "projects": 4
+          "funding": 3448941.0,
+          "projects": 9
         }
       ]
     },
     "Straßenbeleuchtung": {
-      "total_funding": 245617486.0,
-      "total_projects": 5643,
+      "total_funding": 247132889.0,
+      "total_projects": 5667,
       "yearly": [
         {
           "year": 2008,
@@ -5456,29 +5456,29 @@
         },
         {
           "year": 2023,
-          "funding": 20815691.0,
-          "projects": 364
+          "funding": 20862145.0,
+          "projects": 365
         },
         {
           "year": 2024,
-          "funding": 13226456.0,
-          "projects": 176
+          "funding": 13313548.0,
+          "projects": 177
         },
         {
           "year": 2025,
-          "funding": 32677003.0,
-          "projects": 301
+          "funding": 33638228.0,
+          "projects": 319
         },
         {
           "year": 2026,
-          "funding": 662451.0,
-          "projects": 9
+          "funding": 1083083.0,
+          "projects": 13
         }
       ]
     },
     "Aufbau": {
-      "total_funding": 5073617370.0,
-      "total_projects": 6266,
+      "total_funding": 5084176136.0,
+      "total_projects": 6290,
       "yearly": [
         {
           "year": 1968,
@@ -5677,8 +5677,8 @@
         },
         {
           "year": 2008,
-          "funding": 113947547.0,
-          "projects": 119
+          "funding": 113991361.0,
+          "projects": 120
         },
         {
           "year": 2009,
@@ -5737,44 +5737,44 @@
         },
         {
           "year": 2020,
-          "funding": 222320788.0,
+          "funding": 222308833.0,
           "projects": 274
         },
         {
           "year": 2021,
-          "funding": 317636527.0,
-          "projects": 435
+          "funding": 318764265.0,
+          "projects": 438
         },
         {
           "year": 2022,
-          "funding": 1063237234.0,
-          "projects": 292
+          "funding": 1063753900.0,
+          "projects": 293
         },
         {
           "year": 2023,
-          "funding": 230823363.0,
-          "projects": 340
+          "funding": 231626858.0,
+          "projects": 341
         },
         {
           "year": 2024,
-          "funding": 248252865.0,
-          "projects": 321
+          "funding": 248379013.0,
+          "projects": 322
         },
         {
           "year": 2025,
-          "funding": 228659868.0,
-          "projects": 172
+          "funding": 234275754.0,
+          "projects": 182
         },
         {
           "year": 2026,
-          "funding": 8200996.0,
-          "projects": 20
+          "funding": 10537970.0,
+          "projects": 27
         }
       ]
     },
     "Deutschland": {
-      "total_funding": 3250499865.0,
-      "total_projects": 5878,
+      "total_funding": 3246236925.0,
+      "total_projects": 5901,
       "yearly": [
         {
           "year": 1971,
@@ -6018,49 +6018,350 @@
         },
         {
           "year": 2019,
-          "funding": 430070168.0,
-          "projects": 109
-        },
-        {
-          "year": 2020,
-          "funding": 72766222.0,
-          "projects": 117
-        },
-        {
-          "year": 2021,
-          "funding": 220615368.0,
-          "projects": 1086
-        },
-        {
-          "year": 2022,
-          "funding": 406552712.0,
-          "projects": 1960
-        },
-        {
-          "year": 2023,
-          "funding": 128984598.0,
-          "projects": 167
-        },
-        {
-          "year": 2024,
-          "funding": 331724704.0,
+          "funding": 430296272.0,
           "projects": 110
         },
         {
+          "year": 2020,
+          "funding": 71956822.0,
+          "projects": 116
+        },
+        {
+          "year": 2021,
+          "funding": 221095439.0,
+          "projects": 1089
+        },
+        {
+          "year": 2022,
+          "funding": 405523985.0,
+          "projects": 1966
+        },
+        {
+          "year": 2023,
+          "funding": 116818380.0,
+          "projects": 168
+        },
+        {
+          "year": 2024,
+          "funding": 331121672.0,
+          "projects": 109
+        },
+        {
           "year": 2025,
-          "funding": 39371719.0,
-          "projects": 80
+          "funding": 46708401.0,
+          "projects": 88
         },
         {
           "year": 2026,
-          "funding": 6693035.0,
-          "projects": 5
+          "funding": 8994615.0,
+          "projects": 11
+        }
+      ]
+    },
+    "Erprobung": {
+      "total_funding": 3503279345.0,
+      "total_projects": 5965,
+      "yearly": [
+        {
+          "year": 1968,
+          "funding": 1557485.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 2760140.0,
+          "projects": 6
+        },
+        {
+          "year": 1970,
+          "funding": 16548728.0,
+          "projects": 3
+        },
+        {
+          "year": 1971,
+          "funding": 4335655.0,
+          "projects": 15
+        },
+        {
+          "year": 1972,
+          "funding": 22801601.0,
+          "projects": 51
+        },
+        {
+          "year": 1973,
+          "funding": 15109875.0,
+          "projects": 45
+        },
+        {
+          "year": 1974,
+          "funding": 35446293.0,
+          "projects": 53
+        },
+        {
+          "year": 1975,
+          "funding": 94569859.0,
+          "projects": 87
+        },
+        {
+          "year": 1976,
+          "funding": 44551507.0,
+          "projects": 86
+        },
+        {
+          "year": 1977,
+          "funding": 152144363.0,
+          "projects": 104
+        },
+        {
+          "year": 1978,
+          "funding": 77997559.0,
+          "projects": 142
+        },
+        {
+          "year": 1979,
+          "funding": 211024653.0,
+          "projects": 162
+        },
+        {
+          "year": 1980,
+          "funding": 59384809.0,
+          "projects": 83
+        },
+        {
+          "year": 1981,
+          "funding": 59465934.0,
+          "projects": 64
+        },
+        {
+          "year": 1982,
+          "funding": 135279951.0,
+          "projects": 94
+        },
+        {
+          "year": 1983,
+          "funding": 87111199.0,
+          "projects": 94
+        },
+        {
+          "year": 1984,
+          "funding": 69932244.0,
+          "projects": 102
+        },
+        {
+          "year": 1985,
+          "funding": 45629043.0,
+          "projects": 99
+        },
+        {
+          "year": 1986,
+          "funding": 98107210.0,
+          "projects": 128
+        },
+        {
+          "year": 1987,
+          "funding": 57091487.0,
+          "projects": 111
+        },
+        {
+          "year": 1988,
+          "funding": 69825229.0,
+          "projects": 74
+        },
+        {
+          "year": 1989,
+          "funding": 62424420.0,
+          "projects": 114
+        },
+        {
+          "year": 1990,
+          "funding": 45902318.0,
+          "projects": 96
+        },
+        {
+          "year": 1991,
+          "funding": 45969945.0,
+          "projects": 98
+        },
+        {
+          "year": 1992,
+          "funding": 36094421.0,
+          "projects": 75
+        },
+        {
+          "year": 1993,
+          "funding": 23209948.0,
+          "projects": 80
+        },
+        {
+          "year": 1994,
+          "funding": 41490156.0,
+          "projects": 88
+        },
+        {
+          "year": 1995,
+          "funding": 49000844.0,
+          "projects": 121
+        },
+        {
+          "year": 1996,
+          "funding": 26843116.0,
+          "projects": 89
+        },
+        {
+          "year": 1997,
+          "funding": 8291471.0,
+          "projects": 38
+        },
+        {
+          "year": 1998,
+          "funding": 28318359.0,
+          "projects": 57
+        },
+        {
+          "year": 1999,
+          "funding": 30137731.0,
+          "projects": 136
+        },
+        {
+          "year": 2000,
+          "funding": 33888853.0,
+          "projects": 100
+        },
+        {
+          "year": 2001,
+          "funding": 38338654.0,
+          "projects": 117
+        },
+        {
+          "year": 2002,
+          "funding": 36016799.0,
+          "projects": 87
+        },
+        {
+          "year": 2003,
+          "funding": 21787628.0,
+          "projects": 73
+        },
+        {
+          "year": 2004,
+          "funding": 38670443.0,
+          "projects": 73
+        },
+        {
+          "year": 2005,
+          "funding": 34266140.0,
+          "projects": 75
+        },
+        {
+          "year": 2006,
+          "funding": 33144077.0,
+          "projects": 73
+        },
+        {
+          "year": 2007,
+          "funding": 48948172.0,
+          "projects": 97
+        },
+        {
+          "year": 2008,
+          "funding": 66085193.0,
+          "projects": 100
+        },
+        {
+          "year": 2009,
+          "funding": 64446964.0,
+          "projects": 123
+        },
+        {
+          "year": 2010,
+          "funding": 47287674.0,
+          "projects": 104
+        },
+        {
+          "year": 2011,
+          "funding": 43554365.0,
+          "projects": 91
+        },
+        {
+          "year": 2012,
+          "funding": 92511307.0,
+          "projects": 170
+        },
+        {
+          "year": 2013,
+          "funding": 32628833.0,
+          "projects": 88
+        },
+        {
+          "year": 2014,
+          "funding": 18719752.0,
+          "projects": 76
+        },
+        {
+          "year": 2015,
+          "funding": 43652491.0,
+          "projects": 119
+        },
+        {
+          "year": 2016,
+          "funding": 57211196.0,
+          "projects": 158
+        },
+        {
+          "year": 2017,
+          "funding": 115796053.0,
+          "projects": 185
+        },
+        {
+          "year": 2018,
+          "funding": 44538128.0,
+          "projects": 138
+        },
+        {
+          "year": 2019,
+          "funding": 112937092.0,
+          "projects": 195
+        },
+        {
+          "year": 2020,
+          "funding": 125705224.0,
+          "projects": 190
+        },
+        {
+          "year": 2021,
+          "funding": 172752773.0,
+          "projects": 274
+        },
+        {
+          "year": 2022,
+          "funding": 113791628.0,
+          "projects": 183
+        },
+        {
+          "year": 2023,
+          "funding": 139294079.0,
+          "projects": 218
+        },
+        {
+          "year": 2024,
+          "funding": 87932298.0,
+          "projects": 121
+        },
+        {
+          "year": 2025,
+          "funding": 76576981.0,
+          "projects": 132
+        },
+        {
+          "year": 2026,
+          "funding": 4438995.0,
+          "projects": 9
         }
       ]
     },
     "Untersuchungen": {
-      "total_funding": 2727116512.0,
-      "total_projects": 6672,
+      "total_funding": 2734931059.0,
+      "total_projects": 6682,
       "yearly": [
         {
           "year": 1968,
@@ -6309,8 +6610,8 @@
         },
         {
           "year": 2017,
-          "funding": 47229656.0,
-          "projects": 113
+          "funding": 47279426.0,
+          "projects": 114
         },
         {
           "year": 2018,
@@ -6319,7 +6620,7 @@
         },
         {
           "year": 2019,
-          "funding": 59485019.0,
+          "funding": 59455975.0,
           "projects": 129
         },
         {
@@ -6329,7 +6630,7 @@
         },
         {
           "year": 2021,
-          "funding": 73457932.0,
+          "funding": 73446246.0,
           "projects": 120
         },
         {
@@ -6349,320 +6650,19 @@
         },
         {
           "year": 2025,
-          "funding": 22969251.0,
-          "projects": 52
+          "funding": 29496354.0,
+          "projects": 58
         },
         {
           "year": 2026,
-          "funding": 1000000.0,
-          "projects": 1
-        }
-      ]
-    },
-    "Erprobung": {
-      "total_funding": 3491691367.0,
-      "total_projects": 5934,
-      "yearly": [
-        {
-          "year": 1968,
-          "funding": 1557485.0,
-          "projects": 1
-        },
-        {
-          "year": 1969,
-          "funding": 2760140.0,
-          "projects": 6
-        },
-        {
-          "year": 1970,
-          "funding": 16548728.0,
-          "projects": 3
-        },
-        {
-          "year": 1971,
-          "funding": 4335655.0,
-          "projects": 15
-        },
-        {
-          "year": 1972,
-          "funding": 22801601.0,
-          "projects": 51
-        },
-        {
-          "year": 1973,
-          "funding": 15109875.0,
-          "projects": 45
-        },
-        {
-          "year": 1974,
-          "funding": 35446293.0,
-          "projects": 53
-        },
-        {
-          "year": 1975,
-          "funding": 94569859.0,
-          "projects": 87
-        },
-        {
-          "year": 1976,
-          "funding": 44551507.0,
-          "projects": 86
-        },
-        {
-          "year": 1977,
-          "funding": 152144363.0,
-          "projects": 104
-        },
-        {
-          "year": 1978,
-          "funding": 77997559.0,
-          "projects": 142
-        },
-        {
-          "year": 1979,
-          "funding": 211024653.0,
-          "projects": 162
-        },
-        {
-          "year": 1980,
-          "funding": 59384809.0,
-          "projects": 83
-        },
-        {
-          "year": 1981,
-          "funding": 59465934.0,
-          "projects": 64
-        },
-        {
-          "year": 1982,
-          "funding": 135279951.0,
-          "projects": 94
-        },
-        {
-          "year": 1983,
-          "funding": 87111199.0,
-          "projects": 94
-        },
-        {
-          "year": 1984,
-          "funding": 69932244.0,
-          "projects": 102
-        },
-        {
-          "year": 1985,
-          "funding": 45629043.0,
-          "projects": 99
-        },
-        {
-          "year": 1986,
-          "funding": 98107210.0,
-          "projects": 128
-        },
-        {
-          "year": 1987,
-          "funding": 57091487.0,
-          "projects": 111
-        },
-        {
-          "year": 1988,
-          "funding": 69825229.0,
-          "projects": 74
-        },
-        {
-          "year": 1989,
-          "funding": 62424420.0,
-          "projects": 114
-        },
-        {
-          "year": 1990,
-          "funding": 45902318.0,
-          "projects": 96
-        },
-        {
-          "year": 1991,
-          "funding": 45969945.0,
-          "projects": 98
-        },
-        {
-          "year": 1992,
-          "funding": 36094421.0,
-          "projects": 75
-        },
-        {
-          "year": 1993,
-          "funding": 23209948.0,
-          "projects": 80
-        },
-        {
-          "year": 1994,
-          "funding": 41490156.0,
-          "projects": 88
-        },
-        {
-          "year": 1995,
-          "funding": 49000844.0,
-          "projects": 121
-        },
-        {
-          "year": 1996,
-          "funding": 26843116.0,
-          "projects": 89
-        },
-        {
-          "year": 1997,
-          "funding": 8291471.0,
-          "projects": 38
-        },
-        {
-          "year": 1998,
-          "funding": 28318359.0,
-          "projects": 57
-        },
-        {
-          "year": 1999,
-          "funding": 30137731.0,
-          "projects": 136
-        },
-        {
-          "year": 2000,
-          "funding": 33888853.0,
-          "projects": 100
-        },
-        {
-          "year": 2001,
-          "funding": 38338654.0,
-          "projects": 117
-        },
-        {
-          "year": 2002,
-          "funding": 36016799.0,
-          "projects": 87
-        },
-        {
-          "year": 2003,
-          "funding": 21787628.0,
-          "projects": 73
-        },
-        {
-          "year": 2004,
-          "funding": 38670443.0,
-          "projects": 73
-        },
-        {
-          "year": 2005,
-          "funding": 34266140.0,
-          "projects": 75
-        },
-        {
-          "year": 2006,
-          "funding": 33144077.0,
-          "projects": 73
-        },
-        {
-          "year": 2007,
-          "funding": 48948172.0,
-          "projects": 97
-        },
-        {
-          "year": 2008,
-          "funding": 66085193.0,
-          "projects": 100
-        },
-        {
-          "year": 2009,
-          "funding": 64446964.0,
-          "projects": 123
-        },
-        {
-          "year": 2010,
-          "funding": 47287674.0,
-          "projects": 104
-        },
-        {
-          "year": 2011,
-          "funding": 43554365.0,
-          "projects": 91
-        },
-        {
-          "year": 2012,
-          "funding": 92511307.0,
-          "projects": 170
-        },
-        {
-          "year": 2013,
-          "funding": 32628833.0,
-          "projects": 88
-        },
-        {
-          "year": 2014,
-          "funding": 18719752.0,
-          "projects": 76
-        },
-        {
-          "year": 2015,
-          "funding": 43652491.0,
-          "projects": 119
-        },
-        {
-          "year": 2016,
-          "funding": 57311770.0,
-          "projects": 158
-        },
-        {
-          "year": 2017,
-          "funding": 115796053.0,
-          "projects": 185
-        },
-        {
-          "year": 2018,
-          "funding": 44538128.0,
-          "projects": 138
-        },
-        {
-          "year": 2019,
-          "funding": 113082244.0,
-          "projects": 195
-        },
-        {
-          "year": 2020,
-          "funding": 125705381.0,
-          "projects": 190
-        },
-        {
-          "year": 2021,
-          "funding": 173174077.0,
-          "projects": 274
-        },
-        {
-          "year": 2022,
-          "funding": 113828946.0,
-          "projects": 183
-        },
-        {
-          "year": 2023,
-          "funding": 139367950.0,
-          "projects": 218
-        },
-        {
-          "year": 2024,
-          "funding": 88050685.0,
-          "projects": 120
-        },
-        {
-          "year": 2025,
-          "funding": 67624875.0,
-          "projects": 109
-        },
-        {
-          "year": 2026,
-          "funding": 906360.0,
-          "projects": 2
+          "funding": 2278404.0,
+          "projects": 4
         }
       ]
     },
     "Errichtung": {
-      "total_funding": 4113038984.0,
-      "total_projects": 5426,
+      "total_funding": 4112572705.0,
+      "total_projects": 5445,
       "yearly": [
         {
           "year": 1968,
@@ -6931,18 +6931,18 @@
         },
         {
           "year": 2021,
-          "funding": 52847117.0,
-          "projects": 1176
+          "funding": 52914515.0,
+          "projects": 1179
         },
         {
           "year": 2022,
-          "funding": 131279036.0,
-          "projects": 1923
+          "funding": 130271200.0,
+          "projects": 1929
         },
         {
           "year": 2023,
-          "funding": 77176636.0,
-          "projects": 111
+          "funding": 64838878.0,
+          "projects": 112
         },
         {
           "year": 2024,
@@ -6951,8 +6951,8 @@
         },
         {
           "year": 2025,
-          "funding": 92209176.0,
-          "projects": 57
+          "funding": 105021093.0,
+          "projects": 66
         },
         {
           "year": 2026,
@@ -6962,8 +6962,8 @@
       ]
     },
     "Rahmen": {
-      "total_funding": 5511017981.0,
-      "total_projects": 5957,
+      "total_funding": 5524376801.0,
+      "total_projects": 5998,
       "yearly": [
         {
           "year": 1968,
@@ -7222,17 +7222,17 @@
         },
         {
           "year": 2019,
-          "funding": 557167025.0,
+          "funding": 557149492.0,
           "projects": 427
         },
         {
           "year": 2020,
-          "funding": 414784749.0,
-          "projects": 446
+          "funding": 414811862.0,
+          "projects": 447
         },
         {
           "year": 2021,
-          "funding": 447414439.0,
+          "funding": 447414344.0,
           "projects": 417
         },
         {
@@ -7242,29 +7242,29 @@
         },
         {
           "year": 2023,
-          "funding": 379711306.0,
-          "projects": 252
+          "funding": 376448413.0,
+          "projects": 251
         },
         {
           "year": 2024,
-          "funding": 397996795.0,
-          "projects": 366
+          "funding": 399827661.0,
+          "projects": 373
         },
         {
           "year": 2025,
-          "funding": 365112205.0,
-          "projects": 256
+          "funding": 375158162.0,
+          "projects": 286
         },
         {
           "year": 2026,
-          "funding": 4283151.0,
-          "projects": 4
+          "funding": 9018556.0,
+          "projects": 8
         }
       ]
     },
     "Maßnahmen": {
-      "total_funding": 2219016696.0,
-      "total_projects": 6297,
+      "total_funding": 2223671894.0,
+      "total_projects": 6317,
       "yearly": [
         {
           "year": 1968,
@@ -7503,8 +7503,8 @@
         },
         {
           "year": 2015,
-          "funding": 28505813.0,
-          "projects": 160
+          "funding": 28154208.0,
+          "projects": 159
         },
         {
           "year": 2016,
@@ -7523,12 +7523,12 @@
         },
         {
           "year": 2019,
-          "funding": 151247928.0,
-          "projects": 414
+          "funding": 152355086.0,
+          "projects": 416
         },
         {
           "year": 2020,
-          "funding": 92640352.0,
+          "funding": 92638184.0,
           "projects": 328
         },
         {
@@ -7538,34 +7538,39 @@
         },
         {
           "year": 2022,
-          "funding": 85232269.0,
+          "funding": 85204707.0,
           "projects": 334
         },
         {
           "year": 2023,
-          "funding": 97632267.0,
-          "projects": 349
+          "funding": 97650533.0,
+          "projects": 350
         },
         {
           "year": 2024,
-          "funding": 88175599.0,
-          "projects": 351
+          "funding": 88300063.0,
+          "projects": 352
         },
         {
           "year": 2025,
-          "funding": 98086640.0,
-          "projects": 241
+          "funding": 100696486.0,
+          "projects": 254
         },
         {
           "year": 2026,
-          "funding": 378499.0,
+          "funding": 1185064.0,
+          "projects": 4
+        },
+        {
+          "year": 2027,
+          "funding": 370234.0,
           "projects": 1
         }
       ]
     },
     "Technik": {
-      "total_funding": 5173283521.0,
-      "total_projects": 13953,
+      "total_funding": 5187734016.0,
+      "total_projects": 14007,
       "yearly": [
         {
           "year": 1968,
@@ -7819,8 +7824,8 @@
         },
         {
           "year": 2018,
-          "funding": 158544213.0,
-          "projects": 704
+          "funding": 159135210.0,
+          "projects": 706
         },
         {
           "year": 2019,
@@ -7834,8 +7839,8 @@
         },
         {
           "year": 2021,
-          "funding": 227835948.0,
-          "projects": 851
+          "funding": 227875796.0,
+          "projects": 852
         },
         {
           "year": 2022,
@@ -7844,29 +7849,29 @@
         },
         {
           "year": 2023,
-          "funding": 161898342.0,
-          "projects": 612
+          "funding": 161952937.0,
+          "projects": 614
         },
         {
           "year": 2024,
-          "funding": 93675740.0,
-          "projects": 306
+          "funding": 93984443.0,
+          "projects": 307
         },
         {
           "year": 2025,
-          "funding": 83453454.0,
-          "projects": 376
+          "funding": 92802644.0,
+          "projects": 417
         },
         {
           "year": 2026,
-          "funding": 3833750.0,
-          "projects": 10
+          "funding": 7940912.0,
+          "projects": 17
         }
       ]
     },
     "Umsetzung": {
-      "total_funding": 2282508512.0,
-      "total_projects": 5482,
+      "total_funding": 2291947027.0,
+      "total_projects": 5519,
       "yearly": [
         {
           "year": 1968,
@@ -8115,13 +8120,13 @@
         },
         {
           "year": 2020,
-          "funding": 138948805.0,
-          "projects": 424
+          "funding": 138438677.0,
+          "projects": 423
         },
         {
           "year": 2021,
-          "funding": 283263406.0,
-          "projects": 474
+          "funding": 283479635.0,
+          "projects": 476
         },
         {
           "year": 2022,
@@ -8130,29 +8135,29 @@
         },
         {
           "year": 2023,
-          "funding": 211599151.0,
-          "projects": 417
+          "funding": 212049354.0,
+          "projects": 421
         },
         {
           "year": 2024,
-          "funding": 249097669.0,
-          "projects": 408
+          "funding": 250794024.0,
+          "projects": 411
         },
         {
           "year": 2025,
-          "funding": 108272894.0,
-          "projects": 183
+          "funding": 113757943.0,
+          "projects": 203
         },
         {
           "year": 2026,
-          "funding": 1859153.0,
-          "projects": 6
+          "funding": 3959960.0,
+          "projects": 15
         }
       ]
     },
     "Gemeinde": {
-      "total_funding": 388231169.0,
-      "total_projects": 6234,
+      "total_funding": 395417399.0,
+      "total_projects": 6281,
       "yearly": [
         {
           "year": 1972,
@@ -8336,8 +8341,8 @@
         },
         {
           "year": 2021,
-          "funding": 25026351.0,
-          "projects": 386
+          "funding": 25225748.0,
+          "projects": 387
         },
         {
           "year": 2022,
@@ -8346,29 +8351,29 @@
         },
         {
           "year": 2023,
-          "funding": 46128199.0,
-          "projects": 565
+          "funding": 46791332.0,
+          "projects": 570
         },
         {
           "year": 2024,
-          "funding": 61959117.0,
-          "projects": 818
+          "funding": 61930837.0,
+          "projects": 821
         },
         {
           "year": 2025,
-          "funding": 40216828.0,
-          "projects": 422
+          "funding": 42821264.0,
+          "projects": 438
         },
         {
           "year": 2026,
-          "funding": 7360246.0,
-          "projects": 40
+          "funding": 11107790.0,
+          "projects": 62
         }
       ]
     },
     "Jugendlichen": {
-      "total_funding": 841524150.0,
-      "total_projects": 4455,
+      "total_funding": 841789009.0,
+      "total_projects": 4456,
       "yearly": [
         {
           "year": 1973,
@@ -8627,13 +8632,13 @@
         },
         {
           "year": 2025,
-          "funding": 9715768.0,
-          "projects": 15
+          "funding": 9980627.0,
+          "projects": 16
         }
       ]
     },
     "Berufsausbildung": {
-      "total_funding": 883967947.0,
+      "total_funding": 883950414.0,
       "total_projects": 4401,
       "yearly": [
         {
@@ -8848,7 +8853,7 @@
         },
         {
           "year": 2019,
-          "funding": 31290132.0,
+          "funding": 31272599.0,
           "projects": 7
         },
         {
@@ -8879,8 +8884,8 @@
       ]
     },
     "Gigabit": {
-      "total_funding": 8197884238.0,
-      "total_projects": 3639,
+      "total_funding": 8281601451.0,
+      "total_projects": 3659,
       "yearly": [
         {
           "year": 1998,
@@ -8934,34 +8939,34 @@
         },
         {
           "year": 2021,
-          "funding": 143582490.0,
-          "projects": 400
+          "funding": 143632490.0,
+          "projects": 401
         },
         {
           "year": 2022,
-          "funding": 1810866351.0,
+          "funding": 1802561339.0,
           "projects": 810
         },
         {
           "year": 2023,
-          "funding": 3624090724.0,
-          "projects": 1163
+          "funding": 3621611521.0,
+          "projects": 1165
         },
         {
           "year": 2024,
-          "funding": 1953373391.0,
-          "projects": 841
+          "funding": 1954431891.0,
+          "projects": 845
         },
         {
           "year": 2025,
-          "funding": 592112751.0,
-          "projects": 397
+          "funding": 685505679.0,
+          "projects": 410
         }
       ]
     },
     "Verbesserung": {
-      "total_funding": 1921357679.0,
-      "total_projects": 4459,
+      "total_funding": 1933018031.0,
+      "total_projects": 4486,
       "yearly": [
         {
           "year": 1969,
@@ -9215,7 +9220,7 @@
         },
         {
           "year": 2019,
-          "funding": 96664400.0,
+          "funding": 96662378.0,
           "projects": 187
         },
         {
@@ -9225,33 +9230,33 @@
         },
         {
           "year": 2021,
-          "funding": 124626651.0,
-          "projects": 202
+          "funding": 128185477.0,
+          "projects": 205
         },
         {
           "year": 2022,
-          "funding": 77775454.0,
-          "projects": 148
+          "funding": 77811339.0,
+          "projects": 149
         },
         {
           "year": 2023,
-          "funding": 88579808.0,
-          "projects": 218
+          "funding": 89122899.0,
+          "projects": 219
         },
         {
           "year": 2024,
-          "funding": 86145790.0,
-          "projects": 160
+          "funding": 85766582.0,
+          "projects": 162
         },
         {
           "year": 2025,
-          "funding": 49561217.0,
-          "projects": 121
+          "funding": 54923628.0,
+          "projects": 135
         },
         {
           "year": 2026,
-          "funding": 398398.0,
-          "projects": 1
+          "funding": 2939767.0,
+          "projects": 7
         }
       ]
     },
@@ -9447,8 +9452,8 @@
       ]
     },
     "Erstellung": {
-      "total_funding": 4934688569.0,
-      "total_projects": 11912,
+      "total_funding": 4965370209.0,
+      "total_projects": 11988,
       "yearly": [
         {
           "year": 1968,
@@ -9712,12 +9717,12 @@
         },
         {
           "year": 2020,
-          "funding": 152531665.0,
-          "projects": 433
+          "funding": 152591025.0,
+          "projects": 434
         },
         {
           "year": 2021,
-          "funding": 360448186.0,
+          "funding": 360312649.0,
           "projects": 730
         },
         {
@@ -9727,23 +9732,23 @@
         },
         {
           "year": 2023,
-          "funding": 273881683.0,
-          "projects": 766
+          "funding": 276585862.0,
+          "projects": 769
         },
         {
           "year": 2024,
-          "funding": 206056005.0,
-          "projects": 986
+          "funding": 206131899.0,
+          "projects": 989
         },
         {
           "year": 2025,
-          "funding": 111109013.0,
-          "projects": 371
+          "funding": 131185755.0,
+          "projects": 412
         },
         {
           "year": 2026,
-          "funding": 4763303.0,
-          "projects": 18
+          "funding": 12664305.0,
+          "projects": 46
         },
         {
           "year": 2027,
@@ -9753,8 +9758,8 @@
       ]
     },
     "Nutzung": {
-      "total_funding": 2776411225.0,
-      "total_projects": 6892,
+      "total_funding": 2801897760.0,
+      "total_projects": 6920,
       "yearly": [
         {
           "year": 1970,
@@ -9973,8 +9978,8 @@
         },
         {
           "year": 2013,
-          "funding": 51314671.0,
-          "projects": 285
+          "funding": 51563217.0,
+          "projects": 286
         },
         {
           "year": 2014,
@@ -10003,43 +10008,43 @@
         },
         {
           "year": 2019,
-          "funding": 112095887.0,
-          "projects": 326
+          "funding": 111759850.0,
+          "projects": 325
         },
         {
           "year": 2020,
-          "funding": 181599877.0,
+          "funding": 182700870.0,
           "projects": 352
         },
         {
           "year": 2021,
-          "funding": 158109921.0,
+          "funding": 158097765.0,
           "projects": 390
         },
         {
           "year": 2022,
-          "funding": 147739953.0,
+          "funding": 147739406.0,
           "projects": 311
         },
         {
           "year": 2023,
-          "funding": 148587456.0,
+          "funding": 148515364.0,
           "projects": 320
         },
         {
           "year": 2024,
-          "funding": 115866672.0,
+          "funding": 115839244.0,
           "projects": 245
         },
         {
           "year": 2025,
-          "funding": 67810742.0,
-          "projects": 187
+          "funding": 89401844.0,
+          "projects": 206
         },
         {
           "year": 2026,
-          "funding": 3133523.0,
-          "projects": 2
+          "funding": 6127677.0,
+          "projects": 11
         },
         {
           "year": 2027,
@@ -10049,8 +10054,8 @@
       ]
     },
     "Anwendung": {
-      "total_funding": 6061159248.0,
-      "total_projects": 11035,
+      "total_funding": 6088109827.0,
+      "total_projects": 11105,
       "yearly": [
         {
           "year": 1968,
@@ -10309,23 +10314,23 @@
         },
         {
           "year": 2019,
-          "funding": 226362022.0,
-          "projects": 524
+          "funding": 226903196.0,
+          "projects": 525
         },
         {
           "year": 2020,
-          "funding": 398181218.0,
-          "projects": 508
+          "funding": 399892069.0,
+          "projects": 510
         },
         {
           "year": 2021,
-          "funding": 671478694.0,
-          "projects": 802
+          "funding": 671467054.0,
+          "projects": 803
         },
         {
           "year": 2022,
-          "funding": 591081922.0,
-          "projects": 704
+          "funding": 591051505.0,
+          "projects": 705
         },
         {
           "year": 2023,
@@ -10334,115 +10339,24 @@
         },
         {
           "year": 2024,
-          "funding": 186728617.0,
-          "projects": 370
+          "funding": 186854075.0,
+          "projects": 371
         },
         {
           "year": 2025,
-          "funding": 116453314.0,
-          "projects": 292
+          "funding": 136487063.0,
+          "projects": 340
         },
         {
           "year": 2026,
-          "funding": 4206367.0,
-          "projects": 7
-        }
-      ]
-    },
-    "Ladeinfrastruktur": {
-      "total_funding": 673909096.0,
-      "total_projects": 4867,
-      "yearly": [
-        {
-          "year": 2009,
-          "funding": 4829663.0,
-          "projects": 17
-        },
-        {
-          "year": 2010,
-          "funding": 5488940.0,
-          "projects": 9
-        },
-        {
-          "year": 2011,
-          "funding": 3097818.0,
-          "projects": 8
-        },
-        {
-          "year": 2012,
-          "funding": 6805023.0,
-          "projects": 15
-        },
-        {
-          "year": 2013,
-          "funding": 7319100.0,
-          "projects": 15
-        },
-        {
-          "year": 2014,
-          "funding": 416238.0,
-          "projects": 3
-        },
-        {
-          "year": 2015,
-          "funding": 2421544.0,
-          "projects": 8
-        },
-        {
-          "year": 2016,
-          "funding": 10140463.0,
+          "funding": 8787771.0,
           "projects": 23
-        },
-        {
-          "year": 2017,
-          "funding": 10896589.0,
-          "projects": 230
-        },
-        {
-          "year": 2018,
-          "funding": 87616490.0,
-          "projects": 348
-        },
-        {
-          "year": 2019,
-          "funding": 21879041.0,
-          "projects": 386
-        },
-        {
-          "year": 2020,
-          "funding": 33430159.0,
-          "projects": 681
-        },
-        {
-          "year": 2021,
-          "funding": 55176794.0,
-          "projects": 1140
-        },
-        {
-          "year": 2022,
-          "funding": 195227410.0,
-          "projects": 1918
-        },
-        {
-          "year": 2023,
-          "funding": 137718849.0,
-          "projects": 52
-        },
-        {
-          "year": 2024,
-          "funding": 90411824.0,
-          "projects": 12
-        },
-        {
-          "year": 2025,
-          "funding": 1033151.0,
-          "projects": 2
         }
       ]
     },
     "Anwendungen": {
-      "total_funding": 2959081587.0,
-      "total_projects": 4905,
+      "total_funding": 2970228457.0,
+      "total_projects": 4939,
       "yearly": [
         {
           "year": 1970,
@@ -10691,23 +10605,23 @@
         },
         {
           "year": 2019,
-          "funding": 118315076.0,
-          "projects": 269
+          "funding": 118856250.0,
+          "projects": 270
         },
         {
           "year": 2020,
-          "funding": 98227428.0,
-          "projects": 212
+          "funding": 98553900.0,
+          "projects": 213
         },
         {
           "year": 2021,
-          "funding": 243204518.0,
+          "funding": 242969141.0,
           "projects": 424
         },
         {
           "year": 2022,
-          "funding": 417119260.0,
-          "projects": 353
+          "funding": 417135021.0,
+          "projects": 354
         },
         {
           "year": 2023,
@@ -10721,19 +10635,647 @@
         },
         {
           "year": 2025,
-          "funding": 46046205.0,
-          "projects": 106
+          "funding": 55112504.0,
+          "projects": 133
         },
         {
           "year": 2026,
-          "funding": 3999764.0,
-          "projects": 5
+          "funding": 5432305.0,
+          "projects": 9
+        }
+      ]
+    },
+    "Ladeinfrastruktur": {
+      "total_funding": 715317410.0,
+      "total_projects": 4878,
+      "yearly": [
+        {
+          "year": 2009,
+          "funding": 4829663.0,
+          "projects": 17
+        },
+        {
+          "year": 2010,
+          "funding": 5488940.0,
+          "projects": 9
+        },
+        {
+          "year": 2011,
+          "funding": 3097818.0,
+          "projects": 8
+        },
+        {
+          "year": 2012,
+          "funding": 6805023.0,
+          "projects": 15
+        },
+        {
+          "year": 2013,
+          "funding": 7319100.0,
+          "projects": 15
+        },
+        {
+          "year": 2014,
+          "funding": 416238.0,
+          "projects": 3
+        },
+        {
+          "year": 2015,
+          "funding": 2421544.0,
+          "projects": 8
+        },
+        {
+          "year": 2016,
+          "funding": 10140463.0,
+          "projects": 23
+        },
+        {
+          "year": 2017,
+          "funding": 10896589.0,
+          "projects": 230
+        },
+        {
+          "year": 2018,
+          "funding": 87616490.0,
+          "projects": 348
+        },
+        {
+          "year": 2019,
+          "funding": 21879041.0,
+          "projects": 386
+        },
+        {
+          "year": 2020,
+          "funding": 33430159.0,
+          "projects": 681
+        },
+        {
+          "year": 2021,
+          "funding": 55223021.0,
+          "projects": 1143
+        },
+        {
+          "year": 2022,
+          "funding": 248741411.0,
+          "projects": 1925
+        },
+        {
+          "year": 2023,
+          "funding": 125566935.0,
+          "projects": 53
+        },
+        {
+          "year": 2024,
+          "funding": 90411824.0,
+          "projects": 12
+        },
+        {
+          "year": 2025,
+          "funding": 1033151.0,
+          "projects": 2
+        }
+      ]
+    },
+    "Innovative": {
+      "total_funding": 4162096139.0,
+      "total_projects": 7443,
+      "yearly": [
+        {
+          "year": 1973,
+          "funding": 516022.0,
+          "projects": 2
+        },
+        {
+          "year": 1979,
+          "funding": 261444.0,
+          "projects": 1
+        },
+        {
+          "year": 1984,
+          "funding": 195479.0,
+          "projects": 1
+        },
+        {
+          "year": 1985,
+          "funding": 4142801.0,
+          "projects": 2
+        },
+        {
+          "year": 1986,
+          "funding": 6466912.0,
+          "projects": 3
+        },
+        {
+          "year": 1987,
+          "funding": 16263146.0,
+          "projects": 11
+        },
+        {
+          "year": 1988,
+          "funding": 787609.0,
+          "projects": 4
+        },
+        {
+          "year": 1989,
+          "funding": 12475296.0,
+          "projects": 4
+        },
+        {
+          "year": 1990,
+          "funding": 3135803.0,
+          "projects": 19
+        },
+        {
+          "year": 1991,
+          "funding": 4454136.0,
+          "projects": 6
+        },
+        {
+          "year": 1992,
+          "funding": 1251331.0,
+          "projects": 3
+        },
+        {
+          "year": 1993,
+          "funding": 4178969.0,
+          "projects": 24
+        },
+        {
+          "year": 1994,
+          "funding": 17854890.0,
+          "projects": 27
+        },
+        {
+          "year": 1995,
+          "funding": 25752053.0,
+          "projects": 22
+        },
+        {
+          "year": 1996,
+          "funding": 32418111.0,
+          "projects": 45
+        },
+        {
+          "year": 1997,
+          "funding": 24751555.0,
+          "projects": 100
+        },
+        {
+          "year": 1998,
+          "funding": 44861938.0,
+          "projects": 84
+        },
+        {
+          "year": 1999,
+          "funding": 72930707.0,
+          "projects": 104
+        },
+        {
+          "year": 2000,
+          "funding": 39799775.0,
+          "projects": 132
+        },
+        {
+          "year": 2001,
+          "funding": 80209586.0,
+          "projects": 210
+        },
+        {
+          "year": 2002,
+          "funding": 37031628.0,
+          "projects": 87
+        },
+        {
+          "year": 2003,
+          "funding": 92735859.0,
+          "projects": 103
+        },
+        {
+          "year": 2004,
+          "funding": 52885571.0,
+          "projects": 148
+        },
+        {
+          "year": 2005,
+          "funding": 80262783.0,
+          "projects": 201
+        },
+        {
+          "year": 2006,
+          "funding": 74766246.0,
+          "projects": 165
+        },
+        {
+          "year": 2007,
+          "funding": 105083881.0,
+          "projects": 267
+        },
+        {
+          "year": 2008,
+          "funding": 72713248.0,
+          "projects": 219
+        },
+        {
+          "year": 2009,
+          "funding": 145125289.0,
+          "projects": 251
+        },
+        {
+          "year": 2010,
+          "funding": 101313470.0,
+          "projects": 223
+        },
+        {
+          "year": 2011,
+          "funding": 95996970.0,
+          "projects": 264
+        },
+        {
+          "year": 2012,
+          "funding": 132067899.0,
+          "projects": 280
+        },
+        {
+          "year": 2013,
+          "funding": 91531261.0,
+          "projects": 209
+        },
+        {
+          "year": 2014,
+          "funding": 91757213.0,
+          "projects": 203
+        },
+        {
+          "year": 2015,
+          "funding": 131812900.0,
+          "projects": 315
+        },
+        {
+          "year": 2016,
+          "funding": 145153205.0,
+          "projects": 340
+        },
+        {
+          "year": 2017,
+          "funding": 170651706.0,
+          "projects": 360
+        },
+        {
+          "year": 2018,
+          "funding": 139912939.0,
+          "projects": 374
+        },
+        {
+          "year": 2019,
+          "funding": 196944852.0,
+          "projects": 393
+        },
+        {
+          "year": 2020,
+          "funding": 208963539.0,
+          "projects": 391
+        },
+        {
+          "year": 2021,
+          "funding": 310135989.0,
+          "projects": 473
+        },
+        {
+          "year": 2022,
+          "funding": 681971073.0,
+          "projects": 331
+        },
+        {
+          "year": 2023,
+          "funding": 201060569.0,
+          "projects": 376
+        },
+        {
+          "year": 2024,
+          "funding": 179529647.0,
+          "projects": 309
+        },
+        {
+          "year": 2025,
+          "funding": 223423052.0,
+          "projects": 352
+        },
+        {
+          "year": 2026,
+          "funding": 1500331.0,
+          "projects": 3
+        },
+        {
+          "year": 2027,
+          "funding": 5057456.0,
+          "projects": 2
+        }
+      ]
+    },
+    "Methoden": {
+      "total_funding": 2678988864.0,
+      "total_projects": 5847,
+      "yearly": [
+        {
+          "year": 1968,
+          "funding": 4977726.0,
+          "projects": 1
+        },
+        {
+          "year": 1969,
+          "funding": 1469883.0,
+          "projects": 10
+        },
+        {
+          "year": 1970,
+          "funding": 14262808.0,
+          "projects": 10
+        },
+        {
+          "year": 1971,
+          "funding": 2408635.0,
+          "projects": 6
+        },
+        {
+          "year": 1972,
+          "funding": 1082401.0,
+          "projects": 12
+        },
+        {
+          "year": 1973,
+          "funding": 1384579.0,
+          "projects": 7
+        },
+        {
+          "year": 1974,
+          "funding": 7229324.0,
+          "projects": 23
+        },
+        {
+          "year": 1975,
+          "funding": 9060361.0,
+          "projects": 28
+        },
+        {
+          "year": 1976,
+          "funding": 16007868.0,
+          "projects": 28
+        },
+        {
+          "year": 1977,
+          "funding": 10721755.0,
+          "projects": 33
+        },
+        {
+          "year": 1978,
+          "funding": 18615311.0,
+          "projects": 42
+        },
+        {
+          "year": 1979,
+          "funding": 16903353.0,
+          "projects": 45
+        },
+        {
+          "year": 1980,
+          "funding": 13456524.0,
+          "projects": 36
+        },
+        {
+          "year": 1981,
+          "funding": 6047470.0,
+          "projects": 20
+        },
+        {
+          "year": 1982,
+          "funding": 16314168.0,
+          "projects": 30
+        },
+        {
+          "year": 1983,
+          "funding": 10835095.0,
+          "projects": 26
+        },
+        {
+          "year": 1984,
+          "funding": 9366554.0,
+          "projects": 16
+        },
+        {
+          "year": 1985,
+          "funding": 25159423.0,
+          "projects": 40
+        },
+        {
+          "year": 1986,
+          "funding": 38781203.0,
+          "projects": 38
+        },
+        {
+          "year": 1987,
+          "funding": 20474209.0,
+          "projects": 27
+        },
+        {
+          "year": 1988,
+          "funding": 23457373.0,
+          "projects": 27
+        },
+        {
+          "year": 1989,
+          "funding": 17054217.0,
+          "projects": 34
+        },
+        {
+          "year": 1990,
+          "funding": 27517156.0,
+          "projects": 41
+        },
+        {
+          "year": 1991,
+          "funding": 19122065.0,
+          "projects": 64
+        },
+        {
+          "year": 1992,
+          "funding": 33291392.0,
+          "projects": 92
+        },
+        {
+          "year": 1993,
+          "funding": 8861380.0,
+          "projects": 33
+        },
+        {
+          "year": 1994,
+          "funding": 21849238.0,
+          "projects": 70
+        },
+        {
+          "year": 1995,
+          "funding": 38086489.0,
+          "projects": 115
+        },
+        {
+          "year": 1996,
+          "funding": 25143830.0,
+          "projects": 75
+        },
+        {
+          "year": 1997,
+          "funding": 29407882.0,
+          "projects": 97
+        },
+        {
+          "year": 1998,
+          "funding": 20420555.0,
+          "projects": 49
+        },
+        {
+          "year": 1999,
+          "funding": 23321956.0,
+          "projects": 36
+        },
+        {
+          "year": 2000,
+          "funding": 28894443.0,
+          "projects": 75
+        },
+        {
+          "year": 2001,
+          "funding": 47958557.0,
+          "projects": 154
+        },
+        {
+          "year": 2002,
+          "funding": 26891708.0,
+          "projects": 73
+        },
+        {
+          "year": 2003,
+          "funding": 31787307.0,
+          "projects": 75
+        },
+        {
+          "year": 2004,
+          "funding": 26175018.0,
+          "projects": 70
+        },
+        {
+          "year": 2005,
+          "funding": 40005532.0,
+          "projects": 92
+        },
+        {
+          "year": 2006,
+          "funding": 49553729.0,
+          "projects": 114
+        },
+        {
+          "year": 2007,
+          "funding": 45992643.0,
+          "projects": 106
+        },
+        {
+          "year": 2008,
+          "funding": 45881337.0,
+          "projects": 115
+        },
+        {
+          "year": 2009,
+          "funding": 55359207.0,
+          "projects": 142
+        },
+        {
+          "year": 2010,
+          "funding": 45996670.0,
+          "projects": 131
+        },
+        {
+          "year": 2011,
+          "funding": 36239801.0,
+          "projects": 84
+        },
+        {
+          "year": 2012,
+          "funding": 59165699.0,
+          "projects": 170
+        },
+        {
+          "year": 2013,
+          "funding": 43747226.0,
+          "projects": 122
+        },
+        {
+          "year": 2014,
+          "funding": 73309501.0,
+          "projects": 156
+        },
+        {
+          "year": 2015,
+          "funding": 66287020.0,
+          "projects": 181
+        },
+        {
+          "year": 2016,
+          "funding": 119395362.0,
+          "projects": 270
+        },
+        {
+          "year": 2017,
+          "funding": 81007148.0,
+          "projects": 213
+        },
+        {
+          "year": 2018,
+          "funding": 84839363.0,
+          "projects": 216
+        },
+        {
+          "year": 2019,
+          "funding": 153682835.0,
+          "projects": 295
+        },
+        {
+          "year": 2020,
+          "funding": 210578490.0,
+          "projects": 368
+        },
+        {
+          "year": 2021,
+          "funding": 251984766.0,
+          "projects": 411
+        },
+        {
+          "year": 2022,
+          "funding": 139376601.0,
+          "projects": 282
+        },
+        {
+          "year": 2023,
+          "funding": 145912033.0,
+          "projects": 273
+        },
+        {
+          "year": 2024,
+          "funding": 140964329.0,
+          "projects": 246
+        },
+        {
+          "year": 2025,
+          "funding": 89748458.0,
+          "projects": 183
+        },
+        {
+          "year": 2026,
+          "funding": 6161898.0,
+          "projects": 19
         }
       ]
     },
     "Verfahren": {
-      "total_funding": 5920694340.0,
-      "total_projects": 12309,
+      "total_funding": 5937744860.0,
+      "total_projects": 12348,
       "yearly": [
         {
           "year": 1968,
@@ -10997,581 +11539,44 @@
         },
         {
           "year": 2020,
-          "funding": 170132671.0,
+          "funding": 170119294.0,
           "projects": 428
         },
         {
           "year": 2021,
-          "funding": 312230574.0,
-          "projects": 520
+          "funding": 312703685.0,
+          "projects": 521
         },
         {
           "year": 2022,
-          "funding": 207704006.0,
-          "projects": 362
+          "funding": 209770990.0,
+          "projects": 363
         },
         {
           "year": 2023,
-          "funding": 258601468.0,
+          "funding": 258554128.0,
           "projects": 474
         },
         {
           "year": 2024,
-          "funding": 203585322.0,
-          "projects": 280
+          "funding": 203668773.0,
+          "projects": 281
         },
         {
           "year": 2025,
-          "funding": 194394847.0,
-          "projects": 235
+          "funding": 204429601.0,
+          "projects": 258
         },
         {
           "year": 2026,
-          "funding": 957157.0,
-          "projects": 4
-        }
-      ]
-    },
-    "Innovative": {
-      "total_funding": 4142203546.0,
-      "total_projects": 7393,
-      "yearly": [
-        {
-          "year": 1973,
-          "funding": 516022.0,
-          "projects": 2
-        },
-        {
-          "year": 1979,
-          "funding": 261444.0,
-          "projects": 1
-        },
-        {
-          "year": 1984,
-          "funding": 195479.0,
-          "projects": 1
-        },
-        {
-          "year": 1985,
-          "funding": 4142801.0,
-          "projects": 2
-        },
-        {
-          "year": 1986,
-          "funding": 6466912.0,
-          "projects": 3
-        },
-        {
-          "year": 1987,
-          "funding": 16263146.0,
-          "projects": 11
-        },
-        {
-          "year": 1988,
-          "funding": 787609.0,
-          "projects": 4
-        },
-        {
-          "year": 1989,
-          "funding": 12475296.0,
-          "projects": 4
-        },
-        {
-          "year": 1990,
-          "funding": 3135803.0,
-          "projects": 19
-        },
-        {
-          "year": 1991,
-          "funding": 4454136.0,
-          "projects": 6
-        },
-        {
-          "year": 1992,
-          "funding": 1251331.0,
-          "projects": 3
-        },
-        {
-          "year": 1993,
-          "funding": 4178969.0,
-          "projects": 24
-        },
-        {
-          "year": 1994,
-          "funding": 17854890.0,
-          "projects": 27
-        },
-        {
-          "year": 1995,
-          "funding": 25752053.0,
-          "projects": 22
-        },
-        {
-          "year": 1996,
-          "funding": 32418111.0,
-          "projects": 45
-        },
-        {
-          "year": 1997,
-          "funding": 24751555.0,
-          "projects": 100
-        },
-        {
-          "year": 1998,
-          "funding": 44861938.0,
-          "projects": 84
-        },
-        {
-          "year": 1999,
-          "funding": 72930707.0,
-          "projects": 104
-        },
-        {
-          "year": 2000,
-          "funding": 39799775.0,
-          "projects": 132
-        },
-        {
-          "year": 2001,
-          "funding": 80209586.0,
-          "projects": 210
-        },
-        {
-          "year": 2002,
-          "funding": 37031628.0,
-          "projects": 87
-        },
-        {
-          "year": 2003,
-          "funding": 92735859.0,
-          "projects": 103
-        },
-        {
-          "year": 2004,
-          "funding": 52885571.0,
-          "projects": 148
-        },
-        {
-          "year": 2005,
-          "funding": 80262783.0,
-          "projects": 201
-        },
-        {
-          "year": 2006,
-          "funding": 74766246.0,
-          "projects": 165
-        },
-        {
-          "year": 2007,
-          "funding": 105083881.0,
-          "projects": 267
-        },
-        {
-          "year": 2008,
-          "funding": 72713248.0,
-          "projects": 219
-        },
-        {
-          "year": 2009,
-          "funding": 145125289.0,
-          "projects": 251
-        },
-        {
-          "year": 2010,
-          "funding": 101313470.0,
-          "projects": 223
-        },
-        {
-          "year": 2011,
-          "funding": 95996970.0,
-          "projects": 264
-        },
-        {
-          "year": 2012,
-          "funding": 132067899.0,
-          "projects": 280
-        },
-        {
-          "year": 2013,
-          "funding": 91531261.0,
-          "projects": 209
-        },
-        {
-          "year": 2014,
-          "funding": 91757213.0,
-          "projects": 203
-        },
-        {
-          "year": 2015,
-          "funding": 131812900.0,
-          "projects": 315
-        },
-        {
-          "year": 2016,
-          "funding": 145153205.0,
-          "projects": 340
-        },
-        {
-          "year": 2017,
-          "funding": 170651706.0,
-          "projects": 360
-        },
-        {
-          "year": 2018,
-          "funding": 139912939.0,
-          "projects": 374
-        },
-        {
-          "year": 2019,
-          "funding": 196950109.0,
-          "projects": 393
-        },
-        {
-          "year": 2020,
-          "funding": 209245141.0,
-          "projects": 392
-        },
-        {
-          "year": 2021,
-          "funding": 309590992.0,
-          "projects": 471
-        },
-        {
-          "year": 2022,
-          "funding": 681570057.0,
-          "projects": 331
-        },
-        {
-          "year": 2023,
-          "funding": 201103202.0,
-          "projects": 376
-        },
-        {
-          "year": 2024,
-          "funding": 179318123.0,
-          "projects": 308
-        },
-        {
-          "year": 2025,
-          "funding": 205196154.0,
-          "projects": 305
-        },
-        {
-          "year": 2026,
-          "funding": 662681.0,
-          "projects": 2
-        },
-        {
-          "year": 2027,
-          "funding": 5057456.0,
-          "projects": 2
-        }
-      ]
-    },
-    "Methoden": {
-      "total_funding": 2659544543.0,
-      "total_projects": 5806,
-      "yearly": [
-        {
-          "year": 1968,
-          "funding": 4977726.0,
-          "projects": 1
-        },
-        {
-          "year": 1969,
-          "funding": 1469883.0,
-          "projects": 10
-        },
-        {
-          "year": 1970,
-          "funding": 14262808.0,
-          "projects": 10
-        },
-        {
-          "year": 1971,
-          "funding": 2408635.0,
-          "projects": 6
-        },
-        {
-          "year": 1972,
-          "funding": 1082401.0,
-          "projects": 12
-        },
-        {
-          "year": 1973,
-          "funding": 1384579.0,
-          "projects": 7
-        },
-        {
-          "year": 1974,
-          "funding": 7229324.0,
-          "projects": 23
-        },
-        {
-          "year": 1975,
-          "funding": 9060361.0,
-          "projects": 28
-        },
-        {
-          "year": 1976,
-          "funding": 16007868.0,
-          "projects": 28
-        },
-        {
-          "year": 1977,
-          "funding": 10721755.0,
-          "projects": 33
-        },
-        {
-          "year": 1978,
-          "funding": 18615311.0,
-          "projects": 42
-        },
-        {
-          "year": 1979,
-          "funding": 16903353.0,
-          "projects": 45
-        },
-        {
-          "year": 1980,
-          "funding": 13456524.0,
-          "projects": 36
-        },
-        {
-          "year": 1981,
-          "funding": 6047470.0,
-          "projects": 20
-        },
-        {
-          "year": 1982,
-          "funding": 16314168.0,
-          "projects": 30
-        },
-        {
-          "year": 1983,
-          "funding": 10835095.0,
-          "projects": 26
-        },
-        {
-          "year": 1984,
-          "funding": 9366554.0,
-          "projects": 16
-        },
-        {
-          "year": 1985,
-          "funding": 25159423.0,
-          "projects": 40
-        },
-        {
-          "year": 1986,
-          "funding": 38781203.0,
-          "projects": 38
-        },
-        {
-          "year": 1987,
-          "funding": 20474209.0,
-          "projects": 27
-        },
-        {
-          "year": 1988,
-          "funding": 23457373.0,
-          "projects": 27
-        },
-        {
-          "year": 1989,
-          "funding": 17054217.0,
-          "projects": 34
-        },
-        {
-          "year": 1990,
-          "funding": 27517156.0,
-          "projects": 41
-        },
-        {
-          "year": 1991,
-          "funding": 19122065.0,
-          "projects": 64
-        },
-        {
-          "year": 1992,
-          "funding": 33291392.0,
-          "projects": 92
-        },
-        {
-          "year": 1993,
-          "funding": 8861380.0,
-          "projects": 33
-        },
-        {
-          "year": 1994,
-          "funding": 21849238.0,
-          "projects": 70
-        },
-        {
-          "year": 1995,
-          "funding": 38086489.0,
-          "projects": 115
-        },
-        {
-          "year": 1996,
-          "funding": 25143830.0,
-          "projects": 75
-        },
-        {
-          "year": 1997,
-          "funding": 29407882.0,
-          "projects": 97
-        },
-        {
-          "year": 1998,
-          "funding": 20420555.0,
-          "projects": 49
-        },
-        {
-          "year": 1999,
-          "funding": 23321956.0,
-          "projects": 36
-        },
-        {
-          "year": 2000,
-          "funding": 28894443.0,
-          "projects": 75
-        },
-        {
-          "year": 2001,
-          "funding": 47958557.0,
-          "projects": 154
-        },
-        {
-          "year": 2002,
-          "funding": 26891708.0,
-          "projects": 73
-        },
-        {
-          "year": 2003,
-          "funding": 31787307.0,
-          "projects": 75
-        },
-        {
-          "year": 2004,
-          "funding": 26175018.0,
-          "projects": 70
-        },
-        {
-          "year": 2005,
-          "funding": 40005532.0,
-          "projects": 92
-        },
-        {
-          "year": 2006,
-          "funding": 49553729.0,
-          "projects": 114
-        },
-        {
-          "year": 2007,
-          "funding": 45992643.0,
-          "projects": 106
-        },
-        {
-          "year": 2008,
-          "funding": 45881337.0,
-          "projects": 115
-        },
-        {
-          "year": 2009,
-          "funding": 55359207.0,
-          "projects": 142
-        },
-        {
-          "year": 2010,
-          "funding": 45996670.0,
-          "projects": 131
-        },
-        {
-          "year": 2011,
-          "funding": 36239801.0,
-          "projects": 84
-        },
-        {
-          "year": 2012,
-          "funding": 59165699.0,
-          "projects": 170
-        },
-        {
-          "year": 2013,
-          "funding": 43747226.0,
-          "projects": 122
-        },
-        {
-          "year": 2014,
-          "funding": 73309501.0,
-          "projects": 156
-        },
-        {
-          "year": 2015,
-          "funding": 66287020.0,
-          "projects": 181
-        },
-        {
-          "year": 2016,
-          "funding": 119395362.0,
-          "projects": 270
-        },
-        {
-          "year": 2017,
-          "funding": 81007148.0,
-          "projects": 213
-        },
-        {
-          "year": 2018,
-          "funding": 84839363.0,
-          "projects": 216
-        },
-        {
-          "year": 2019,
-          "funding": 152575611.0,
-          "projects": 293
-        },
-        {
-          "year": 2020,
-          "funding": 210613755.0,
-          "projects": 368
-        },
-        {
-          "year": 2021,
-          "funding": 250870460.0,
-          "projects": 410
-        },
-        {
-          "year": 2022,
-          "funding": 139540862.0,
-          "projects": 282
-        },
-        {
-          "year": 2023,
-          "funding": 145839472.0,
-          "projects": 272
-        },
-        {
-          "year": 2024,
-          "funding": 141002800.0,
-          "projects": 246
-        },
-        {
-          "year": 2025,
-          "funding": 76673474.0,
-          "projects": 160
-        },
-        {
-          "year": 2026,
-          "funding": 1848655.0,
-          "projects": 5
+          "funding": 5410094.0,
+          "projects": 17
         }
       ]
     },
     "Bereich": {
-      "total_funding": 2979827018.0,
-      "total_projects": 7417,
+      "total_funding": 3002302081.0,
+      "total_projects": 7446,
       "yearly": [
         {
           "year": 1968,
@@ -11830,49 +11835,49 @@
         },
         {
           "year": 2019,
-          "funding": 71646170.0,
-          "projects": 211
+          "funding": 71748990.0,
+          "projects": 212
         },
         {
           "year": 2020,
-          "funding": 63328113.0,
-          "projects": 188
+          "funding": 63079850.0,
+          "projects": 186
         },
         {
           "year": 2021,
-          "funding": 212093646.0,
+          "funding": 216412960.0,
           "projects": 213
         },
         {
           "year": 2022,
-          "funding": 141501150.0,
-          "projects": 173
+          "funding": 142431133.0,
+          "projects": 174
         },
         {
           "year": 2023,
-          "funding": 136997013.0,
+          "funding": 136913904.0,
           "projects": 224
         },
         {
           "year": 2024,
-          "funding": 84309435.0,
+          "funding": 84291044.0,
           "projects": 160
         },
         {
           "year": 2025,
-          "funding": 43896598.0,
-          "projects": 74
+          "funding": 56524806.0,
+          "projects": 92
         },
         {
           "year": 2026,
-          "funding": 665214.0,
-          "projects": 3
+          "funding": 5509715.0,
+          "projects": 14
         }
       ]
     },
     "System": {
-      "total_funding": 22344809733.0,
-      "total_projects": 42144,
+      "total_funding": 22453398968.0,
+      "total_projects": 42343,
       "yearly": [
         {
           "year": 1968,
@@ -12036,8 +12041,8 @@
         },
         {
           "year": 2000,
-          "funding": 319147321.0,
-          "projects": 613
+          "funding": 319393290.0,
+          "projects": 614
         },
         {
           "year": 2001,
@@ -12116,8 +12121,8 @@
         },
         {
           "year": 2016,
-          "funding": 791803069.0,
-          "projects": 1638
+          "funding": 792369398.0,
+          "projects": 1639
         },
         {
           "year": 2017,
@@ -12126,54 +12131,54 @@
         },
         {
           "year": 2018,
-          "funding": 608341898.0,
+          "funding": 608297588.0,
           "projects": 1363
         },
         {
           "year": 2019,
-          "funding": 870303519.0,
-          "projects": 1805
+          "funding": 870964788.0,
+          "projects": 1807
         },
         {
           "year": 2020,
-          "funding": 998524118.0,
+          "funding": 998377961.0,
           "projects": 1919
         },
         {
           "year": 2021,
-          "funding": 1524692677.0,
-          "projects": 2372
+          "funding": 1524972517.0,
+          "projects": 2375
         },
         {
           "year": 2022,
-          "funding": 2232338035.0,
-          "projects": 1731
+          "funding": 2235215751.0,
+          "projects": 1733
         },
         {
           "year": 2023,
-          "funding": 1005960457.0,
-          "projects": 1788
+          "funding": 1006832322.0,
+          "projects": 1789
         },
         {
           "year": 2024,
-          "funding": 812029962.0,
-          "projects": 1442
+          "funding": 813076244.0,
+          "projects": 1447
         },
         {
           "year": 2025,
-          "funding": 564773774.0,
-          "projects": 1118
+          "funding": 621099010.0,
+          "projects": 1225
         },
         {
           "year": 2026,
-          "funding": 11616647.0,
-          "projects": 44
+          "funding": 57521843.0,
+          "projects": 121
         }
       ]
     },
     "Bundesrepublik": {
-      "total_funding": 414170064.0,
-      "total_projects": 3615,
+      "total_funding": 401077712.0,
+      "total_projects": 3625,
       "yearly": [
         {
           "year": 1971,
@@ -12422,18 +12427,18 @@
         },
         {
           "year": 2021,
-          "funding": 31907566.0,
-          "projects": 970
+          "funding": 31974964.0,
+          "projects": 973
         },
         {
           "year": 2022,
-          "funding": 119759427.0,
-          "projects": 1854
+          "funding": 118751591.0,
+          "projects": 1860
         },
         {
           "year": 2023,
-          "funding": 52178515.0,
-          "projects": 23
+          "funding": 40026601.0,
+          "projects": 24
         },
         {
           "year": 2024,
@@ -12443,8 +12448,8 @@
       ]
     },
     "Gebiet": {
-      "total_funding": 1637486899.0,
-      "total_projects": 5932,
+      "total_funding": 1629546840.0,
+      "total_projects": 5958,
       "yearly": [
         {
           "year": 1968,
@@ -12713,34 +12718,39 @@
         },
         {
           "year": 2021,
-          "funding": 64729832.0,
-          "projects": 1115
+          "funding": 64797230.0,
+          "projects": 1118
         },
         {
           "year": 2022,
-          "funding": 139238441.0,
-          "projects": 1929
+          "funding": 138230604.0,
+          "projects": 1935
         },
         {
           "year": 2023,
-          "funding": 71991088.0,
-          "projects": 107
+          "funding": 59839174.0,
+          "projects": 108
         },
         {
           "year": 2024,
-          "funding": 41054698.0,
-          "projects": 125
+          "funding": 41137192.0,
+          "projects": 126
         },
         {
           "year": 2025,
-          "funding": 17928892.0,
-          "projects": 83
+          "funding": 21688369.0,
+          "projects": 94
+        },
+        {
+          "year": 2026,
+          "funding": 1310323.0,
+          "projects": 4
         }
       ]
     },
     "Charakterisierung": {
-      "total_funding": 1738336173.0,
-      "total_projects": 3844,
+      "total_funding": 1739893251.0,
+      "total_projects": 3850,
       "yearly": [
         {
           "year": 1971,
@@ -12994,29 +13004,29 @@
         },
         {
           "year": 2023,
-          "funding": 110129154.0,
+          "funding": 110123154.0,
           "projects": 192
         },
         {
           "year": 2024,
-          "funding": 98313972.0,
-          "projects": 124
+          "funding": 98561386.0,
+          "projects": 125
         },
         {
           "year": 2025,
-          "funding": 54488684.0,
-          "projects": 113
+          "funding": 55223353.0,
+          "projects": 115
         },
         {
           "year": 2026,
-          "funding": 201907.0,
-          "projects": 1
+          "funding": 782902.0,
+          "projects": 4
         }
       ]
     },
     "Bewertung": {
-      "total_funding": 1771056575.0,
-      "total_projects": 4601,
+      "total_funding": 1779070872.0,
+      "total_projects": 4628,
       "yearly": [
         {
           "year": 1973,
@@ -13255,38 +13265,38 @@
         },
         {
           "year": 2020,
-          "funding": 115974367.0,
-          "projects": 278
+          "funding": 116159589.0,
+          "projects": 279
         },
         {
           "year": 2021,
-          "funding": 148969911.0,
-          "projects": 333
+          "funding": 149096678.0,
+          "projects": 334
         },
         {
           "year": 2022,
-          "funding": 98488484.0,
+          "funding": 98435571.0,
           "projects": 270
         },
         {
           "year": 2023,
-          "funding": 142049071.0,
-          "projects": 299
+          "funding": 142024030.0,
+          "projects": 298
         },
         {
           "year": 2024,
-          "funding": 108132305.0,
-          "projects": 268
+          "funding": 108468640.0,
+          "projects": 270
         },
         {
           "year": 2025,
-          "funding": 71831420.0,
-          "projects": 165
+          "funding": 78551231.0,
+          "projects": 185
         },
         {
           "year": 2026,
-          "funding": 1008062.0,
-          "projects": 2
+          "funding": 1732178.0,
+          "projects": 6
         }
       ]
     }

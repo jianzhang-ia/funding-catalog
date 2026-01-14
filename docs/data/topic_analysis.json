@@ -3,25 +3,25 @@
     {
       "code": "ZMAN",
       "description": "LP für alle Mandanten",
-      "total_funding": 18133110271.0,
-      "project_count": 11439
+      "total_funding": 18239451952.0,
+      "project_count": 11475
     },
     {
       "code": "TB6020",
       "description": "Zukunftsvertrag Studium und Lehre stärken",
-      "total_funding": 7139490222.0,
-      "project_count": 15
+      "total_funding": 7296552135.0,
+      "project_count": 16
     },
     {
       "code": "YC3000",
       "description": "Zuschüsse an Studentenförderungswerke",
-      "total_funding": 6596184295.0,
+      "total_funding": 6594343151.0,
       "project_count": 57
     },
     {
       "code": "TB0700",
       "description": "Förderung von Spitzenuniversitäten",
-      "total_funding": 5995064381.0,
+      "total_funding": 5994968494.0,
       "project_count": 16
     },
     {
@@ -39,8 +39,8 @@
     {
       "code": "YB3000",
       "description": "Überbetriebliche berufliche Ausbildungsstätten",
-      "total_funding": 3128087197.0,
-      "project_count": 5662
+      "total_funding": 3180624070.0,
+      "project_count": 5687
     },
     {
       "code": "GC4011",
@@ -49,16 +49,16 @@
       "project_count": 26
     },
     {
+      "code": "HA4011",
+      "description": "Alternative Antriebstechnologien",
+      "total_funding": 2499575997.0,
+      "project_count": 2279
+    },
+    {
       "code": "RB3010",
       "description": "Innovationsförderung in den neuen Ländern",
       "total_funding": 2423115769.0,
       "project_count": 5718
-    },
-    {
-      "code": "HA4011",
-      "description": "Alternative Antriebstechnologien",
-      "total_funding": 2256537142.0,
-      "project_count": 2275
     },
     {
       "code": "U06021",
@@ -87,8 +87,8 @@
     {
       "code": "EB6010",
       "description": "Grundlagenforschung Energie",
-      "total_funding": 1648771293.0,
-      "project_count": 1413
+      "total_funding": 1644643938.0,
+      "project_count": 1428
     },
     {
       "code": "PA1010",
@@ -99,44 +99,38 @@
     {
       "code": "RB9510",
       "description": "Digitaler Wandel",
-      "total_funding": 1586002352.0,
-      "project_count": 3320
+      "total_funding": 1594523038.0,
+      "project_count": 3334
     },
     {
       "code": "EA6010",
       "description": "Grundlagenforschung Energie",
-      "total_funding": 1463200292.0,
-      "project_count": 1201
+      "total_funding": 1463359211.0,
+      "project_count": 1202
     },
     {
       "code": "KB2220",
       "description": "Li-Ionen-Batterien",
-      "total_funding": 1427993396.0,
-      "project_count": 1563
+      "total_funding": 1439077775.0,
+      "project_count": 1577
     },
     {
       "code": "GA1010",
       "description": "Förderung im Bereich Cloud und Edge Infrastruktur und Services im Rahmen des IPCEI-CIS",
-      "total_funding": 1401672821.0,
-      "project_count": 3283
+      "total_funding": 1402624018.0,
+      "project_count": 3284
     },
     {
       "code": "HA5010",
       "description": "Sicherheit im Straßenverkehr",
-      "total_funding": 1387565595.0,
-      "project_count": 6262
+      "total_funding": 1388103737.0,
+      "project_count": 6298
     },
     {
       "code": "AA0510",
       "description": "Medizintechnik",
-      "total_funding": 1324034967.0,
-      "project_count": 3357
-    },
-    {
-      "code": "OB5100",
-      "description": "Bildungsforschung",
-      "total_funding": 1323671470.0,
-      "project_count": 1601
+      "total_funding": 1329907180.0,
+      "project_count": 3377
     },
     {
       "code": "FB6030",
@@ -147,38 +141,44 @@
     {
       "code": "YB2000",
       "description": "Begabtenförderung in der beruflichen Bildung",
-      "total_funding": 1311424943.0,
-      "project_count": 407
+      "total_funding": 1316384411.0,
+      "project_count": 408
+    },
+    {
+      "code": "OB5100",
+      "description": "Bildungsforschung",
+      "total_funding": 1267694884.0,
+      "project_count": 1582
     },
     {
       "code": "QD1010",
       "description": "Förderung der industriellen Gemeinschaftsforschung (IGF)",
-      "total_funding": 1198891007.0,
-      "project_count": 3077
+      "total_funding": 1238307839.0,
+      "project_count": 3173
     },
     {
       "code": "AA0160",
       "description": "Sonstige krankheitsbezogene und -übergreifende Maßnahmen",
-      "total_funding": 1140575460.0,
-      "project_count": 657
-    },
-    {
-      "code": "HA1030",
-      "description": "Innovative Verkehrsinfrastrukturen und Betriebsweisen",
-      "total_funding": 1140492613.0,
-      "project_count": 1375
+      "total_funding": 1150343321.0,
+      "project_count": 667
     },
     {
       "code": "RB9210",
       "description": "Forschung an Fachhochschulen",
-      "total_funding": 1112125513.0,
-      "project_count": 3501
+      "total_funding": 1127736929.0,
+      "project_count": 3514
+    },
+    {
+      "code": "HA1030",
+      "description": "Innovative Verkehrsinfrastrukturen und Betriebsweisen",
+      "total_funding": 1125170942.0,
+      "project_count": 1382
     },
     {
       "code": "RE8050",
       "description": "Wissenschaftliche Zusammenarbeit mit anderen Staaten (soweit nicht in anderen Bereichen)",
-      "total_funding": 1095555892.0,
-      "project_count": 4261
+      "total_funding": 1101997197.0,
+      "project_count": 4281
     },
     {
       "code": "AA0230",
@@ -189,8 +189,8 @@
     {
       "code": "AA0110",
       "description": "Infektion",
-      "total_funding": 1056510266.0,
-      "project_count": 856
+      "total_funding": 1060502294.0,
+      "project_count": 861
     },
     {
       "code": "YB9000",
@@ -201,26 +201,26 @@
     {
       "code": "IA1040",
       "description": "Umweltfreundliches und klimaneutrales Fliegen",
-      "total_funding": 930290159.0,
-      "project_count": 524
-    },
-    {
-      "code": "TB0810",
-      "description": "Förderung des wissenschaftlichen Nachwuchses",
-      "total_funding": 896068000.0,
-      "project_count": 76
-    },
-    {
-      "code": "OB7000",
-      "description": "Reform- und Umsetzungsstrategien des Lebenslangen Lernens in nationalen und internationalen Bezügen",
-      "total_funding": 888658703.0,
-      "project_count": 1893
+      "total_funding": 930544959.0,
+      "project_count": 525
     },
     {
       "code": "U06099",
       "description": "Sonstiges im Rahmen der Großgeräte der Grundlagenforschung",
-      "total_funding": 885242389.0,
-      "project_count": 68
+      "total_funding": 889611590.0,
+      "project_count": 69
+    },
+    {
+      "code": "OB7000",
+      "description": "Reform- und Umsetzungsstrategien des Lebenslangen Lernens in nationalen und internationalen Bezügen",
+      "total_funding": 888865290.0,
+      "project_count": 1895
+    },
+    {
+      "code": "TB0810",
+      "description": "Förderung des wissenschaftlichen Nachwuchses",
+      "total_funding": 883128812.0,
+      "project_count": 76
     },
     {
       "code": "KB9901",
@@ -231,62 +231,62 @@
     {
       "code": "IB1030",
       "description": "Astronomie und Astrophysik",
-      "total_funding": 840452499.0,
-      "project_count": 822
+      "total_funding": 842487514.0,
+      "project_count": 827
+    },
+    {
+      "code": "GB5040",
+      "description": "Netzwerktechnologien",
+      "total_funding": 822744277.0,
+      "project_count": 771
     },
     {
       "code": "HA4010",
       "description": "Emissionsverringerung und Energiereinsparung  im Straßenverkehr",
-      "total_funding": 817694341.0,
+      "total_funding": 816478350.0,
       "project_count": 1131
     },
     {
       "code": "IB1020",
       "description": "Erforschung des Sonnensystems",
-      "total_funding": 814071793.0,
-      "project_count": 860
-    },
-    {
-      "code": "GB5040",
-      "description": "Netzwerktechnologien",
-      "total_funding": 771755882.0,
-      "project_count": 745
+      "total_funding": 815235100.0,
+      "project_count": 862
     },
     {
       "code": "AA0120",
       "description": "Nervensystem und Psyche",
-      "total_funding": 769978700.0,
-      "project_count": 1172
+      "total_funding": 779119829.0,
+      "project_count": 1188
     },
     {
       "code": "RB3020",
       "description": "Innovation und Strukturwandel",
-      "total_funding": 742964425.0,
-      "project_count": 2665
-    },
-    {
-      "code": "RB9000",
-      "description": "High-Tech-Strategie",
-      "total_funding": 740760284.0,
-      "project_count": 1783
-    },
-    {
-      "code": "ED1000",
-      "description": "Beseitigung kerntechnischer Anlagen",
-      "total_funding": 738222757.0,
-      "project_count": 342
+      "total_funding": 771406913.0,
+      "project_count": 2710
     },
     {
       "code": "GC2035",
       "description": "Neuartige mikroelektronische Bauelemente und sensorbasierte Elektroniksysteme",
-      "total_funding": 730932502.0,
-      "project_count": 1340
+      "total_funding": 746560538.0,
+      "project_count": 1354
+    },
+    {
+      "code": "RB9000",
+      "description": "High-Tech-Strategie",
+      "total_funding": 741097727.0,
+      "project_count": 1786
+    },
+    {
+      "code": "ED1000",
+      "description": "Beseitigung kerntechnischer Anlagen",
+      "total_funding": 738405701.0,
+      "project_count": 343
     },
     {
       "code": "GC4082",
       "description": "Höchstleistungsrechnen",
-      "total_funding": 729839802.0,
-      "project_count": 227
+      "total_funding": 729943612.0,
+      "project_count": 228
     },
     {
       "code": "GC1020",
@@ -304,131 +304,131 @@
   "keywords": [
     {
       "word": "Teilvorhaben",
-      "count": 67981
+      "count": 68326
     },
     {
       "word": "Eines",
-      "count": 28600
+      "count": 28751
     },
     {
       "word": "Verbundvorhaben",
-      "count": 27245
+      "count": 27463
     },
     {
       "word": "Sanierung",
-      "count": 13032
+      "count": 13108
     },
     {
       "word": "Ausbau",
-      "count": 10941
+      "count": 10982
     },
     {
       "word": "Förderung",
-      "count": 9708
+      "count": 9762
     },
     {
       "word": "Breitbandinfrastruktur",
-      "count": 9549
+      "count": 9586
     },
     {
       "word": "Innovativ",
-      "count": 8333
+      "count": 8385
     },
     {
       "word": "Stadt",
-      "count": 7553
+      "count": 7583
     },
     {
       "word": "Unter",
-      "count": 7133
+      "count": 7149
     },
     {
       "word": "Optimierung",
-      "count": 6967
+      "count": 7013
     },
     {
       "word": "Analyse",
-      "count": 6304
+      "count": 6338
     },
     {
       "word": "Herstellung",
-      "count": 6245
+      "count": 6279
     },
     {
       "word": "Untersuchung",
-      "count": 6144
+      "count": 6158
     },
     {
       "word": "Bundes",
-      "count": 6091
+      "count": 6129
     },
     {
       "word": "Einsatz",
-      "count": 6030
+      "count": 6066
     },
     {
       "word": "Beratungsleistung",
-      "count": 5937
+      "count": 5945
     },
     {
       "word": "Integration",
-      "count": 5701
+      "count": 5722
     },
     {
       "word": "Mittels",
-      "count": 5563
+      "count": 5607
     },
     {
       "word": "Basis",
-      "count": 5528
+      "count": 5550
     },
     {
       "word": "Straßenbeleuchtung",
-      "count": 5502
+      "count": 5524
     },
     {
       "word": "Aufbau",
-      "count": 5470
+      "count": 5490
     },
     {
       "word": "Deutschland",
-      "count": 5426
-    },
-    {
-      "word": "Untersuchungen",
-      "count": 5406
+      "count": 5446
     },
     {
       "word": "Erprobung",
-      "count": 5392
+      "count": 5423
+    },
+    {
+      "word": "Untersuchungen",
+      "count": 5413
     },
     {
       "word": "Errichtung",
-      "count": 5384
+      "count": 5403
     },
     {
       "word": "Rahmen",
-      "count": 5195
+      "count": 5232
     },
     {
       "word": "Maßnahmen",
-      "count": 4974
+      "count": 4985
     },
     {
       "word": "Technik",
-      "count": 4706
+      "count": 4732
     },
     {
       "word": "Umsetzung",
-      "count": 4689
+      "count": 4725
     },
     {
       "word": "Gemeinde",
-      "count": 4502
+      "count": 4540
     },
     {
       "word": "Jugendlichen",
-      "count": 4464
+      "count": 4465
     },
     {
       "word": "Berufsausbildung",
@@ -436,11 +436,11 @@
     },
     {
       "word": "Gigabit",
-      "count": 4156
+      "count": 4176
     },
     {
       "word": "Verbesserung",
-      "count": 4129
+      "count": 4156
     },
     {
       "word": "Benachteiligten",
@@ -448,259 +448,259 @@
     },
     {
       "word": "Erstellung",
-      "count": 4066
+      "count": 4096
     },
     {
       "word": "Nutzung",
-      "count": 3982
+      "count": 4003
     },
     {
       "word": "Anwendung",
-      "count": 3975
-    },
-    {
-      "word": "Ladeinfrastruktur",
-      "count": 3757
+      "count": 4002
     },
     {
       "word": "Anwendungen",
-      "count": 3749
+      "count": 3776
     },
     {
-      "word": "Verfahren",
-      "count": 3737
+      "word": "Ladeinfrastruktur",
+      "count": 3767
     },
     {
       "word": "Innovative",
-      "count": 3736
+      "count": 3764
     },
     {
       "word": "Methoden",
-      "count": 3729
+      "count": 3759
+    },
+    {
+      "word": "Verfahren",
+      "count": 3744
     },
     {
       "word": "Bereich",
-      "count": 3675
+      "count": 3693
     },
     {
       "word": "System",
-      "count": 3628
+      "count": 3649
     },
     {
       "word": "Bundesrepublik",
-      "count": 3617
+      "count": 3627
     },
     {
       "word": "Gebiet",
-      "count": 3484
+      "count": 3498
     },
     {
       "word": "Charakterisierung",
-      "count": 3476
+      "count": 3480
     },
     {
       "word": "Bewertung",
-      "count": 3419
+      "count": 3436
     },
     {
       "word": "Systems",
-      "count": 3341
+      "count": 3384
     },
     {
       "word": "Systeme",
-      "count": 3338
+      "count": 3344
     },
     {
       "word": "Produktion",
-      "count": 3317
+      "count": 3342
     },
     {
       "word": "Erforschung",
-      "count": 3239
+      "count": 3263
     },
     {
       "word": "Nachhaltige",
-      "count": 3213
+      "count": 3239
     },
     {
       "word": "Flutlichtanlage",
-      "count": 3173
+      "count": 3220
     },
     {
       "word": "Verbund",
-      "count": 3146
+      "count": 3147
     },
     {
       "word": "Fertigung",
-      "count": 3104
+      "count": 3131
     },
     {
       "word": "Integrierten",
-      "count": 3092
+      "count": 3117
     },
     {
       "word": "Universität",
-      "count": 3026
-    },
-    {
-      "word": "Standorten",
-      "count": 2990
+      "count": 3033
     },
     {
       "word": "Plattform",
-      "count": 2983
+      "count": 3004
+    },
+    {
+      "word": "Standorten",
+      "count": 3000
     },
     {
       "word": "Modellierung",
-      "count": 2951
+      "count": 2994
     },
     {
       "word": "Umrüstung",
-      "count": 2906
+      "count": 2937
     },
     {
       "word": "Technologien",
-      "count": 2891
+      "count": 2908
     },
     {
       "word": "Technologie",
-      "count": 2843
+      "count": 2867
     },
     {
       "word": "Wirtschaftlichkeitslückenmodell",
-      "count": 2834
+      "count": 2855
     },
     {
       "word": "Neuer",
-      "count": 2820
+      "count": 2832
     },
     {
       "word": "Validierung",
-      "count": 2784
+      "count": 2817
     },
     {
       "word": "Intelligente",
-      "count": 2745
-    },
-    {
-      "word": "Förderrichtlinie",
-      "count": 2716
+      "count": 2762
     },
     {
       "word": "Beispiel",
-      "count": 2714
+      "count": 2733
+    },
+    {
+      "word": "Förderrichtlinie",
+      "count": 2733
     },
     {
       "word": "Betrieb",
-      "count": 2657
+      "count": 2682
     },
     {
       "word": "Komponenten",
-      "count": 2605
+      "count": 2622
     },
     {
       "word": "Innenbeleuchtung",
-      "count": 2585
-    },
-    {
-      "word": "Industrie",
-      "count": 2558
+      "count": 2590
     },
     {
       "word": "Unterstützung",
-      "count": 2544
+      "count": 2571
+    },
+    {
+      "word": "Industrie",
+      "count": 2567
     },
     {
       "word": "Simulation",
-      "count": 2534
+      "count": 2561
     },
     {
       "word": "Digitale",
-      "count": 2510
+      "count": 2539
     },
     {
       "word": "Basierte",
-      "count": 2506
+      "count": 2529
     },
     {
       "word": "Ausstattung",
-      "count": 2493
+      "count": 2517
     },
     {
       "word": "Integrierte",
-      "count": 2479
+      "count": 2488
     },
     {
       "word": "Software",
-      "count": 2476
+      "count": 2481
     },
     {
       "word": "Neuen",
-      "count": 2459
+      "count": 2464
     },
     {
       "word": "Bildung",
-      "count": 2442
+      "count": 2449
     },
     {
       "word": "Infrastruktur",
-      "count": 2427
+      "count": 2449
     },
     {
       "word": "Implementierung",
-      "count": 2398
+      "count": 2427
     },
     {
       "word": "Management",
-      "count": 2384
+      "count": 2392
     },
     {
       "word": "Smart",
-      "count": 2352
+      "count": 2355
     },
     {
       "word": "Weiterentwicklung",
-      "count": 2332
+      "count": 2341
     },
     {
       "word": "Einführung",
-      "count": 2301
-    },
-    {
-      "word": "Klimaschutz",
-      "count": 2264
+      "count": 2312
     },
     {
       "word": "Modernisierung",
-      "count": 2259
+      "count": 2270
+    },
+    {
+      "word": "Klimaschutz",
+      "count": 2268
     },
     {
       "word": "Technische",
-      "count": 2183
+      "count": 2189
     },
     {
       "word": "Berücksichtigung",
-      "count": 2153
+      "count": 2157
     },
     {
       "word": "Daten",
-      "count": 2127
+      "count": 2144
     },
     {
       "word": "Monitoring",
-      "count": 2033
+      "count": 2045
     },
     {
       "word": "Zwischen",
-      "count": 2010
-    },
-    {
-      "word": "Wissenschaftliche",
-      "count": 1945
+      "count": 2023
     },
     {
       "word": "Zukunft",
-      "count": 1938
+      "count": 1953
+    },
+    {
+      "word": "Evaluation",
+      "count": 1942
     }
   ]
 }
